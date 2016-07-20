@@ -79,7 +79,7 @@ S.UI = (function () {
   var //input = document.querySelector('.ui-input'),
       ui = document.querySelector('.ui'),
       //help = document.querySelector('.help'),
-      commands = document.querySelector('.commands'),
+      //commands = document.querySelector('.commands'),
       //overlay = document.querySelector('.overlay'),
       canvas = document.querySelector('.canvas'),
       interval,
@@ -234,7 +234,7 @@ S.UI = (function () {
       overlay.classList.contains('overlay--visible') && reset(true);
     });
 */
-    commands.addEventListener('click', function (e) {
+/*    commands.addEventListener('click', function (e) {
       var el,
           info,
           demo,
@@ -268,7 +268,7 @@ S.UI = (function () {
           //window.location = url;
         }
       }
-    });
+    });*/
 
     /*canvas.addEventListener('click', function (e) {
       overlay.classList.remove('overlay--visible');
@@ -298,13 +298,13 @@ S.UI.Tabs = (function () {
       triggers = document.querySelectorAll('.tabs-label'),
       panels = document.querySelectorAll('.tabs-panel');
 
-  function activate(i) {
+/*  function activate(i) {
     triggers[i].classList.add('tabs-label--active');
     panels[i].classList.add('tabs-panel--active');
-  }
+  }*/
 
   function bindEvents() {
-    labels.addEventListener('click', function (e) {
+/*    labels.addEventListener('click', function (e) {
       var el = e.target,
           index;
 
@@ -320,11 +320,11 @@ S.UI.Tabs = (function () {
 
         activate(index);
       }
-    });
+    });*/
   }
 
   function init() {
-    activate(0);
+    //activate(0);
     bindEvents();
   }
 

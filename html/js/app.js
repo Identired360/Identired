@@ -94,9 +94,9 @@ $(document).ready(function() {
 /*Slide toggle*/
 
 $( "#top-view" ).click(function() {
-  $( ".top-bar-head" ).slideToggle( "slow", function() {
-    $(".has-tip svg").slideToggle();
-    $(".i-iconn").slideToggle();    // Animation complete.
+  $( ".top-bar-head" ).slideToggle( "fast", function() {
+    $(".has-tip svg").slideToggle('fast');
+    $(".i-iconn").slideToggle('fast');    // Animation complete.
   });
 });
 

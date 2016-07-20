@@ -1,34 +1,43 @@
 <?php include('header.html') ?>
 
 <section>
-    <div class="overlay">
-        <div class="tabs">
-            <div class="tabs-labels"><span class="tabs-label">Commands</span><span class="tabs-label">Info</span><span class="tabs-label">Share</span></div>
-
-            <div class="tabs-panels">
-                <ul class="tabs-panel commands">
-                    <li class="commands-item"><span class="commands-item-title">Text</span><span class="commands-item-info" data-demo="Hello :)">Type anything</span><span class="commands-item-action">Demo</span></li>
-                    <li class="commands-item"><span class="commands-item-title">Countdown</span><span class="commands-item-info" data-demo="#countdown 10">#countdown<span class="commands-item-mode">number</span></span><span class="commands-item-action">Demo</span></li>
-                    <li class="commands-item"><span class="commands-item-title">Time</span><span class="commands-item-info" data-demo="#time">#time</span><span class="commands-item-action">Demo</span></li>
-                    <li class="commands-item"><span class="commands-item-title">Rectangle</span><span class="commands-item-info" data-demo="#rectangle 30x15">#rectangle<span class="commands-item-mode">width x height</span></span><span class="commands-item-action">Demo</span></li>
-                    <li class="commands-item"><span class="commands-item-title">Circle</span><span class="commands-item-info" data-demo="#circle 25">#circle<span class="commands-item-mode">diameter</span></span><span class="commands-item-action">Demo</span></li>
-
-                    <li class="commands-item commands-item--gap"><span class="commands-item-title">Animate</span><span class="commands-item-info" data-demo="The time is|#time|#countdown 3|#icon thumbs-up"><span class="commands-item-mode">command1</span>&nbsp;|<span class="commands-item-mode">command2</span></span><span class="commands-item-action">Demo</span></li>
-                </ul>
-            </div>
-        </div>
-    </div>
-
     <div class="txt-box">
         <div class="cont-bann">
             <div class="title-home animated">
-                <h1 class="animated"><b>Estrategias</b> enfocadas a llevar <br/>al <b>éxito</b> tu 
-                    <div id="typed-strings">
+               
+                <h1 class="animated"><b>Estrategias</b> enfocadas a llevar <br/>
+                    <span class="txt-espb">al <b>éxito</b> tu
+                        <div id="rotate">
+                          <span>negocio.</span>
+                          <span>idea.</span>
+                          <span>proyecto.</span>
+                          <span>negocio.</span>
+                          <span>idea.</span>
+                          <span>proyecto.</span>
+                        </div>
+                    </span>
+                <!--div class="i-am-container"> 
+                    <p>al <b>éxito</b> tu</p>     
+                    <div class="scroller">
+                        <div class="inner">
+                            <span><p>negocio.</p></span>
+                            <span><p>idea.</p></span>
+                            <span><p>proyecto.</p></span>
+                        </div>
+                   </div>
+                </div-->
+
+
+        <!--div class="i-am-container">
+           
+
+        </div-->
+                    <!--div id="typed-strings">
                         <p>negocio.</p>
                         <p>idea.</p>
                         <p>proyecto.</p>
                     </div>
-                    <span id="typed" style="white-space:pre;"></span>
+                    <span id="typed" style="white-space:pre;"></span-->
                 </h1>
                 <p class="animated">Revisa nuestros servicios:</p>
             </div>

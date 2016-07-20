@@ -92,7 +92,7 @@
 **********************************************************
 */
 .navicon-button {
-  background: @verde;
+  background: transparent;
   cursor: pointer;
   display: inline-block;
   padding: 25px 15px;
@@ -109,9 +109,9 @@
 }
 
 .navicon {
-  width: 2.1em;
+  width: 3.1em;
   height: 0.4rem;
-  background: white;
+  background: @negro;
   border-radius: 2.5rem;
   position: relative;
   transition: 0.2s;
@@ -144,13 +144,13 @@
 
 .navicon-button.open .navicon:before {
   transform: rotate(-45deg);
-  background: white;
+  background: @negro;
   top: 0rem;
 }
 
 .navicon-button.open .navicon:after {
   transform: rotate(45deg);
-  background: white;
+  background: @negro;
   top: 0rem;
 }
 
