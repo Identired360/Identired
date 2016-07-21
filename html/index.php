@@ -4,7 +4,6 @@
     <div class="txt-box">
         <div class="cont-bann">
             <div class="title-home animated">
-               
                 <h1 class="animated"><b>Estrategias</b> enfocadas a llevar <br/>
                     <span class="txt-espb">al <b>éxito</b> tu
                         <div id="rotate">
@@ -16,28 +15,6 @@
                           <span>proyecto.</span>
                         </div>
                     </span>
-                <!--div class="i-am-container"> 
-                    <p>al <b>éxito</b> tu</p>     
-                    <div class="scroller">
-                        <div class="inner">
-                            <span><p>negocio.</p></span>
-                            <span><p>idea.</p></span>
-                            <span><p>proyecto.</p></span>
-                        </div>
-                   </div>
-                </div-->
-
-
-        <!--div class="i-am-container">
-           
-
-        </div-->
-                    <!--div id="typed-strings">
-                        <p>negocio.</p>
-                        <p>idea.</p>
-                        <p>proyecto.</p>
-                    </div>
-                    <span id="typed" style="white-space:pre;"></span-->
                 </h1>
                 <p class="animated">Revisa nuestros servicios:</p>
             </div>
@@ -103,51 +80,58 @@
     </div>
 </section>  
 
-<section class="row back-cel cont-servc">
-    <div class="cont-bann">
-        <div class="row">
-            <div class="slider">
-                <article>
-                    <div class="cont-art">
-                        <h2>Desarrollo web</h2>
-                        <p><strong>Desarrollo de Landing Pages: </strong>Te ofrecemos desarrollar páginas web <strong>Vendedoras</strong>, de esta manera podrás contactarte con tus clientes.</p>
-                        <p><strong>Desarrollo de Tiendas Virtuales: </strong>Desarrollamos tiendas virtuales optimizadas para los busadores.</p>
-                        <p><strong>Desarrollo de Sitios Web: </strong>Nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam.</p>
-                        <div class="cont-buth">    
-                            <a href="desarrollo-web.php" class="bot-p bot-blanco" title="">Saber más de desarrollo web</a>            
+<section class="row back-celdeg cont-servc">
+    <div class="cont-backgr">
+        <div class="cont-bann">
+            <div class="row">
+                <div class="slider">
+                    <article>
+                        <div class="cont-art">
+                            <div class="small-12 medium-8 large-7 columns">
+                                <h2>Desarrollo web</h2>
+                                <p><strong>Desarrollo de Landing Pages: </strong>Te ofrecemos desarrollar páginas web <strong>Vendedoras</strong>, de esta manera podrás contactarte con tus clientes.</p>
+                                <p><strong>Desarrollo de Tiendas Virtuales: </strong>Desarrollamos tiendas virtuales optimizadas para los busadores.</p>
+                                <p><strong>Desarrollo de Sitios Web: </strong>Nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam.</p>
+                                <div class="cont-buth">    
+                                    <a href="desarrollo-web.php" class="bot-p bot-blanco" title="">Saber más de desarrollo web</a>            
+                                </div>
+                            </div>
+                            <div class="small-12 medium-4 large-5 columns">
+                                <img src="img/home/web-design.png" title="Desarrollo web">    
+                            </div>    
                         </div>
-                    </div>
-                </article>
-                <article>
-                    <div class="cont-art">
-                        <h2>Marketing digital</h2>
-                        <p><strong>Campañas de facebook: </strong> Desarrollamos campañas </p>
-                        <p><strong>Campañas de google adwords: </strong> Desarrollamos campañas</p>
-                        <div class="cont-buth">    
-                            <a href="#" class="bot-p bot-blanco" title="">Saber más de marketing digital</a>            
+                    </article>
+                    <article>
+                        <div class="cont-art">
+                            <h2>Marketing digital</h2>
+                            <p><strong>Campañas de facebook: </strong> Desarrollamos campañas </p>
+                            <p><strong>Campañas de google adwords: </strong> Desarrollamos campañas</p>
+                            <div class="cont-buth">    
+                                <a href="#" class="bot-p bot-blanco" title="">Saber más de marketing digital</a>            
+                            </div>
                         </div>
-                    </div>
-                </article>
-                <article>
-                    <div class="cont-art">
-                        <h2>Desarrollo de plataformas</h2>
-                        <p><strong>Gestión de procesos: </strong> Programación a medida</p>
-                        <p><strong>Programación de Startups: </strong></p>
-                        <p><strong>Programación de aplicaciones full stack:</strong></p>
-                        <div class="cont-buth">    
-                            <a href="#" class="bot-p bot-blanco" title="">Saber más de desarrollo de plataformas</a>            
+                    </article>
+                    <article>
+                        <div class="cont-art">
+                            <h2>Desarrollo de plataformas</h2>
+                            <p><strong>Gestión de procesos: </strong> Programación a medida</p>
+                            <p><strong>Programación de Startups: </strong></p>
+                            <p><strong>Programación de aplicaciones full stack:</strong></p>
+                            <div class="cont-buth">    
+                                <a href="#" class="bot-p bot-blanco" title="">Saber más de desarrollo de plataformas</a>            
+                            </div>
                         </div>
-                    </div>
-                </article>
-                <article>
-                    <div class="cont-art">
-                        <h2>Trabajos psd2thml</h2>
-                        <p><strong>Maquetación</strong>: Si tienes un diseño en psd, trabajamos la maquetación.</p>
-                        <div class="cont-buth">    
-                            <a href="#" class="bot-p bot-blanco" title="">Saber más de trabajos psd2html</a>            
+                    </article>
+                    <article>
+                        <div class="cont-art">
+                            <h2>Trabajos psd2thml</h2>
+                            <p><strong>Maquetación</strong>: Si tienes un diseño en psd, trabajamos la maquetación.</p>
+                            <div class="cont-buth">    
+                                <a href="#" class="bot-p bot-blanco" title="">Saber más de trabajos psd2html</a>            
+                            </div>
                         </div>
-                    </div>
-                </article>
+                    </article>
+                </div>
             </div>
         </div>
     </div>

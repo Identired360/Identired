@@ -624,9 +624,21 @@
 .back-green {
   background: #57C79B;
 }
-.back-cel {
-  background: #44B6CE;
+.back-celdeg {
+  color: #fff;
+  background: -webkit-gradient(linear, left top, right bottom, from(#47b8e5), to(#67c082));
+  background: -webkit-linear-gradient(left, #47b8e5, #67c082);
+  background: -moz-linear-gradient(left, #47b8e5, #67c082);
+  background: -ms-linear-gradient(left, #47b8e5, #67c082);
+  background: -o-linear-gradient(left, #47b8e5, #67c082);
+  background: linear-gradient(left, #47b8e5, #67c082);
+  filter: progid:DXImageTransform.Microsoft.gradient(GradientType=0, StartColorStr='#47b8e5', EndColorStr='#67c082');
   position: relative;
+}
+.cont-backgr {
+  background: url("https://cdn2.hubspot.net/hubfs/514770/img/human-data-pattern.png");
+  background-size: 1000px auto;
+  background-position: center;
 }
 .cont-servc p {
   color: #fff;
@@ -639,7 +651,7 @@
 .cont-servc .slider {
   height: auto;
   background-color: transparent;
-  width: 72%;
+  width: 90%;
   margin: 0 auto;
   overflow: hidden;
 }
