@@ -64,7 +64,7 @@
                             </g>
                             <path d="M0 416h512v64h-512zM64 288h64v96h-64zM160 160h64v224h-64zM256 256h64v128h-64zM352 64h64v320h-64z"></path>
                             </svg>
-                            <p>Campañas de marketing rentables, Google y Facebook.</p>
+                            <p>Campañas en internet rentables, Google y Facebook.</p>
                         </div>  
                         <div class="link-butt view-serv"><span>Más sobre marketing digital</span></div>  
                     </a>
@@ -92,7 +92,7 @@
                             <path d="M224 144l-48-48-160 160 160 160 48-48-112-112z"></path>
                             <path d="M350.649 75.26l34.734 9.472-95.993 352.013-34.734-9.472 95.994-352.013z"></path>
                             </svg>
-                            <p>Si tienes un diseño, hacemos el maquetado de psd a html.</p>
+                            <p>Si tienes un diseño, maquetado de psd a html.</p>
                         </div>  
                         <div class="link-butt view-serv"><span>Más sobre trabajos psd2html</span></div>  
                     </a>
