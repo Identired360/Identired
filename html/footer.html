@@ -1,7 +1,7 @@
   <section class="row sec-clien">
       <img class="img-bann2" src="img/ground8.png">
       <div class="col-container">
-          <h2><b>¿Quiénes confiaron</b> en nosotros?</h2>
+          <h2><b>Ellos trabajan</b> con nosotros</h2>
           <div class="cont-cli">
               <ul>
                 <li><a href="#" title="Zapatillas Tigre"><img src="img/logo-tigre.jpg" title="Zapatillas Tigre"></a></li>
@@ -21,13 +21,13 @@
           <h3>Suscríbete</h3>
          <p>Para recibir nuestras novedades</p>
          <div class="form-csus">
-            <form class="awesome-form">
+            <form class="awesome-form" id="formReg">
                 <div class="input-group">
-                  <input type="text">
+                  <input type="text" required>
                   <label>Tu nombre</label>
                 </div>
                 <div class="input-group">
-                  <input type="email">
+                  <input type="email" required>
                   <label>Tu correo</label>
                 </div>
                 <div class="but-input sub-news">
@@ -77,7 +77,60 @@
 <script src="js/modernizr.custom.js"></script>
 <script src="js/typed.js" type="text/javascript"></script>
 <script src="js/wow.min.js"></script>
+<script src="js/jquery.validate.min.js"></script>
 <script src="js/app.js"></script>  
 
+<script type="text/javascript">
+    $().ready(function() {
+        $("#formReg").validate({
+            rules: {
+                firstname: "required",
+                lastname: "required",
+                username: {
+                    required: true,
+                    minlength: 2
+                },
+                password: {
+                    required: true,
+                    minlength: 5
+                },
+                confirm_password: {
+                    required: true,
+                    minlength: 5,
+                    equalTo: "#password"
+                },
+                email: {
+                    required: true,
+                    email: true
+                },
+                topic: {
+                    required: "#newsletter:checked",
+                    minlength: 2
+                },
+                agree: "required"
+            },
+            messages: {
+                firstname: "Please enter your firstname",
+                lastname: "Please enter your lastname",
+                username: {
+                    required: "Please enter a username",
+                    minlength: "Your username must consist of at least 2 characters"
+                },
+                password: {
+                    required: "Please provide a password",
+                    minlength: "Your password must be at least 5 characters long"
+                },
+                confirm_password: {
+                    required: "Please provide a password",
+                    minlength: "Your password must be at least 5 characters long",
+                    equalTo: "Please enter the same password as above"
+                },
+                email: "Please enter a valid email address",
+                agree: "Please accept our policy",
+                topic: "Please select at least 2 topics"
+            }
+        });        
+    });    
+</script>
 
 

@@ -618,27 +618,19 @@
   width: 12em;
 }
 .cont-linksh {
-  padding-top: 4em;
   opacity: 0;
 }
 .back-green {
   background: #57C79B;
 }
-.back-celdeg {
-  color: #fff;
-  background: -webkit-gradient(linear, left top, right bottom, from(#47b8e5), to(#67c082));
-  background: -webkit-linear-gradient(left, #47b8e5, #67c082);
-  background: -moz-linear-gradient(left, #47b8e5, #67c082);
-  background: -ms-linear-gradient(left, #47b8e5, #67c082);
-  background: -o-linear-gradient(left, #47b8e5, #67c082);
-  background: linear-gradient(left, #47b8e5, #67c082);
-  filter: progid:DXImageTransform.Microsoft.gradient(GradientType=0, StartColorStr='#47b8e5', EndColorStr='#67c082');
-  position: relative;
-}
 .cont-backgr {
   background: url("https://cdn2.hubspot.net/hubfs/514770/img/human-data-pattern.png");
   background-size: 1000px auto;
   background-position: center;
+}
+.cont-servc {
+  position: relative;
+  padding-bottom: 4.5em;
 }
 .cont-servc p {
   color: #fff;
@@ -646,7 +638,8 @@
 .cont-servc h2 {
   color: #fff;
   font-weight: normal;
-  font-size: 4em;
+  font-size: 5em;
+  padding-bottom: .3em;
 }
 .cont-servc .slider {
   height: auto;
@@ -660,10 +653,22 @@
   font-size: 2.5em;
   font-weight: 500;
 }
-/*.cont-art{
-  width: 72%;
-  margin: 0 auto;
-}*/
+.cont-art p {
+  position: relative;
+  padding-left: 2em;
+}
+.cont-art p:before {
+  content: "\f042";
+  font: normal normal normal 24px/1 FontAwesome;
+  display: inline-block;
+  position: absolute;
+  left: 0;
+  color: #5FCF80;
+  top: 0.2em;
+}
+.cont-art p strong {
+  font-size: 1.2em;
+}
 /*para canvas*/
 .body--ready .overlay {
   -webkit-transition: -webkit-transform 0.7s cubic-bezier(0.694, 0.0482, 0.335, 1), opacity 0.7s cubic-bezier(0.694, 0.0482, 0.335, 1);
@@ -673,7 +678,7 @@
   transition: transform 0.7s cubic-bezier(0.694, 0.0482, 0.335, 1), opacity 0.7s cubic-bezier(0.694, 0.0482, 0.335, 1);
 }
 canvas {
-  position: fixed;
+  position: absolute;
 }
 .ui {
   position: absolute;
@@ -894,18 +899,25 @@ canvas {
 }
 .slick-prev {
   position: absolute;
-  top: 0;
-  right: 1.1em;
+  right: 2.1em;
   font-size: 3em;
-  color: #fff;
+  color: #44B6CE;
+  top: 0;
+  background: #fff;
+  width: 1.4em;
+  height: 1.4em;
+  border-radius: 100%;
 }
 .slick-prev:before {
-  content: "\f0a8";
+  content: "\f060";
   display: inline-block;
   font-family: 'FontAwesome';
 }
 .slick-prev:hover {
   color: #2B8EA4;
+}
+.slick-track {
+  padding-top: 5em;
 }
 button {
   outline: none !important;
@@ -913,12 +925,16 @@ button {
 .slick-next {
   position: absolute;
   right: .1em;
-  top: 0;
   font-size: 3em;
-  color: #fff;
+  color: #44B6CE;
+  top: 0;
+  background: #fff;
+  width: 1.4em;
+  height: 1.4em;
+  border-radius: 100%;
 }
 .slick-next:before {
-  content: "\f0a9";
+  content: "\f061";
   display: inline-block;
   font-family: 'FontAwesome';
 }
@@ -932,12 +948,12 @@ button {
   border-bottom: .2em solid @celeste;
 }*/
 .sec-porq {
-  padding-top: 14em;
+  padding-top: 9em;
 }
 .sec-porq h2 {
   text-align: center;
-  font-size: 4em;
-  margin-bottom: 1em;
+  font-size: 5em;
+  margin-bottom: 1.5em;
 }
 .sec-clien {
   padding-top: 13em;
@@ -1221,13 +1237,28 @@ ul {
   display: inline-block;
   position: relative;
 }
-.but-input:after {
+.but-input:before {
   content: "\f1d8";
   display: inline-block;
   font: normal normal normal 14px/1 FontAwesome;
+  color: #44B6CE;
+  z-index: 9;
   position: absolute;
-  top: 0;
-  right: 0;
+  top: .8em;
+  right: .8em;
+  -webkit-transition-duration: 1s;
+  transition-duration: 1s;
+  -webkit-transition-property: transform;
+  transition-property: transform;
+  -webkit-transition-timing-function: ease-in-out;
+  transition-timing-function: ease-in-out;
+}
+.but-input:hover:before,
+.but-input:focus:before,
+.but-input:active:before {
+  -webkit-transform: rotate(360deg);
+  transform: rotate(360deg);
+  color: #5FCF80;
 }
 .sub-news {
   margin-top: 1em;
@@ -1242,6 +1273,9 @@ ul {
 }
 .sub-news:hover:after {
   color: #5FCF80;
+}
+input.error {
+  background-color: red !important;
 }
 .titH2 {
   margin-bottom: 5.5em;
@@ -1646,6 +1680,9 @@ textarea {
 .form-consulta .input-group input:focus + label,
 .form-consulta .input-group input.has-value + label {
   color: #418a56;
+}
+label.error {
+  display: none !important;
 }
 #rotate {
   display: inline-block;

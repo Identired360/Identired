@@ -148,15 +148,30 @@ ul{
 .but-input{
   display: inline-block;
   position: relative;
-  &:after{
+  &:before{
     content: "\f1d8";
     display: inline-block;
     font: normal normal normal 14px/1 FontAwesome;
+    color: @celeste;
+    z-index: 9;
     position: absolute;
-    top: 0;
-    right: 0;
+    top: .8em;
+    right: .8em;
+    -webkit-transition-duration: 1s;
+    transition-duration: 1s;
+    -webkit-transition-property: transform;
+    transition-property: transform;
+    -webkit-transition-timing-function: ease-in-out;
+    transition-timing-function: ease-in-out;    
   }
 }
+
+.but-input:hover:before, .but-input:focus:before, .but-input:active:before {
+    -webkit-transform: rotate(360deg);
+    transform: rotate(360deg);
+    color: @verde;
+}
+
 .sub-news{
   margin-top: 1em;
   input{
@@ -172,5 +187,8 @@ ul{
       color: @verde;
     }
   }
+}
+input.error{
+  background-color: red !important;
 }
 

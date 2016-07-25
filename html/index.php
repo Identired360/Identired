@@ -80,39 +80,44 @@
     </div>
 </section>  
 
-<section class="row back-celdeg cont-servc">
-    <div class="cont-backgr">
-        <div class="cont-bann">
-            <div class="row">
-                <div class="slider">
-                    <article>
-                        <div class="cont-art">
-                            <div class="small-12 medium-8 large-7 columns">
-                                <h2>Desarrollo web</h2>
-                                <p><strong>Desarrollo de Landing Pages: </strong>Te ofrecemos desarrollar páginas web <strong>Vendedoras</strong>, de esta manera podrás contactarte con tus clientes.</p>
-                                <p><strong>Desarrollo de Tiendas Virtuales: </strong>Desarrollamos tiendas virtuales optimizadas para los busadores.</p>
-                                <p><strong>Desarrollo de Sitios Web: </strong>Nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam.</p>
-                                <div class="cont-buth">    
-                                    <a href="desarrollo-web.php" class="bot-p bot-blanco" title="">Saber más de desarrollo web</a>            
-                                </div>
+<section class="row back-cel cont-servc">
+    <div class="cont-bann">
+        <div class="row">
+            <div class="slider">
+                <article>
+                    <div class="cont-art">
+                        <div class="small-12 medium-8 large-7 columns">
+                            <h2>Desarrollo web</h2>
+                            <p><strong>Desarrollo de Landing Pages: </strong>Te ofrecemos desarrollar páginas web <strong>Vendedoras</strong>, de esta manera podrás contactarte con tus clientes.</p>
+                            <p><strong>Desarrollo de Tiendas Virtuales: </strong>Desarrollamos tiendas virtuales optimizadas para los busadores.</p>
+                            <p><strong>Desarrollo de Sitios Web: </strong>Nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam.</p>
+                            <div class="cont-buth">    
+                                <a href="desarrollo-web.php" class="bot-p bot-blanco" title="">Saber más de desarrollo web</a>            
                             </div>
-                            <div class="small-12 medium-4 large-5 columns">
-                                <img src="img/home/web-design.png" title="Desarrollo web">    
-                            </div>    
                         </div>
-                    </article>
-                    <article>
-                        <div class="cont-art">
+                        <div class="small-12 medium-4 large-5 columns">
+                            <img src="img/home/web-design.png" title="Desarrollo web">    
+                        </div>    
+                    </div>
+                </article>
+                <article>
+                    <div class="cont-art">
+                        <div class="small-12 medium-8 large-7 columns">
                             <h2>Marketing digital</h2>
                             <p><strong>Campañas de facebook: </strong> Desarrollamos campañas </p>
                             <p><strong>Campañas de google adwords: </strong> Desarrollamos campañas</p>
                             <div class="cont-buth">    
                                 <a href="#" class="bot-p bot-blanco" title="">Saber más de marketing digital</a>            
                             </div>
-                        </div>
-                    </article>
-                    <article>
-                        <div class="cont-art">
+                        </div>  
+                        <div class="small-12 medium-4 large-5 columns">
+                            <img src="img/home/web-design.png" title="Desarrollo web">    
+                        </div>   
+                    </div>
+                </article>
+                <article>
+                    <div class="cont-art">
+                        <div class="small-12 medium-8 large-7 columns">
                             <h2>Desarrollo de plataformas</h2>
                             <p><strong>Gestión de procesos: </strong> Programación a medida</p>
                             <p><strong>Programación de Startups: </strong></p>
@@ -120,25 +125,33 @@
                             <div class="cont-buth">    
                                 <a href="#" class="bot-p bot-blanco" title="">Saber más de desarrollo de plataformas</a>            
                             </div>
-                        </div>
-                    </article>
-                    <article>
-                        <div class="cont-art">
+                        </div>    
+                        <div class="small-12 medium-4 large-5 columns">
+                            <img src="img/home/web-design.png" title="Desarrollo web">    
+                        </div>  
+                    </div>
+                </article>
+                <article>
+                    <div class="cont-art">
+                        <div class="small-12 medium-8 large-7 columns">
                             <h2>Trabajos psd2thml</h2>
                             <p><strong>Maquetación</strong>: Si tienes un diseño en psd, trabajamos la maquetación.</p>
                             <div class="cont-buth">    
                                 <a href="#" class="bot-p bot-blanco" title="">Saber más de trabajos psd2html</a>            
                             </div>
                         </div>
-                    </article>
-                </div>
+                        <div class="small-12 medium-4 large-5 columns">
+                            <img src="img/home/web-design.png" title="Desarrollo web">    
+                        </div>      
+                    </div>
+                </article>
             </div>
         </div>
     </div>
 </section>
 
 <section class="main sec-porq">
-    <img class="img-bann2" src="img/ground2.png">
+    <!--img class="img-bann2" src="img/ground2.png"-->
     <h2><b>Deja en nuestras manos</b> tu proyecto, porque:</h2>
     <ul class="ch-grid">
         <li class="wow swing" data-wow-delay=".5s">
@@ -183,7 +196,7 @@
                     <div class="ch-info">
                         <div class="ch-info-front"><h3>Tenemos experiencia</h3></div>
                         <div class="ch-info-back">
-                            <p>Dedicación desde los más pequeños a grandes proyectos</p>
+                            <p>Dedicación desde los más pequeños a grandes proyectos.</p>
                         </div>
                     </div>
                 </div>
@@ -228,12 +241,11 @@
     </ul>
 </section>
 
-<?php include('footer.html') ?>
+<?php include('footer-index.html') ?>
 
 
 <script src="js/slick.min.js"></script>
 <script src="js/scripts-home.js"></script>
 <script src="js/canvas.js"></script>
-
 </body>
 </html>
