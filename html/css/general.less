@@ -26,6 +26,7 @@ h2 {
 p {
   font-size: 1.8em;
   color: @textcolor;
+  letter-spacing: 0.02em;
 }
 a{
   text-decoration: none;
@@ -155,8 +156,8 @@ ul{
     color: @celeste;
     z-index: 9;
     position: absolute;
-    top: .8em;
-    right: .8em;
+    top: 1em;
+    right: 1.3em;
     -webkit-transition-duration: 1s;
     transition-duration: 1s;
     -webkit-transition-property: transform;
@@ -171,24 +172,29 @@ ul{
     transform: rotate(360deg);
     color: @verde;
 }
-
-.sub-news{
-  margin-top: 1em;
-  input{
-    padding: .5em 2em .5em 1em;
-  }
-  &:after{
-    color: @celeste;
-    top: 1.1em;
-    right: 1em;
-  }
-  &:hover{
-    &:after{
-      color: @verde;
-    }
-  }
+.linkid{
+  text-decoration: none;
+  display:inline-block;
+  position: relative;
+  overflow: hidden;
+  transition: color .3s cubic-bezier(0.11, 0.7, 0, 1);
+  letter-spacing: .05rem;
 }
-input.error{
-  background-color: red !important;
+.linkid:after {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  display: block;
+  width: 100%;
+  height: 2px;
+  background-color: #fff;
+  content: "";
+  border-bottom: 1px solid #fff;
+  transform: translate3d(-101%,0,0);
+  transition: transform .3s cubic-bezier(0.11, 0.7, 0, 1);
+}
+
+.linkid:hover:after {
+  transform: translate3d(0,0,0);
 }
 

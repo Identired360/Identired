@@ -15,6 +15,7 @@
   font-size: 1.6em;
   display: inline-block;
 }*/
+/*
 input:focus, input:active {
   outline: none;
   box-shadow: inherit !important;
@@ -72,8 +73,8 @@ input[type="submit"]:active {
   color: #1D6170;
 }
   /* formulario de suscripción*/
-
-.form-sus{
+/*
+.form-sus{ 
   input[type='text']{
     width: 80%;
   }
@@ -106,4 +107,60 @@ textarea{
 .form-consulta .input-group input:focus + label, .form-consulta .input-group input.has-value + label{
   color: #418a56;
 }
-label.error{ display: none !important;}
+*/
+
+/*Otro form*/
+.group {
+  position: relative;
+  margin-bottom: 2em;
+}
+.group input {
+  border: none;
+  border-bottom: 1px solid #fff;
+  margin-bottom: 0;
+  color:#fff;
+  font-size: 1.4em;
+  width: 80%;
+}
+.group input:focus {
+  outline: none;
+}
+.group input:focus ~ label, .group input:valid ~ label {
+  top: -1.5em;
+  font-size: 1.2em;
+  color: #0e3120;
+}
+.group label {
+  position: absolute;
+  color: #fff;
+  top: 0;
+  left: 0;
+  -webkit-transition: 0.2s ease all;
+  transition: 0.2s ease all;
+  font-size: 1.3em;
+}
+.group input:focus ~ label.error, .group input:valid ~ label.error ,.group label.error{
+  position: relative;
+  color:  #0e3120;
+  top: 0 !important;
+  font-size: 1.3em;
+  i{
+    margin-right: .3em;
+  }
+}
+.sub-news{
+  margin-top: 1em;
+  input{
+    padding: .5em 2em .5em 1em;
+  }
+  &:after{
+    color: @celeste;
+    top: 1.1em;
+    right: 1em;
+  }
+  &:hover{
+    &:after{
+      color: @verde;
+    }
+  }
+}

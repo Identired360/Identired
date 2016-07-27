@@ -1,11 +1,18 @@
 .foot{
-	background: @celeste;
+    background: #67c082;
+    background: -webkit-gradient(linear, left top, right bottom, from(#47b8e5), to(#67c082));
+    background: -webkit-linear-gradient(left, #47b8e5, #67c082);
+    background: -moz-linear-gradient(left, #47b8e5, #67c082);
+    background: -ms-linear-gradient(left, #47b8e5, #67c082);
+    background: -o-linear-gradient(left, #47b8e5, #67c082);
+    background: linear-gradient(left, #47b8e5, #67c082);
+    filter: progid:DXImageTransform.Microsoft.gradient(GradientType=0,StartColorStr='#47b8e5', EndColorStr='#67c082');
 	position: relative;
-	padding-top: 3em;
+	padding-top: 8em;
 	h3{
 		color: #fff;
 		font-size: 2.3em;
-		margin-bottom: 1em;
+		margin-bottom: .6em;
 		font-weight: 500;
 		margin-top: 1em;
 	}
@@ -28,14 +35,14 @@
 .bottom-pag{
   border-top: .1em solid #92D5E2;
   padding-top: 1em;
-  margin-top: 6em;
+  margin-top: 2em;
   a{
     color: #fff;
     font-size: 1.4em;
   }
   p{
     float: right;
-    color: #BFE3EE;
+    color: #fff;
     font-size: 1.3em;    
   }
 }
@@ -46,17 +53,27 @@
 .cont-linkb{
 	li{
 		margin-bottom: .5em;
+		position: relative;
 		&:before{
 		    content: "\f144";
-		    font: normal normal normal 14px/1 FontAwesome;
+		    font: normal normal normal 17px/1 FontAwesome;
 		    display: inline-block;
-		    color: #2D93A8;
+		    color: #52acb9;
 		    margin-right: .4em;
+		    position: absolute;
+		    top: 0.3em;
 		}
 		a{
 			font-size: 1.5em;
 			color: #fff;
+			margin-left: 1.4em;
+		}
+		&:hover{
 
+		&:before{
+			color: #fff;
+		}
+			
 		}
 	}
 }
@@ -67,7 +84,7 @@
 }
 /* Wrapper */
 .icon-button {
-	background-color: white;
+	background-color: transparent;
 	border-radius: 3.6rem;
 	cursor: pointer;
 	display: inline-block;
@@ -133,38 +150,30 @@
 	        transition: all 0.3s;
 	width: 3.6rem;
 	z-index: 10;
+	font-size: 1.3em;
 }
-.icon-button .icon-twitter {
-	color: #4099ff;
-}
-.icon-button .icon-facebook {
-	color: #3B5998;
-}
-.icon-button .icon-google-plus {
-	color: #db5a3c;
-}
-.icon-button .icon-lin {
-	color: #0077B5;
-}
+
 .icon-button:hover .icon-twitter,
 .icon-button:hover .icon-facebook,
 .icon-button:hover .icon-google-plus,
 .icon-button:hover .icon-lin, {
 	color: white;
 }
-.icon-button .icon-facebook {
-    color: #3B5998;
-}
 .datid{
 	li{
 		margin-bottom: 1em;
+		position: relative;
+		padding-left: 3.5em;
 		a{
 			color: #fff;
 			font-size: 1.6em;
+  	        letter-spacing: .1rem;
 			i{
 				margin-right: .5em;
-				color: #2D93A8;
-				font-size: 1.2em;
+				color: #fff;
+				font-size: 1.5em;
+				position: absolute;
+				left: 0;
 			}
 		}
 	}

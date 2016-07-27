@@ -38,18 +38,18 @@ $(document).ready(function() {
             overlayTimer = null;
         }
 
-        $('body').removeClass('menu-shown');
+        //$('body').removeClass('menu-shown');
 
         $('#menu_button').removeClass('open');
 
         $('#overlay').css('opacity', 0);
-
+/*
         overlayTimer = setTimeout(function()
         {
             $('#overlay').css('display', 'none');
             overlayTimer = null;
 
-        }, 0.33 * 1000);
+        }, 0.33 * 1000);*/
     }
 
     $('#overlay').on('click', closeMenu);
@@ -57,11 +57,11 @@ $(document).ready(function() {
 
     $('#menu_button').click(function(e) {
 
-        $('body').toggleClass('menu-shown');
+        //$('body').toggleClass('menu-shown');
 
         $(this).toggleClass('open');
 
-        var isShown = $('body').hasClass('menu-shown');
+      /*  var isShown = $('body').hasClass('menu-shown');
 
         if (overlayTimer != null) 
         {
@@ -84,7 +84,7 @@ $(document).ready(function() {
         {
             closeMenu();
 
-        }
+        }*/
 
     });
 
