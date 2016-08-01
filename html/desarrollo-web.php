@@ -62,15 +62,16 @@
 	</svg>
 	<div class="text-centb">
 		<div class="i-am-container">
-		    <h3>Para</h3>
-		    <div class="scroller">
-		        <div class="inner">
-		            <span><h3>aumentar tus ventas.</h3></span>
-		            <span><h3>conseguir clientes.</h3></span>
-		            <span><h3>mostrar tus productos.</h3></span>
-		            <span><h3>conocer tu empresa.</h3></span>
-		        </div>
-		      </div>
+		    <h3>Para :
+                    <span class="txt-espb">
+                        <div id="rotate">
+                          <span>aumentar tus ventas.</span>
+                          <span>conseguir clientes.</span>
+                          <span>mostrar tus productos.</span>
+                          <span>conocer tu empresa.</span>
+                        </div>
+                    </span>
+		    </h3>
 		</div>
 	</div>
 	</div>
@@ -80,7 +81,7 @@
 <section class="row back-cel sec-imp">
 	<div class="col-container">
 		<div class="small-12 large-4 columns">
-			<div class="item-desa wow flipInX" data-wow-delay=".5s">
+			<div class="item-desa wow bounceInDown" data-wow-delay=".2s">
 				<svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 512 512">
 					<g id="icomoon-ignore">
 					</g>
@@ -92,7 +93,7 @@
 			</div>
 		</div>
 		<div class="small-12 large-4 columns">
-			<div class="item-desa wow flipInX" data-wow-delay="1s">
+			<div class="item-desa wow bounceInDown" data-wow-delay=".7s">
 				<svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 512 512">
 					<g id="icomoon-ignore">
 					</g>
@@ -105,7 +106,7 @@
 			</div>
 		</div>
 		<div class="small-12 large-4 columns">
-			<div class="item-desa wow flipInX" data-wow-delay="1.5s">
+			<div class="item-desa wow bounceInDown" data-wow-delay="1.2s">
 			<svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 512 512">
 				<g id="icomoon-ignore">
 				</g>
@@ -119,7 +120,7 @@
 </section>
 
 <section class="row pad-secc sec-vent">
-	<img class="img-bann2" src="img/ground2.png">
+	<!--img class="img-bann2" src="img/ground2.png"-->
 	<div class="col-container">
 		<div class="titH2 wow slideInDown">
 			<h2><b>Ventajas</b> de nuestro desarrollo</h2>
@@ -182,10 +183,10 @@
 				<li><img title="Php" src="img/tecn/php.png"> <h3>PHP</h3></li>
 				<li><img title="Html5" src="img/tecn/html5.png"> <h3>Html5</h3></li>
 				<li><img title="CSS3" src="img/tecn/css3.png"> <h3>CSS3</h3></li>
-				<li><img title="CSS3" src="img/tecn/css3.png"> <h3>Foundation</h3></li>
-				<li><img title="CSS3" src="img/tecn/css3.png"> <h3>Bootstrap</h3></li>
-				<li><img title="CSS3" src="img/tecn/css3.png"> <h3>Less</h3></li>
-				<li><img title="CSS3" src="img/tecn/css3.png"> <h3>Stylus</h3></li>
+				<li><img title="CSS3" src="img/tecn/foundation.png"> <h3>Foundation</h3></li>
+				<li><img title="CSS3" src="img/tecn/bootstrap.png"> <h3>Bootstrap</h3></li>
+				<li><img title="CSS3" src="img/tecn/less.png"> <h3>Less</h3></li>
+				<li><img title="CSS3" src="img/tecn/stylus.png"> <h3>Stylus</h3></li>
 				<li><img title="JavaScript" src="img/tecn/js.png"> <h3>JavaScript</h3></li>
 				<li><img title="Wordpress" src="img/tecn/wordpress.png"> <h3>Wordpress</h3></li>
 				<li><img title="Woocommerce" src="img/tecn/woocom.png"> <h3>Woocommerce</h3></li>
@@ -199,7 +200,7 @@
 </section>
 
 <section class="row demo-2 back-proy">
-    <img class="img-bann2" src="img/ground6.png">
+    <!--img class="img-bann2" src="img/ground6.png"-->
 	<div class="col-container">
 		<div class="titH2 white-tit wow slideInDown">
 			<h2><b>Proyectos</b> realizados</h2>
@@ -295,7 +296,7 @@
 			</a>
 		</div>		
 	</div>
-	<img class="img-bann3" src="img/ground4.png">
+	<!--img class="img-bann3" src="img/ground4.png"-->
 </section>
 
 <section class="row cont-cost">
@@ -305,7 +306,7 @@
 			<p>Ajustamos nuestras cotizaciones de acuerdo a tus necesidades</p>
 		</div>
 		<div class="list-paq">
-			<div class="small-12 medium-6 large-3 columns">
+			<div class="small-12 medium-6 large-4 columns">
 				<div class="item-paq wow zoomIn" data-wow-delay=".5s">
 					<h3>Opción 1</h3>
 					<h2>Según tu presupuesto</h2>
@@ -318,7 +319,7 @@
 					</ul>
 				</div>
 			</div>
-			<div class="small-12 medium-6 large-3 columns">
+			<div class="small-12 medium-6 large-4 columns">
 				<div class="item-paq wow zoomIn" data-wow-delay="1s">
 					<h3>Opción 2</h3>
 					<h2>Página vendedora</h2>
@@ -331,7 +332,7 @@
 					</ul>
 				</div>
 			</div>
-			<div class="small-12 medium-6 large-3 columns">
+			<div class="small-12 medium-6 large-4 columns">
 				<div class="item-paq wow zoomIn" data-wow-delay="1.5s">
 					<h3>Opción 3</h3>
 					<h2>Desarrollo a medida</h2>
@@ -344,37 +345,71 @@
 					</ul>
 				</div>
 			</div>
-			<div class="small-12 medium-6 large-3 columns">
-				<div class="item-paq wow zoomIn" data-wow-delay="2s">
-					<h3>Opción 4</h3>
-					<h2>Web Apps</h2>
-					<p>Lorem ips sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat.</p>
-					<ul>
-						<li>Lorem ipsum dolor sit amet.</li>
-						<li>Lorem ipsum dolor sit amet.</li>
-						<li>Lorem ipsum dolor sit amet.</li>
-						<li>Lorem ipsum dolor sit amet.</li>
-					</ul>
-				</div>
-			</div>
 		</div>
 	</div>
 
-    <img class="img-bann3" src="img/ground5.png">
+    <!--img class="img-bann3" src="img/ground5.png"-->
 </section>
 
-<section class="row backgreen sec-info">
+<section class="row backblue sec-info">
 	<div class="col-container">
-		<div class="titH2 white-tit wow slideInDown">
+		<div class="titH2 wow slideInDown">
 			<h2><b>Solicita</b> información</h2>
 		</div>
-		<div class="cont-comunic wow rollIn">
+		<div class="cont-comunic wow lightSpeedIn">
 			<p>Envíanos un watsapp para consultas o agendar una reunión sin ningún compromiso.</p>
 			<a href="tel: 987 204 172"><i class="fa fa-whatsapp" aria-hidden="true"></i> 987 204 172</a>
 		</div>
+
+	</div>
+</section>
+<section class="row backblue2 cont-formul">
+	<div class="col-container">
 		<div class="simform wow fadeInUp" data-wow-delay=".3s">
-			<h2>También puedes escribirnos</h2>
-            <form class="awesome-form form-consulta">
+			<div class="tit-form">
+				<h2>También puedes escribirnos</h2>
+				<p>Envíanos tu consulta y te enviaremos la respuesta lo más pronto posible</p>
+			</div>
+			<form id="formWeb">
+				<div class="card">
+					<div class="input-wrapper">
+						<input type="text" id="nombre" name="nombre" required>
+						<label>Nombre y Apellido</label>
+					</div>
+					<div class="input-wrapper">
+						<input type="email" id="correo" name="correo" required>
+						<label>Correo electrónico</label>
+					</div>
+					<div class="input-wrapper">
+						<input type="tel" id="telefono" name="telefono" required>
+						<label>Teléfono</label>
+					</div>
+					<div class="input-wrapper textcont">
+						<textarea required></textarea>
+						<label>Mensaje</label>
+					</div>
+					<div class="cont-submit">
+		                <div class="but-input sub-news">
+		                    <input type="submit" class="bot-p bot-blanco" value="Enviar mi consulta">
+		                </div>
+		            </div>  
+				</div>			
+			</form>			
+            
+            <!--form id="formWeb">
+                <div class="group input-field">      
+                  <input type="text" required>
+                  <label>Tu nombre</label>
+                </div>
+                <div class="group input-field">      
+                  <input type="email" required>
+                  <label>Tu correo</label>
+                </div>
+                <div class="but-input sub-news">
+                  <input type="submit" class="bot-p bot-blanco" value="Suscribirme">
+                </div>
+            </form-->
+            <!--form class="awesome-form form-consulta">
                 <div class="input-group">
                   <input type="text">
                   <label>Tu nombre y apellido</label>
@@ -396,12 +431,12 @@
 		                    <input type="submit" class="bot-p bot-blanco" value="Enviar mi consulta">
 		                </div>
 		            </div>    
-            </form>
-		</div>
+            </form-->
+		</div>		
 	</div>
 </section>
 
-<?php include('footer.html') ?>
+<?php include('footer-index.html') ?>
 
 <script src="js/snap.svg-min.js"></script>
 <!--script src="js/classie.js"></script-->

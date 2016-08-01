@@ -1,10 +1,10 @@
 [type='text'], [type='password'], [type='date'], [type='datetime'], [type='datetime-local'], [type='month'], [type='week'], [type='email'], [type='number'], [type='search'], [type='tel'], [type='time'], [type='url'], [type='color'], textarea{
    background-color: transparent !important;
    box-shadow: inherit;
+   height: auto;
 }
 [type='text']:focus, [type='password']:focus, [type='date']:focus, [type='datetime']:focus, [type='datetime-local']:focus, [type='month']:focus, [type='week']:focus, [type='email']:focus, [type='number']:focus, [type='search']:focus, [type='tel']:focus, [type='time']:focus, [type='url']:focus, [type='color']:focus, textarea:focus{
   border:none !important;
-  border-bottom: .2em solid #fff !important;
   box-shadow: none; }
 
 /*input {
@@ -109,7 +109,7 @@ textarea{
 }
 */
 
-/*Otro form*/
+/*Otro form*//*
 .group {
   position: relative;
   margin-bottom: 3em;
@@ -125,7 +125,7 @@ textarea{
 .group input:focus {
   outline: none;
 }
-.group input:focus ~ label, .group input:valid ~ label {
+.group input:focus ~ label, .group input:valid ~ label, .group input.error ~ label {
   top: -1.5em;
   font-size: 1.2em;
   color: #0e3120;
@@ -164,3 +164,147 @@ textarea{
     }
   }
 }
+*/
+//Formulario de páginas internas
+.cont-submit{
+     text-align: center;
+    margin-top: 4.5em; 
+}
+.simform{
+  width: 60%;
+  margin: 0 auto;
+  background: @azul;
+  h2{
+    text-align: center;
+    color: #fff;
+    font-weight: 400;
+    font-size: 3.5em;
+    padding-top: 1em;
+  }
+
+}
+
+.input-wrapper {
+  padding-top: 25px;
+  position: relative;
+  margin-bottom: 15px;
+}
+.input-wrapper input,
+.input-wrapper textarea {
+  width: 100%;
+  resize: none;
+  border: none;
+  outline: none;
+  display: block;
+  overflow: hidden;
+  border-bottom: solid 1px #fff;
+  background-color: transparent;
+  color: #fff;
+  font-size: 1.5em;
+}
+.input-wrapper:after {
+  content: '';
+  display: block;
+  width: 0;
+  height: 1px;
+  background-color: @celeste;
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  transition: all 0.2s ease-in;
+  transform: translateX(-50%);
+}
+.input-wrapper label {
+  top: 25px;
+  color: #fff;
+  position: absolute;
+  pointer-events: none;
+  transition: all 0.2s ease-in;
+  font-size: 1.5em;
+}
+.input-wrapper.focus:after {
+  padding: 0 50%;
+  box-shadow: 0 1px 0 0 @celeste;
+}
+.input-wrapper.focus label {
+  color: @celeste;
+  font-size: 1.5em;
+  transform: translateY(-25px);
+}
+.input-wrapper.active label {
+  font-size: 1.3em;
+  transform: translateY(-25px);
+  color: #ccc;
+}
+.input-wrapper.active label.error, .input-wrapper label.error {
+    font-size: 1.3em;
+    transform: translateY(25px) !important;
+    color: #e86262 !important;
+    margin-top: .3em;
+}
+.textcont.input-wrapper.active label.error, .textcont.input-wrapper label.error {
+    transform: translateY(50px) !important;
+}
+.cont-formul{
+  padding-bottom: 6em;
+}
+//pARA BOTÓN MORADO
+/*
+.btn {
+  color: white;
+  border: none;
+  outline: none;
+  font-size: 14px;
+  font-weight: 400;
+  overflow: hidden;
+  position: relative;
+  border-radius: 2px;
+  letter-spacing: 1px;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
+  background-color: #8b2cff;
+  -webkit-appearance: none;
+  text-transform: uppercase;
+  transition: all 0.2s ease-in;
+}
+.btn > span {
+  z-index: 2;
+  display: block;
+  padding: 10px 20px;
+  position: relative;
+}
+.btn > span:hover {
+  cursor: pointer;
+}
+.btn.flat {
+  box-shadow: none;
+  background-color: transparent;
+}
+.btn.flat:hover {
+  background-color: rgba(0, 0, 0, 0.1);
+}
+.btn:before {
+  top: -50%;
+  z-index: 1;
+  content: '';
+  width: 200%;
+  height: 200%;
+  position: absolute;
+  left: calc(-200% - 40px);
+  background-color: rgba(0, 0, 0, 0.2);
+  transform: skewX(-40deg);
+  transition: all 0.2s ease-in;
+}
+.btn:disabled {
+  opacity: 0.5;
+}
+.btn:disabled > span:hover {
+  cursor: default;
+}
+.btn:not(.flat):not(:disabled):hover {
+  cursor: default;
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.19), 0 6px 6px rgba(0, 0, 0, 0.23);
+}
+.btn:not(.flat):not(:disabled):hover:before {
+  transform: translateX(100%) skewX(-30deg);
+}
+*/

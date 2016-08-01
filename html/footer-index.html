@@ -21,6 +21,21 @@
          <p>Para recibir nuestras novedades</p>
          <div class="form-csus">
             <form id="formReg">
+              <div class="card">
+                <div class="input-wrapper">
+                  <input type="text" id="nombreN" name="nombreN" required>
+                  <label>Tu nombre</label>
+                </div>
+                <div class="input-wrapper">
+                  <input type="email" id="correoN" name="correoN" required>
+                  <label>Tu correo electrónico</label>
+                </div>
+                <div class="but-input sub-news">
+                   <input type="submit" class="bot-p bot-blanco" value="Suscribirme">
+                </div>
+              </div>      
+            </form>          
+            <!--form id="formReg">
                 <div class="group input-field">      
                   <input type="text" id="nombre" name="nombre" required>
                   <label>Tu nombre</label>
@@ -32,7 +47,7 @@
                 <div class="but-input sub-news">
                   <input type="submit" class="bot-p bot-blanco" value="Suscribirme">
                 </div>
-            </form>
+            </form-->
 
 
             <!--form class="awesome-form"  method="get" action="">
@@ -100,7 +115,7 @@
 <script type="text/javascript">
 
      $(document).ready(function(){
-        $("#formReg").validate({
+        $("#formWeb").validate({
              invalidHandler: function(){
                $('input.error').closest('.input-field').find('label.active').addClass('rojo');
                $('input.error').closest('.input-field').find('input').addClass('error');
@@ -169,6 +184,26 @@
             }
         });        
     });    */
+
+  /*Para formulerio*/
+  $('input, textarea').on('focus', function() {
+  $(this).parent().addClass('focus');
+});
+
+$('input, textarea').on('blur', function(event) {
+  if (event.target.value.length > 0) {
+    $(this).parent().addClass('active');
+  } else {
+    $(this).parent().removeClass('active');
+  }
+
+  $(this).parent().removeClass('focus');
+});
+
+$('textarea').on('keyup', function() {
+  $(this).css('height', 'auto');
+  $(this).css('height', $(this)[0].scrollHeight+'px');
+});
 </script>
 
 
