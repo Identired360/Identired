@@ -144,13 +144,13 @@
 
 .navicon-button.open .navicon:before {
   transform: rotate(-45deg);
-  background: @negro;
+  background: #fff;
   top: 0rem;
 }
 
 .navicon-button.open .navicon:after {
   transform: rotate(45deg);
-  background: @negro;
+  background: #fff;
   top: 0rem;
 }
 
@@ -259,6 +259,38 @@
   cursor: pointer;
 }*/
 
+.cont-menu{
+  width: 70%;
+  margin: 0 auto;
+  h2{
+    color:#fff;
+    font-weight: 700;
+    font-size: 3em; 
+    margin-bottom: .5em;
+    position: relative;
+    padding-left: 1em;
+    border-bottom: 1px dashed;
+    a{
+      color: #fff;
+    }
+    &:before{
+    content: "\f144";
+    font: normal normal normal 19px/1 FontAwesome;
+    display: inline-block;
+    color: #fff;
+    margin-right: .4em;
+    position: absolute;
+    top: .65em;
+    left: 0
+  }
+  &:first-child{
+    padding-left: 0;
+    &:before{
+      display: none;
+    }
+  }
+  }
+}
 input#ackapa {
   display: none;
 }
@@ -270,40 +302,64 @@ nav {
   width: 100%;
   height: 100%;
   z-index: 998;
-  background: rgba(45, 64, 121, 0.68);
   transform: translateY(-100%);
   transition: all .4s;
   transform-origin: center;
+    background: #47b8e5;
+    background: -webkit-gradient(linear, left top, right bottom, from(#67c082), to(#47b8e5));
+    background: -webkit-linear-gradient(left, #67c082, #47b8e5);
+    background: -moz-linear-gradient(left, #67c082, #47b8e5);
+    background: -ms-linear-gradient(left, #67c082, #47b8e5);
+    background: -o-linear-gradient(left, #67c082, #47b8e5);
+    background: linear-gradient(left, #67c082, #47b8e5);
+    filter: progid:DXImageTransform.Microsoft.gradient(GradientType=0,StartColorStr='#67c082', EndColorStr='#47b8e5');
 }
-
-.nav-ide ul {
-  margin-top: 14%;
-  text-align: center;
+.nav-ide{
+  padding-top: 4%;
+  ul{
+    margin-bottom: 2em;
+    padding-left: 3em;
+    a{
+      margin-left: 1em;
+    }
+  }
 }
 
 .nav-ide li {
   font-size: 10px;
   transform: translateY(200%);
   transition: all .4s;
+  position: relative;
+    &:before{
+    content: "\f144";
+    font: normal normal normal 18px/1 FontAwesome;
+    display: inline-block;
+    color: #fff;
+    margin-right: .4em;
+    position: absolute;
+    top: .5em;
+    left: 0
+  }
 }
 
 .nav-ide li a {
   text-decoration: none;
   color: #fff;
-  font-weight: bold;
 }
 
-.nav-ide li a:hover {
-  color: #000;
-}
 
 input#ackapa:checked + nav {
   transform: translateY(0);
 }
 
 input#ackapa:checked + nav li {
-  font-size: 30px;
+  font-size: 2.3em;
   transform: translateY(0);
+  width: 49%;
+  display: inline-block;
+
+
+
 }
 
 .nav-ide  a {
