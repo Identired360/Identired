@@ -87,9 +87,10 @@
 					</g>
 					<path d="M64 448h448v64h-512v-512h64zM144 416c-26.51 0-48-21.49-48-48s21.49-48 48-48c1.414 0 2.811 0.074 4.194 0.193l51.596-85.993c-4.92-7.535-7.79-16.531-7.79-26.201 0-26.51 21.49-48 48-48s48 21.49 48 48c0 9.671-2.87 18.666-7.79 26.201l51.596 85.993c1.383-0.119 2.78-0.193 4.194-0.193 1.068 0 2.124 0.047 3.175 0.115l85.178-149.061c-5.268-7.704-8.353-17.018-8.353-27.055 0-26.51 21.49-48 48-48s48 21.49 48 48c0 26.51-21.49 48-48 48-1.070 0-2.124-0.047-3.175-0.116l-85.178 149.062c5.268 7.703 8.353 17.018 8.353 27.055 0 26.51-21.49 48-48 48s-48-21.49-48-48c0-9.67 2.87-18.666 7.789-26.201l-51.595-85.992c-1.383 0.119-2.78 0.193-4.194 0.193s-2.811-0.073-4.194-0.193l-51.596 85.993c4.92 7.534 7.79 16.53 7.79 26.2 0 26.51-21.49 48-48 48z"></path>
 				</svg>
-				<h2>Desarrollo de landings</h2>
-				<p>Crea páginas de aterrizaje dinámicas y optimizadas para captar leads</p>
-				<p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat.</p>
+				<h2>Landing Pages</h2>
+				<p>Son páginas que están optimizadas y preparadas para impulsar o facilitar una acción al usuario, esta acción puede ser registrarse o hacer una consulta sobre un producto mediante un formulario.</p>
+				<p>Se utilizan para hacer campañas de publicidad, cuando se quiere conseguir un objetivo específico y un retorno cuantitativo para una acción promocional.</p>
+				<a class="bot-p bot-blanco" href="#consulta">Consulta ahora</a>
 			</div>
 		</div>
 		<div class="small-12 large-4 columns">
@@ -101,8 +102,10 @@
 					<path d="M512 464c0 26.51-21.49 48-48 48s-48-21.49-48-48c0-26.51 21.49-48 48-48s48 21.49 48 48z"></path>
 					<path d="M512 256v-192h-384c0-17.673-14.327-32-32-32h-96v32h64l24.037 206.027c-14.647 11.729-24.037 29.75-24.037 49.973 0 35.348 28.654 64 64 64h384v-32h-384c-17.673 0-32-14.327-32-32 0-0.109 0.007-0.218 0.008-0.328l415.992-63.672z"></path>
 				</svg>				
-				<h2>Tiendas virtuales</h2>
-				<p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat.</p>
+				<h2>Tiendas Virtuales</h2>
+				<p>También llamada Tienda Online, se refiere al comercio convencional usando como medio un Sitio Web para realizar compras y ventas de productos y servicios por Internet.</p>
+				<p>Desarrollamos las tiendas optimizadas para buscadores y adaptadas para dispositivos móviles, utilizando las últimas tecnologías que garantizan un funcionamiento estable y eficaz.</p>
+				<a class="bot-p bot-blanco" href="#consulta">Consulta ahora</a>
 			</div>
 		</div>
 		<div class="small-12 large-4 columns">
@@ -112,8 +115,9 @@
 				</g>
 				<path d="M0 512h256v-512h-256v512zM160 64h64v64h-64v-64zM160 192h64v64h-64v-64zM160 320h64v64h-64v-64zM32 64h64v64h-64v-64zM32 192h64v64h-64v-64zM32 320h64v64h-64v-64zM288 160h224v32h-224zM288 512h64v-128h96v128h64v-288h-224z"></path>
 			</svg>				
-				<h2>Sitios corporativos</h2>
+				<h2>Sitios Corporativos</h2>
 				<p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat.</p>
+				<a class="bot-p bot-blanco" href="#consulta">Consulta ahora</a>
 			</div>
 		</div>
 	</div>
@@ -351,7 +355,7 @@
     <!--img class="img-bann3" src="img/ground5.png"-->
 </section>
 
-<section class="row backblue sec-info">
+<section id="consulta" class="row backblue sec-info">
 	<div class="col-container">
 		<div class="titH2 wow slideInDown">
 			<h2><b>Solicita</b> información</h2>
