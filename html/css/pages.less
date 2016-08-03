@@ -51,7 +51,7 @@
 	p{
 		color: #fff;
 		text-align: justify;
-		margin-bottom: 0;
+		margin-bottom: 1em;
 	}
 	svg{
 		width: 50%;
@@ -62,7 +62,15 @@
 }
 .item-desa{
 	background: rgba(255, 255, 255, 0.2);
-	padding: 4em 3.5em;
+	padding: 4em 3.5em 11em 3.5em;
+	position: relative;
+	a{
+		position: absolute;
+		bottom: 1.5em;
+		left: 0;
+		right: 0;
+		margin: 0 4em;
+	}
 }
 .pad-secc{
 	padding-top: 8em;
@@ -73,9 +81,8 @@
 }
 .back-proy{
 	background-image:url('../img/proy/backproy.png');
-	background-repeat: no-repeat;
     background-position: center;
-   	background-color: #00D07C;
+   	background-color: @verde;
    	background-attachment: fixed;
    	position: relative;
     padding-bottom: 3em;
@@ -97,6 +104,7 @@
 	h3{
 		font-size: 1.5em;
 		margin-top: 1em;
+		font-weight: 400;
 	}
 }
 .simform{
@@ -236,6 +244,7 @@
 	    margin-top: 1.2em;
 	    margin-bottom: .5em;
 	    line-height: 1.1em;
+	    font-weight: 600;
 	}
 
 }

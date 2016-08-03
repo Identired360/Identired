@@ -7,7 +7,7 @@
 
 .grid a {
 	float: left;
-	max-width: 250px;
+	max-width: 285px;
 	width: 25%;
 	color: #333;
 }
@@ -45,14 +45,13 @@
 .grid figcaption h2 {
 	margin: 0 0 2em 0;
 	font-weight: 500;
-	font-size: 2em;
+	font-size: 2.3em;
 	-webkit-transition: -webkit-transform 0.3s;
 	transition: transform 0.3s;
 }
 
 .grid figcaption p {
 	padding: 0 20px;
-	color: #aaa;
 	font-weight: 300;
 	-webkit-transition: opacity 0.3s, -webkit-transform 0.3s;
 	transition: opacity 0.3s, transform 0.3s;
@@ -149,8 +148,8 @@
 	left: 0;
 	padding: 15px;
 	width: 100%;
-	background: #fff;
-	color: #333;
+	background: #44B6CE;
+	color: #fff;
 	font-weight: 300;
 	-webkit-transform: translateY(100%);
 	transform: translateY(100%);

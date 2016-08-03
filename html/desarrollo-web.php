@@ -88,8 +88,8 @@
 					<path d="M64 448h448v64h-512v-512h64zM144 416c-26.51 0-48-21.49-48-48s21.49-48 48-48c1.414 0 2.811 0.074 4.194 0.193l51.596-85.993c-4.92-7.535-7.79-16.531-7.79-26.201 0-26.51 21.49-48 48-48s48 21.49 48 48c0 9.671-2.87 18.666-7.79 26.201l51.596 85.993c1.383-0.119 2.78-0.193 4.194-0.193 1.068 0 2.124 0.047 3.175 0.115l85.178-149.061c-5.268-7.704-8.353-17.018-8.353-27.055 0-26.51 21.49-48 48-48s48 21.49 48 48c0 26.51-21.49 48-48 48-1.070 0-2.124-0.047-3.175-0.116l-85.178 149.062c5.268 7.703 8.353 17.018 8.353 27.055 0 26.51-21.49 48-48 48s-48-21.49-48-48c0-9.67 2.87-18.666 7.789-26.201l-51.595-85.992c-1.383 0.119-2.78 0.193-4.194 0.193s-2.811-0.073-4.194-0.193l-51.596 85.993c4.92 7.534 7.79 16.53 7.79 26.2 0 26.51-21.49 48-48 48z"></path>
 				</svg>
 				<h2>Landing Pages</h2>
-				<p>Son páginas que están optimizadas y preparadas para impulsar o facilitar una acción al usuario, esta acción puede ser registrarse o hacer una consulta sobre un producto mediante un formulario.</p>
-				<p>Se utilizan para hacer campañas de publicidad, cuando se quiere conseguir un objetivo específico y un retorno cuantitativo para una acción promocional.</p>
+				<p>Son páginas que están optimizadas y preparadas para <b>ser PÁGINAS VENDEDORAS</b>, impulsando al usuario a enviarnos sus datos, mediante un formulario de registro o consulta.</p>
+				<p>Se utilizan para hacer <b>campañas de publicidad</b>, cuando se quiere conseguir un objetivo específico y un retorno cuantitativo para una acción <b>promocional</b>.</p>
 				<a class="bot-p bot-blanco" href="#consulta">Consulta ahora</a>
 			</div>
 		</div>
@@ -103,8 +103,8 @@
 					<path d="M512 256v-192h-384c0-17.673-14.327-32-32-32h-96v32h64l24.037 206.027c-14.647 11.729-24.037 29.75-24.037 49.973 0 35.348 28.654 64 64 64h384v-32h-384c-17.673 0-32-14.327-32-32 0-0.109 0.007-0.218 0.008-0.328l415.992-63.672z"></path>
 				</svg>				
 				<h2>Tiendas Virtuales</h2>
-				<p>También llamada Tienda Online, se refiere al comercio convencional usando como medio un Sitio Web para realizar compras y ventas de productos y servicios por Internet.</p>
-				<p>Desarrollamos las tiendas optimizadas para buscadores y adaptadas para dispositivos móviles, utilizando las últimas tecnologías que garantizan un funcionamiento estable y eficaz.</p>
+				<p>También llamada <b>Tienda Online</b>, se refiere al comercio convencional usando como medio un Sitio Web para realizar <b>compras y ventas de productos y servicios</b> por Internet.</p>
+				<p>Desarrollamos las tiendas <b>optimizadas para buscadores y adaptadas para dispositivos móviles</b>, utilizando las últimas tecnologías que garantizan un funcionamiento estable y eficaz.</p>
 				<a class="bot-p bot-blanco" href="#consulta">Consulta ahora</a>
 			</div>
 		</div>
@@ -116,7 +116,9 @@
 				<path d="M0 512h256v-512h-256v512zM160 64h64v64h-64v-64zM160 192h64v64h-64v-64zM160 320h64v64h-64v-64zM32 64h64v64h-64v-64zM32 192h64v64h-64v-64zM32 320h64v64h-64v-64zM288 160h224v32h-224zM288 512h64v-128h96v128h64v-288h-224z"></path>
 			</svg>				
 				<h2>Sitios Corporativos</h2>
-				<p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat.</p>
+				<p>Estas webs son las que sirven para dar <b>información sobre la marca de la empresa</b>, mostrar los servicios, dar a conocer la imagen de la empresa.</p>
+				<p>Un sitio web corporativo es un <b>canal más de comunicación</b> con tus clientes actuales y potenciales clientes.</p>
+				<p>Algunos objetivos son: <b>mejorar la presencia de tu empresa</b> en internet, destacar sobre la competencia, conseguir y fidelizar clientes.</p>
 				<a class="bot-p bot-blanco" href="#consulta">Consulta ahora</a>
 			</div>
 		</div>
@@ -133,43 +135,43 @@
 			<div class="small-12 medium-6 large-4 columns">
 				<div class="item-vent wow flipInY" data-wow-delay=".5s">
 					<svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 512 512"><g id="icomoon-ignore"></g><path d="M256 0c-139.374 0-252.729 111.381-255.924 249.987 2.96-120.932 94.916-217.987 207.924-217.987 114.875 0 208 100.288 208 224 0 26.51 21.49 48 48 48s48-21.49 48-48c0-141.385-114.615-256-256-256zM256 512c139.374 0 252.729-111.381 255.924-249.987-2.96 120.932-94.916 217.987-207.924 217.987-114.875 0-208-100.288-208-224 0-26.51-21.49-48-48-48s-48 21.49-48 48c0 141.385 114.615 256 256 256z"></path></svg>
-					<h3>Desarrollo UX</h3>
-					<p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, onsectetuer adipiscing elit, onsectetuer adipiscing elit,sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat.</p>
+					<h3>Diseño UX</h3>
+					<p>Desarrollo de la página de acuerdo al <b>público objetivo</b>, cumpliendo con los estándares de <b>usabilidad</b>.</p>
 				</div>
 			</div>
 			<div class="small-12 medium-6 large-4 columns">
 				<div class="item-vent wow flipInY" data-wow-delay=".5s">
 					<svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 512 512"><g id="icomoon-ignore"></g><path d="M256 0c-139.374 0-252.729 111.381-255.924 249.987 2.96-120.932 94.916-217.987 207.924-217.987 114.875 0 208 100.288 208 224 0 26.51 21.49 48 48 48s48-21.49 48-48c0-141.385-114.615-256-256-256zM256 512c139.374 0 252.729-111.381 255.924-249.987-2.96 120.932-94.916 217.987-207.924 217.987-114.875 0-208-100.288-208-224 0-26.51-21.49-48-48-48s-48 21.49-48 48c0 141.385 114.615 256 256 256z"></path></svg>
 					<h3>Desarrollo a medida</h3>
-					<p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat.</p>
+					<p>Desarrollo según tus requerimientos, con un diseño creativo y <b>arquitectura de información según el tipo de usuario.</b></p>
 				</div>
 			</div>
 			<div class="small-12 medium-6 large-4 columns">
 				<div class="item-vent wow flipInY" data-wow-delay=".5s">
 					<svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 512 512"><g id="icomoon-ignore"></g><path d="M256 0c-139.374 0-252.729 111.381-255.924 249.987 2.96-120.932 94.916-217.987 207.924-217.987 114.875 0 208 100.288 208 224 0 26.51 21.49 48 48 48s48-21.49 48-48c0-141.385-114.615-256-256-256zM256 512c139.374 0 252.729-111.381 255.924-249.987-2.96 120.932-94.916 217.987-207.924 217.987-114.875 0-208-100.288-208-224 0-26.51-21.49-48-48-48s-48 21.49-48 48c0 141.385 114.615 256 256 256z"></path></svg>
-					<h3>Desarrollo UX</h3>
-					<p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat.</p>
+					<h3>Páginas administrables</h3>
+					<p>Todas nuestras páginas cuentan con un administrador de contenidos fácil de usar, para que <b>tu mismo administres la información.</b></p>
 				</div>
 			</div>
 			<div class="small-12 medium-6 large-4 columns">
 				<div class="item-vent wow flipInY" data-wow-delay=".5s">
 					<svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 512 512"><g id="icomoon-ignore"></g><path d="M256 0c-139.374 0-252.729 111.381-255.924 249.987 2.96-120.932 94.916-217.987 207.924-217.987 114.875 0 208 100.288 208 224 0 26.51 21.49 48 48 48s48-21.49 48-48c0-141.385-114.615-256-256-256zM256 512c139.374 0 252.729-111.381 255.924-249.987-2.96 120.932-94.916 217.987-207.924 217.987-114.875 0-208-100.288-208-224 0-26.51-21.49-48-48-48s-48 21.49-48 48c0 141.385 114.615 256 256 256z"></path></svg>
-					<h3>Desarrollo UX</h3>
-					<p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat.</p>
+					<h3>Optimizado para SEO</h3>
+					<p>Desarrollamos los códigos con estándares de calidad los cuales ayudan al <b>posicionamiento</b> de tu página en los buscadores.</p>
 				</div>
 			</div>
 			<div class="small-12 medium-6 large-4 columns">
 				<div class="item-vent wow flipInY" data-wow-delay=".5s">
 					<svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 512 512"><g id="icomoon-ignore"></g><path d="M256 0c-139.374 0-252.729 111.381-255.924 249.987 2.96-120.932 94.916-217.987 207.924-217.987 114.875 0 208 100.288 208 224 0 26.51 21.49 48 48 48s48-21.49 48-48c0-141.385-114.615-256-256-256zM256 512c139.374 0 252.729-111.381 255.924-249.987-2.96 120.932-94.916 217.987-207.924 217.987-114.875 0-208-100.288-208-224 0-26.51-21.49-48-48-48s-48 21.49-48 48c0 141.385 114.615 256 256 256z"></path></svg>
-					<h3>Desarrollo UX</h3>
-					<p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat.</p>
+					<h3>Versión responsive</h3>
+					<p>Tu página será <b>adaptable a dispositivos móviles</b>, es decir también podrá ser vista en tablets y celulares. </p>
 				</div>
 			</div>
 			<div class="small-12 medium-6 large-4 columns">
 				<div class="item-vent wow flipInY" data-wow-delay=".5s">
 					<svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 512 512"><g id="icomoon-ignore"></g><path d="M256 0c-139.374 0-252.729 111.381-255.924 249.987 2.96-120.932 94.916-217.987 207.924-217.987 114.875 0 208 100.288 208 224 0 26.51 21.49 48 48 48s48-21.49 48-48c0-141.385-114.615-256-256-256zM256 512c139.374 0 252.729-111.381 255.924-249.987-2.96 120.932-94.916 217.987-207.924 217.987-114.875 0-208-100.288-208-224 0-26.51-21.49-48-48-48s-48 21.49-48 48c0 141.385 114.615 256 256 256z"></path></svg>
-					<h3>Desarrollo UX</h3>
-					<p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat.</p>
+					<h3>Soporte por un año</h3>
+					<p>Te damos un año de <b>soporte gratuito</b>, a cualquier consulta o problema que tengas en cuanto al uso del administrador.</p>
 				</div>
 			</div>
 		</div>
@@ -223,6 +225,28 @@
 			</a>
 			<a href="#" data-path-hover="m 0,0 0,47.7775 c 24.580441,3.12569 55.897012,-8.199417 90,-8.199417 34.10299,0 65.41956,11.325107 90,8.199417 L 180,0 z">
 				<figure>
+					<img src="img/proy/zapatillastigre.jpg" />
+					<svg viewBox="0 0 180 320" preserveAspectRatio="none"><path d="m 0,0 0,171.14385 c 24.580441,15.47138 55.897012,24.75772 90,24.75772 34.10299,0 65.41956,-9.28634 90,-24.75772 L 180,0 0,0 z"/></svg>
+					<figcaption>
+						<h2>Zapatillas Tigre</h2>
+						<p>Desarrollo Web UX</p>
+						<button>Ver proyecto</button>
+					</figcaption>
+				</figure>
+			</a>
+			<a href="#" data-path-hover="m 0,0 0,47.7775 c 24.580441,3.12569 55.897012,-8.199417 90,-8.199417 34.10299,0 65.41956,11.325107 90,8.199417 L 180,0 z">
+				<figure>
+					<img src="img/proy/fottiva.jpg" />
+					<svg viewBox="0 0 180 320" preserveAspectRatio="none"><path d="m 0,0 0,171.14385 c 24.580441,15.47138 55.897012,24.75772 90,24.75772 34.10299,0 65.41956,-9.28634 90,-24.75772 L 180,0 0,0 z"/></svg>
+					<figcaption>
+						<h2>Fottiva</h2>
+						<p>Desarrollo de aplicación y desarrollo Web UX</p>
+						<button>Ver proyecto</button>
+					</figcaption>
+				</figure>
+			</a>
+			<a href="#" data-path-hover="m 0,0 0,47.7775 c 24.580441,3.12569 55.897012,-8.199417 90,-8.199417 34.10299,0 65.41956,11.325107 90,8.199417 L 180,0 z">
+				<figure>
 					<img src="img/proy/andestone.jpg" />
 					<svg viewBox="0 0 180 320" preserveAspectRatio="none"><path d="m 0,0 0,171.14385 c 24.580441,15.47138 55.897012,24.75772 90,24.75772 34.10299,0 65.41956,-9.28634 90,-24.75772 L 180,0 0,0 z"/></svg>
 					<figcaption>
@@ -234,18 +258,7 @@
 			</a>
 			<a href="#" data-path-hover="m 0,0 0,47.7775 c 24.580441,3.12569 55.897012,-8.199417 90,-8.199417 34.10299,0 65.41956,11.325107 90,8.199417 L 180,0 z">
 				<figure>
-					<img src="img/6.png" />
-					<svg viewBox="0 0 180 320" preserveAspectRatio="none"><path d="m 0,0 0,171.14385 c 24.580441,15.47138 55.897012,24.75772 90,24.75772 34.10299,0 65.41956,-9.28634 90,-24.75772 L 180,0 0,0 z"/></svg>
-					<figcaption>
-						<h2>Zapatillas Tigre</h2>
-						<p>Desarrollo Web UX</p>
-						<button>Ver proyecto</button>
-					</figcaption>
-				</figure>
-			</a>
-			<a href="#" data-path-hover="m 0,0 0,47.7775 c 24.580441,3.12569 55.897012,-8.199417 90,-8.199417 34.10299,0 65.41956,11.325107 90,8.199417 L 180,0 z">
-				<figure>
-					<img src="img/8.png" />
+					<img src="img/proy/gesym.jpg" />
 					<svg viewBox="0 0 180 320" preserveAspectRatio="none"><path d="m 0,0 0,171.14385 c 24.580441,15.47138 55.897012,24.75772 90,24.75772 34.10299,0 65.41956,-9.28634 90,-24.75772 L 180,0 0,0 z"/></svg>
 					<figcaption>
 						<h2>Contadores GESYM</h2>
@@ -256,7 +269,7 @@
 			</a>
 			<a href="#" data-path-hover="m 0,0 0,47.7775 c 24.580441,3.12569 55.897012,-8.199417 90,-8.199417 34.10299,0 65.41956,11.325107 90,8.199417 L 180,0 z">
 				<figure>
-					<img src="img/1.png" />
+					<img src="img/proy/huallamarca.jpg" />
 					<svg viewBox="0 0 180 320" preserveAspectRatio="none"><path d="m 0,0 0,171.14385 c 24.580441,15.47138 55.897012,24.75772 90,24.75772 34.10299,0 65.41956,-9.28634 90,-24.75772 L 180,0 0,0 z"/></svg>
 					<figcaption>
 						<h2>Edificio Huallamarca</h2>
@@ -267,7 +280,7 @@
 			</a>
 			<a href="#" data-path-hover="m 0,0 0,47.7775 c 24.580441,3.12569 55.897012,-8.199417 90,-8.199417 34.10299,0 65.41956,11.325107 90,8.199417 L 180,0 z">
 				<figure>
-					<img src="img/3.png" />
+					<img src="img/proy/sysel.jpg" />
 					<svg viewBox="0 0 180 320" preserveAspectRatio="none"><path d="m 0,0 0,171.14385 c 24.580441,15.47138 55.897012,24.75772 90,24.75772 34.10299,0 65.41956,-9.28634 90,-24.75772 L 180,0 0,0 z"/></svg>
 					<figcaption>
 						<h2>Sysel SAC</h2>
@@ -278,23 +291,12 @@
 			</a>
 			<a href="#" data-path-hover="m 0,0 0,47.7775 c 24.580441,3.12569 55.897012,-8.199417 90,-8.199417 34.10299,0 65.41956,11.325107 90,8.199417 L 180,0 z">
 				<figure>
-					<img src="img/5.png" />
+					<img src="img/proy/calzadosatlas.jpg" />
 					<svg viewBox="0 0 180 320" preserveAspectRatio="none"><path d="m 0,0 0,171.14385 c 24.580441,15.47138 55.897012,24.75772 90,24.75772 34.10299,0 65.41956,-9.28634 90,-24.75772 L 180,0 0,0 z"/></svg>
 					<figcaption>
-						<h2>Resonant</h2>
-						<p>Chickweed okra pea winter purslane.</p>
-						<button>View</button>
-					</figcaption>
-				</figure>
-			</a>
-			<a href="#" data-path-hover="m 0,0 0,47.7775 c 24.580441,3.12569 55.897012,-8.199417 90,-8.199417 34.10299,0 65.41956,11.325107 90,8.199417 L 180,0 z">
-				<figure>
-					<img src="img/7.png" />
-					<svg viewBox="0 0 180 320" preserveAspectRatio="none"><path d="m 0,0 0,171.14385 c 24.580441,15.47138 55.897012,24.75772 90,24.75772 34.10299,0 65.41956,-9.28634 90,-24.75772 L 180,0 0,0 z"/></svg>
-					<figcaption>
-						<h2>Zenith</h2>
-						<p>Salsify taro catsear garlic gram.</p>
-						<button>View</button>
+						<h2>Calzados Atlas</h2>
+						<p>Desarrollo Web UX</p>
+						<button>Ver proyecto</button>
 					</figcaption>
 				</figure>
 			</a>
@@ -321,6 +323,7 @@
 						<li>Lorem ipsum dolor sit amet.</li>
 						<li>Lorem ipsum dolor sit amet.</li>
 					</ul>
+					<a href="#consulta" class="bot-p bot-blanco" title="Cotiza ahora">Cotiza ahora</a>
 				</div>
 			</div>
 			<div class="small-12 medium-6 large-4 columns">
@@ -334,6 +337,7 @@
 						<li>Publicidad en Facebook.</li>
 						<li>Lorem ipsum dolor sit amet.</li>
 					</ul>
+					<a href="#consulta" class="bot-p bot-blanco" title="Cotiza ahora">Cotiza ahora</a>
 				</div>
 			</div>
 			<div class="small-12 medium-6 large-4 columns">
@@ -347,6 +351,7 @@
 						<li>Lorem ipsum dolor sit amet.</li>
 						<li>Lorem ipsum dolor sit amet.</li>
 					</ul>
+					<a href="#consulta" class="bot-p" title="Cotiza ahora">Cotiza ahora</a>
 				</div>
 			</div>
 		</div>

@@ -1244,7 +1244,7 @@ h2 {
   color: #444;
 }
 p {
-  font-size: 1.8em;
+  font-size: 1.7em;
   color: #333;
   letter-spacing: 0.02em;
 }
@@ -1465,7 +1465,7 @@ ul {
 .sec-imp p {
   color: #fff;
   text-align: justify;
-  margin-bottom: 0;
+  margin-bottom: 1em;
 }
 .sec-imp svg {
   width: 50%;
@@ -1475,7 +1475,15 @@ ul {
 }
 .item-desa {
   background: rgba(255, 255, 255, 0.2);
-  padding: 4em 3.5em;
+  padding: 4em 3.5em 11em 3.5em;
+  position: relative;
+}
+.item-desa a {
+  position: absolute;
+  bottom: 1.5em;
+  left: 0;
+  right: 0;
+  margin: 0 4em;
 }
 .pad-secc {
   padding-top: 8em;
@@ -1486,9 +1494,8 @@ ul {
 }
 .back-proy {
   background-image: url('../img/proy/backproy.png');
-  background-repeat: no-repeat;
   background-position: center;
-  background-color: #00D07C;
+  background-color: #5FCF80;
   background-attachment: fixed;
   position: relative;
   padding-bottom: 3em;
@@ -1511,6 +1518,7 @@ ul {
 .sec-tecn h3 {
   font-size: 1.5em;
   margin-top: 1em;
+  font-weight: 400;
 }
 .simform label {
   font-size: 1em;
@@ -1644,6 +1652,7 @@ ul {
   margin-top: 1.2em;
   margin-bottom: .5em;
   line-height: 1.1em;
+  font-weight: 600;
 }
 .cont-cost {
   padding-bottom: 14em;
