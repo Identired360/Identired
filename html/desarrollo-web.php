@@ -81,7 +81,7 @@
 <section class="row back-cel sec-imp">
 	<div class="col-container">
 		<div class="small-12 large-4 columns">
-			<div class="item-desa wow bounceInDown" data-wow-delay=".2s">
+			<div class="item-desa wow slideInUp" data-wow-delay=".1s">
 				<svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 512 512">
 					<g id="icomoon-ignore">
 					</g>
@@ -94,7 +94,7 @@
 			</div>
 		</div>
 		<div class="small-12 large-4 columns">
-			<div class="item-desa wow bounceInDown" data-wow-delay=".7s">
+			<div class="item-desa wow slideInUp" data-wow-delay=".4s">
 				<svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 512 512">
 					<g id="icomoon-ignore">
 					</g>
@@ -109,7 +109,7 @@
 			</div>
 		</div>
 		<div class="small-12 large-4 columns">
-			<div class="item-desa wow bounceInDown" data-wow-delay="1.2s">
+			<div class="item-desa wow slideInUp" data-wow-delay=".7s">
 			<svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 512 512">
 				<g id="icomoon-ignore">
 				</g>
@@ -131,44 +131,44 @@
 		<div class="titH2 wow slideInDown">
 			<h2><b>Ventajas</b> de nuestro desarrollo</h2>
 		</div>
-		<div class="cont-vent">
+		<div class="cont-vent wow fadeInLeft">
 			<div class="small-12 medium-6 large-4 columns">
-				<div class="item-vent wow flipInY" data-wow-delay=".5s">
+				<div class="item-vent" data-wow-delay=".5s">
 					<svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 512 512"><g id="icomoon-ignore"></g><path d="M256 0c-139.374 0-252.729 111.381-255.924 249.987 2.96-120.932 94.916-217.987 207.924-217.987 114.875 0 208 100.288 208 224 0 26.51 21.49 48 48 48s48-21.49 48-48c0-141.385-114.615-256-256-256zM256 512c139.374 0 252.729-111.381 255.924-249.987-2.96 120.932-94.916 217.987-207.924 217.987-114.875 0-208-100.288-208-224 0-26.51-21.49-48-48-48s-48 21.49-48 48c0 141.385 114.615 256 256 256z"></path></svg>
 					<h3>Diseño UX</h3>
 					<p>Desarrollo de la página de acuerdo al <b>público objetivo</b>, cumpliendo con los estándares de <b>usabilidad</b>.</p>
 				</div>
 			</div>
 			<div class="small-12 medium-6 large-4 columns">
-				<div class="item-vent wow flipInY" data-wow-delay=".5s">
+				<div class="item-vent" data-wow-delay=".5s">
 					<svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 512 512"><g id="icomoon-ignore"></g><path d="M256 0c-139.374 0-252.729 111.381-255.924 249.987 2.96-120.932 94.916-217.987 207.924-217.987 114.875 0 208 100.288 208 224 0 26.51 21.49 48 48 48s48-21.49 48-48c0-141.385-114.615-256-256-256zM256 512c139.374 0 252.729-111.381 255.924-249.987-2.96 120.932-94.916 217.987-207.924 217.987-114.875 0-208-100.288-208-224 0-26.51-21.49-48-48-48s-48 21.49-48 48c0 141.385 114.615 256 256 256z"></path></svg>
 					<h3>Desarrollo a medida</h3>
 					<p>Desarrollo según tus requerimientos, con un diseño creativo y <b>arquitectura de información según el tipo de usuario.</b></p>
 				</div>
 			</div>
 			<div class="small-12 medium-6 large-4 columns">
-				<div class="item-vent wow flipInY" data-wow-delay=".5s">
+				<div class="item-vent" data-wow-delay=".5s">
 					<svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 512 512"><g id="icomoon-ignore"></g><path d="M256 0c-139.374 0-252.729 111.381-255.924 249.987 2.96-120.932 94.916-217.987 207.924-217.987 114.875 0 208 100.288 208 224 0 26.51 21.49 48 48 48s48-21.49 48-48c0-141.385-114.615-256-256-256zM256 512c139.374 0 252.729-111.381 255.924-249.987-2.96 120.932-94.916 217.987-207.924 217.987-114.875 0-208-100.288-208-224 0-26.51-21.49-48-48-48s-48 21.49-48 48c0 141.385 114.615 256 256 256z"></path></svg>
 					<h3>Páginas administrables</h3>
 					<p>Todas nuestras páginas cuentan con un administrador de contenidos fácil de usar, para que <b>tu mismo administres la información.</b></p>
 				</div>
 			</div>
 			<div class="small-12 medium-6 large-4 columns">
-				<div class="item-vent wow flipInY" data-wow-delay=".5s">
+				<div class="item-vent" data-wow-delay=".5s">
 					<svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 512 512"><g id="icomoon-ignore"></g><path d="M256 0c-139.374 0-252.729 111.381-255.924 249.987 2.96-120.932 94.916-217.987 207.924-217.987 114.875 0 208 100.288 208 224 0 26.51 21.49 48 48 48s48-21.49 48-48c0-141.385-114.615-256-256-256zM256 512c139.374 0 252.729-111.381 255.924-249.987-2.96 120.932-94.916 217.987-207.924 217.987-114.875 0-208-100.288-208-224 0-26.51-21.49-48-48-48s-48 21.49-48 48c0 141.385 114.615 256 256 256z"></path></svg>
 					<h3>Optimizado para SEO</h3>
 					<p>Desarrollamos los códigos con estándares de calidad los cuales ayudan al <b>posicionamiento</b> de tu página en los buscadores.</p>
 				</div>
 			</div>
 			<div class="small-12 medium-6 large-4 columns">
-				<div class="item-vent wow flipInY" data-wow-delay=".5s">
+				<div class="item-vent" data-wow-delay=".5s">
 					<svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 512 512"><g id="icomoon-ignore"></g><path d="M256 0c-139.374 0-252.729 111.381-255.924 249.987 2.96-120.932 94.916-217.987 207.924-217.987 114.875 0 208 100.288 208 224 0 26.51 21.49 48 48 48s48-21.49 48-48c0-141.385-114.615-256-256-256zM256 512c139.374 0 252.729-111.381 255.924-249.987-2.96 120.932-94.916 217.987-207.924 217.987-114.875 0-208-100.288-208-224 0-26.51-21.49-48-48-48s-48 21.49-48 48c0 141.385 114.615 256 256 256z"></path></svg>
 					<h3>Versión responsive</h3>
 					<p>Tu página será <b>adaptable a dispositivos móviles</b>, es decir también podrá ser vista en tablets y celulares. </p>
 				</div>
 			</div>
 			<div class="small-12 medium-6 large-4 columns">
-				<div class="item-vent wow flipInY" data-wow-delay=".5s">
+				<div class="item-vent" data-wow-delay=".5s">
 					<svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 512 512"><g id="icomoon-ignore"></g><path d="M256 0c-139.374 0-252.729 111.381-255.924 249.987 2.96-120.932 94.916-217.987 207.924-217.987 114.875 0 208 100.288 208 224 0 26.51 21.49 48 48 48s48-21.49 48-48c0-141.385-114.615-256-256-256zM256 512c139.374 0 252.729-111.381 255.924-249.987-2.96 120.932-94.916 217.987-207.924 217.987-114.875 0-208-100.288-208-224 0-26.51-21.49-48-48-48s-48 21.49-48 48c0 141.385 114.615 256 256 256z"></path></svg>
 					<h3>Soporte por un año</h3>
 					<p>Te damos un año de <b>soporte gratuito</b>, a cualquier consulta o problema que tengas en cuanto al uso del administrador.</p>
