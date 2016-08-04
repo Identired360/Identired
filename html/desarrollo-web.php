@@ -371,7 +371,7 @@
 		<div class="titH2 wow slideInDown">
 			<h2><b>Solicita</b> información</h2>
 		</div>
-		<div class="cont-comunic wow lightSpeedIn">
+		<div class="cont-comunic wow fadeInRight">
 			<p>Envíanos un watsapp para consultas o agendar una reunión sin ningún compromiso.</p>
 			<a href="tel: 987 204 172"><i class="fa fa-whatsapp" aria-hidden="true"></i> 987 204 172</a>
 		</div>
@@ -380,10 +380,10 @@
 </section>
 <section class="row backblue2 cont-formul">
 	<div class="col-container">
-		<div class="simform wow fadeInUp" data-wow-delay=".3s">
+		<div class="simform wow fadeInLeft" data-wow-delay=".3s">
 			<div class="tit-form">
 				<h2>También puedes escribirnos</h2>
-				<p>Envíanos tu consulta y te enviaremos la respuesta lo más pronto posible</p>
+				<p>Envíanos tu consulta y te enviaremos una respuesta lo más pronto posible</p>
 			</div>
 			<form id="formWeb">
 				<div class="card">

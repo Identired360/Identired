@@ -203,6 +203,28 @@ $(window).scroll(function(){
 
 });
 
+/*Para validar formulario*/
+  /*Para formulerio*/ 
+  
+  $('input, textarea').on('focus', function() {
+  $(this).parent().addClass('focus');
+});
+
+$('input, textarea').on('blur', function(event) {
+  if (event.target.value.length > 0) {
+    $(this).parent().addClass('active');
+  } else {
+    $(this).parent().removeClass('active');
+  }
+
+  $(this).parent().removeClass('focus');
+});
+
+$('textarea').on('keyup', function() {
+  $(this).css('height', 'auto');
+  $(this).css('height', $(this)[0].scrollHeight+'px');
+});
+
 
 
 
