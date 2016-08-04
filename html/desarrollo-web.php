@@ -316,42 +316,48 @@
 				<div class="item-paq wow zoomIn" data-wow-delay=".5s">
 					<h3>Opción 1</h3>
 					<h2>Según tu presupuesto</h2>
-					<p>Ajustado según tu presupuesto, hacemos el desarrollo escalable. </p>
+					<p>Ajustado <b>según tu presupuesto,</b> hacemos el desarrollo escalable, es decir preparamos el <b>desarrollo por módulos</b>, el pago es según lo avanzado.</p>
+					<p>Incluye:</p>
 					<ul>
-						<li>Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet.</li>
-						<li>Lorem ipsum dolor sit amet.</li>
-						<li>Lorem ipsum dolor sit amet.</li>
-						<li>Lorem ipsum dolor sit amet.</li>
+						<li>Análisis y diseño según tus requerimientos.</li>
+						<li>Primera etapa: desarrollo del home con formulario de contacto.</li>
+						<li>Creación de Fanpage en Facebook GRATIS. </li>
+						<li>Dominio y hosting gratuito por un año.</li>
+						<li>Reporte mensual de Google Analytics.</li>
 					</ul>
-					<a href="#consulta" class="bot-p bot-blanco" title="Cotiza ahora">Cotiza ahora</a>
+					<a href="#consulta" class="bot-p bot-blanco" title="Empieza ahora">Empieza ahora</a>
 				</div>
 			</div>
 			<div class="small-12 medium-6 large-4 columns">
 				<div class="item-paq wow zoomIn" data-wow-delay="1s">
 					<h3>Opción 2</h3>
 					<h2>Página vendedora</h2>
-					<p>Este paquete incluye desarrollo y publicidad.</p>
+					<p>Desarrollada con el objetivo de <b>promocionar y hacer conocido tus productos o servicios</b>. Te brindamos asesoría para una campaña exitosa, de esta manera conseguir más clientes.</p>
+					<p>Incluye:</p>
 					<ul>
-						<li>Desarrollo de Landinpage.</li>
-						<li>Creación de fanpage en Facebook.</li>
-						<li>Publicidad en Facebook.</li>
-						<li>Lorem ipsum dolor sit amet.</li>
+						<li>Análisis y diseño según tus requerimientos.</li>
+						<li>Desarrollo de Landing Page.</li>
+						<li>Creación de Fanpage en Facebook.</li>
+						<li>Campaña de publicidad en Facebook.</li>
+						<li>Dominio y Hosting gratuito por un año.</li>
+						<li>Reporte mensual de Google Analytics.</li>
 					</ul>
-					<a href="#consulta" class="bot-p bot-blanco" title="Cotiza ahora">Cotiza ahora</a>
+					<a href="#consulta" class="bot-p bot-blanco" title="Empieza ahora">Empieza ahora</a>
 				</div>
 			</div>
 			<div class="small-12 medium-6 large-4 columns">
 				<div class="item-paq wow zoomIn" data-wow-delay="1.5s">
 					<h3>Opción 3</h3>
-					<h2>Desarrollo a medida</h2>
-					<p>Cotizamos el presupuesto según tus necesidades.</p>
+					<h2>Según tus requerimientos</h2>
+					<p>Para este tipo de desarrollo, es necesario <b>conocer tus requerimientos</b> para cumplir tus objetivos, si es posible agendar una <b>reunión sin ningún compromiso</b>, de esta manera poder  asesorarte y hacer una cotización exacta para lograr un proyecto exitoso.</p>
+					<p>Incluye:</p>
 					<ul>
-						<li>Lorem ipsum dolor sit amet.</li>
-						<li>Lorem ipsum dolor sit amet.</li>
-						<li>Lorem ipsum dolor sit amet.</li>
-						<li>Lorem ipsum dolor sit amet.</li>
+						<li>Análisis, diseño y desarrollo según tus requerimientos.</li>
+						<li>Creación de Fanpage en Facebook GRATIS.</li>
+						<li>Dominio y hosting gratuito por un año.</li>
+						<li>Reporte mensual de Google Analytics.</li>
 					</ul>
-					<a href="#consulta" class="bot-p" title="Cotiza ahora">Cotiza ahora</a>
+					<a href="#consulta" class="bot-p bot-blanco" title="Empieza ahora">Empieza ahora</a>
 				</div>
 			</div>
 		</div>
@@ -404,48 +410,11 @@
 		            </div>  
 				</div>			
 			</form>			
-            
-            <!--form id="formWeb">
-                <div class="group input-field">      
-                  <input type="text" required>
-                  <label>Tu nombre</label>
-                </div>
-                <div class="group input-field">      
-                  <input type="email" required>
-                  <label>Tu correo</label>
-                </div>
-                <div class="but-input sub-news">
-                  <input type="submit" class="bot-p bot-blanco" value="Suscribirme">
-                </div>
-            </form-->
-            <!--form class="awesome-form form-consulta">
-                <div class="input-group">
-                  <input type="text">
-                  <label>Tu nombre y apellido</label>
-                </div>
-                <div class="input-group">
-                  <input type="email">
-                  <label>Tu correo electrónico</label>
-                </div>
-                <div class="input-group">
-                  <input type="email">
-                  <label>Tu teléfono</label>
-                </div>
-                <div class="input-group">
-                  <textarea></textarea>
-                  <label>Tu consulta</label>
-                </div>
-                	<div class="cont-submit">
-		                <div class="but-input sub-news">
-		                    <input type="submit" class="bot-p bot-blanco" value="Enviar mi consulta">
-		                </div>
-		            </div>    
-            </form-->
 		</div>		
 	</div>
 </section>
 
-<?php include('footer-index.html') ?>
+<?php include('footer.html') ?>
 
 <script src="js/snap.svg-min.js"></script>
 <!--script src="js/classie.js"></script-->

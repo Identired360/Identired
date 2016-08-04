@@ -202,6 +202,10 @@ textarea{
   color: #fff;
   font-size: 1.5em;
 }
+.input-wrapper input.error,
+.input-wrapper textarea.error{
+  border-bottom: solid 1px #e86262;
+}
 .input-wrapper:after {
   content: '';
   display: block;
@@ -234,7 +238,7 @@ textarea{
 .input-wrapper.active label {
   font-size: 1.3em;
   transform: translateY(-25px);
-  color: #ccc;
+  color: @celeste;
 }
 .input-wrapper.active label.error, .input-wrapper label.error {
     font-size: 1.3em;

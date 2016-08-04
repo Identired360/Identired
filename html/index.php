@@ -241,7 +241,7 @@
     </ul>
 </section>
 
-<?php include('footer-index.html') ?>
+<?php include('footer.html') ?>
 
 
 <script src="js/slick.min.js"></script>
