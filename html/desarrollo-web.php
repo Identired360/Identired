@@ -377,42 +377,42 @@
         </div>
 </section>
 <section class="row backblue2 cont-formul">
-	<div class="col-container">
-		<div class="simform wow fadeInLeft" data-wow-delay=".3s">
-			<div class="tit-form">
-				<h2>También puedes escribirnos</h2>
-				<p>Envíanos tu consulta y te enviaremos una respuesta lo más pronto posible</p>
-			</div>
-			<form id="formWeb">
-				<div class="card">
-					<div class="input-wrapper">
-						<input type="text" id="nombre" name="nombre" required>
-						<label>Nombre y Apellido</label>
-					</div>
-					<div class="input-wrapper">
-						<input type="email" id="correo" name="correo" required>
-						<label>Correo electrónico</label>
-					</div>
-					<div class="input-wrapper">
-						<input type="tel" id="telefono" name="telefono" required>
-						<label>Teléfono</label>
-					</div>
-					<div class="input-wrapper textcont">
-						<textarea required></textarea>
-						<label>Mensaje</label>
-					</div>
+    <div class="col-container">
+        <div class="simform wow fadeInLeft" data-wow-delay=".3s">
+            <div class="tit-form">
+                <h2>También puedes escribirnos</h2>
+                <p>Envíanos tu consulta y te enviaremos una respuesta lo más pronto posible</p>
+            </div>
+            <form id="formWeb" action="../php/register.php" method="post">
+                <div class="card">
+                    <div class="input-wrapper">
+                        <input type="text" id="nombre" name="name" required>
+                            <label>Nombre y Apellido</label>
+                    </div>
+                    <div class="input-wrapper">
+                        <input type="email" id="correo" name="email" required>
+                            <label>Correo electrónico</label>
+                    </div>
+                    <div class="input-wrapper">
+                        <input type="tel" id="telefono" name="phone" required>
+                            <label>Teléfono</label>
+                    </div>
+                    <div class="input-wrapper textcont">
+                        <textarea name="msg" required></textarea>
+                        <label>Mensaje</label>
+                    </div>
                     <div class="cont-check">
                         <input type="checkbox" id="test5"> <label for="test5">Deseo recibir novedades en mi correo.</label>  
                     </div>  
-					<div class="cont-submit">
-		                <div class="but-input sub-news">
-		                    <input type="submit" class="bot-p bot-blanco" value="Enviar mi consulta">
-		                </div>
-		            </div>  
-				</div>			
-			</form>			
-		</div>		
-	</div>
+                    <div class="cont-submit">
+                        <div class="but-input sub-news">
+                            <input type="submit" class="bot-p bot-blanco" value="Enviar mi consulta">
+                        </div>
+                    </div>  
+                </div>			
+            </form>			
+        </div>		
+    </div>
 </section>
 
 <?php include('footer.html') ?>
