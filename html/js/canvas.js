@@ -19,6 +19,30 @@ var S = {
     }
 };
 
+var Skip = {
+    init: function () {
+        var action = window.location.href,
+                i = action.indexOf('?a=');
+
+//        S.Drawing.init('.canvas');
+//        document.body.classList.add('body--ready');
+//
+//        if (i !== -1) {
+//            S.UI.simulate(decodeURI(action).substring(i + 3));
+//        } else {
+//            //S.UI.simulate('Lisbeth|Shifter|Type|to start|#rectangle|#countdown 3||');
+//            S.UI.simulate('#countdown 3||');
+//        }
+//
+//        S.Drawing.loop(function () {
+//            S.Shape.render();
+//        });
+        
+        S.Drawing.init('.canvas');
+        S.Shape.render();
+    }
+};
+
 
 S.Drawing = (function () {
     var canvas,
@@ -690,8 +714,7 @@ S.Shape = (function () {
 
 
 var showCounter = Cookies.get('showCounter');
-if (showCounter) {
+if (showCounter != 'false') {
     S.init();
-} else {
     Cookies.set('showCounter', 'false', {expires: 1});
 }

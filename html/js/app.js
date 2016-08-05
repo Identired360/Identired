@@ -1,33 +1,43 @@
 $(document).foundation()
 
 /*Animations*/
-  setTimeout("viewHome()",3000);
-  function viewHome(){
-       $('#menu_button').addClass('fadeInLeft');
-       $('.has-tip').addClass('fadeInDown');
-  }
-  setTimeout("viewH1()",6000);
-  function viewH1(){
-       $('.title-home h1').addClass('fadeInDown');
-  }
-  setTimeout("viewHp()",7700);
-  function viewHp(){
-       $('.title-home p').addClass('bounceIn');
-  }
-  
-  setTimeout("viewHc()",8200);
-  function viewHc(){
-       $('.cont-linksh').addClass('slideInUp');
-  }
- 
 
-$(document).ready(function() {
+function viewHome() {
+    $('#menu_button').addClass('fadeInLeft');
+    $('.has-tip').addClass('fadeInDown');
+}
 
- new WOW().init(); 
+function viewH1() {
+    $('.title-home h1').addClass('fadeInDown');
+}
+
+function viewHp() {
+    $('.title-home p').addClass('bounceIn');
+}
+
+function viewHc() {
+    $('.cont-linksh').addClass('slideInUp');
+}
+var showCounter = Cookies.get('showCounter');
+if (showCounter != 'false') {
+    setTimeout("viewHome()", 3000);
+    setTimeout("viewH1()", 6000);
+    setTimeout("viewHp()", 7700);
+    setTimeout("viewHc()", 8200);
+} else {
+    viewHome();
+    viewH1();
+    viewHp();
+    viewHc();
+}
+
+$(document).ready(function () {
+
+    new WOW().init();
 
 
 
-/*Menu*/
+    /*Menu*/
     var overlayTimer = null;
 
     function closeMenu()
@@ -43,48 +53,48 @@ $(document).ready(function() {
         $('#menu_button').removeClass('open');
 
         $('#overlay').css('opacity', 0);
-/*
-        overlayTimer = setTimeout(function()
-        {
-            $('#overlay').css('display', 'none');
-            overlayTimer = null;
-
-        }, 0.33 * 1000);*/
+        /*
+         overlayTimer = setTimeout(function()
+         {
+         $('#overlay').css('display', 'none');
+         overlayTimer = null;
+         
+         }, 0.33 * 1000);*/
     }
 
     $('#overlay').on('click', closeMenu);
 
 
-    $('#menu_button').click(function(e) {
+    $('#menu_button').click(function (e) {
 
         //$('body').toggleClass('menu-shown');
 
         $(this).toggleClass('open');
 
-      /*  var isShown = $('body').hasClass('menu-shown');
-
-        if (overlayTimer != null) 
-        {
-            clearTimeout(overlayTimer);
-            overlayTimer = null;
-        }
-
-        if (isShown)
-        {
- 
-            $('#overlay').css('display', 'block');
-            overlayTimer = setTimeout(function() 
-            {
-                $('#overlay').css('opacity', 1);
-                overlayTimer = null;
-
-            }, 1);
-        }
-        else 
-        {
-            closeMenu();
-
-        }*/
+        /*  var isShown = $('body').hasClass('menu-shown');
+         
+         if (overlayTimer != null) 
+         {
+         clearTimeout(overlayTimer);
+         overlayTimer = null;
+         }
+         
+         if (isShown)
+         {
+         
+         $('#overlay').css('display', 'block');
+         overlayTimer = setTimeout(function() 
+         {
+         $('#overlay').css('opacity', 1);
+         overlayTimer = null;
+         
+         }, 1);
+         }
+         else 
+         {
+         closeMenu();
+         
+         }*/
 
     });
 
@@ -93,72 +103,79 @@ $(document).ready(function() {
 
 /*Slide toggle*/
 
-$( "#top-view" ).click(function() {
-  $( ".top-bar-head" ).slideToggle( "fast", function() {
-    $(".has-tip svg").slideToggle('fast');
-    $(".i-iconn").slideToggle('fast');    // Animation complete.
-  });
+$("#top-view").click(function () {
+    $(".top-bar-head").slideToggle("fast", function () {
+        $(".has-tip svg").slideToggle('fast');
+        $(".i-iconn").slideToggle('fast');    // Animation complete.
+    });
 });
 
 /*Para form largo*/
 
-$(function(){
-  
-  $('.awesome-form .input-group input').focusout(function(){
-    
-    var text_val = $(this).val();
-    
-    if(text_val === "") {
-      
-      $(this).removeClass('has-value');
-      
-    } else {
-      
-      $(this).addClass('has-value');
-      
-    }
-    
-  });
-  $('.awesome-form .input-group textarea').focusout(function(){
-    
-    var text_val = $(this).val();
-    
-    if(text_val === "") {
-      
-      $(this).removeClass('has-value');
-      
-    } else {
-      
-      $(this).addClass('has-value');
-      
-    }
-    
-  });
-  
-});
+$(function () {
 
-    /*Typed*/
-   $(function(){
-        $("#typed").typed({
-            // strings: ["Typed.js is a <strong>jQuery</strong> plugin.", "It <em>types</em> out sentences.", "And then deletes them.", "Try it out!"],
-            stringsElement: $('#typed-strings'),
-            typeSpeed: 80,
-            backDelay: 500,
-            loop: true,
-            contentType: 'html', // or text
-            // defaults to false for infinite loop
-            loopCount: false,
-            callback: function(){ foo(); },
-            resetCallback: function() { newTyped(); }
-        });
-        $(".reset").click(function(){
-            $("#typed").typed('reset');
-        });
+    $('.awesome-form .input-group input').focusout(function () {
+
+        var text_val = $(this).val();
+
+        if (text_val === "") {
+
+            $(this).removeClass('has-value');
+
+        } else {
+
+            $(this).addClass('has-value');
+
+        }
+
+    });
+    $('.awesome-form .input-group textarea').focusout(function () {
+
+        var text_val = $(this).val();
+
+        if (text_val === "") {
+
+            $(this).removeClass('has-value');
+
+        } else {
+
+            $(this).addClass('has-value');
+
+        }
+
     });
 
-    function newTyped(){ /* A new typed object */ };
-    function foo(){ console.log("Callback");
-    }
+});
+
+/*Typed*/
+$(function () {
+    $("#typed").typed({
+        // strings: ["Typed.js is a <strong>jQuery</strong> plugin.", "It <em>types</em> out sentences.", "And then deletes them.", "Try it out!"],
+        stringsElement: $('#typed-strings'),
+        typeSpeed: 80,
+        backDelay: 500,
+        loop: true,
+        contentType: 'html', // or text
+        // defaults to false for infinite loop
+        loopCount: false,
+        callback: function () {
+            foo();
+        },
+        resetCallback: function () {
+            newTyped();
+        }
+    });
+    $(".reset").click(function () {
+        $("#typed").typed('reset');
+    });
+});
+
+function newTyped() { /* A new typed object */
+}
+;
+function foo() {
+    console.log("Callback");
+}
 
 /*Equal height*/
 equalheight = function (container) {
@@ -193,13 +210,13 @@ equalheight = function (container) {
 }
 
 //-------------- [ MenuTop ] --------------//
-$(window).scroll(function(){
+$(window).scroll(function () {
 
-  if ( $(this).scrollTop() > 0 ){
-    $('.head').addClass('head-fix');
-  } else {
-    $('.head').removeClass('head-fix');
-  }
+    if ($(this).scrollTop() > 0) {
+        $('.head').addClass('head-fix');
+    } else {
+        $('.head').removeClass('head-fix');
+    }
 
 });
 
