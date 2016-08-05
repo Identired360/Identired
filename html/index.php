@@ -220,7 +220,7 @@
                     <div class="ch-info">
                         <div class="ch-info-front ch-img-3"><h3>Cliente parte del equipo</h3></div>
                         <div class="ch-info-back">
-                            <p>Para cumplir con eficacia sus requerimientos.</p>
+                            <p>Para cumplir con eficacia tus requerimientos.</p>
                         </div>
                     </div>
                 </div>
@@ -230,7 +230,7 @@
             <div class="ch-item ch-img-5">
                 <div class="ch-info-wrap">
                     <div class="ch-info">
-                        <div class="ch-info-front ch-img-3"><h3>Nuestro éxito es su éxito</h3></div>
+                        <div class="ch-info-front ch-img-3"><h3>Nuestro éxito es tu éxito</h3></div>
                         <div class="ch-info-back">
                             <p>Clientes satisfechos son nuestra mejor publicidad.</p>
                         </div>

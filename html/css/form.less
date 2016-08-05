@@ -325,9 +325,10 @@ textarea{
     text-transform: inherit;
     a{
       color: #fff;
+      border-bottom: 2px solid #5cc4e6; 
 
       &:hover{
-        text-decoration: underline;
+      border-bottom: 2px solid #fff; 
       }
     }
   }
@@ -393,51 +394,4 @@ input[type="checkbox"] {
 }
 
 
-[type="checkbox"]+label.labchec:before {
-  content: '';
-  position: absolute;
-  top: .2em;
-  left: 0;
-  width: 1.1em;
-  height: 1.1em;
-  z-index: 0;
-  border: 1px solid #fff;
-  background: #fff;
-  -webkit-border-radius: 1px;
-  border-radius: 1px;
-  margin-top: 2px;
-  -webkit-transition: 0.2s;
-  -moz-transition: 0.2s;
-  -ms-transition: 0.2s;
-  -o-transition: 0.2s;
-  transition: 0.2s;
-  cursor: pointer;
-}
-[type="checkbox"]:checked+label.labchec:before {
-  top: -2px;
-  left: -1px;
-  width: 10px;
-  height: 19px;
-  border-top: 2px solid transparent;
-  border-left: 2px solid transparent;
-  border-right: 2px solid #fff;
-  border-bottom: 2px solid #fff;
-  -webkit-transform: rotate(40deg);
-  -webkit-transform: rotate(40deg);
-  -moz-transform: rotate(40deg);
-  -ms-transform: rotate(40deg);
-  -o-transform: rotate(40deg);
-  transform: rotate(40deg);
-  -webkit-backface-visibility: hidden;
-  -webkit-backface-visibility: hidden;
-  -moz-backface-visibility: hidden;
-  -ms-backface-visibility: hidden;
-  backface-visibility: hidden;
-  -webkit-transform-origin: 100% 100%;
-  -webkit-transform-origin: 100% 100%;
-  -moz-transform-origin: 100% 100%;
-  -ms-transform-origin: 100% 100%;
-  -o-transform-origin: 100% 100%;
-  transform-origin: 100% 100%;
-  background: transparent;
-}
+
