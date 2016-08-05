@@ -367,6 +367,7 @@
 </section>
 
 <section id="consulta" class="row backblue sec-info">
+<<<<<<< HEAD
     <div class="col-container">
         <div class="titH2 wow slideInDown">
             <h2><b>Solicita</b> información</h2>
@@ -375,10 +376,21 @@
             <p>Envíanos un watsapp para consultas o agendar una reunión sin ningún compromiso.</p>
             <a href="tel: 987 204 172"><i class="fa fa-whatsapp" aria-hidden="true"></i> 987 204 172</a>
         </div>
+=======
+	<div class="col-container">
+		<div class="titH2 wow slideInDown">
+			<h2><b>Solicita</b> información</h2>
+		</div>
+		<div class="cont-comunic wow fadeInRight">
+			<p>Envíanos un watsapp para consultas o agendar una reunión sin ningún compromiso.</p>
+			<a href="tel: 987 204 172"><i class="fa fa-whatsapp" aria-hidden="true"></i> 987 204 172</a>
+		</div>
+>>>>>>> origin/master
 
     </div>
 </section>
 <section class="row backblue2 cont-formul">
+<<<<<<< HEAD
     <div class="col-container">
         <div class="simform wow fadeInUp" data-wow-delay=".3s">
             <div class="tit-form">
@@ -412,6 +424,41 @@
             </form>			
         </div>		
     </div>
+=======
+	<div class="col-container">
+		<div class="simform wow fadeInLeft" data-wow-delay=".3s">
+			<div class="tit-form">
+				<h2>También puedes escribirnos</h2>
+				<p>Envíanos tu consulta y te enviaremos una respuesta lo más pronto posible</p>
+			</div>
+			<form id="formWeb">
+				<div class="card">
+					<div class="input-wrapper">
+						<input type="text" id="nombre" name="nombre" required>
+						<label>Nombre y Apellido</label>
+					</div>
+					<div class="input-wrapper">
+						<input type="email" id="correo" name="correo" required>
+						<label>Correo electrónico</label>
+					</div>
+					<div class="input-wrapper">
+						<input type="tel" id="telefono" name="telefono" required>
+						<label>Teléfono</label>
+					</div>
+					<div class="input-wrapper textcont">
+						<textarea required></textarea>
+						<label>Mensaje</label>
+					</div>
+					<div class="cont-submit">
+		                <div class="but-input sub-news">
+		                    <input type="submit" class="bot-p bot-blanco" value="Enviar mi consulta">
+		                </div>
+		            </div>  
+				</div>			
+			</form>			
+		</div>		
+	</div>
+>>>>>>> origin/master
 </section>
 
 <?php include('footer.html') ?>

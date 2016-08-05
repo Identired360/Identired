@@ -8,6 +8,8 @@
                 <li><a href="#" title="Fottiva"><img src="img/logo_fotiva.jpg" title="Fottiva"></a></li>
                 <li><a href="#" title="Beprime"><img src="img/logo_beprime.png" title="Beprime"></a></li>
                 <li><a href="#" title="Zapatillas Lynx"><img src="img/logo-lynx.png" title="Zapatillas Lynx"></a></li>
+                <li><a href="#" title="Sysel"><img src="img/logos/sysel.jpg" title="Sysel"></a></li>
+                <li><a href="#" title="Huallamarca"><img src="img/logos/huallamarca.jpg" title="Huallamarca"></a></li>
               </ul>
           </div>    
       </div>
@@ -18,7 +20,7 @@
     <div class="col-container">
       <div class="small-12 medium-4 columns form-sus">
           <h3>Suscríbete</h3>
-         <p>Para recibir nuestras novedades</p>
+         <p>Para recibir nuestras novedades.</p>
          <div class="form-csus">
             <form id="formReg">
               <div class="card">
@@ -35,34 +37,6 @@
                 </div>
               </div>      
             </form>          
-            <!--form id="formReg">
-                <div class="group input-field">      
-                  <input type="text" id="nombre" name="nombre" required>
-                  <label>Tu nombre</label>
-                </div>
-                <div class="group input-field">      
-                  <input type="email" id="correo" name="correo" required>
-                  <label>Tu correo</label>
-                </div>
-                <div class="but-input sub-news">
-                  <input type="submit" class="bot-p bot-blanco" value="Suscribirme">
-                </div>
-            </form-->
-
-
-            <!--form class="awesome-form"  method="get" action="">
-                <div class="input-group">
-                  <input type="text" id="nombre" name="nombre" required>
-                  <label for="nombre">Tu nombre</label>
-                </div>
-                <div class="input-group">
-                  <input type="email" id="correo" name="correo" required>
-                  <label for="correo">Tu correo</label>
-                </div>
-                <div class="but-input sub-news">
-                    <input type="submit" class="bot-p bot-blanco" value="Suscribirme">
-                </div>
-            </form-->
           </div>  
 
 
@@ -115,96 +89,19 @@
 
 <script type="text/javascript">
 
-     $(document).ready(function(){
-        $("#formWeb").validate({
-            /* invalidHandler: function(){
-               $('input.error').closest('.input-field').find('label.active').addClass('rojo');
-               $('input.error').closest('.input-field').find('input').addClass('error');
-               $('input.error').closest('.input-field').find('i').addClass('rojo');
-             },
-             unhighlight: function(element){
-                 $(element).closest('.input-field').find('label.active').removeClass('rojo');
-                 $(element).closest('.input-field').find('input').removeClass('error');
-                 $(element).closest('.input-field').find('i').removeClass('rojo');
-               },
-             highlight: function(element){
-                 $(element).closest('.input-field').find('label.active').addClass('rojo');
-                 $(element).closest('.input-field').find('input').addClass('error');
-                 $(element).closest('.input-field').find('i').addClass('rojo');
-             },*/
-        });
-    });
-/*
-    $().ready(function() {
-        $("#formReg").validate({
-            rules: {
-                firstname: "required",
-                lastname: "required",
-                username: {
-                    required: true,
-                    minlength: 2
-                },
-                password: {
-                    required: true,
-                    minlength: 5
-                },
-                confirm_password: {
-                    required: true,
-                    minlength: 5,
-                    equalTo: "#password"
-                },
-                email: {
-                    required: true,
-                    email: true
-                },
-                topic: {
-                    required: "#newsletter:checked",
-                    minlength: 2
-                },
-                agree: "required"
+$(function(){
+    $('#formWeb').validate({
+        rules :{
+                            
+            telefono : {
+                required : true,
+                digits: true
             },
-            messages: {
-                firstname: "Please enter your firstname",
-                lastname: "Please enter your lastname",
-                username: {
-                    required: "Please enter a username",
-                    minlength: "Your username must consist of at least 2 characters"
-                },
-                password: {
-                    required: "Please provide a password",
-                    minlength: "Your password must be at least 5 characters long"
-                },
-                confirm_password: {
-                    required: "Please provide a password",
-                    minlength: "Your password must be at least 5 characters long",
-                    equalTo: "Please enter the same password as above"
-                },
-                email: "Please enter a valid email address",
-                agree: "Please accept our policy",
-                topic: "Please select at least 2 topics"
-            }
-        });        
-    });    */
-
-  /*Para formulerio*/
-  $('input, textarea').on('focus', function() {
-  $(this).parent().addClass('focus');
+        },
+   }); 
+   $('#formReg').validate();   
 });
 
-$('input, textarea').on('blur', function(event) {
-  if (event.target.value.length > 0) {
-    $(this).parent().addClass('active');
-  } else {
-    $(this).parent().removeClass('active');
-  }
-
-  $(this).parent().removeClass('focus');
-});
-
-$('textarea').on('keyup', function() {
-  $(this).css('height', 'auto');
-  $(this).css('height', $(this)[0].scrollHeight+'px');
-});
 </script>
 
 

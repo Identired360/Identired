@@ -386,6 +386,7 @@ input#ackapa:checked + nav li {
 .form-sus p {
   font-size: 1.7em;
   color: #fff;
+  margin-bottom: 0;
 }
 .img-bann3 {
   position: absolute;
@@ -408,7 +409,28 @@ input#ackapa:checked + nav li {
   font-size: 1.3em;
 }
 .form-csus {
-  margin-top: 1.7em;
+  margin-top: 1em;
+}
+.form-csus .input-wrapper.active label,
+.form-csus .input-wrapper.focus label {
+  color: #0f191b ;
+}
+.form-csus .input-wrapper.focus:after {
+  box-shadow: 0 1px 0 0 #0f191b !important;
+}
+.form-csus .input-wrapper {
+  width: 75%;
+}
+.form-csus .sub-news {
+  margin-top: 1.5em;
+}
+.form-csus .sub-news .bot-p {
+  padding: .5em 2.3em .5em 1em;
+  font-size: 1.7em;
+}
+.form-csus .but-input:before {
+  top: .8em;
+  right: 1em;
 }
 .cont-linkb li {
   margin-bottom: .5em;
@@ -1165,7 +1187,7 @@ button {
   transition-duration: 0.3s;
   -webkit-transition-property: box-shadow;
   transition-property: box-shadow;
-  padding: .6em 3em .6em 1em;
+  padding: .6em 2.3em .6em 1em;
   cursor: pointer;
   text-decoration: none;
   font-size: 2em;
@@ -1371,7 +1393,7 @@ ul {
   color: #44B6CE;
   z-index: 9;
   position: absolute;
-  top: 1em;
+  top: 1.2em;
   right: 1.3em;
   -webkit-transition-duration: 1s;
   transition-duration: 1s;
@@ -1711,6 +1733,7 @@ ul {
 }
 .tit-form p {
   color: #fff;
+  font-size: 2em;
 }
 [type='text'],
 [type='password'],
