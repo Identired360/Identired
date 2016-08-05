@@ -1,6 +1,6 @@
 {
   "require": {
     "sendgrid/sendgrid": "~5.0.7",
-    "respect/validation": "^1.1"
+    "vlucas/valitron": "^1.2"
   }
 }

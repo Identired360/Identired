@@ -2,16 +2,7 @@
 
 require 'vendor/autoload.php';
 
-use Respect\Validation\Validator as v;
-
-$method = 'POST';
-
-$validRuest = v::arr()
-        ->key('name', $n = v::string()->notEmpty())
-        ->key('email', v::email())
-        ->key('phone', v::string()->notEmpty())
-        ->key('msg', v::string()->notEmpty())
-        ->setName('Information Request');
+$SENDGRID_API_KEY = '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';
 
 $infoRequest = filter_input_array(INPUT_POST, array(
     'name' => FILTER_SANITIZE_STRING,
@@ -20,23 +11,27 @@ $infoRequest = filter_input_array(INPUT_POST, array(
     'msg' => FILTER_SANITIZE_STRING)
 );
 
-try {
-    $validRuest->assert($infoRequest);
-    echo "Success!";
-} catch (ValidationException $invalidRequest) {
-    echo $invalidRequest->getMainMessage();
-}
+$v = new Valitron\Validator($infoRequest);
 
-//$from = new SendGrid\Email(null, "marco.milon@identired.com");
-//$subject = "Hello World from the SendGrid PHP Library!";
-//$to = new SendGrid\Email(null, "test@example.com");
-//$content = new SendGrid\Content("text/plain", "Hello, Email!");
-//$mail = new SendGrid\Mail($from, $subject, $to, $content);
-//
-//$apiKey = getenv('SENDGRID_API_KEY');
-//$sg = new \SendGrid($apiKey);
-//
-//$response = $sg->client->mail()->send()->post($mail);
-//echo $response->statusCode();
-//echo $response->headers();
-//echo $response->body();
+$v->rule('required', ['name', 'email', 'phone', 'msg']);
+$v->rule('email', 'email');
+
+if ($v->validate()) {
+    $from = new SendGrid\Email("Marco Milon", "marco.milon@identired.com");
+    $subject = "Gracias por enviarnos tu consulta";
+    $to = new SendGrid\Email($infoRequest['name'], $infoRequest['email']);
+
+    $template = file_get_contents(dirname(__FILE__) . '/../html/email/template.html');
+    $template = str_replace('{name}', $infoRequest['name'], $template);
+
+    $content = new SendGrid\Content("text/html", $template);
+    
+    $mail = new SendGrid\Mail($from, $subject, $to, $content);
+    $sg = new \SendGrid($SENDGRID_API_KEY);
+    $response = $sg->client->mail()->send()->post($mail);
+    echo $response->statusCode();
+    echo $response->headers();
+    echo $response->body();
+} else {
+    print_r($v->errors());
+}
