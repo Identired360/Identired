@@ -3,10 +3,10 @@
 	<div class="col-container">
 		<div class="cont-gen page-term">
 			<div class="tit-prin">
-				<h1>Mensaje enviado</h1>
+				<h1>Ya te has suscrito</h1>
 			</div>
 			<div class="cont-smile">
-  				<p>Ya diste tu primer paso para llevarte al éxito, nos comunicaremos contigo lo antes posible.</p>
+  				<p>Con tu suscripción, permites que te enviemos a tu correo nuestros artículos, que te ayudarán a conocer más sobre tu presencia en internet.</p>
 
 					<div class="flipsout">
 						<div class="inner">

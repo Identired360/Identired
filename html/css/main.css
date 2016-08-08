@@ -22,7 +22,10 @@
   opacity: 1 !important;
 }
 .log-menu svg {
-  width: 6em;
+  width: 44em;
+}
+.cont-logfull {
+  text-align: center;
 }
 .header-menu {
   width: 250px;
@@ -290,10 +293,10 @@
   top: .65em;
   left: 0;
 }
-.cont-menu h2:first-child {
+.cont-menu h2:nth-child(2) {
   padding-left: 0;
 }
-.cont-menu h2:first-child:before {
+.cont-menu h2:nth-child(2):before {
   display: none;
 }
 input#ackapa {
@@ -319,7 +322,7 @@ nav {
   filter: progid:DXImageTransform.Microsoft.gradient(GradientType=0, StartColorStr='#67c082', EndColorStr='#47b8e5');
 }
 .nav-ide {
-  padding-top: 4%;
+  padding-top: .5%;
 }
 .nav-ide ul {
   margin-bottom: 2em;
@@ -356,6 +359,7 @@ input#ackapa:checked + nav li {
   transform: translateY(0);
   width: 49%;
   display: inline-block;
+  vertical-align: top;
 }
 .nav-ide a {
   text-decoration: none;
@@ -574,7 +578,7 @@ input#ackapa:checked + nav li {
   font-size: 3.5em;
   width: 60%;
   margin: 0 auto;
-  opacity: 0;
+  margin-bottom: 1em;
 }
 .title-home .txt-espb {
   margin-left: -3em;
@@ -789,6 +793,9 @@ input#ackapa:checked + nav li {
   color: #1B5967;
   font-size: 2.5em;
   font-weight: 500;
+}
+.cont-art {
+  padding-top: 1.5em;
 }
 .cont-art p {
   position: relative;
@@ -1057,7 +1064,7 @@ canvas {
   color: #2B8EA4;
 }
 .slick-track {
-  padding-top: 5em;
+  padding-top: 1em;
 }
 button {
   outline: none !important;
@@ -1164,7 +1171,7 @@ button {
   transition: all 0.5s ease;
 }
 .cont-buth {
-  margin-top: 4em;
+  margin-top: 2em;
   display: inline-block;
   margin-bottom: 4em;
 }
@@ -1202,7 +1209,7 @@ button {
   content: "\f18e";
   position: absolute;
   font-weight: normal;
-  right: 1em;
+  right: .6em;
   padding: 0 1px;
   font-family: FontAwesome;
   font-size: 1.2em;
@@ -1232,6 +1239,21 @@ button {
 .bot-blanco:hover {
   color: #5FCF80;
   border-bottom: 0.24em solid #5FCF80;
+}
+.bot-ver {
+  color: #5FCF80;
+  background: #fff;
+  border-bottom: 0.24em solid #5FCF80;
+  border-left: 0.01em solid #5FCF80;
+  border-right: 0.01em solid #5FCF80;
+  border-top: 0.01em solid #5FCF80;
+}
+.bot-ver:hover {
+  color: #44B6CE;
+  border-bottom: 0.24em solid #44B6CE;
+  border-left: 0.01em solid #44B6CE;
+  border-right: 0.01em solid #44B6CE;
+  border-top: 0.01em solid #44B6CE;
 }
 html {
   font-size: 62.5%;
@@ -1868,7 +1890,8 @@ ul {
 .cont-smile p {
   font-size: 2.5em;
   text-align: center;
-  margin-bottom: 1em;
+  width: 77%;
+  margin: 0 auto 1em;
 }
 .cont-smile {
   position: relative;
@@ -1889,7 +1912,7 @@ ul {
 .smile {
   height: 100px;
   width: 100px;
-  background: #4FC0AE;
+  background: #5FCF80;
   border-radius: 50%;
   box-shadow: inset -4px -19px 1px -7px rgba(0, 0, 0, 0.1);
   position: relative;
@@ -1961,6 +1984,15 @@ ul {
   95% {
     -webkit-transform: rotateX(90deg);
   }
+}
+.center {
+  text-align: center;
+  margin-top: 3em;
+  margin-bottom: 4em;
+}
+.butt-grac {
+  margin-top: 5em;
+  margin-bottom: 4em;
 }
 [type='text'],
 [type='password'],
@@ -2588,6 +2620,9 @@ input[type="checkbox"] {
   .grid a {
     max-width: inherit;
   }
+  .cont-gen {
+    width: 100%;
+  }
 }
 @media only screen and (max-width: 1024px) {
   .item-desa {
@@ -2673,6 +2708,17 @@ input[type="checkbox"] {
     padding-bottom: 5em;
     position: relative;
   }
+  .tit-prin h1 {
+    font-size: 3em;
+  }
+  .cont-smile p {
+    font-size: 2em;
+    line-height: 1.2;
+    width: 93%;
+  }
+  .cont-menu {
+    width: 86%;
+  }
 }
 @media only screen and (max-width: 767px) {
   .sec-imp {
@@ -2685,6 +2731,9 @@ input[type="checkbox"] {
   .sec-clien h2 {
     line-height: 1.1;
     font-size: 2.7em;
+  }
+  input#ackapa:checked + nav li {
+    width: 100%;
   }
 }
 @media only screen and (max-width: 640px) {
@@ -2704,10 +2753,33 @@ input[type="checkbox"] {
   .sec-imp h2 {
     padding: 0;
   }
+  .log-menu svg {
+    width: 35em;
+  }
+  .cont-menu h2 {
+    font-size: 2em;
+  }
+  .nav-ide ul a {
+    margin-left: 0em;
+    font-size: .8em;
+  }
+  .nav-ide li:before {
+    top: .3em;
+    left: -1.5em;
+  }
+  .cont-menu h2:before {
+    top: .3em;
+  }
+  .cont-menu h2 a {
+    padding-left: .5em;
+  }
 }
 @media only screen and (max-width: 480px) {
   .logo svg {
     width: 22em;
+  }
+  .log-menu svg {
+    width: 27em;
   }
   .title-home h1 {
     font-size: 3.5em;
@@ -2736,5 +2808,8 @@ input[type="checkbox"] {
   }
   .cont-comunic a {
     padding: .2em 1em;
+  }
+  .cont-logfull {
+    margin-top: 2em;
   }
 }

@@ -39,6 +39,9 @@
   .grid a{
   	max-width: inherit;
   }
+  .cont-gen{
+  	width: 100%;
+  }
 }
 
 @media only screen and (max-width: 1024px) {
@@ -117,6 +120,17 @@
 		padding-bottom: 5em;
 		position: relative;
 	}
+	.tit-prin h1{
+		font-size: 3em;
+	}
+	.cont-smile p {
+	    font-size: 2em;
+	    line-height: 1.2;
+	    width: 93%;
+	}
+	.cont-menu{
+		width: 86%;
+	}
 }
 @media only screen and (max-width: 767px){
 	.sec-imp{
@@ -129,6 +143,9 @@
 	.sec-clien h2{
 		line-height: 1.1;
 		font-size: 2.7em;
+	}
+	input#ackapa:checked + nav li{
+		width: 100%;
 	}
 }
 @media only screen and (max-width: 640px){
@@ -148,11 +165,34 @@
 	.sec-imp h2{
 		padding: 0;
 	}
+	.log-menu svg {
+      width: 35em;
+    }
+    .cont-menu h2{
+    	font-size: 2em;
+    }
+    .nav-ide ul a {
+    margin-left: 0em;
+    font-size: .8em;
+    }
+    .nav-ide li:before{
+        top: .3em;
+        left: -1.5em;	
+    }
+    .cont-menu h2:before{
+    	top: .3em;
+    }
+    .cont-menu h2 a{
+    	padding-left: .5em;
+    }
 }
 @media only screen and (max-width: 480px){
 	.logo svg {
 	    width: 22em;
 	}
+	.log-menu svg {
+       width: 27em;
+    }
 	.title-home h1 {
 	    font-size: 3.5em;
 	    width: 100%;
@@ -180,5 +220,8 @@
 	}	
 	.cont-comunic a{
 		padding: .2em 1em;
+	}
+	.cont-logfull{
+		margin-top: 2em;
 	}
 }

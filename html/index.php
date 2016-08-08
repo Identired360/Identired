@@ -86,7 +86,7 @@
             <div class="slider">
                 <article>
                     <div class="cont-art">
-                        <div class="small-12 medium-8 large-7 columns">
+                        <div class="small-12 columns">
                             <h2>Desarrollo web</h2>
                             <p><strong>Desarrollo de Landing Pages: </strong>Te ofrecemos desarrollar páginas web <strong>Vendedoras</strong>, cuyo objetivo es lograr que el visitante envíe su información y de esta manera poder contactarte con él.</p>
                             <p><strong>Desarrollo de Tiendas Virtuales: </strong>Desarrollamos tiendas virtuales optimizadas para los buscadores.</p>
@@ -95,14 +95,11 @@
                                 <a href="desarrollo-web.php" class="bot-p bot-blanco" title="">Saber más de desarrollo web</a>            
                             </div>
                         </div>
-                        <div class="small-12 medium-4 large-5 columns">
-                            <img src="img/home/web-design.png" title="Desarrollo web">    
-                        </div>    
                     </div>
                 </article>
                 <article>
                     <div class="cont-art">
-                        <div class="small-12 medium-8 large-7 columns">
+                        <div class="small-12 columns">
                             <h2>Marketing digital</h2>
                             <p><strong>Campañas en Google Adwords: </strong> Utilizamos técnicas que hacen que tu página web aparezca en las primeras posiciones de los resultados en buscadores de Google. </p>
                             <p><strong>Campañas en Facebook: </strong> Impulsar campañas publicitarias y promociones, promocionar tu marca, captar visitantes a tu página web. Podrás llegar a miles de clientes específicos y de esta manera mejorar tus ventas o hacer conocer tu marca.</p>
@@ -110,14 +107,11 @@
                                 <a href="#" class="bot-p bot-blanco" title="">Saber más de marketing digital</a>            
                             </div>
                         </div>  
-                        <div class="small-12 medium-4 large-5 columns">
-                            <img src="img/home/seo.png" title="Desarrollo web">    
-                        </div>   
                     </div>
                 </article>
                 <article>
                     <div class="cont-art">
-                        <div class="small-12 medium-8 large-7 columns">
+                        <div class="small-12 columns">
                             <h2>Desarrollo de plataformas</h2>
                             <p><strong>Gestión de Procesos:</strong> Te ofrecemos el desarrollo a medida de soluciones integradas según tu necesidad y la de tu empresa. Analizamos tu empresa y te aconsejamos dando las soluciones que necesites.</p>
                             <p><strong>Programación de Startups:</strong> Tienes una idea y quieres implementarla, estamos para ayudarte y asesorarte.</p>
@@ -126,23 +120,17 @@
                                 <a href="#" class="bot-p bot-blanco" title="">Saber más de desarrollo de plataformas</a>            
                             </div>
                         </div>    
-                        <div class="small-12 medium-4 large-5 columns">
-                            <img src="img/home/plataformas.png" title="Desarrollo web">    
-                        </div>  
                     </div>
                 </article>
                 <article>
                     <div class="cont-art">
-                        <div class="small-12 medium-8 large-7 columns">
+                        <div class="small-12 columns">
                             <h2>Trabajos psd2html</h2>
                             <p><strong>Maquetación</strong>: Si tienes un diseño en psd, trabajamos la maquetación en html5. Desarrollamos el código de acuerdo a tu requerimientos. Con CSS3, Jvascript, Bootstrap, Foundation, Less, Stylus, etc. </p>
                             <div class="cont-buth">    
                                 <a href="#" class="bot-p bot-blanco" title="">Saber más de trabajos psd2html</a>            
                             </div>
                         </div>
-                        <div class="small-12 medium-4 large-5 columns">
-                            <img src="img/home/html.png" title="Desarrollo web">    
-                        </div>      
                     </div>
                 </article>
             </div>
