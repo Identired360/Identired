@@ -394,7 +394,7 @@
                             <label>Correo electrónico</label>
                     </div>
                     <div class="input-wrapper">
-                        <input type="tel" id="telefono" name="phone" required>
+                        <input type="tel" class="digits" id="telefono" name="phone" required>
                             <label>Teléfono</label>
                     </div>
                     <div class="input-wrapper textcont">
@@ -418,7 +418,6 @@
 <?php include('footer.html') ?>
 
 <script src="js/snap.svg-min.js"></script>
-<!--script src="js/classie.js"></script-->
 <script>
     /*Para proyectos*/
     (function () {

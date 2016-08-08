@@ -14,12 +14,6 @@
 	.item-serv h2{
 		font-size: 2.3em;
 	}
-	.title-home h1{
-		margin-bottom: 1%;
-	}
-	.title-home p {
-	    margin: 0em auto .5em;
-	}
 	.img-bann{
 		bottom: -0.2em;
 	}
@@ -52,28 +46,40 @@
 		margin-bottom: 2.5em;
 	}
 }
+@media only screen and (max-height: 767px){
+  .title-home p{
+  	margin-bottom: 1em !important;
+  }
+  .txt-box{
+  	height: 555px !important;
+  }
+}
 @media only screen and (max-width: 992px) {
+  .txt-box{
+  	height: auto !important;
+  }
   .col-container{
     width: 93%;
   }  
   #options-link{
 	display: none !important;
   }
+  .title-home p{width: 100%; font-size: 2.5em;}
   .title-home{
   	padding-top: 3em;
-  }
+   }
   #top-view {display: none !important;}
-  .title-home p{margin-bottom: 2em;}
+  .title-home h1{width: 100%; font-size: 3.5em;}
   .img-bann3, .img-bann2,.img-bann{display: none;}
   .cont-servc{
   	padding-top: 4em;
 	h2{
-		font-size: 3em;
-		margin-bottom: 1em;
+		padding-top: .5em;
+		font-size: 4em;
 		line-height: 1.3em;
 	}	
 	.slider{
-		width: 95%;
+		width: 99%;
 	}
   }
   .sec-porq {
@@ -131,7 +137,11 @@
 	.cont-menu{
 		width: 86%;
 	}
+	.foot{
+		padding-top: 2em;
+	}
 }
+
 @media only screen and (max-width: 767px){
 	.sec-imp{
 	    padding-top: 5em;
@@ -147,6 +157,7 @@
 	input#ackapa:checked + nav li{
 		width: 100%;
 	}
+
 }
 @media only screen and (max-width: 640px){
 	.logo svg {
@@ -185,6 +196,12 @@
     .cont-menu h2 a{
     	padding-left: .5em;
     }
+	.sec-porq h2 {
+		font-size: 3em;
+		padding: 0 .2em;
+		margin-bottom: .5em;
+		line-height: 1.1em;
+	}    
 }
 @media only screen and (max-width: 480px){
 	.logo svg {
@@ -224,4 +241,17 @@
 	.cont-logfull{
 		margin-top: 2em;
 	}
+	.cont-buth{
+		width: 100%;
+		a {
+		margin-left: 0;
+		width: 100%;
+		font-size: 1.7em;
+		}
+    }
+}
+@media only screen and (min-height: 799px){
+  .txt-box{
+  	height: 670px !important;
+  }
 }

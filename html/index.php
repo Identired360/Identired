@@ -88,9 +88,9 @@
                     <div class="cont-art">
                         <div class="small-12 columns">
                             <h2>Desarrollo web</h2>
-                            <p><strong>Desarrollo de Landing Pages: </strong>Te ofrecemos desarrollar páginas web <strong>Vendedoras</strong>, cuyo objetivo es lograr que el visitante envíe su información y de esta manera poder contactarte con él.</p>
-                            <p><strong>Desarrollo de Tiendas Virtuales: </strong>Desarrollamos tiendas virtuales optimizadas para los buscadores.</p>
-                            <p><strong>Desarrollo de Sitios Web: </strong>Diseño y desarrollo haciendo uso de técnicas creativas e innovadoras, para dar una imagen profesional, teniendo en cuenta aspectos de navegación, usabilidad, posicionamiento y seguridad.</p>
+                            <p><strong>Desarrollo de Landing Pages: </strong>Te ofrecemos desarrollar páginas web <b>Vendedoras</b>, cuyo objetivo es lograr que el visitante envíe su información y de esta manera poder contactarte con él.</p>
+                            <p><strong>Desarrollo de Tiendas Virtuales: </strong>Desarrollamos <b>tiendas virtuales optimizadas</b> para los buscadores.</p>
+                            <p><strong>Desarrollo de Sitios Web: </strong>Diseño y desarrollo haciendo uso de <b>técnicas creativas e innovadoras</b>, para dar una imagen profesional, teniendo en cuenta aspectos de navegación, usabilidad, posicionamiento y seguridad.</p>
                             <div class="cont-buth">    
                                 <a href="desarrollo-web.php" class="bot-p bot-blanco" title="">Saber más de desarrollo web</a>            
                             </div>
@@ -101,10 +101,10 @@
                     <div class="cont-art">
                         <div class="small-12 columns">
                             <h2>Marketing digital</h2>
-                            <p><strong>Campañas en Google Adwords: </strong> Utilizamos técnicas que hacen que tu página web aparezca en las primeras posiciones de los resultados en buscadores de Google. </p>
-                            <p><strong>Campañas en Facebook: </strong> Impulsar campañas publicitarias y promociones, promocionar tu marca, captar visitantes a tu página web. Podrás llegar a miles de clientes específicos y de esta manera mejorar tus ventas o hacer conocer tu marca.</p>
+                            <p><strong>Campañas en Google Adwords: </strong> Utilizamos técnicas que hacen que tu página web aparezca en las <b>primeras posiciones</b> de los resultados en buscadores de Google. </p>
+                            <p><strong>Campañas en Facebook: </strong> Impulsar campañas publicitarias y promociones,<b>promocionar tu marca</b>, captar visitantes a tu página web. Podrás llegar a miles de clientes específicos y de esta manera <b>mejorar tus ventas o hacer conocer tu marca</b>.</p>
                             <div class="cont-buth">    
-                                <a href="#" class="bot-p bot-blanco" title="">Saber más de marketing digital</a>            
+                                <a href="consulta.php" class="bot-p bot-blanco" title="Consulta ahora">Consulta ahora</a>            
                             </div>
                         </div>  
                     </div>
@@ -113,11 +113,11 @@
                     <div class="cont-art">
                         <div class="small-12 columns">
                             <h2>Desarrollo de plataformas</h2>
-                            <p><strong>Gestión de Procesos:</strong> Te ofrecemos el desarrollo a medida de soluciones integradas según tu necesidad y la de tu empresa. Analizamos tu empresa y te aconsejamos dando las soluciones que necesites.</p>
-                            <p><strong>Programación de Startups:</strong> Tienes una idea y quieres implementarla, estamos para ayudarte y asesorarte.</p>
+                            <p><strong>Gestión de Procesos:</strong> Te ofrecemos el <b>desarrollo a medida</b> de soluciones integradas según tu necesidad y la de tu empresa. Analizamos tu empresa y te aconsejamos dando las soluciones que necesites.</p>
+                            <p><strong>Programación de Startups:</strong> ¿Tienes una idea y quieres implementarla?, estamos para ayudarte y asesorarte.</p>
                             <p><strong>Programación Full Stack:</strong> Back-end y Front-end. </p>
                             <div class="cont-buth">    
-                                <a href="#" class="bot-p bot-blanco" title="">Saber más de desarrollo de plataformas</a>            
+                                <a href="consulta.php" class="bot-p bot-blanco" title="Consulta ahora">Consulta ahora</a>            
                             </div>
                         </div>    
                     </div>
@@ -126,9 +126,9 @@
                     <div class="cont-art">
                         <div class="small-12 columns">
                             <h2>Trabajos psd2html</h2>
-                            <p><strong>Maquetación</strong>: Si tienes un diseño en psd, trabajamos la maquetación en html5. Desarrollamos el código de acuerdo a tu requerimientos. Con CSS3, Jvascript, Bootstrap, Foundation, Less, Stylus, etc. </p>
+                            <p><strong>Maquetación</strong>: Si tienes un diseño en psd, trabajamos la <b>maquetación en html5</b>. Desarrollamos el código de acuerdo a tu requerimientos. Con CSS3, Jvascript, Bootstrap, Foundation, Less, Stylus, etc. </p>
                             <div class="cont-buth">    
-                                <a href="#" class="bot-p bot-blanco" title="">Saber más de trabajos psd2html</a>            
+                                <a href="consulta.php" class="bot-p bot-blanco" title="Consulta ahora">Consulta ahora</a>            
                             </div>
                         </div>
                     </div>
@@ -146,7 +146,7 @@
             <div class="ch-item ch-img-1">              
                 <div class="ch-info-wrap">
                     <div class="ch-info">
-                        <div class="ch-info-front"><h3>Lo escuchamos</h3></div>
+                        <div class="ch-info-front"><h3>Te escuchamos</h3></div>
                         <div class="ch-info-back">
                             <p>El ánálisis es la parte más importante para el desarrollo.</p>
                         </div>  
@@ -160,7 +160,7 @@
                     <div class="ch-info">
                         <div class="ch-info-front"><h3>No creemos en lo rápido y malo</h3></div>
                         <div class="ch-info-back">
-                            <p>Estimamos los tiempo para obtener un producto de calidad.</p>
+                            <p>Estimamos los tiempos para obtener un producto de calidad.</p>
                         </div>
                     </div>
                 </div>
@@ -172,7 +172,7 @@
                     <div class="ch-info">
                         <div class="ch-info-front"><h3>Siempre disponibles</h3></div>
                         <div class="ch-info-back">
-                            <p>A cualquier consulta para ayudarlo y guiarlo.</p>
+                            <p>A cualquier consulta para ayudarte y guiarte.</p>
                         </div>
                     </div>
                 </div>
@@ -196,7 +196,7 @@
                     <div class="ch-info">
                         <div class="ch-info-front ch-img-3"><h3>Somos creativos</h3></div>
                         <div class="ch-info-back">
-                            <p>Ponemos nuestras ideas a su disposición.</p>
+                            <p>Ponemos nuestras ideas a tu disposición.</p>
                         </div>
                     </div>
                 </div>
