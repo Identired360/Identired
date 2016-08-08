@@ -18,7 +18,7 @@
 						<div class="shadow">&nbsp;</div>
 						</div>
 					</div>
-					<a href="index.php" title="Regresar al inicio">Regresar al inicio</a>
+					<a href="index.php" class="bot-p bot-blanco" title="Regresar al inicio">Regresar al inicio</a>
 			</div>		
 		</div>	
 	</div>
