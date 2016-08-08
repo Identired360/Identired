@@ -3,10 +3,23 @@
 	<div class="col-container1">
 		<div class="cont-gen page-term">
 			<div class="tit-prin">
-				<h1>Términos y condiciones</h1>
+				<h1>Mensaje enviado</h1>
 			</div>
-			<p>Los siguientes términos y condiciones rigen el uso que le dé a este sitio web (www.identired.com) que es administrado por TUXPA SOFTWARE S.A.C., y cualquiera de los contenidos disponibles por o a través de este sitio web, incluyendo cualquier contenido derivado del mismo. </p>
+			<div class="cont-smile">
+  				<p>Ya diste tu primer paso para llevarte al éxito, nos comunicaremos contigo lo antes posible.</p>
 
+					<div class="flipsout">
+						<div class="inner">
+						<div class="smile">
+						  <div class="eyesL"></div>
+						  <div class="eyesR"></div>
+						  <div class="mouth"></div>
+						</div>
+						<div class="shadow">&nbsp;</div>
+						</div>
+					</div>
+					<a href="index.php" title="Regresar al inicio">Regresar al inicio</a>
+			</div>		
 		</div>	
 	</div>
 </section>
