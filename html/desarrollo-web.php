@@ -1,6 +1,6 @@
 <?php include('header.html') ?>
 
-<section class="row ban-inicio" style="background-image: url('img/desweb.jpg');">
+<section class="row ban-inicio" style="background-image: url('img/website.png');">
     <div class="col-container">
         <!--h1 class="wow bounceInDown" data-wow-delay=".2s">Desarrollo web</h1-->
         <svg xmlns="http://www.w3.org/2000/svg" version="1.1" xmlns:xlink="http://www.w3.org/1999/xlink" width="100%" height="100%">
@@ -141,35 +141,35 @@
             </div>
             <div class="small-12 medium-6 large-4 columns">
                 <div class="item-vent" data-wow-delay=".5s">
-                    <svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 512 512"><g id="icomoon-ignore"></g><path d="M256 0c-139.374 0-252.729 111.381-255.924 249.987 2.96-120.932 94.916-217.987 207.924-217.987 114.875 0 208 100.288 208 224 0 26.51 21.49 48 48 48s48-21.49 48-48c0-141.385-114.615-256-256-256zM256 512c139.374 0 252.729-111.381 255.924-249.987-2.96 120.932-94.916 217.987-207.924 217.987-114.875 0-208-100.288-208-224 0-26.51-21.49-48-48-48s-48 21.49-48 48c0 141.385 114.615 256 256 256z"></path></svg>
+                    <i class="fa fa-code" aria-hidden="true"></i>
                     <h3>Desarrollo a medida</h3>
                     <p>Desarrollo según tus requerimientos, con un diseño creativo y <b>arquitectura de información según el tipo de usuario.</b></p>
                 </div>
             </div>
             <div class="small-12 medium-6 large-4 columns">
                 <div class="item-vent" data-wow-delay=".5s">
-                    <svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 512 512"><g id="icomoon-ignore"></g><path d="M256 0c-139.374 0-252.729 111.381-255.924 249.987 2.96-120.932 94.916-217.987 207.924-217.987 114.875 0 208 100.288 208 224 0 26.51 21.49 48 48 48s48-21.49 48-48c0-141.385-114.615-256-256-256zM256 512c139.374 0 252.729-111.381 255.924-249.987-2.96 120.932-94.916 217.987-207.924 217.987-114.875 0-208-100.288-208-224 0-26.51-21.49-48-48-48s-48 21.49-48 48c0 141.385 114.615 256 256 256z"></path></svg>
-                    <h3>Páginas administrables</h3>
+                   <i class="fa fa-user" aria-hidden="true"></i>
+                   <h3>Páginas administrables</h3>
                     <p>Todas nuestras páginas cuentan con un administrador de contenidos fácil de usar, para que <b>tu mismo administres la información.</b></p>
                 </div>
             </div>
             <div class="small-12 medium-6 large-4 columns">
                 <div class="item-vent" data-wow-delay=".5s">
-                    <svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 512 512"><g id="icomoon-ignore"></g><path d="M256 0c-139.374 0-252.729 111.381-255.924 249.987 2.96-120.932 94.916-217.987 207.924-217.987 114.875 0 208 100.288 208 224 0 26.51 21.49 48 48 48s48-21.49 48-48c0-141.385-114.615-256-256-256zM256 512c139.374 0 252.729-111.381 255.924-249.987-2.96 120.932-94.916 217.987-207.924 217.987-114.875 0-208-100.288-208-224 0-26.51-21.49-48-48-48s-48 21.49-48 48c0 141.385 114.615 256 256 256z"></path></svg>
+                    <i class="fa fa-search" aria-hidden="true"></i>
                     <h3>Optimizado para SEO</h3>
                     <p>Desarrollamos los códigos con estándares de calidad los cuales ayudan al <b>posicionamiento</b> de tu página en los buscadores.</p>
                 </div>
             </div>
             <div class="small-12 medium-6 large-4 columns">
                 <div class="item-vent" data-wow-delay=".5s">
-                    <svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 512 512"><g id="icomoon-ignore"></g><path d="M256 0c-139.374 0-252.729 111.381-255.924 249.987 2.96-120.932 94.916-217.987 207.924-217.987 114.875 0 208 100.288 208 224 0 26.51 21.49 48 48 48s48-21.49 48-48c0-141.385-114.615-256-256-256zM256 512c139.374 0 252.729-111.381 255.924-249.987-2.96 120.932-94.916 217.987-207.924 217.987-114.875 0-208-100.288-208-224 0-26.51-21.49-48-48-48s-48 21.49-48 48c0 141.385 114.615 256 256 256z"></path></svg>
+                    <i class="fa fa-arrows-h" aria-hidden="true"></i>
                     <h3>Versión responsive</h3>
                     <p>Tu página será <b>adaptable a dispositivos móviles</b>, es decir también podrá ser vista en tablets y celulares. </p>
                 </div>
             </div>
             <div class="small-12 medium-6 large-4 columns">
                 <div class="item-vent" data-wow-delay=".5s">
-                    <svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 512 512"><g id="icomoon-ignore"></g><path d="M256 0c-139.374 0-252.729 111.381-255.924 249.987 2.96-120.932 94.916-217.987 207.924-217.987 114.875 0 208 100.288 208 224 0 26.51 21.49 48 48 48s48-21.49 48-48c0-141.385-114.615-256-256-256zM256 512c139.374 0 252.729-111.381 255.924-249.987-2.96 120.932-94.916 217.987-207.924 217.987-114.875 0-208-100.288-208-224 0-26.51-21.49-48-48-48s-48 21.49-48 48c0 141.385 114.615 256 256 256z"></path></svg>
+                    <i class="fa fa-info-circle" aria-hidden="true"></i>
                     <h3>Soporte por un año</h3>
                     <p>Te damos un año de <b>soporte gratuito</b>, a cualquier consulta o problema que tengas en cuanto al uso del administrador.</p>
                 </div>
