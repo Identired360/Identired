@@ -81,7 +81,7 @@
 <section class="row back-cel sec-imp">
     <div class="col-container">
         <div class="small-12 large-4 columns">
-            <div class="item-desa wow slideInUp" data-wow-delay=".1s">
+            <div class="item-desa wow fadeIn" data-wow-delay=".1s">
                 <svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 512 512">
                     <g id="icomoon-ignore">
                     </g>
@@ -94,7 +94,7 @@
             </div>
         </div>
         <div class="small-12 large-4 columns">
-            <div class="item-desa wow slideInUp" data-wow-delay=".4s">
+            <div class="item-desa wow fadeIn" data-wow-delay=".4s">
                 <svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 512 512">
                     <g id="icomoon-ignore">
                     </g>
@@ -109,7 +109,7 @@
             </div>
         </div>
         <div class="small-12 large-4 columns">
-            <div class="item-desa wow slideInUp" data-wow-delay=".7s">
+            <div class="item-desa wow fadeIn" data-wow-delay=".7s">
                 <svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 512 512">
                     <g id="icomoon-ignore">
                     </g>
@@ -134,7 +134,7 @@
         <div class="cont-vent wow fadeInLeft">
             <div class="small-12 medium-6 large-4 columns">
                 <div class="item-vent" data-wow-delay=".5s">
-                    <svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 512 512"><g id="icomoon-ignore"></g><path d="M256 0c-139.374 0-252.729 111.381-255.924 249.987 2.96-120.932 94.916-217.987 207.924-217.987 114.875 0 208 100.288 208 224 0 26.51 21.49 48 48 48s48-21.49 48-48c0-141.385-114.615-256-256-256zM256 512c139.374 0 252.729-111.381 255.924-249.987-2.96 120.932-94.916 217.987-207.924 217.987-114.875 0-208-100.288-208-224 0-26.51-21.49-48-48-48s-48 21.49-48 48c0 141.385 114.615 256 256 256z"></path></svg>
+                    <i class="fa fa-desktop" aria-hidden="true"></i>
                     <h3>Diseño UX</h3>
                     <p>Desarrollo de la página de acuerdo al <b>público objetivo</b>, cumpliendo con los estándares de <b>usabilidad</b>.</p>
                 </div>
@@ -234,7 +234,7 @@
                     </figcaption>
                 </figure>
             </a>
-            <a href="proyecto-fottiva" data-path-hover="m 0,0 0,47.7775 c 24.580441,3.12569 55.897012,-8.199417 90,-8.199417 34.10299,0 65.41956,11.325107 90,8.199417 L 180,0 z">
+            <a href="proyecto-fottiva.php" data-path-hover="m 0,0 0,47.7775 c 24.580441,3.12569 55.897012,-8.199417 90,-8.199417 34.10299,0 65.41956,11.325107 90,8.199417 L 180,0 z">
                 <figure>
                     <img src="img/proy/fottiva.jpg" />
                     <svg viewBox="0 0 180 320" preserveAspectRatio="none"><path d="m 0,0 0,171.14385 c 24.580441,15.47138 55.897012,24.75772 90,24.75772 34.10299,0 65.41956,-9.28634 90,-24.75772 L 180,0 0,0 z"/></svg>
@@ -267,7 +267,7 @@
                     </figcaption>
                 </figure>
             </a>
-            <a href="proyecto-huallamarca.php" data-path-hover="m 0,0 0,47.7775 c 24.580441,3.12569 55.897012,-8.199417 90,-8.199417 34.10299,0 65.41956,11.325107 90,8.199417 L 180,0 z">
+            <a href="proyecto-caprice.php" data-path-hover="m 0,0 0,47.7775 c 24.580441,3.12569 55.897012,-8.199417 90,-8.199417 34.10299,0 65.41956,11.325107 90,8.199417 L 180,0 z">
                 <figure>
                     <img src="img/proy/huallamarca.jpg" />
                     <svg viewBox="0 0 180 320" preserveAspectRatio="none"><path d="m 0,0 0,171.14385 c 24.580441,15.47138 55.897012,24.75772 90,24.75772 34.10299,0 65.41956,-9.28634 90,-24.75772 L 180,0 0,0 z"/></svg>
@@ -302,7 +302,6 @@
             </a>
         </div>		
     </div>
-    <!--img class="img-bann3" src="img/ground4.png"-->
 </section>
 
 <section class="row cont-cost">
