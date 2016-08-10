@@ -1252,6 +1252,12 @@ button {
   color: #5FCF80;
   border-bottom: 0.24em solid #5FCF80;
 }
+.bot-blanco:active {
+  color: #44B6CE;
+}
+.bot-blanco:focus {
+  color: #44B6CE;
+}
 .bot-ver {
   color: #5FCF80;
   background: #fff;
@@ -1442,8 +1448,8 @@ ul {
   position: absolute;
   top: 1.2em;
   right: 1.3em;
-  -webkit-transition-duration: 1s;
-  transition-duration: 1s;
+  -webkit-transition-duration: .3s;
+  transition-duration: .3s;
   -webkit-transition-property: transform;
   transition-property: transform;
   -webkit-transition-timing-function: ease-in-out;
@@ -1497,7 +1503,6 @@ ul {
   text-align: center;
   padding-top: 7%;
   padding-bottom: 17%;
-  background-image: url('../img/desweb.jpg');
   background-attachment: fixed;
   background-size: cover;
   background-repeat: no-repeat;
@@ -1510,7 +1515,7 @@ ul {
 .ban-inicio h3 {
   font-size: 5em;
   color: #5f5d5d;
-  width: 54%;
+  width: 60%;
 }
 .ban-inicio h3 span {
   font-weight: 500;
@@ -2665,8 +2670,10 @@ input[type="checkbox"] {
 .inicio-proy h1 {
   text-align: center;
   font-size: 6em;
-  font-weight: 600;
   color: #444;
+}
+.inicio-proy h1 b {
+  font-weight: 400;
 }
 #botones-para-compartir {
   text-align: center;
@@ -2702,6 +2709,10 @@ input[type="checkbox"] {
   margin-bottom: 2em;
   margin-top: 2em;
   font-weight: 400;
+}
+.sec-desproy {
+  background: #E2FDFF;
+  position: relative;
 }
 figure.snip1157 {
   position: relative;

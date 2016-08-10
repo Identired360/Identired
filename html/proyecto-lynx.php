@@ -2,37 +2,35 @@
 
 <section class="row inicio-proy">
     <div class="col-container">
-        <!--h1 class="wow bounceInDown" data-wow-delay=".2s">Desarrollo web</h1-->
-        <h1>Zapatillas Lynx</h1>
+        <h1>Proyecto: <b>Zapatillas Lynx</b></h1>
         <div class="text-centb">
-            <img title="Zapatillas Lynx" src="img/proy/pant-lynx.jpg">
+            <img title="Pagina web - Zapatillas Lynx" src="img/proy/pant-lynx.jpg">
         </div>
     </div>
  
 </section>
 
-<section class="row pad-secc sec-vent">
-    <!--img class="img-bann2" src="img/ground2.png"-->
+<section class="row pad-secc sec-desproy">
     <div class="col-container">
         <div class="titH2 wow slideInDown">
             <h2><b>Desarrollo</b> del proyecto</h2>
         </div>
-        <div class="cont-proy">
-            <p>Zapatillas Lynx es una marca de la empresa peruana Calzados Atlas, los artículos son zapatillas y accesorios de moda para gente joven.</p>
+        <div class="cont-proy wow fadeIn">
+            <p>Zapatillas Lynx es una marca de la empresa peruana Calzados Atlas, los artículos son <b>zapatillas y accesorios </b>de moda para gente joven.</p>
             <p>El proyecto fue <b>desarrollo de tienda virtual</b>, se hizo el diseño según los colores de la marca que es el color negro combinando colores según sus productos, de estilo juvenil.</p>
             <p>Las secciones principales son: La galería de productos, segmentado según las categorías de los productos; la pasarela de pagos con 3 tipos de pago, depósito bancario, Payu y Pagoefectivo.</p>
             <p>En cuanto a la programación, es totalmente a medida desarrollado con Yii framework.  </p>
-            <a class="lik-proy linkid" href="http://www.zapatillaslynx.com/" target="_blank" title="Ver tienda virtual">Ver tienda virtual</a>
+            <a class="lik-proy linkid" href="http://www.zapatillaslynx.com/" target="_blank" title="Ver tienda virtual"><i class="fa fa-eye" aria-hidden="true"></i> Ver tienda virtual</a>
         </div>    
         <div class="cont-test">
             <h3>¿Qué dijo el cliente sobre nuestro servicio?</h3>
             <figure class="snip1157">
-              <blockquote>Calvin: You know sometimes when I'm talking, my words can't keep up with my thoughts... I wonder why we think faster than we speak. Hobbes: Probably so we can think twice.
+              <blockquote>Una buena experiencia, ya que la atención es personalizada con reuniones para que el proyecto salga bien.
                 <div class="arrow"></div>
               </blockquote>
               <img src="img/proy/proy-lynx.jpg" alt="Desarrollo tienda virtual" />
               <div class="author">
-                <h5>Román Zaavedra<span> LIttleSnippets.net</span></h5>
+                <h5>Román Zaavedra<span> Jefe de Marketing - Calzado Atlas S.A.</span></h5>
               </div>
             </figure>
         </div>
@@ -41,11 +39,10 @@
             <div id="botones-para-compartir">
                 <a href="javascript:void(0);" onclick="window.open(&quot;http://www.facebook.com/sharer.php?u=URL_BLOG&quot;,&quot;gplusshare&quot;,&quot;toolbar=0,status=0,width=548,height=325&quot;);" rel="nofollow" title="Compartir en Facebook"><img alt="compartir en facebook" class="facebooko" height="40" src="http://1.bp.blogspot.com/-rwK-4X3iLjc/ViFsOclr9NI/AAAAAAAABwc/ocBw9cxRK2M/s1600/facebook-long.png" title="compartir en facebook" width="40" /></a>
                 <a href="javascript:void(0);" onclick="window.open(&quot;https://plus.google.com/share?url=URL_BLOG&quot;,&quot;gplusshare&quot;,&quot;toolbar=0,status=0,width=548,height=325&quot;);" rel="nofollow" title="Compartir en Google+"><img alt="compartir en google+" class="googleo" height="40" src="http://1.bp.blogspot.com/-SKqPlZHzLgg/ViFsOt7HbeI/AAAAAAAABw0/bQQhWqgEpWM/s1600/google-long.png" title="compartir en google+" width="40" /></a>
-                <a href="javascript:void(0);" onclick="window.open(&quot;http://twitter.com/home?status=URL_BLOG&quot;,&quot;gplusshare&quot;,&quot;toolbar=0,status=0,width=548,height=325&quot;);" rel="nofollow" title="Compartir en Google+"><img alt="compartir en twitter" class="twittero" height="40" src="http://4.bp.blogspot.com/-gqVyoE8cVME/ViFsO009lbI/AAAAAAAABwo/1oK8cUnY36Q/s1600/twitter-long.png" title="compartir en twitter" width="40" /></a>
+                <!--a href="javascript:void(0);" onclick="window.open(&quot;http://twitter.com/home?status=URL_BLOG&quot;,&quot;gplusshare&quot;,&quot;toolbar=0,status=0,width=548,height=325&quot;);" rel="nofollow" title="Compartir en Google+"><img alt="compartir en twitter" class="twittero" height="40" src="http://4.bp.blogspot.com/-gqVyoE8cVME/ViFsO009lbI/AAAAAAAABwo/1oK8cUnY36Q/s1600/twitter-long.png" title="compartir en twitter" width="40" /></a>
                 <a href="javascript:void(0);" onclick="window.open(&quot;https://www.pinterest.com/pin/create/button/?url=URL:BLOG&quot;,&quot;gplusshare&quot;,&quot;toolbar=0,status=0,width=548,height=325&quot;);" rel="nofollow" title="Compartir en Google+"><img alt="compartir en pinterest" class="pinteresto" height="40" src="http://2.bp.blogspot.com/-YHRlPeWHV-I/ViFsO1cYtsI/AAAAAAAABwk/UNnCLCBic9o/s1600/pinterest-long.png" title="compartir en pinterest" width="40" /></a>
-                <a href="javascript:void(0);" onclick="window.open(&quot;https://www.linkedin.com/shareArticle?mini=URL_BLOG&quot;,&quot;gplusshare&quot;,&quot;toolbar=0,status=0,width=548,height=325&quot;);" rel="nofollow" title="Compartir en Google+"><img alt="compartir en likedin" class="likedino" height="40" src="http://4.bp.blogspot.com/-WBa3E0lZI-8/ViFsOraP3DI/AAAAAAAABwg/eWD_6bYykMQ/s1600/linkedin-long.png" title="compartir en likedin" width="40" /></a>
+                <a href="javascript:void(0);" onclick="window.open(&quot;https://www.linkedin.com/shareArticle?mini=URL_BLOG&quot;,&quot;gplusshare&quot;,&quot;toolbar=0,status=0,width=548,height=325&quot;);" rel="nofollow" title="Compartir en Google+"><img alt="compartir en likedin" class="likedino" height="40" src="http://4.bp.blogspot.com/-WBa3E0lZI-8/ViFsOraP3DI/AAAAAAAABwg/eWD_6bYykMQ/s1600/linkedin-long.png" title="compartir en likedin" width="40" /></a-->
             </div>
-                <!--div class="fb-like" data-href="https://developers.facebook.com/docs/plugins/" data-layout="button" data-action="like" data-size="small" data-show-faces="true" data-share="true"></div-->
         </div>
     </div>
     <img class="img-bann3" src="img/ground4.png"> 
@@ -75,14 +72,14 @@
         <div class="titH2 wow slideInDown">
             <h2><b>Solicita</b> información</h2>
         </div>
-        <div class="cont-comunic wow lightSpeedIn">
+        <div class="cont-comunic wow fadeIn">
             <p>Envíanos un watsapp para consultas o agendar una reunión sin ningún compromiso.</p>
             <a href="tel: 987 204 172"><i class="fa fa-whatsapp" aria-hidden="true"></i> 987 204 172</a>
         </div>
 </section>
 <section class="row backblue2 cont-formul">
     <div class="col-container">
-        <div class="simform wow fadeInLeft" data-wow-delay=".3s">
+        <div class="simform wow fadeIn" data-wow-delay=".3s">
             <div class="tit-form">
                 <h2>También puedes escribirnos</h2>
                 <p>Envíanos tu consulta y te enviaremos una respuesta lo más pronto posible</p>
@@ -122,48 +119,7 @@
 <?php include('footer.html') ?>
 
 <div id="fb-root"></div>
-<script src="js/snap.svg-min.js"></script>
 <script>
-    /*Para proyectos*/
-    (function () {
-
-        function init() {
-            var speed = 330,
-                    easing = mina.backout;
-
-            [].slice.call(document.querySelectorAll('#grid > a')).forEach(function (el) {
-                var s = Snap(el.querySelector('svg')), path = s.select('path'),
-                        pathConfig = {
-                            from: path.attr('d'),
-                            to: el.getAttribute('data-path-hover')
-                        };
-
-                el.addEventListener('mouseenter', function () {
-                    path.animate({'path': pathConfig.to}, speed, easing);
-                });
-
-                el.addEventListener('mouseleave', function () {
-                    path.animate({'path': pathConfig.from}, speed, easing);
-                });
-            });
-        }
-
-        init();
-
-    })();
-    /*Para height*/
-    jQuery(window).load(function () {
-        equalheight('.item-desa');
-        equalheight('.item-vent');
-        equalheight('.item-paq');
-    });
-
-    jQuery(window).resize(function () {
-        equalheight('.item-desa');
-        equalheight('.item-vent');
-        equalheight('.item-paq');
-    });
-
 /*Para facebook*/
 (function(d, s, id) {
   var js, fjs = d.getElementsByTagName(s)[0];

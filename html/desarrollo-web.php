@@ -1,6 +1,6 @@
 <?php include('header.html') ?>
 
-<section class="row ban-inicio">
+<section class="row ban-inicio" style="background-image: url('img/desweb.jpg');">
     <div class="col-container">
         <!--h1 class="wow bounceInDown" data-wow-delay=".2s">Desarrollo web</h1-->
         <svg xmlns="http://www.w3.org/2000/svg" version="1.1" xmlns:xlink="http://www.w3.org/1999/xlink" width="100%" height="100%">
@@ -88,8 +88,8 @@
                     <path d="M64 448h448v64h-512v-512h64zM144 416c-26.51 0-48-21.49-48-48s21.49-48 48-48c1.414 0 2.811 0.074 4.194 0.193l51.596-85.993c-4.92-7.535-7.79-16.531-7.79-26.201 0-26.51 21.49-48 48-48s48 21.49 48 48c0 9.671-2.87 18.666-7.79 26.201l51.596 85.993c1.383-0.119 2.78-0.193 4.194-0.193 1.068 0 2.124 0.047 3.175 0.115l85.178-149.061c-5.268-7.704-8.353-17.018-8.353-27.055 0-26.51 21.49-48 48-48s48 21.49 48 48c0 26.51-21.49 48-48 48-1.070 0-2.124-0.047-3.175-0.116l-85.178 149.062c5.268 7.703 8.353 17.018 8.353 27.055 0 26.51-21.49 48-48 48s-48-21.49-48-48c0-9.67 2.87-18.666 7.789-26.201l-51.595-85.992c-1.383 0.119-2.78 0.193-4.194 0.193s-2.811-0.073-4.194-0.193l-51.596 85.993c4.92 7.534 7.79 16.53 7.79 26.2 0 26.51-21.49 48-48 48z"></path>
                 </svg>
                 <h2>Landing Pages</h2>
-                <p>Son páginas que están optimizadas y preparadas para <b>ser PÁGINAS VENDEDORAS</b>, impulsando al usuario a enviarnos sus datos, mediante un formulario de registro o consulta.</p>
-                <p>Se utilizan para hacer <b>campañas de publicidad</b>, cuando se quiere conseguir un objetivo específico y un retorno cuantitativo para una acción <b>promocional</b>.</p>
+                <p>Son <b>páginas web</b> que están optimizadas y preparadas para <b>ser PÁGINAS VENDEDORAS</b>, impulsando al usuario a enviarnos sus datos, mediante un formulario de registro o consulta.</p>
+                <p>Se utilizan para hacer <b>campañas de publicidad en internet</b>, cuando se quiere conseguir un objetivo específico y un retorno cuantitativo para una acción <b>promocional</b>.</p>
                 <a class="bot-p bot-blanco" href="#consulta">Consulta ahora</a>
             </div>
         </div>
@@ -116,7 +116,7 @@
                     <path d="M0 512h256v-512h-256v512zM160 64h64v64h-64v-64zM160 192h64v64h-64v-64zM160 320h64v64h-64v-64zM32 64h64v64h-64v-64zM32 192h64v64h-64v-64zM32 320h64v64h-64v-64zM288 160h224v32h-224zM288 512h64v-128h96v128h64v-288h-224z"></path>
                 </svg>				
                 <h2>Sitios Corporativos</h2>
-                <p>Estas webs son las que sirven para dar <b>información sobre la marca de la empresa</b>, mostrar los servicios, dar a conocer la imagen de la empresa.</p>
+                <p>Estas <b>páginas web</b> son las que sirven para dar <b>información sobre la marca de la empresa</b>, mostrar los servicios, dar a conocer la imagen de la empresa.</p>
                 <p>Un sitio web corporativo es un <b>canal más de comunicación</b> con tus clientes actuales y potenciales clientes.</p>
                 <p>Algunos objetivos son: <b>mejorar la presencia de tu empresa</b> en internet, destacar sobre la competencia, conseguir y fidelizar clientes.</p>
                 <a class="bot-p bot-blanco" href="#consulta">Consulta ahora</a>
@@ -211,7 +211,7 @@
         <div class="titH2 white-tit wow slideInDown">
             <h2><b>Proyectos</b> realizados</h2>
         </div>
-        <div id="grid" class="grid clearfix wow slideInUp" data-wow-delay=".3s">
+        <div id="grid" class="grid clearfix wow fadeIn" data-wow-delay=".3s">
             <a href="proyecto-lynx.php" data-path-hover="m 0,0 0,47.7775 c 24.580441,3.12569 55.897012,-8.199417 90,-8.199417 34.10299,0 65.41956,11.325107 90,8.199417 L 180,0 z">
                 <figure>
                     <img src="img/proy/zapatillaslynx.jpg" />
@@ -313,7 +313,7 @@
         </div>
         <div class="list-paq">
             <div class="small-12 medium-6 large-4 columns">
-                <div class="item-paq wow zoomIn" data-wow-delay=".5s">
+                <div class="item-paq wow fadeIn" data-wow-delay=".1s">
                     <h3>Opción 1</h3>
                     <h2>Según tu presupuesto</h2>
                     <p>Ajustado <b>según tu presupuesto,</b> hacemos el desarrollo escalable, es decir preparamos el <b>desarrollo por módulos</b>, el pago es según lo avanzado.</p>
@@ -329,7 +329,7 @@
                 </div>
             </div>
             <div class="small-12 medium-6 large-4 columns">
-                <div class="item-paq wow zoomIn" data-wow-delay="1s">
+                <div class="item-paq wow fadeIn" data-wow-delay=".4s">
                     <h3>Opción 2</h3>
                     <h2>Página vendedora</h2>
                     <p>Desarrollada con el objetivo de <b>promocionar y hacer conocido tus productos o servicios</b>. Te brindamos asesoría para una campaña exitosa, de esta manera conseguir más clientes.</p>
@@ -346,7 +346,7 @@
                 </div>
             </div>
             <div class="small-12 medium-6 large-4 columns">
-                <div class="item-paq wow zoomIn" data-wow-delay="1.5s">
+                <div class="item-paq wow fadeIn" data-wow-delay=".8s">
                     <h3>Opción 3</h3>
                     <h2>Según tus requerimientos</h2>
                     <p>Para este tipo de desarrollo, es necesario <b>conocer tus requerimientos</b> para cumplir tus objetivos, si es posible agendar una <b>reunión sin ningún compromiso</b>, de esta manera poder  asesorarte y hacer una cotización exacta para lograr un proyecto exitoso.</p>
@@ -371,14 +371,14 @@
         <div class="titH2 wow slideInDown">
             <h2><b>Solicita</b> información</h2>
         </div>
-        <div class="cont-comunic wow lightSpeedIn">
+        <div class="cont-comunic wow fadeIn">
             <p>Envíanos un watsapp para consultas o agendar una reunión sin ningún compromiso.</p>
             <a href="tel: 987 204 172"><i class="fa fa-whatsapp" aria-hidden="true"></i> 987 204 172</a>
         </div>
 </section>
 <section class="row backblue2 cont-formul">
     <div class="col-container">
-        <div class="simform wow fadeInLeft" data-wow-delay=".3s">
+        <div class="simform wow fadeIn" data-wow-delay=".3s">
             <div class="tit-form">
                 <h2>También puedes escribirnos</h2>
                 <p>Envíanos tu consulta y te enviaremos una respuesta lo más pronto posible</p>
@@ -459,6 +459,33 @@
         equalheight('.item-paq');
     });
 
+/****Para deslizar*****/
+$(function(){
+
+     $('a[href*=#]').click(function() {
+
+     if (location.pathname.replace(/^\//,'') == this.pathname.replace(/^\//,'')
+         && location.hostname == this.hostname) {
+
+             var $target = $(this.hash);
+
+             $target = $target.length && $target || $('[name=' + this.hash.slice(1) +']');
+
+             if ($target.length) {
+
+                 var targetOffset = $target.offset().top;
+
+                 $('html,body').animate({scrollTop: targetOffset}, 1000);
+
+                 return false;
+
+            }
+
+       }
+
+   });
+
+});
 </script>
 
 </body>
