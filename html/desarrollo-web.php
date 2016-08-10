@@ -384,6 +384,7 @@
                 <p>Envíanos tu consulta y te enviaremos una respuesta lo más pronto posible</p>
             </div>
             <form id="formWeb" action="../php/register.php" method="post">
+                <input type="hidden" name="section" value="Desarrollo web">
                 <div class="card">
                     <div class="input-wrapper">
                         <input type="text" id="nombre" name="name" required>

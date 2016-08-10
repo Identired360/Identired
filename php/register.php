@@ -2,9 +2,11 @@
 
 require 'vendor/autoload.php';
 
-$SENDGRID_API_KEY = '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';
+$forward = "../html/gracias-consulta.php";
+$SENDGRID_API_KEY = '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';
 
 $infoRequest = filter_input_array(INPUT_POST, array(
+    'section' => FILTER_SANITIZE_STRING,
     'name' => FILTER_SANITIZE_STRING,
     'email' => FILTER_SANITIZE_STRING,
     'phone' => FILTER_SANITIZE_STRING,
@@ -23,15 +25,30 @@ if ($v->validate()) {
 
     $template = file_get_contents(dirname(__FILE__) . '/../html/email/template.html');
     $template = str_replace('{name}', $infoRequest['name'], $template);
-
     $content = new SendGrid\Content("text/html", $template);
+    $mail = new SendGrid\Mail($from, $subject, $to, $content);
+
+    $sg = new \SendGrid($SENDGRID_API_KEY);
+    $response = $sg->client->mail()->send()->post($mail);
     
+    $from = new SendGrid\Email("Marco Milon", "marco.milon@identired.com");
+    $subject = "Contacto de la pagina web - Identired";
+    $to = new SendGrid\Email('Identired', 'informes@identired.com');
+
+    $body = "Sección: " . $infoRequest['section'] . "<br/>";
+    $body .= "Nombre: " . $infoRequest['name'] . "<br/>";
+    $body .= "Email: " . $infoRequest['email'] . "<br/>";
+    $body .= "Teléfono: " . $infoRequest['phone'] . "<br/>";
+    $body .= "Msg: " . $infoRequest['msg'] . "<br/>";
+    
+    $content = new SendGrid\Content("text/html", $body);
+
     $mail = new SendGrid\Mail($from, $subject, $to, $content);
     $sg = new \SendGrid($SENDGRID_API_KEY);
     $response = $sg->client->mail()->send()->post($mail);
-    echo $response->statusCode();
-    echo $response->headers();
-    echo $response->body();
+    
+    header("Location: " . $forward);
+    exit();
 } else {
     print_r($v->errors());
 }

@@ -22,14 +22,14 @@
           <h3>Suscríbete</h3>
          <p>Para recibir nuestras novedades.</p>
          <div class="form-csus">
-            <form id="formReg" action="gracias-suscripcion.php">
+            <form id="formReg" action="../php/subscribe.php" method="post">
               <div class="card">
                 <div class="input-wrapper">
-                  <input type="text" id="nombreN" name="nombreN" required>
+                  <input type="text" id="nombreN" name="name" required>
                   <label>Tu nombre</label>
                 </div>
                 <div class="input-wrapper">
-                  <input type="email" id="correoN" name="correoN" required>
+                  <input type="email" id="correoN" name="email" required>
                   <label>Tu correo electrónico</label>
                 </div>
                 <!--div class="cont-check">
@@ -87,8 +87,7 @@
 
 $(function(){
     $('#formWeb').validate({
-        rules :{
-                            
+        rules :{              
             telefono : {
                 required : true,
                 digits: true
