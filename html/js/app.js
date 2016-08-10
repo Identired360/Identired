@@ -31,7 +31,7 @@ if (showCounter != 'false') {
     viewHc();
 }
 
-$(document).ready(function () {
+$(document).ready(function() {
 
     new WOW().init();
 
@@ -40,10 +40,8 @@ $(document).ready(function () {
     /*Menu*/
     var overlayTimer = null;
 
-    function closeMenu()
-    {
-        if (overlayTimer != null)
-        {
+    function closeMenu() {
+        if (overlayTimer != null) {
             clearTimeout(overlayTimer);
             overlayTimer = null;
         }
@@ -58,42 +56,42 @@ $(document).ready(function () {
          {
          $('#overlay').css('display', 'none');
          overlayTimer = null;
-         
+
          }, 0.33 * 1000);*/
     }
 
     $('#overlay').on('click', closeMenu);
 
 
-    $('#menu_button').click(function (e) {
+    $('#menu_button').click(function(e) {
 
         //$('body').toggleClass('menu-shown');
 
         $(this).toggleClass('open');
 
         /*  var isShown = $('body').hasClass('menu-shown');
-         
-         if (overlayTimer != null) 
+
+         if (overlayTimer != null)
          {
          clearTimeout(overlayTimer);
          overlayTimer = null;
          }
-         
+
          if (isShown)
          {
-         
+
          $('#overlay').css('display', 'block');
-         overlayTimer = setTimeout(function() 
+         overlayTimer = setTimeout(function()
          {
          $('#overlay').css('opacity', 1);
          overlayTimer = null;
-         
+
          }, 1);
          }
-         else 
+         else
          {
          closeMenu();
-         
+
          }*/
 
     });
@@ -103,18 +101,18 @@ $(document).ready(function () {
 
 /*Slide toggle*/
 
-$("#top-view").click(function () {
-    $(".top-bar-head").slideToggle("fast", function () {
+$("#top-view").click(function() {
+    $(".top-bar-head").slideToggle("fast", function() {
         $(".has-tip svg").slideToggle('fast');
-        $(".i-iconn").slideToggle('fast');    // Animation complete.
+        $(".i-iconn").slideToggle('fast'); // Animation complete.
     });
 });
 
 /*Para form largo*/
 
-$(function () {
+$(function() {
 
-    $('.awesome-form .input-group input').focusout(function () {
+    $('.awesome-form .input-group input').focusout(function() {
 
         var text_val = $(this).val();
 
@@ -129,7 +127,7 @@ $(function () {
         }
 
     });
-    $('.awesome-form .input-group textarea').focusout(function () {
+    $('.awesome-form .input-group textarea').focusout(function() {
 
         var text_val = $(this).val();
 
@@ -148,14 +146,14 @@ $(function () {
 });
 
 /*Equal height*/
-equalheight = function (container) {
+equalheight = function(container) {
 
     var currentTallest = 0,
-            currentRowStart = 0,
-            rowDivs = new Array(),
-            $el,
-            topPosition = 0;
-    jQuery(container).each(function () {
+        currentRowStart = 0,
+        rowDivs = new Array(),
+        $el,
+        topPosition = 0;
+    jQuery(container).each(function() {
 
         $el = jQuery(this);
         jQuery($el).height('auto')
@@ -180,7 +178,7 @@ equalheight = function (container) {
 }
 
 //-------------- [ MenuTop ] --------------//
-$(window).scroll(function () {
+$(window).scroll(function() {
 
     if ($(this).scrollTop() > 0) {
         $('.head').addClass('head-fix');
@@ -191,26 +189,24 @@ $(window).scroll(function () {
 });
 
 /*Para validar formulario*/
-  
-  $('input, textarea').on('focus', function() {
-  $(this).parent().addClass('focus');
+$('input, textarea').on('focus', function() {
+    $(this).parent().addClass('focus');
 });
 
 $('input, textarea').on('blur', function(event) {
-  if (event.target.value.length > 0) {
-    $(this).parent().addClass('active');
-  } else {
-    $(this).parent().removeClass('active');
-  }
+    if (event.target.value.length > 0) {
+        $(this).parent().addClass('active');
+    } else {
+        $(this).parent().removeClass('active');
+    }
 
-  $(this).parent().removeClass('focus');
+    $(this).parent().removeClass('focus');
 });
 
 $('textarea').on('keyup', function() {
-  $(this).css('height', 'auto');
-  $(this).css('height', $(this)[0].scrollHeight+'px');
+    $(this).css('height', 'auto');
+    $(this).css('height', $(this)[0].scrollHeight + 'px');
 });
 
-
-
-
+$('#formWeb').validate();
+$('#formReg').validate();

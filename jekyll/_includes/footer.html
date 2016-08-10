@@ -1,38 +1,99 @@
-<footer class="site-footer">
-
-  <div class="wrapper">
-
-    <h2 class="footer-heading">{{ site.title }}</h2>
-
-    <div class="footer-col-wrapper">
-      <div class="footer-col footer-col-1">
-        <ul class="contact-list">
-          <li>{{ site.title }}</li>
-          <li><a href="mailto:{{ site.email }}">{{ site.email }}</a></li>
-        </ul>
-      </div>
-
-      <div class="footer-col footer-col-2">
-        <ul class="social-media-list">
-          {% if site.github_username %}
-          <li>
-            {% include icon-github.html username=site.github_username %}
-          </li>
-          {% endif %}
-
-          {% if site.twitter_username %}
-          <li>
-            {% include icon-twitter.html username=site.twitter_username %}
-          </li>
-          {% endif %}
-        </ul>
-      </div>
-
-      <div class="footer-col footer-col-3">
-        <p>{{ site.description }}</p>
-      </div>
+<section class="row sec-clien">
+    <div class="col-container">
+        <h2><b>Ellos trabajan</b> con nosotros</h2>
+        <div class="cont-cli">
+            <ul>
+                <li>
+                    <a href="proyecto-zapatillas-tigre.php" title="Zapatillas Tigre"><img src="img/logo-tigre.jpg" title="Zapatillas Tigre"></a>
+                </li>
+                <li>
+                    <a href="proyecto-gesym.php" title="Contadores GESYM"><img src="img/logo-gesym.png" title="Contadores GESYM"></a>
+                </li>
+                <li>
+                    <a href="proyecto-fottiva.php" title="Fottiva"><img src="img/logo_fotiva.jpg" title="Fottiva"></a>
+                </li>
+                <li>
+                    <a href="proyecto-berime.php" title="Beprime"><img src="img/logo_beprime.png" title="Beprime"></a>
+                </li>
+                <li>
+                    <a href="proyecto-lynx.php" title="Zapatillas Lynx"><img src="img/logo-lynx.png" title="Zapatillas Lynx"></a>
+                </li>
+                <li>
+                    <a href="proyecto-sysel.php" title="Sysel"><img src="img/logos/sysel.jpg" title="Sysel"></a>
+                </li>
+                <li>
+                    <a href="proyeco-huallamarca.php" title="Huallamarca"><img src="img/logos/huallamarca.jpg" title="Huallamarca"></a>
+                </li>
+            </ul>
+        </div>
     </div>
+</section>
 
-  </div>
+<footer class="row foot">
+    <img class="img-bann2" src="img/ground6.png">
+    <div class="col-container">
+        <div class="small-12 medium-6 large-4 columns form-sus">
+            <h3>Suscríbete</h3>
+            <p>Para recibir nuestras novedades.</p>
+            <div class="form-csus">
+                <form id="formReg" action="../php/subscribe.php" method="post">
+                    <div class="card">
+                        <div class="input-wrapper">
+                            <input type="text" id="nombreN" name="name" required>
+                            <label>Tu nombre</label>
+                        </div>
+                        <div class="input-wrapper">
+                            <input type="email" id="correoN" name="email" required>
+                            <label>Tu correo electrónico</label>
+                        </div>
+                        <!--div class="cont-check">
+                    <input type="checkbox" id="newsp"> <label class="labchec" for="newsp">Acepto los términos y condiciones.</label>
+                </div-->
+                        <div class="but-input sub-news">
+                            <input type="submit" class="bot-p bot-blanco" value="Suscribirme">
+                        </div>
+                    </div>
+                </form>
+            </div>
+        </div>
+        <div class="small-12 medium-6 large-4 columns cont-linkb">
+            <h3>Enlaces de interés</h3>
+            <ul>
+                <li><a class="linkid" href="desarrollo-web.php" title="Desarrollo Web">Desarrollo web</a></li>
+                <li><a class="linkid" href="consulta.php" title="">Consultas</a></li>
+            </ul>
+            <h3>Síguenos también</h3>
+            <!--a target="_blank" href="http://twitter.com/minimalmonkey" class="icon-button twitter"><i class="icon-twitter"></i><span></span></a-->
+            <a target="_blank" href="http://facebook.com" class="icon-button facebook" title="Facebook"><i class="fa fa-facebook icon-facebook" aria-hidden="true"></i><span></span></a>
+            <!--a target="_blank" href="https://pe.linkedin.com/" class="icon-button linkedin" title="Linkedin"><i class="fa fa-linkedin icon-lin" aria-hidden="true"></i><span></span></a-->
 
+            <!--a  target="_blank" href="http://plus.google.com" class="icon-button google-plus"><i class="fa fa-linkedin icon-google-plus" aria-hidden="true"></i><span></span></a-->
+        </div>
+        <div class="small-12 medium-6 large-4 columns datid">
+            <h3>Contáctanos</h3>
+            <ul>
+                <li><a href=""><i class="fa fa-map-marker" aria-hidden="true"></i>Narciso de la Colina  421 Miraflores Lima Oficina 701</a></li>
+                <li><a href="tel:987204172"><i class="fa fa-mobile" aria-hidden="true"></i> RPC 987 204 172</a></li>
+                <li><a href="tel:950984807"><i class="fa fa-mobile" aria-hidden="true"></i> RPM 950 984 807
+            <li><a href="tel:987204172"><i class="fa fa-whatsapp" aria-hidden="true"></i> 987 204 172</a></li>
+                <li><a href="mailto:informes@identired.com"><i class="fa fa-envelope" aria-hidden="true"></i>informes@identired.com</a></li>
+            </ul>
+        </div>
+        <div class="small-12 columns">
+            <div class="bottom-pag">
+                <a href="terminos.php" title="Términos y condiciones">Términos y condiciones</a>
+                <p>Copyright Tuxpa Software SAC - 2016</p>
+            </div>
+        </div>
+    </div>
 </footer>
+</div>
+<!--Cierra main container-->
+
+<script src="js/vendor/jquery.js"></script>
+<script src="js/vendor/foundation.js"></script>
+<script src="js/modernizr.custom.js"></script>
+<script src="js/wow.min.js"></script>
+<script src="js/jquery.validate.min.js"></script>
+<script src="js/js.cookie.js"></script>
+<script src="js/app.js"></script>
