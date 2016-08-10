@@ -3,7 +3,7 @@
 require 'vendor/autoload.php';
 
 $forward = "../html/gracias-suscripcion.php";
-$SENDGRID_API_KEY = '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';
+$SENDGRID_API_KEY = getenv('SENDGRID_API_KEY');
 $listId = "494674";
 
 $infoRequest = filter_input_array(INPUT_POST, array(
