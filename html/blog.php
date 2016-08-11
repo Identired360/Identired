@@ -70,6 +70,152 @@
         <div class="col-container">
             <div class="small-12 columns tit-desweb wow slideInDown"><h1>Artículos de interés</h1></div>
 
+            <div class="row small-up-1 medium-up-2 large-up-3 articles">
+              <div class="column">
+                <article class="card">
+                    <div class="card__thumb">
+                        <a href="#"><img src="http://lorempicsum.com/rio/378/235/1" ></a>
+                    </div>
+                    
+                    <div class="card__date">
+                        <span class="card__date__day">23</span>
+                        <span class="card__date__month">Mai</span>
+                    </div>
+                    <div class="card__body">
+                        <div class="card__category"><a href="javascript:void(0)">Categoría</a></div>
+                        
+                        <a href="#" title="" class="card-sec">
+                            <h2>Título del artículo elementum semper nisivi troscup</h2>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+                            <div class="bot-p bot-cel bot-art">Ver artículo</div>
+                        </a>    
+                    </div>
+                    <div class="card__footer">
+                        <span class="icon icon--time">11/08/2016</span>
+                    </div>
+                </article>
+              </div>
+              <div class="column">
+                <article class="card">
+                    <header class="card__thumb">
+                        <a href="#"><img src="http://lorempicsum.com/rio/378/235/1" ></a>
+                        
+                    </header>
+                    <div class="card__date">
+                        <span class="card__date__day">23</span>
+                        <span class="card__date__month">Mai</span>
+                    </div>
+                    <div class="card__body">
+                        <div class="card__category"><a href="#">Category</a></div>
+                        <div class="card__title"><a href="#">Vivamus elementum semper nisivi troscup</a></div>
+                        <div class="card__subtitle">Donec posuere vulputate</div>
+                        <p class="card__description">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Labore sapiente doloremque recusandae, modi dolore velit, illum itaque minus inventore, omnis et nisi rem facere.</p>
+                    </div>
+                    <footer class="card__footer">
+                        <span class="icon icon--time">6 min</span>
+                        <span class="icon icon--comment"><a href="#">2 comments</a></span>
+                    </footer>
+                </article>
+              </div>
+              <div class="column">
+                <article class="card">
+                    <header class="card__thumb">
+                        <a href="#"><img src="http://lorempicsum.com/rio/378/235/1" ></a>
+                        
+                    </header>
+                    <div class="card__date">
+                        <span class="card__date__day">23</span>
+                        <span class="card__date__month">Mai</span>
+                    </div>
+                    <div class="card__body">
+                        <div class="card__category"><a href="#">Category</a></div>
+                        <div class="card__title"><a href="#">Vivamus elementum semper nisivi troscup</a></div>
+                        <div class="card__subtitle">Donec posuere vulputate</div>
+                        <p class="card__description">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Labore sapiente doloremque recusandae, modi dolore velit, illum itaque minus inventore, omnis et nisi rem facere.</p>
+                    </div>
+                    <footer class="card__footer">
+                        <span class="icon icon--time">6 min</span>
+                        <span class="icon icon--comment"><a href="#">2 comments</a></span>
+                    </footer>
+                </article>
+              </div>
+              <div class="column">
+                <article class="card">
+                    <header class="card__thumb">
+                        <a href="#"><img src="http://lorempicsum.com/rio/378/235/1" ></a>
+                        
+                    </header>
+                    <div class="card__date">
+                        <span class="card__date__day">23</span>
+                        <span class="card__date__month">Mai</span>
+                    </div>
+                    <div class="card__body">
+                        <div class="card__category"><a href="#">Category</a></div>
+                        <div class="card__title"><a href="#">Vivamus elementum semper nisivi troscup</a></div>
+                        <div class="card__subtitle">Donec posuere vulputate</div>
+                        <p class="card__description">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Labore sapiente doloremque recusandae, modi dolore velit, illum itaque minus inventore, omnis et nisi rem facere.</p>
+                    </div>
+                    <footer class="card__footer">
+                        <span class="icon icon--time">6 min</span>
+                        <span class="icon icon--comment"><a href="#">2 comments</a></span>
+                    </footer>
+                </article>
+              </div>
+              <div class="column">
+                <article class="card">
+                    <header class="card__thumb">
+                        <a href="#"><img src="http://lorempicsum.com/rio/378/235/1" ></a>
+                        
+                    </header>
+                    <div class="card__date">
+                        <span class="card__date__day">23</span>
+                        <span class="card__date__month">Mai</span>
+                    </div>
+                    <div class="card__body">
+                        <div class="card__category"><a href="#">Category</a></div>
+                        <div class="card__title"><a href="#">Vivamus elementum semper nisivi troscup</a></div>
+                        <div class="card__subtitle">Donec posuere vulputate</div>
+                        <p class="card__description">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Labore sapiente doloremque recusandae, modi dolore velit, illum itaque minus inventore, omnis et nisi rem facere.</p>
+                    </div>
+                    <footer class="card__footer">
+                        <span class="icon icon--time">6 min</span>
+                        <span class="icon icon--comment"><a href="#">2 comments</a></span>
+                    </footer>
+                </article>
+              </div>
+              <div class="column">
+                <article class="card">
+                    <header class="card__thumb">
+                        <a href="#"><img src="http://lorempicsum.com/rio/378/235/1" ></a>
+                        
+                    </header>
+                    <div class="card__date">
+                        <span class="card__date__day">23</span>
+                        <span class="card__date__month">Mai</span>
+                    </div>
+                    <div class="card__body">
+                        <div class="card__category"><a href="#">Category</a></div>
+                        <div class="card__title"><a href="#">Vivamus elementum semper nisivi troscup</a></div>
+                        <div class="card__subtitle">Donec posuere vulputate</div>
+                        <p class="card__description">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Labore sapiente doloremque recusandae, modi dolore velit, illum itaque minus inventore, omnis et nisi rem facere.</p>
+                    </div>
+                    <footer class="card__footer">
+                        <span class="icon icon--time">6 min</span>
+                        <span class="icon icon--comment"><a href="#">2 comments</a></span>
+                    </footer>
+                </article>
+              </div>
+            </div>
+
+
+
+
+
+
+
+
+
+
 
         </div>
     </section>
