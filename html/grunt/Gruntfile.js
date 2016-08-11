@@ -24,8 +24,7 @@ module.exports = function(grunt) {
             },
             all: {
                 files: {
-                    'web/js/all.min.js': 'web/js/all.js',
-                    'web/js/head-all.min.js': 'web/js/head-all.js'
+                    'js/all.min.js': ['../js/vendor/jquery.js', 'js/vendor/foundation.js', 'js/modernizr.custom.js', 'js/wow.min.js', 'js/jquery.validate.min.js', 'js/js.cookie.js', 'js/app.js']
                 }
             }
         },
@@ -85,7 +84,7 @@ module.exports = function(grunt) {
     grunt.loadNpmTasks('grunt-cssjoin');
 
     // Task definition
-    grunt.registerTask('build', ['less']);
+    grunt.registerTask('build', ['less', 'uglify']);
 
     //grunt.registerTask('build', ['less', 'typescript', 'copy', 'concat_sourcemap', 'uglify']);
     //grunt.registerTask('default', ['watch']);
