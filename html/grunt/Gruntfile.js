@@ -30,13 +30,22 @@ module.exports = function(grunt) {
         },
         copy: {
             main: {
-                files: [{
+                files: [
+                  {
                     expand: true,
                     flatten: true,
-                    src: ['web/tshop/assets/fonts/*', 'web/tshop/assets/bootstrap/fonts/*'],
-                    dest: 'web/fonts/',
+                    src: ['css/main.min.css'],
+                    dest: '../../jekyll/css/',
                     filter: 'isFile'
-                }]
+                },
+                {
+                  expand: true,
+                  flatten: true,
+                  src: ['js/all.min.js'],
+                  dest: '../../jekyll/js/',
+                  filter: 'isFile'
+              },
+              ]
             }
         },
         watch: {
@@ -84,7 +93,7 @@ module.exports = function(grunt) {
     grunt.loadNpmTasks('grunt-cssjoin');
 
     // Task definition
-    grunt.registerTask('build', ['less', 'uglify']);
+    grunt.registerTask('build', ['less', 'uglify', 'copy']);
 
     //grunt.registerTask('build', ['less', 'typescript', 'copy', 'concat_sourcemap', 'uglify']);
     //grunt.registerTask('default', ['watch']);
