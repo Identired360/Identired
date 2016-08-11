@@ -2,9 +2,9 @@
 
 <section class="row inicio-proy">
     <div class="col-container">
-        <h1>Proyecto: <b>Calzados Atlas</b></h1>
+        <h1>Proyecto: <b>Caprice</b></h1>
         <div class="text-centb">
-            <img title="Pagina web - Calzados Atlas" src="img/proy/pant-atlas.jpg">
+            <img title="Tienda virtual - Caprice" src="img/proy/pant-caprice.jpg">
         </div>
     </div>
  
@@ -20,20 +20,8 @@
             <p>El proyecto fue <b>desarrollo de tienda virtual</b>, se hizo el diseño según los colores de la marca que es el color negro combinando colores según sus productos, de estilo juvenil.</p>
             <p>Las secciones principales son: La galería de productos, segmentado según las categorías de los productos; la pasarela de pagos con 3 tipos de pago, depósito bancario, Payu y Pagoefectivo.</p>
             <p>En cuanto a la programación, es totalmente a medida desarrollado con Yii framework.  </p>
-            <a class="lik-proy linkid" href="http://www.calzadoatlas.pe/" target="_blank" title="Ver tienda virtual"><i class="fa fa-eye" aria-hidden="true"></i> Ver tienda virtual</a>
+            <a class="lik-proy linkid" href="http://www.caprice.pe/" target="_blank" title="Ver tienda virtual"><i class="fa fa-eye" aria-hidden="true"></i> Ver tienda virtual</a>
         </div>    
-        <div class="cont-test">
-            <h3>¿Qué dijo el cliente sobre nuestro servicio?</h3>
-            <figure class="snip1157">
-              <blockquote>Una buena experiencia, ya que la atención es personalizada con reuniones para que el proyecto salga bien.
-                <div class="arrow"></div>
-              </blockquote>
-              <img src="img/proy/proy-lynx.jpg" alt="Desarrollo tienda virtual" />
-              <div class="author">
-                <h5>Román Zaavedra<span> Jefe de Marketing - Calzado Atlas S.A.</span></h5>
-              </div>
-            </figure>
-        </div>
         <div class="sec-share">
             <h4>Si te ha gustado, compártelo con tus amigos</h4>
             <div id="botones-para-compartir">

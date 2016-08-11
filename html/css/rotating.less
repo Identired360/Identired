@@ -2,6 +2,7 @@
   display: inline-block;
   vertical-align: top;
 }
+/*
 #rotate span {
   position: absolute;
   opacity: 0;
@@ -127,12 +128,12 @@
     opacity: 0;
   }
 }
+*/
 
 
 
 
-
-
+/*
 
 .element-animation{
   animation: animationFrames linear 4s;
@@ -194,5 +195,65 @@
   }
   100% {
     -ms-transform:  translate(200px,0px)  rotate(180deg) ;
+  }
+}
+*/
+
+#rotate span {
+  position: absolute;
+  opacity: 0;
+  -webkit-transition: opacity 0ms;
+  transition: opacity 0ms;
+}
+#rotate span:nth-child(1) {
+  -webkit-animation: quoteshift 16s 0s infinite linear;
+          animation: quoteshift 16s 0s infinite linear;
+}
+#rotate span:nth-child(2) {
+  -webkit-animation: quoteshift 16s 4s infinite linear;
+          animation: quoteshift 16s 4s infinite linear;
+}
+#rotate span:nth-child(3) {
+  -webkit-animation: quoteshift 16s 8s infinite linear;
+          animation: quoteshift 16s 8s infinite linear;
+}
+#rotate span:nth-child(4) {
+  -webkit-animation: quoteshift 16s 12s infinite linear;
+          animation: quoteshift 16s 12s infinite linear;
+}
+
+@-webkit-keyframes "quoteshift" {
+  0% {
+    opacity: 0;
+  }
+  1% {
+    opacity: 1;
+  }
+  23% {
+    opacity: 1;
+  }
+  24% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 0;
+  }
+}
+
+@keyframes "quoteshift" {
+  0% {
+    opacity: 0;
+  }
+  1% {
+    opacity: 1;
+  }
+  23% {
+    opacity: 1;
+  }
+  24% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 0;
   }
 }
