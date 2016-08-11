@@ -10,9 +10,7 @@
                           <span>negocio.</span>
                           <span>idea.</span>
                           <span>proyecto.</span>
-                          <span>negocio.</span>
-                          <span>idea.</span>
-                          <span>proyecto.</span>
+                          <span>empresa.</span>
                         </div>
                     </span>
                 </h1>

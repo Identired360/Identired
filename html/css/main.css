@@ -1,12 +1,11 @@
-@import url(https://fonts.googleapis.com/css?family=Roboto:400,300,500,700);
+@import url(https://fonts.googleapis.com/css?family=Roboto:100,400,300,500,700);
 @import url(https://fonts.googleapis.com/css?family=Patrick+Hand);
 @import url(https://fonts.googleapis.com/css?family=Open+Sans:400,600,700,800);
 @import url(https://fonts.googleapis.com/css?family=Varela+Round);
 @import url(https://fonts.googleapis.com/css?family=Amaranth:400,400italic,700);
-@import url(https://fonts.googleapis.com/css?family=Roboto:400,300,500,700,100);
 @import url(https://fonts.googleapis.com/css?family=Raleway:400,500,700,300,200);
 @import "animate.css";
-@import "foundation.css";
+@import "foundation.min.css";
 @import "font-awesome.min.css";
 @import "slider-pro.css";
 @import "home/demo.css";
@@ -1609,7 +1608,7 @@ ul {
   font-weight: 500;
   color: #44B6CE;
   display: inline-block;
-  margin-left: .2em;
+  margin-left: .4em;
 }
 .item-vent i {
   color: #44B6CE;
@@ -1733,6 +1732,13 @@ ul {
 }
 .text-centb {
   text-align: center;
+}
+.text-centb h2 {
+  text-align: center;
+  font-size: 3.7em;
+  width: 60%;
+  margin: 0 auto;
+  font-weight: 300;
 }
 .backblue {
   background: #20374F;
@@ -1986,6 +1992,14 @@ ul {
 .butt-grac {
   margin-top: 5em;
   margin-bottom: 4em;
+}
+.tit-desweb {
+  margin-bottom: 2em;
+}
+.tit-desweb h1 {
+  font-size: 5em;
+  color: #fff;
+  margin-top: 0;
 }
 [type='text'],
 [type='password'],
@@ -2432,6 +2446,7 @@ input[type="checkbox"] {
   display: inline-block;
   vertical-align: top;
 }
+/*
 #rotate span {
   position: absolute;
   opacity: 0;
@@ -2442,51 +2457,52 @@ input[type="checkbox"] {
 }
 #rotate span:nth-child(1) {
   -webkit-animation: quoteshift 10s 0s infinite linear;
-  -moz-animation: quoteshift 10s 0s infinite linear;
-  -ms-animation: quoteshift 10s 0s infinite linear;
-  animation: quoteshift 10s 0s infinite linear;
+     -moz-animation: quoteshift 10s 0s infinite linear;
+     -ms-animation: quoteshift 10s 0s infinite linear;
+          animation: quoteshift 10s 0s infinite linear;
+
 }
 #rotate span:nth-child(2) {
   -webkit-animation: quoteshift 10s 2s infinite linear;
-  -moz-animation: quoteshift 10s 0s infinite linear;
-  -ms-animation: quoteshift 10s 0s infinite linear;
-  animation: quoteshift 10s 2s infinite linear;
+     -moz-animation: quoteshift 10s 0s infinite linear;
+     -ms-animation: quoteshift 10s 0s infinite linear;
+          animation: quoteshift 10s 2s infinite linear;
 }
 #rotate span:nth-child(3) {
   -webkit-animation: quoteshift 10s 4s infinite linear;
-  -moz-animation: quoteshift 10s 0s infinite linear;
-  -ms-animation: quoteshift 10s 0s infinite linear;
-  animation: quoteshift 10s 4s infinite linear;
+     -moz-animation: quoteshift 10s 0s infinite linear;
+     -ms-animation: quoteshift 10s 0s infinite linear;
+          animation: quoteshift 10s 4s infinite linear;
 }
 #rotate span:nth-child(4) {
   -webkit-animation: quoteshift 10s 6s infinite linear;
-  -moz-animation: quoteshift 10s 0s infinite linear;
-  -ms-animation: quoteshift 10s 0s infinite linear;
-  animation: quoteshift 10s 6s infinite linear;
+     -moz-animation: quoteshift 10s 0s infinite linear;
+     -ms-animation: quoteshift 10s 0s infinite linear;
+          animation: quoteshift 10s 6s infinite linear;
 }
 #rotate span:nth-child(5) {
   -webkit-animation: quoteshift 10s 8s infinite linear;
-  -moz-animation: quoteshift 10s 0s infinite linear;
-  -ms-animation: quoteshift 10s 0s infinite linear;
-  animation: quoteshift 10s 8s infinite linear;
+     -moz-animation: quoteshift 10s 0s infinite linear;
+     -ms-animation: quoteshift 10s 0s infinite linear;
+          animation: quoteshift 10s 8s infinite linear;
 }
 #rotate span:nth-child(6) {
   -webkit-animation: quoteshift 10s 12s infinite linear;
-  -moz-animation: quoteshift 10s 0s infinite linear;
-  -ms-animation: quoteshift 10s 0s infinite linear;
-  animation: quoteshift 10s 12s infinite linear;
+     -moz-animation: quoteshift 10s 0s infinite linear;
+     -ms-animation: quoteshift 10s 0s infinite linear;
+          animation: quoteshift 10s 12s infinite linear;
 }
 #rotate span:nth-child(7) {
   -webkit-animation: quoteshift 10s 14s infinite linear;
-  -moz-animation: quoteshift 10s 0s infinite linear;
-  -ms-animation: quoteshift 10s 0s infinite linear;
-  animation: quoteshift 10s 14s infinite linear;
+     -moz-animation: quoteshift 10s 0s infinite linear;
+     -ms-animation: quoteshift 10s 0s infinite linear;
+          animation: quoteshift 10s 14s infinite linear;
 }
 #rotate span:nth-child(8) {
   -webkit-animation: quoteshift 10s 16s infinite linear;
-  -moz-animation: quoteshift 10s 0s infinite linear;
-  -ms-animation: quoteshift 10s 0s infinite linear;
-  animation: quoteshift 10s 16s infinite linear;
+     -moz-animation: quoteshift 10s 0s infinite linear;
+     -ms-animation: quoteshift 10s 0s infinite linear;
+          animation: quoteshift 10s 16s infinite linear;
 }
 @-webkit-keyframes quoteshift {
   0% {
@@ -2556,7 +2572,10 @@ input[type="checkbox"] {
     opacity: 0;
   }
 }
-.element-animation {
+*/
+/*
+
+.element-animation{
   animation: animationFrames linear 4s;
   animation-iteration-count: 1;
   transform-origin: 50% 50%;
@@ -2573,44 +2592,106 @@ input[type="checkbox"] {
   -ms-animation-iteration-count: 1;
   -ms-transform-origin: 50% 50%;
 }
-@keyframes animationFrames {
+
+@keyframes animationFrames{
   0% {
-    transform: translate(0px, 0px) rotate(0deg);
+    transform:  translate(0px,0px)  rotate(0deg) ;
   }
   100% {
-    transform: translate(200px, 0px) rotate(180deg);
+    transform:  translate(200px,0px)  rotate(180deg) ;
   }
 }
-@-moz-keyframes animationFrames {
+
+@-moz-keyframes animationFrames{
   0% {
-    -moz-transform: translate(0px, 0px) rotate(0deg);
+    -moz-transform:  translate(0px,0px)  rotate(0deg) ;
   }
   100% {
-    -moz-transform: translate(200px, 0px) rotate(180deg);
+    -moz-transform:  translate(200px,0px)  rotate(180deg) ;
   }
 }
+
 @-webkit-keyframes animationFrames {
   0% {
-    -webkit-transform: translate(0px, 0px) rotate(0deg);
+    -webkit-transform:  translate(0px,0px)  rotate(0deg) ;
   }
   100% {
-    -webkit-transform: translate(200px, 0px) rotate(180deg);
+    -webkit-transform:  translate(200px,0px)  rotate(180deg) ;
   }
 }
+
 @-o-keyframes animationFrames {
   0% {
-    -o-transform: translate(0px, 0px) rotate(0deg);
+    -o-transform:  translate(0px,0px)  rotate(0deg) ;
   }
   100% {
-    -o-transform: translate(200px, 0px) rotate(180deg);
+    -o-transform:  translate(200px,0px)  rotate(180deg) ;
   }
 }
+
 @-ms-keyframes animationFrames {
   0% {
-    -ms-transform: translate(0px, 0px) rotate(0deg);
+    -ms-transform:  translate(0px,0px)  rotate(0deg) ;
   }
   100% {
-    -ms-transform: translate(200px, 0px) rotate(180deg);
+    -ms-transform:  translate(200px,0px)  rotate(180deg) ;
+  }
+}
+*/
+#rotate span {
+  position: absolute;
+  opacity: 0;
+  -webkit-transition: opacity 0ms;
+  transition: opacity 0ms;
+}
+#rotate span:nth-child(1) {
+  -webkit-animation: quoteshift 16s 0s infinite linear;
+  animation: quoteshift 16s 0s infinite linear;
+}
+#rotate span:nth-child(2) {
+  -webkit-animation: quoteshift 16s 4s infinite linear;
+  animation: quoteshift 16s 4s infinite linear;
+}
+#rotate span:nth-child(3) {
+  -webkit-animation: quoteshift 16s 8s infinite linear;
+  animation: quoteshift 16s 8s infinite linear;
+}
+#rotate span:nth-child(4) {
+  -webkit-animation: quoteshift 16s 12s infinite linear;
+  animation: quoteshift 16s 12s infinite linear;
+}
+@-webkit-keyframes "quoteshift" {
+  0% {
+    opacity: 0;
+  }
+  1% {
+    opacity: 1;
+  }
+  23% {
+    opacity: 1;
+  }
+  24% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 0;
+  }
+}
+@keyframes "quoteshift" {
+  0% {
+    opacity: 0;
+  }
+  1% {
+    opacity: 1;
+  }
+  23% {
+    opacity: 1;
+  }
+  24% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 0;
   }
 }
 .cont-proy {
@@ -2793,7 +2874,6 @@ figure.snip1157 .author h5 span {
   .slick-track {
     padding-top: 0em;
   }
-  /**/
   .item-serv h2 {
     font-size: 2.3em;
   }

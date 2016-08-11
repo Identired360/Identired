@@ -4,7 +4,7 @@
     <div class="col-container">
         <h1>Proyecto: <b>Zapatillas Lynx</b></h1>
         <div class="text-centb">
-            <img title="Pagina web - Zapatillas Lynx" src="img/proy/pant-lynx.jpg">
+            <img title="Tienda virtual - Zapatillas Lynx" src="img/proy/pant-lynx.jpg">
         </div>
     </div>
  
