@@ -3,11 +3,7 @@ module.exports = function(grunt) {
         less: {
             dev: {
                 options: {
-                    compress: true,
-                    sourceMap: false,
-                    outputSourceFiles: false,
-                    strictImports: true,
-                    syncImport: true
+                    compress: false
                 },
                 files: {
                     "css/main.css": "../css/main.less"
@@ -18,32 +14,18 @@ module.exports = function(grunt) {
                     compress: true
                 },
                 files: {
-                    "../../jekyll/css/main.css": "../css/main.less"
+                    "css/main.min.css": "../css/main.less"
                 }
             }
         },
-        cssjoin: {
-            join: {
-                files: {
-                    'css/main-min.css': ['css/main.css'],
-                },
-            }
-        },
-        concat_sourcemap: {
+        uglify: {
             options: {
-                //sourcesContent: true
+                mangle: false
             },
             all: {
-                files: {}
-            }
-        },
-        cssmin: {
-            options: {
-
-            },
-            build: {
                 files: {
-                    'web/css/all.min.css': 'web/css/all.css'
+                    'web/js/all.min.js': 'web/js/all.js',
+                    'web/js/head-all.min.js': 'web/js/head-all.js'
                 }
             }
         },
@@ -56,17 +38,6 @@ module.exports = function(grunt) {
                     dest: 'web/fonts/',
                     filter: 'isFile'
                 }]
-            }
-        },
-        uglify: {
-            options: {
-                mangle: false
-            },
-            all: {
-                files: {
-                    'web/js/all.min.js': 'web/js/all.js',
-                    'web/js/head-all.min.js': 'web/js/head-all.js'
-                }
             }
         },
         watch: {
@@ -114,7 +85,7 @@ module.exports = function(grunt) {
     grunt.loadNpmTasks('grunt-cssjoin');
 
     // Task definition
-    grunt.registerTask('build', ['less', 'cssjoin']);
+    grunt.registerTask('build', ['less']);
 
     //grunt.registerTask('build', ['less', 'typescript', 'copy', 'concat_sourcemap', 'uglify']);
     //grunt.registerTask('default', ['watch']);

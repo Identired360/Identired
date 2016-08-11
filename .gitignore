@@ -3,3 +3,5 @@ _site
 .jekyll-metadata
 /php/vendor/
 /html/grunt/node_modules
+/html/grunt/css/*
+/html/grunt/js/*
