@@ -271,7 +271,7 @@
                         <svg viewBox="0 0 180 320" preserveAspectRatio="none"><path d="m 0,0 0,171.14385 c 24.580441,15.47138 55.897012,24.75772 90,24.75772 34.10299,0 65.41956,-9.28634 90,-24.75772 L 180,0 0,0 z"/></svg>
                         <figcaption>
                             <h2>Caprice</h2>
-                            <p>Desearrollo Web UX</p>
+                            <p>Desearrollo Web UX, Tienda virtual</p>
                             <button>Ver proyecto</button>
                         </figcaption>
                     </figure>
