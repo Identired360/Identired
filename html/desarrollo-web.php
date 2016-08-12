@@ -227,7 +227,7 @@
                         <svg viewBox="0 0 180 320" preserveAspectRatio="none"><path d="m 0,0 0,171.14385 c 24.580441,15.47138 55.897012,24.75772 90,24.75772 34.10299,0 65.41956,-9.28634 90,-24.75772 L 180,0 0,0 z"/></svg>
                         <figcaption>
                             <h2>Zapatillas Tigre</h2>
-                            <p>Desarrollo Pasarela de Pagos</p>
+                            <p>Desarrollo de pasarela de pagos y actualización de página</p>
                             <button>Ver proyecto</button>
                         </figcaption>
                     </figure>
@@ -381,7 +381,7 @@
                 </div>
                 <form id="formWeb" action="../php/register.php" method="post">
                     <input type="hidden" name="section" value="Desarrollo web">
-                    <div class="card">
+                    <div class="card-form">
                         <div class="input-wrapper">
                             <input type="text" id="nombre" name="name" required>
                                 <label>Nombre y Apellido</label>
