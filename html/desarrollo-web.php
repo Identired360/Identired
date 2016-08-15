@@ -74,7 +74,7 @@
                 </div>
                 <h1>Desarrollo de páginas web, tiendas virtuales y landing pages.</h1>
 
-                <a class="bot-p bot-cel" href="#empezar" title="Empezar ahora">Empezar ahora</a>
+                <a class="bot-p bot-cel" href="#empezar" title="Revisa nuestros servicios">Revisa nuestros servicios</a>
             </div>
         </div>
         <img class="img-bann" src="img/ground.png"> 
