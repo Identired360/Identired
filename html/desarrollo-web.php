@@ -72,6 +72,7 @@
                         </span>
                     </h3>
                 </div>
+                <h1>Desarrollo de páginas web, tiendas virtuales y landing pages.</h1>
             </div>
         </div>
         <img class="img-bann" src="img/ground.png"> 
@@ -79,9 +80,8 @@
 
     <section class="row back-cel sec-imp">
         <div class="col-container">
-            <div class="small-12 columns tit-desweb wow slideInDown"><h1>Servicios de desarrollo web</h1></div>
             <div class="small-12 large-4 columns">
-                <div class="item-desa wow fadeIn" data-wow-delay=".1s">
+                <div class="item-desa">
                     <svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 512 512">
                         <g id="icomoon-ignore">
                         </g>
@@ -94,7 +94,7 @@
                 </div>
             </div>
             <div class="small-12 large-4 columns">
-                <div class="item-desa wow fadeIn" data-wow-delay=".4s">
+                <div class="item-desa">
                     <svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 512 512">
                         <g id="icomoon-ignore">
                         </g>
@@ -109,7 +109,7 @@
                 </div>
             </div>
             <div class="small-12 large-4 columns">
-                <div class="item-desa wow fadeIn" data-wow-delay=".7s">
+                <div class="item-desa">
                     <svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 512 512">
                         <g id="icomoon-ignore">
                         </g>
@@ -209,7 +209,7 @@
             <div class="titH2 white-tit wow slideInDown">
                 <h2><b>Proyectos</b> realizados</h2>
             </div>
-            <div id="grid" class="grid clearfix wow fadeIn" data-wow-delay=".3s">
+            <div id="grid" class="grid clearfix" data-wow-delay=".3s">
                 <a title="Desarrollo web - Zapatillas Lynx" href="proyecto-lynx.php" data-path-hover="m 0,0 0,47.7775 c 24.580441,3.12569 55.897012,-8.199417 90,-8.199417 34.10299,0 65.41956,11.325107 90,8.199417 L 180,0 z">
                     <figure>
                         <img src="img/proy/zapatillaslynx.jpg" />
@@ -310,7 +310,7 @@
             </div>
             <div class="list-paq">
                 <div class="small-12 medium-6 large-4 columns">
-                    <div class="item-paq wow fadeIn" data-wow-delay=".1s">
+                    <div class="item-paq" data-wow-delay=".1s">
                         <h3>Opción 1</h3>
                         <h2>Según tu presupuesto</h2>
                         <p>Ajustado <b>según tu presupuesto,</b> hacemos el desarrollo escalable, es decir preparamos el <b>desarrollo por módulos</b>, el pago es según lo avanzado.</p>
@@ -326,7 +326,7 @@
                     </div>
                 </div>
                 <div class="small-12 medium-6 large-4 columns">
-                    <div class="item-paq wow fadeIn" data-wow-delay=".4s">
+                    <div class="item-paq" data-wow-delay=".4s">
                         <h3>Opción 2</h3>
                         <h2>Página vendedora</h2>
                         <p>Desarrollada con el objetivo de <b>promocionar y hacer conocido tus productos o servicios</b>. Te brindamos asesoría para una campaña exitosa, de esta manera conseguir más clientes.</p>
@@ -343,7 +343,7 @@
                     </div>
                 </div>
                 <div class="small-12 medium-6 large-4 columns">
-                    <div class="item-paq wow fadeIn" data-wow-delay=".8s">
+                    <div class="item-paq  " data-wow-delay=".8s">
                         <h3>Opción 3</h3>
                         <h2>Según tus requerimientos</h2>
                         <p>Para este tipo de desarrollo, es necesario <b>conocer tus requerimientos</b> para cumplir tus objetivos, si es posible agendar una <b>reunión sin ningún compromiso</b>, de esta manera poder  asesorarte y hacer una cotización exacta para lograr un proyecto exitoso.</p>

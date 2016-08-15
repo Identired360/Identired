@@ -1,6 +1,7 @@
 @charset "UTF-8";
 @import url(https://fonts.googleapis.com/css?family=Roboto:100,400,300,500,700);
 @import url(https://fonts.googleapis.com/css?family=Raleway:400,500,700,300,200);
+@import url(https://fonts.googleapis.com/css?family=Amaranth:400,700);
 /*!
  * animate.css -http://daneden.me/animate
  * Version - 3.5.1
@@ -6040,6 +6041,12 @@ nav {
 input#ackapa:checked + nav {
   transform: translateY(0);
 }
+.navicon-button.open .cont-let {
+  display: none;
+}
+.navicon-button.open .cont-let2 {
+  display: block;
+}
 input#ackapa:checked + nav li {
   font-size: 2.3em;
   transform: translateY(0);
@@ -6050,6 +6057,20 @@ input#ackapa:checked + nav li {
 .nav-ide a {
   text-decoration: none;
   color: dodgerblue;
+}
+.cont-let {
+  position: absolute;
+  right: -3em;
+  font-size: 1.5em;
+  bottom: 1.1em;
+}
+.cont-let2 {
+  position: absolute;
+  right: -3em;
+  font-size: 1.5em;
+  bottom: 1.1em;
+  display: none;
+  color: #fff;
 }
 .foot {
   background: #67c082;
@@ -6265,6 +6286,7 @@ input#ackapa:checked + nav li {
   width: 60%;
   margin: 0 auto;
   margin-bottom: 1em;
+  opacity: 0;
 }
 .title-home .txt-espb {
   margin-left: -3em;
@@ -7889,15 +7911,15 @@ table {
   position: relative;
   text-align: center;
   padding-top: 7%;
-  padding-bottom: 17%;
+  padding-bottom: 14%;
   background-attachment: fixed;
   background-size: cover;
   background-repeat: no-repeat;
 }
 .ban-inicio h1 {
-  font-size: 7em;
-  font-weight: 500;
-  text-shadow: 2px 2px 4px #333;
+  font-size: 3.5em;
+  margin-top: 1em;
+  font-family: 'Raleway';
 }
 .ban-inicio h3 {
   font-size: 5em;
@@ -8388,6 +8410,10 @@ table {
   font-size: 5em;
   color: #fff;
   margin-top: 0;
+}
+.text-centb p {
+  font-size: 3.2em;
+  margin-top: 1em;
 }
 [type='text'],
 [type='password'],
@@ -9522,9 +9548,6 @@ figure.snip1157 .author h5 span {
   .cont-linksh {
     padding-top: 2.5em;
   }
-  .slick-track {
-    padding-top: 0em;
-  }
   .item-serv h2 {
     font-size: 2.3em;
   }
@@ -9536,6 +9559,15 @@ figure.snip1157 .author h5 span {
   }
   .grid {
     width: 100%;
+  }
+  .slick-track {
+    padding-top: 1.6em;
+  }
+  .title-home p {
+    margin-bottom: 0;
+  }
+  .title-home h1 {
+    margin-bottom: 0.3em;
   }
 }
 @media only screen and (max-width: 1200px) {
@@ -9563,7 +9595,7 @@ figure.snip1157 .author h5 span {
     margin-bottom: 2.5em;
   }
 }
-@media only screen and (max-height: 767px) {
+@media only screen and (max-height: 767px) and (max-width: 992px) {
   .title-home p {
     margin-bottom: 1em !important;
   }
@@ -9729,6 +9761,9 @@ figure.snip1157 .author h5 span {
     margin-bottom: .5em;
     line-height: 1.1em;
   }
+  .logo {
+    padding-top: 2.1em;
+  }
 }
 @media only screen and (max-width: 480px) {
   .logo svg {
@@ -9775,6 +9810,11 @@ figure.snip1157 .author h5 span {
     margin-left: 0;
     width: 100%;
     font-size: 1.7em;
+  }
+}
+@media only screen and (max-width: 352px) {
+  .title-home h1 {
+    font-size: 2.5em;
   }
 }
 @media only screen and (min-height: 799px) {

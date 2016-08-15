@@ -357,6 +357,12 @@ nav {
 input#ackapa:checked + nav {
   transform: translateY(0);
 }
+.navicon-button.open .cont-let{
+  display: none;
+}
+.navicon-button.open .cont-let2{
+  display: block;
+}
 
 input#ackapa:checked + nav li {
   font-size: 2.3em;
@@ -369,4 +375,18 @@ input#ackapa:checked + nav li {
 .nav-ide  a {
   text-decoration: none;
   color: dodgerblue;
+}
+.cont-let{
+  position: absolute;
+  right: -3em;
+  font-size: 1.5em;
+  bottom: 1.1em
+}
+.cont-let2{
+  position: absolute;
+  right: -3em;
+  font-size: 1.5em;
+  bottom: 1.1em;  
+  display: none;
+  color: #fff;
 }

@@ -25,10 +25,10 @@ if (showCounter != 'false') {
     setTimeout("viewHp()", 7700);
     setTimeout("viewHc()", 8200);
 } else {
-    viewHome();
-    viewH1();
-    viewHp();
-    viewHc();
+    setTimeout("viewHome()", 3000);
+    setTimeout("viewH1()", 2000);
+    setTimeout("viewHp()", 3700);
+    setTimeout("viewHc()", 4200);
 }
 
 $(document).ready(function() {
