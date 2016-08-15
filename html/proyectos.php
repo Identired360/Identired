@@ -1,6 +1,6 @@
 <?php include('header.html') ?>
 
-    <section class="row ban-inicio" style="background-image: url('img/website.png');">
+    <section class="row ban-inicio" style="background-image: url('img/fondo2.jpg');">
         <div class="col-container">
             <svg xmlns="http://www.w3.org/2000/svg" version="1.1" xmlns:xlink="http://www.w3.org/1999/xlink" width="100%" height="100%">
                 <!-- Background -->
@@ -59,14 +59,17 @@
                     </font>
                 </defs>
             </svg>
-         </div>
-    </section>
+            <div class="text-centb">
+         
+               <h1>Desarrollo de páginas web, tiendas virtuales y landing pages.</h1>
 
-    <section class="row demo-2 back-proy">
-        <div class="col-container">
-            <div class="titH2 white-tit wow slideInDown">
-                <h2><b>Proyectos</b> realizados</h2>
+                <a class="bot-p bot-cel" href="#empezar" title="Revisa nuestros servicios">Revisa nuestros proyectos</a>
             </div>
+        </div>
+        <img class="img-bann" src="img/ground.png"> 
+    </section>
+    <section id="empezar" class="row demo-2 back-cel">
+        <div class="col-container">
             <div id="grid" class="grid clearfix" data-wow-delay=".3s">
                 <a title="Desarrollo web - Zapatillas Lynx" href="proyecto-lynx.php" data-path-hover="m 0,0 0,47.7775 c 24.580441,3.12569 55.897012,-8.199417 90,-8.199417 34.10299,0 65.41956,11.325107 90,8.199417 L 180,0 z">
                     <figure>
@@ -156,10 +159,9 @@
                         </figcaption>
                     </figure>
                 </a>
-            </div>		
+            </div>      
         </div>
     </section>
-
     <section class="row sec-tecn">
         <div class="col-container">
             <div class="titH2 wow slideInDown">
@@ -185,7 +187,6 @@
             </div>
         </div>
     </section>
-
     <section id="consulta" class="row backblue sec-info">
         <div class="col-container">
             <div class="titH2 wow slideInDown">
@@ -231,9 +232,9 @@
                                 <input type="submit" class="bot-p bot-blanco" value="Enviar mi consulta">
                             </div>
                         </div>  
-                    </div>			
-                </form>			
-            </div>		
+                    </div>          
+                </form>         
+            </div>      
         </div>
     </section>
 
@@ -269,47 +270,7 @@
             init();
 
         })();
-        /*Para height*/
-        jQuery(window).load(function () {
-            equalheight('.item-desa');
-            equalheight('.item-vent');
-            equalheight('.item-paq');
-        });
-
-        jQuery(window).resize(function () {
-            equalheight('.item-desa');
-            equalheight('.item-vent');
-            equalheight('.item-paq');
-        });
-
-        /****Para deslizar*****/
-        $(function(){
-
-             $('a[href*=#]').click(function() {
-
-             if (location.pathname.replace(/^\//,'') == this.pathname.replace(/^\//,'')
-                 && location.hostname == this.hostname) {
-
-                     var $target = $(this.hash);
-
-                     $target = $target.length && $target || $('[name=' + this.hash.slice(1) +']');
-
-                     if ($target.length) {
-
-                         var targetOffset = $target.offset().top;
-
-                         $('html,body').animate({scrollTop: targetOffset}, 1000);
-
-                         return false;
-
-                    }
-
-               }
-
-           });
-
-        });
-    </script>
+     </script>
 
 </body>
 </html>

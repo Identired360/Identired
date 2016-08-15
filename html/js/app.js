@@ -211,6 +211,34 @@ $('textarea').on('keyup', function() {
 $('#formWeb').validate();
 $('#formReg').validate();
 
+/****Para deslizar*****/
+$(function(){
+
+     $('a[href*=#]').click(function() {
+
+     if (location.pathname.replace(/^\//,'') == this.pathname.replace(/^\//,'')
+         && location.hostname == this.hostname) {
+
+             var $target = $(this.hash);
+
+             $target = $target.length && $target || $('[name=' + this.hash.slice(1) +']');
+
+             if ($target.length) {
+
+                 var targetOffset = $target.offset().top;
+
+                 $('html,body').animate({scrollTop: targetOffset}, 1000);
+
+                 return false;
+
+            }
+
+       }
+
+   });
+
+});
+
 /*Para facebook*/
 (function(d, s, id) {
   var js, fjs = d.getElementsByTagName(s)[0];
@@ -219,3 +247,4 @@ $('#formReg').validate();
   js.src = "//connect.facebook.net/es_LA/sdk.js#xfbml=1&version=v2.7";
   fjs.parentNode.insertBefore(js, fjs);
 }(document, 'script', 'facebook-jssdk'));
+

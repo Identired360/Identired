@@ -8421,6 +8421,17 @@ table {
   font-size: 3.2em;
   margin-top: 1em;
 }
+.ban-nosotros h3 {
+  width: 66%;
+}
+.cont-textnos {
+  width: 60%;
+  margin: 0 auto;
+  padding: 4em 0 5em;
+}
+.cont-textnos p {
+  color: #fff;
+}
 [type='text'],
 [type='password'],
 [type='date'],
