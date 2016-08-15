@@ -7,7 +7,6 @@
             <img title="Pagina web - Calzados Atlas" src="img/proy/pant-atlas.jpg">
         </div>
     </div>
- 
 </section>
 
 <section class="row pad-secc sec-desproy">
@@ -21,7 +20,7 @@
             <p>Las secciones principales son: La galería de productos, segmentado según las categorías de los productos; la pasarela de pagos con 3 tipos de pago, depósito bancario, Payu y Pagoefectivo.</p>
             <p>En cuanto a la programación, es totalmente a medida desarrollado con Yii framework.  </p>
             <a class="lik-proy linkid" href="http://www.calzadoatlas.pe/" target="_blank" title="Ver tienda virtual"><i class="fa fa-eye" aria-hidden="true"></i> Ver tienda virtual</a>
-        </div>    
+        </div>
         <div class="cont-test">
             <h3>¿Qué dijo el cliente sobre nuestro servicio?</h3>
             <figure class="snip1157">
@@ -45,7 +44,7 @@
             </div>
         </div>
     </div>
-    <img class="img-bann3" src="img/ground4.png"> 
+    <img class="img-bann3" src="img/ground4.png">
 </section>
 
 <section class="row sec-tecn">
@@ -103,16 +102,16 @@
                         <label>Mensaje</label>
                     </div>
                     <div class="cont-check">
-                        <input type="checkbox" id="test5"> <label for="test5">Deseo recibir novedades en mi correo.</label>  
-                    </div>  
+                        <input type="checkbox" id="test5"> <label for="test5">Deseo recibir novedades en mi correo.</label>
+                    </div>
                     <div class="cont-submit">
                         <div class="but-input sub-news">
                             <input type="submit" class="bot-p bot-blanco" value="Enviar mi consulta">
                         </div>
-                    </div>  
-                </div>          
-            </form>         
-        </div>      
+                    </div>
+                </div>
+            </form>
+        </div>
     </div>
 </section>
 

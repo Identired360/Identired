@@ -4,25 +4,25 @@
         <div class="cont-cli">
             <ul>
                 <li>
-                    <a href="proyecto-zapatillas-tigre.php" title="Zapatillas Tigre"><img src="img/logo-tigre.jpg" title="Zapatillas Tigre"></a>
+                    <a href="/proyectos/zapatillas-tigre" title="Zapatillas Tigre"><img src="/img/logo-tigre.jpg" title="Zapatillas Tigre"></a>
                 </li>
                 <li>
-                    <a href="proyecto-gesym.php" title="Contadores GESYM"><img src="img/logo-gesym.png" title="Contadores GESYM"></a>
+                    <a href="/proyectos/gesym" title="Contadores GESYM"><img src="/img/logo-gesym.png" title="Contadores GESYM"></a>
                 </li>
                 <li>
-                    <a href="proyecto-fottiva.php" title="Fottiva"><img src="img/logo_fotiva.jpg" title="Fottiva"></a>
+                    <a href="/proyectos/fottiva" title="Fottiva"><img src="/img/logo_fotiva.jpg" title="Fottiva"></a>
                 </li>
                 <li>
-                    <a href="proyecto-berime.php" title="Beprime"><img src="img/logo_beprime.png" title="Beprime"></a>
+                    <a href="/proyectos/berime" title="Beprime"><img src="/img/logo_beprime.png" title="Beprime"></a>
                 </li>
                 <li>
-                    <a href="proyecto-lynx.php" title="Zapatillas Lynx"><img src="img/logo-lynx.png" title="Zapatillas Lynx"></a>
+                    <a href="/proyectos/zapatillas-lynx" title="Zapatillas Lynx"><img src="/img/logo-lynx.png" title="Zapatillas Lynx"></a>
                 </li>
                 <li>
-                    <a href="proyecto-sysel.php" title="Sysel"><img src="img/logos/sysel.jpg" title="Sysel"></a>
+                    <a href="/proyectos/sysel" title="Sysel"><img src="/img/logos/sysel.jpg" title="Sysel"></a>
                 </li>
                 <li>
-                    <a href="proyeco-huallamarca.php" title="Huallamarca"><img src="img/logos/huallamarca.jpg" title="Huallamarca"></a>
+                    <a href="/proyectos/huallamarca" title="Huallamarca"><img src="/img/logos/huallamarca.jpg" title="Huallamarca"></a>
                 </li>
             </ul>
         </div>
@@ -30,37 +30,20 @@
 </section>
 
 <footer class="row foot">
-    <img class="img-bann2" src="img/ground6.png">
+    <img class="img-bann2" src="/img/ground6.png">
     <div class="col-container">
         <div class="small-12 medium-6 large-4 columns form-sus">
             <h3>Suscríbete</h3>
             <p>Para recibir nuestras novedades.</p>
             <div class="form-csus">
-                <form id="formReg" action="../php/subscribe.php" method="post">
-                    <div class="card">
-                        <div class="input-wrapper">
-                            <input type="text" id="nombreN" name="name" required>
-                            <label>Tu nombre</label>
-                        </div>
-                        <div class="input-wrapper">
-                            <input type="email" id="correoN" name="email" required>
-                            <label>Tu correo electrónico</label>
-                        </div>
-                        <!--div class="cont-check">
-                    <input type="checkbox" id="newsp"> <label class="labchec" for="newsp">Acepto los términos y condiciones.</label>
-                </div-->
-                        <div class="but-input sub-news">
-                            <input type="submit" class="bot-p bot-blanco" value="Suscribirme">
-                        </div>
-                    </div>
-                </form>
+                {% include subscribe-form.html %}
             </div>
         </div>
         <div class="small-12 medium-6 large-4 columns cont-linkb">
             <h3>Enlaces de interés</h3>
             <ul>
-                <li><a class="linkid" href="desarrollo-web.php" title="Desarrollo Web">Desarrollo web</a></li>
-                <li><a class="linkid" href="consulta.php" title="">Consultas</a></li>
+                <li><a class="linkid" href="/desarrollo-web" title="Desarrollo Web">Desarrollo web</a></li>
+                <li><a class="linkid" href="/contactanos" title="">Contactanos</a></li>
             </ul>
             <h3>Síguenos también</h3>
             <!--a target="_blank" href="http://twitter.com/minimalmonkey" class="icon-button twitter"><i class="icon-twitter"></i><span></span></a-->
@@ -81,7 +64,7 @@
         </div>
         <div class="small-12 columns">
             <div class="bottom-pag">
-                <a href="terminos.php" title="Términos y condiciones">Términos y condiciones</a>
+                <a href="/terminos-y-condiciones" title="Términos y condiciones">Términos y condiciones</a>
                 <p>Copyright Tuxpa Software SAC - 2016</p>
             </div>
         </div>
@@ -90,10 +73,4 @@
 </div>
 <!--Cierra main container-->
 
-<script src="js/vendor/jquery.js"></script>
-<script src="js/vendor/foundation.js"></script>
-<script src="js/modernizr.custom.js"></script>
-<script src="js/wow.min.js"></script>
-<script src="js/jquery.validate.min.js"></script>
-<script src="js/js.cookie.js"></script>
-<script src="js/app.js"></script>
+<script src="/js/all.min.js"></script>
