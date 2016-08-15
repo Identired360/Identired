@@ -1,0 +1,30 @@
+<form id="formWeb" action="/php/register.php" method="post">
+    <input type="hidden" name="section" value="Desarrollo web">
+    <div class="card-form">
+        <div class="input-wrapper">
+            <input type="text" id="nombre" name="name" required>
+            <label>Nombre y Apellido</label>
+        </div>
+        <div class="input-wrapper">
+            <input type="email" id="correo" name="email" required>
+            <label>Correo electrónico</label>
+        </div>
+        <div class="input-wrapper">
+            <input type="tel" class="digits" id="telefono" name="phone" required>
+            <label>Teléfono</label>
+        </div>
+        <div class="input-wrapper textcont">
+            <textarea name="msg" required></textarea>
+            <label>Mensaje</label>
+        </div>
+        <div class="cont-check">
+            <input type="checkbox" id="test5">
+            <label for="test5">Deseo recibir novedades en mi correo.</label>
+        </div>
+        <div class="cont-submit">
+            <div class="but-input sub-news">
+                <input type="submit" class="bot-p bot-blanco" value="Enviar mi consulta">
+            </div>
+        </div>
+    </div>
+</form>

@@ -7,7 +7,6 @@
             <img title="Pagina web - Calzados Atlas" src="img/proy/pant-atlas.jpg">
         </div>
     </div>
- 
 </section>
 
 <section class="row pad-secc sec-desproy">
@@ -43,7 +42,7 @@
             </div>
         </div>
     </div>
-    <img class="img-bann3" src="img/ground4.png"> 
+    <img class="img-bann3" src="img/ground4.png">
 </section>
 
 <section class="row sec-tecn">
@@ -101,16 +100,16 @@
                         <label>Mensaje</label>
                     </div>
                     <div class="cont-check">
-                        <input type="checkbox" id="test5"> <label for="test5">Deseo recibir novedades en mi correo.</label>  
-                    </div>  
+                        <input type="checkbox" id="test5"> <label for="test5">Deseo recibir novedades en mi correo.</label>
+                    </div>
                     <div class="cont-submit">
                         <div class="but-input sub-news">
                             <input type="submit" class="bot-p bot-blanco" value="Enviar mi consulta">
                         </div>
-                    </div>  
-                </div>          
-            </form>         
-        </div>      
+                    </div>
+                </div>
+            </form>
+        </div>
     </div>
 </section>
 

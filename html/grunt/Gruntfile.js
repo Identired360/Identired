@@ -24,28 +24,59 @@ module.exports = function(grunt) {
             },
             all: {
                 files: {
-                    'js/all.min.js': ['../js/vendor/jquery.js', 'js/vendor/foundation.js', 'js/modernizr.custom.js', 'js/wow.min.js', 'js/jquery.validate.min.js', 'js/js.cookie.js', 'js/app.js']
+                    'js/all.min.js': [
+                        '../js/vendor/jquery.js',
+                        '../js/vendor/foundation.js',
+                        '../js/modernizr.custom.js',
+                        '../js/wow.min.js',
+                        '../js/jquery.validate.min.js',
+                        '../js/js.cookie.js',
+                        '../js/app.js',
+                        '../js/slick.min.js',
+                        '../js/scripts-home.js',
+                        '../js/canvas.js',
+                        '../js/snap.svg-min.js',
+                        '../js/proyectos.js'
+                    ]
                 }
             }
         },
         copy: {
             main: {
-                files: [
-                  {
+                files: [{
                     expand: true,
                     flatten: true,
                     src: ['css/main.min.css'],
                     dest: '../../jekyll/css/',
                     filter: 'isFile'
-                },
-                {
-                  expand: true,
-                  flatten: true,
-                  src: ['js/all.min.js'],
-                  dest: '../../jekyll/js/',
-                  filter: 'isFile'
-              },
-              ]
+                }, {
+                    expand: true,
+                    flatten: true,
+                    src: ['js/all.min.js'],
+                    dest: '../../jekyll/js/',
+                    filter: 'isFile'
+                }, {
+                    expand: true,
+                    flatten: true,
+                    src: ['../fonts/*'],
+                    dest: '../../jekyll/fonts/',
+                    filter: 'isFile'
+                }, {
+                    src: ['../img/**'],
+                    dest: '../../jekyll/',
+                    filter: 'isFile'
+                }]
+            }
+        },
+        jekyll: { // Task
+            options: {
+                src: '../../jekyll/'
+            },
+            serve: { // Another target
+                options: {
+                    dest: '../../public_html',
+                    serve: true
+                }
             }
         },
         watch: {
@@ -83,17 +114,16 @@ module.exports = function(grunt) {
     });
 
     // Plugin loading
-    grunt.loadNpmTasks('grunt-typescript');
-    grunt.loadNpmTasks('grunt-concat-sourcemap');
     grunt.loadNpmTasks('grunt-contrib-watch');
     grunt.loadNpmTasks('grunt-contrib-less');
     grunt.loadNpmTasks('grunt-contrib-uglify');
-    grunt.loadNpmTasks('grunt-contrib-cssmin');
     grunt.loadNpmTasks('grunt-contrib-copy');
-    grunt.loadNpmTasks('grunt-cssjoin');
+    grunt.loadNpmTasks('grunt-jekyll');
 
     // Task definition
-    grunt.registerTask('build', ['less', 'uglify', 'copy']);
+    //grunt.registerTask('default', ['less', 'uglify', 'copy', 'jekyll']);
+    grunt.registerTask('build', ['less', 'uglify', 'copy', 'jekyll']);
+    grunt.registerTask('serve', ['jekyll']);
 
     //grunt.registerTask('build', ['less', 'typescript', 'copy', 'concat_sourcemap', 'uglify']);
     //grunt.registerTask('default', ['watch']);

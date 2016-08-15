@@ -17,6 +17,7 @@
     "grunt-contrib-uglify": "^1.0.1",
     "grunt-contrib-watch": "^1.0.0",
     "grunt-cssjoin": "^0.3.0",
+    "grunt-jekyll": "^0.4.4",
     "grunt-typescript": "^0.8.0",
     "typescript": "^1.8.10"
   }
