@@ -73,12 +73,14 @@
                     </h3>
                 </div>
                 <h1>Desarrollo de páginas web, tiendas virtuales y landing pages.</h1>
+
+                <a class="bot-p bot-cel" href="#empezar" title="Empezar ahora">Empezar ahora</a>
             </div>
         </div>
         <img class="img-bann" src="img/ground.png"> 
     </section>
 
-    <section class="row back-cel sec-imp">
+    <section id="empezar" class="row back-cel sec-imp">
         <div class="col-container">
             <div class="small-12 large-4 columns">
                 <div class="item-desa">

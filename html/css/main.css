@@ -6996,6 +6996,9 @@ button {
   border-right: 0.01em solid #5FCF80;
   border-top: 0.01em solid #5FCF80;
 }
+.bot-cel:focus {
+  color: #44B6CE;
+}
 html {
   font-size: 62.5%;
 }
@@ -7490,7 +7493,7 @@ table {
   position: relative;
   box-shadow: 0 1px 2px rgba(0, 0, 0, 0.1);
   cursor: default;
-  background-image: url(../images/fond.jpg);
+  background-image: url(../img/fond.jpg);
   background-size: cover;
 }
 .ch-info-wrap {
@@ -7911,7 +7914,7 @@ table {
   position: relative;
   text-align: center;
   padding-top: 7%;
-  padding-bottom: 14%;
+  padding-bottom: 9%;
   background-attachment: fixed;
   background-size: cover;
   background-repeat: no-repeat;
@@ -8149,6 +8152,9 @@ table {
   width: 60%;
   margin: 0 auto;
   font-weight: 300;
+}
+.text-centb a {
+  margin-top: 1em;
 }
 .backblue {
   background: #20374F;
