@@ -16,11 +16,10 @@
             <h2><b>Desarrollo</b> del proyecto</h2>
         </div>
         <div class="cont-proy wow fadeIn">
-            <p>Zapatillas Lynx es una marca de la empresa peruana Calzados Atlas, los artículos son <b>zapatillas y accesorios </b>de moda para gente joven.</p>
-            <p>El proyecto fue <b>desarrollo de tienda virtual</b>, se hizo el diseño según los colores de la marca que es el color negro combinando colores según sus productos, de estilo juvenil.</p>
-            <p>Las secciones principales son: La galería de productos, segmentado según las categorías de los productos; la pasarela de pagos con 3 tipos de pago, depósito bancario, Payu y Pagoefectivo.</p>
-            <p>En cuanto a la programación, es totalmente a medida desarrollado con Yii framework.  </p>
-            <a class="lik-proy linkid" href="http://www.caprice.pe/" target="_blank" title="Ver tienda virtual"><i class="fa fa-eye" aria-hidden="true"></i> Ver tienda virtual</a>
+            <p>Caprice es una marca de la empresa Inversiones Generales en Moda SAC., dedicada a la fabricación de joyas. </p>
+            <p>El requerimiento del cliente fue desarrollar una tienda virtual, mostrando sus productos por categoría, y con filtros según características en la galería de productos, para que los usuarios encuentren fácilmente los productos.</p>
+            <p>Se configuraron los tipos de pago: Pago en la entrega y Pago efectivo.</p>
+            <!--a class="lik-proy linkid" href="http://www.caprice.pe/" target="_blank" title="Ver tienda virtual"><i class="fa fa-eye" aria-hidden="true"></i> Ver tienda virtual</a-->
         </div>    
         <div class="sec-share">
             <h4>Si te ha gustado, compártelo con tus amigos</h4>
@@ -49,7 +48,9 @@
                 <li><img title="CSS3" src="img/tecn/bootstrap.png"> <h3>Bootstrap</h3></li>
                 <li><img title="CSS3" src="img/tecn/stylus.png"> <h3>Stylus</h3></li>
                 <li><img title="JavaScript" src="img/tecn/js.png"> <h3>JavaScript</h3></li>
-                <li><img title="Yii Framework" src="img/tecn/yii.png"> <h3>Yii Framework</h3></li>
+                <li><img title="Wordpress" src="img/tecn/wordpress.png"> <h3>Wordpress</h3></li>
+                <li><img title="Woocommerce" src="img/tecn/woocom.png"> <h3>Woocommerce</h3></li>
+                <li><img title="GitHub" src="img/tecn/git.png"> <h3>GitHub</h3></li>
             </ul>
         </div>
     </div>
@@ -73,7 +74,7 @@
                 <p>Envíanos tu consulta y te enviaremos una respuesta lo más pronto posible</p>
             </div>
             <form id="formWeb" action="../php/register.php" method="post">
-                <div class="card">
+                <div class="card-form">
                     <div class="input-wrapper">
                         <input type="text" id="nombre" name="name" required>
                             <label>Nombre y Apellido</label>

@@ -10,7 +10,7 @@
                 <div class="form-consul">
                     <form id="formConsulta" action="../php/register.php" method="post">
                         <input type="hidden" name="section" value="Consultas">
-                        <div class="card">
+                        <div class="card-form">
                             <div class="input-wrapper">
                                 <input type="text" id="nombre" name="name" required>
                                 <label>Nombre y Apellido</label>

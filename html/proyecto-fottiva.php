@@ -15,11 +15,24 @@
             <h2><b>Desarrollo</b> del proyecto</h2>
         </div>
         <div class="cont-proy wow fadeIn">
-            <p>Zapatillas Lynx es una marca de la empresa peruana Calzados Atlas, los artículos son <b>zapatillas y accesorios </b>de moda para gente joven.</p>
-            <p>El proyecto fue <b>desarrollo de tienda virtual</b>, se hizo el diseño según los colores de la marca que es el color negro combinando colores según sus productos, de estilo juvenil.</p>
-            <p>Las secciones principales son: La galería de productos, segmentado según las categorías de los productos; la pasarela de pagos con 3 tipos de pago, depósito bancario, Payu y Pagoefectivo.</p>
-            <p>En cuanto a la programación, es totalmente a medida desarrollado con Yii framework.  </p>
+            <p>La <b>Landing Page</b> de Fottiva tiene el objetivo de mostrar el productos que es un Sistema de Gestión para Fotografía, se describe de manera precisa, los beneficios, un resúmen de los módulos e invita al usuario a registrarse gratuítamente para que haga una prueba.</p>
             <a class="lik-proy linkid" href="http://www.fottiva.com/" target="_blank" title="Ver landing page"><i class="fa fa-eye" aria-hidden="true"></i> Ver landing page</a>
+            
+            <div class="cont-descrsec">
+                <h3>Sistema de Gestión para Fotógrafos</h3>
+                <p>El sistema se encarga de administrar eventos, clientes, pagos y más, para los profesionales en fotografía.</p>
+                <p>Algunas partes importantes son el calendario para gestionar eventos, el módulo de tracking que es una herramienta para gestionar las relaciones con los clientes potenciales y hacer el seguimiento durante el ciclo de ventas.</p>
+                <a class="lik-proy linkid" href="http://app.fottiva.com/site/signin" target="_blank" title="Ver aplicación"><i class="fa fa-eye" aria-hidden="true"></i> Ver aplicación</a>
+                <div class="img-proy">             
+                    <h4>Pantalla dashboard</h4>
+                    <img src="img/proy/fottiva1.gif" title="Desarrollo de plataformas">
+                    <h4>Pantalla de calendario de eventos</h4>
+                    <img src="img/proy/fottiva2.gif" title="Desarrollo de sistemas de gestión">
+                    <h4>Pantalla de reportes</h4>
+                    <img src="img/proy/fottiva3.gif" title="Desarrollo de sistemas de reportes">
+                </div>    
+            </div>    
+
         </div>    
          <div class="sec-share">
             <h4>Si te ha gustado, compártelo con tus amigos</h4>
@@ -49,6 +62,8 @@
                 <li><img title="CSS3" src="img/tecn/stylus.png"> <h3>Stylus</h3></li>
                 <li><img title="JavaScript" src="img/tecn/js.png"> <h3>JavaScript</h3></li>
                 <li><img title="Yii Framework" src="img/tecn/yii.png"> <h3>Yii Framework</h3></li>
+                <li><img title="Wordpress" src="img/tecn/wordpress.png"> <h3>Wordpress</h3></li>
+                <li><img title="GitHub" src="img/tecn/git.png"> <h3>GitHub</h3></li>                
             </ul>
         </div>
     </div>
@@ -72,7 +87,7 @@
                 <p>Envíanos tu consulta y te enviaremos una respuesta lo más pronto posible</p>
             </div>
             <form id="formWeb" action="../php/register.php" method="post">
-                <div class="card">
+                <div class="card-form">
                     <div class="input-wrapper">
                         <input type="text" id="nombre" name="name" required>
                             <label>Nombre y Apellido</label>
