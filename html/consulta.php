@@ -1,4 +1,6 @@
-<?php include('header.html') ?>
+---
+layout: default
+---
 <section>
     <div class="col-container">
         <div class="cont-gen page-consult">
@@ -42,13 +44,3 @@
         </div>	
     </div>
 </section>
-<?php include('footer.html') ?>
-
-<script type="text/javascript">
-    $(function () {
-        $('#formConsulta').validate();
-    });
-
-</script>
-</body>
-</html>

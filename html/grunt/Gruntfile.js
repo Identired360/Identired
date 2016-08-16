@@ -63,7 +63,7 @@ module.exports = function(grunt) {
                     filter: 'isFile'
                 }, {
                     src: ['../img/**'],
-                    dest: '../../jekyll/',
+                    dest: '../../jekyll/img/',
                     filter: 'isFile'
                 }]
             }

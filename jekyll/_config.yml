@@ -12,6 +12,6 @@ description: >
   Identired es una empresa de desarrollo de software full-stack especializada en aplicaciones web ya sea Backend y Frontend. 
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "http://www.identired.com" # the base hostname & protocol for your site
-
+facebookid: 515170255261628
 # Build settings
 markdown: kramdown
