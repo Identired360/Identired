@@ -80,12 +80,103 @@
     <section id="empezar" class="row demo-2 back-cel">
         <div class="col-container">
             <div class="cont-textnos">
-                <p>Somos una empresa de diseño y  desarrollo web fundada  en el año 2011. Ofrecemos servicios de diseño y programación UX para web y móvil, marketing digital y desarrollo de identidad corporativa.</p>
+                <p>Somos una empresa peruana fundada en el 2011, especialista en <b>servicios web, soluciones tecnológicas y asesoría tecnológica</b> para negocios y emprendedores.</p>
+                <p>Cada uno de nuestros clientes es un compromiso para nosotros, ofrecemos un servicio diferenciador, con un asesoramiento y soporte exclusivo, facilitando la solución más adecuada.</p>
+                <p>El Equipo Identired, lo componemos profesionales apacionados por la tecnología.</p>
                 <p>Nuestro objetivo es brindar una solución completa para dar a tu empresa una presencia sólida en Internet,  de esta manera crear un nuevo canal de ingreso de potenciales clientes.</p>
-                <p>Para lograr el objetivo fijado tu sitio web estará optimizado para generar conversiones, esto significa que  tiene que funcionar como un miembro más de su fuerza de ventas, entonces será un instrumento para generar ingresos.</p>
             </div>
         </div>
     </section>
+    <section class="main sec-porq ser-porn">
+        <!--img class="img-bann2" src="img/ground2.png"-->
+        <h2><b>Deja en nuestras manos</b> tu proyecto, porque:</h2>
+        <ul class="ch-grid">
+            <li class="wow swing" data-wow-delay=".5s">
+                <div class="ch-item ch-img-1">              
+                    <div class="ch-info-wrap">
+                        <div class="ch-info">
+                            <div class="ch-info-front"><h3>Te escuchamos</h3></div>
+                            <div class="ch-info-back">
+                                <p>El ánálisis es la parte más importante para el desarrollo.</p>
+                            </div>  
+                        </div>
+                    </div>
+                </div>
+            </li>
+            <li class="wow swing">
+                <div class="ch-item ch-img-2" data-wow-delay=".10s">
+                    <div class="ch-info-wrap">
+                        <div class="ch-info">
+                            <div class="ch-info-front"><h3>No creemos en lo rápido y malo</h3></div>
+                            <div class="ch-info-back">
+                                <p>Estimamos los tiempos para obtener un producto de calidad.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </li>
+            <li class="wow swing" data-wow-delay=".15s">
+                <div class="ch-item ch-img-3">
+                    <div class="ch-info-wrap">
+                        <div class="ch-info">
+                            <div class="ch-info-front"><h3>Siempre disponibles</h3></div>
+                            <div class="ch-info-back">
+                                <p>A cualquier consulta para ayudarte y guiarte.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </li>
+            <li class="wow swing" data-wow-delay=".20s">
+                <div class="ch-item ch-img-4">
+                    <div class="ch-info-wrap">
+                        <div class="ch-info">
+                            <div class="ch-info-front"><h3>Tenemos experiencia</h3></div>
+                            <div class="ch-info-back">
+                                <p>Dedicación desde los más pequeños a grandes proyectos.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </li>
+            <li class="wow swing" data-wow-delay=".25s">
+                <div class="ch-item ch-img-5">
+                    <div class="ch-info-wrap">
+                        <div class="ch-info">
+                            <div class="ch-info-front ch-img-3"><h3>Somos creativos</h3></div>
+                            <div class="ch-info-back">
+                                <p>Ponemos nuestras ideas a tu disposición.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </li>
+            <li class="wow swing" data-wow-delay=".30s">
+                <div class="ch-item ch-img-5">
+                    <div class="ch-info-wrap">
+                        <div class="ch-info">
+                            <div class="ch-info-front ch-img-3"><h3>Cliente parte del equipo</h3></div>
+                            <div class="ch-info-back">
+                                <p>Para cumplir con eficacia tus requerimientos.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </li>
+            <li class="wow swing" data-wow-delay=".35s">
+                <div class="ch-item ch-img-5">
+                    <div class="ch-info-wrap">
+                        <div class="ch-info">
+                            <div class="ch-info-front ch-img-3"><h3>Nuestro éxito es tu éxito</h3></div>
+                            <div class="ch-info-back">
+                                <p>Clientes satisfechos son nuestra mejor publicidad.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </li>
+        </ul>
+    </section>    
     <section id="consulta" class="row backblue sec-info">
         <div class="col-container">
             <div class="titH2 wow slideInDown">

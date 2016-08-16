@@ -15,6 +15,11 @@
                     </span>
                 </h1>
                 <p class="animated">Revisa nuestros servicios:</p>
+                <svg version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+                     viewBox="0 0 72 54" enable-background="new 0 0 72 54" xml:space="preserve">
+                     <polygon fill="#74C0E2" points="0,0 35.3,54 72,0 36,18.2 "/>
+                </svg>
+                <img class="arrowh" src="img/arrow.gif">
             </div>
             <div id="options-link" class="cont-linksh animated">
                 <div class="slider-nav-thumbnails">
@@ -90,7 +95,8 @@
                             <p><strong>Desarrollo de Tiendas Virtuales: </strong>Desarrollamos <b>tiendas virtuales optimizadas</b> para los buscadores.</p>
                             <p><strong>Desarrollo de Sitios Web: </strong>Diseño y desarrollo haciendo uso de <b>técnicas creativas e innovadoras</b>, para dar una imagen profesional, teniendo en cuenta aspectos de navegación, usabilidad, posicionamiento y seguridad.</p>
                             <div class="cont-buth">    
-                                <a href="desarrollo-web.php" class="bot-p bot-blanco" title="">Saber más de desarrollo web</a>            
+                                <a href="desarrollo-web.php" class="bot-p bot-blanco bot-hd" title="">Saber más de desarrollo web</a>            
+                                <a href="desarrollo-web.php" class="bot-p bot-blanco bot-hidden" title="">Más de desarrollo web</a>            
                             </div>
                         </div>
                     </div>
@@ -102,7 +108,8 @@
                             <p><strong>Campañas en Google Adwords: </strong> Utilizamos técnicas que hacen que tu página web aparezca en las <b>primeras posiciones</b> de los resultados en buscadores de Google. </p>
                             <p><strong>Campañas en Facebook: </strong> Impulsar campañas publicitarias y promociones,<b>promocionar tu marca</b>, captar visitantes a tu página web. Podrás llegar a miles de clientes específicos y de esta manera <b>mejorar tus ventas o hacer conocer tu marca</b>.</p>
                             <div class="cont-buth">    
-                                <a href="consulta.php" class="bot-p bot-blanco" title="Consulta ahora">Consulta ahora</a>            
+                                <a href="consulta.php" class="bot-p bot-blanco bot-hd" title="Consulta ahora">Consulta ahora</a>            
+                                <a href="consulta.php" class="bot-p bot-blanco bot-hidden" title="Consulta ahora">Consulta ahora</a>            
                             </div>
                         </div>  
                     </div>
@@ -115,7 +122,8 @@
                             <p><strong>Programación de Startups:</strong> ¿Tienes una idea y quieres implementarla?, estamos para ayudarte y asesorarte.</p>
                             <p><strong>Programación Full Stack:</strong> Back-end y Front-end. </p>
                             <div class="cont-buth">    
-                                <a href="consulta.php" class="bot-p bot-blanco" title="Consulta ahora">Consulta ahora</a>            
+                                <a href="consulta.php" class="bot-p bot-blanco bot-hd" title="Consulta ahora">Consulta ahora</a>            
+                                <a href="consulta.php" class="bot-p bot-blanco bot-hidden" title="Consulta ahora">Consulta ahora</a>            
                             </div>
                         </div>    
                     </div>
@@ -126,7 +134,8 @@
                             <h2>Trabajos psd2html</h2>
                             <p><strong>Maquetación</strong>: Si tienes un diseño en psd, trabajamos la <b>maquetación en html5</b>. Desarrollamos el código de acuerdo a tu requerimientos. Con CSS3, Jvascript, Bootstrap, Foundation, Less, Stylus, etc. </p>
                             <div class="cont-buth">    
-                                <a href="consulta.php" class="bot-p bot-blanco" title="Consulta ahora">Consulta ahora</a>            
+                                <a href="consulta.php" class="bot-p bot-blanco bot-hd" title="Consulta ahora">Consulta ahora</a>            
+                                <a href="consulta.php" class="bot-p bot-blanco bot-hidden" title="Consulta ahora">Consulta ahora</a>            
                             </div>
                         </div>
                     </div>
