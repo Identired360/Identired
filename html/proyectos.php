@@ -68,7 +68,7 @@
         </div>
         <img class="img-bann" src="img/ground.png"> 
     </section>
-    <section id="empezar" class="row demo-2 back-cel">
+    <section id="empezar" class="row demo-2 back-cel sec-proys">
         <div class="col-container">
             <div id="grid" class="grid clearfix" data-wow-delay=".3s">
                 <a title="Desarrollo web - Zapatillas Lynx" href="proyecto-lynx.php" data-path-hover="m 0,0 0,47.7775 c 24.580441,3.12569 55.897012,-8.199417 90,-8.199417 34.10299,0 65.41956,11.325107 90,8.199417 L 180,0 z">

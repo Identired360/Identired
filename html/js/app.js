@@ -25,7 +25,7 @@ if (showCounter != 'false') {
     setTimeout("viewHp()", 7700);
     setTimeout("viewHc()", 8200);
 } else {
-    setTimeout("viewHome()", 3000);
+    viewHome();
     setTimeout("viewH1()", 2000);
     setTimeout("viewHp()", 3700);
     setTimeout("viewHc()", 4200);
@@ -227,7 +227,7 @@ $(function(){
 
                  var targetOffset = $target.offset().top;
 
-                 $('html,body').animate({scrollTop: targetOffset}, 1000);
+                 $('html,body').animate({scrollTop: targetOffset}, 500);
 
                  return false;
 

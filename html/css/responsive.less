@@ -36,6 +36,12 @@
    .title-home h1{
    	 margin-bottom: 0.3em;
    }
+   .item-paq a{
+   	 margin: 0 3.5em;
+   }
+   .item-desa a{
+   	 margin: 0 2em;
+   }
 }
 @media only screen and (max-width: 1200px) {
   .col-container{
@@ -51,6 +57,50 @@
   .cont-gen{
   	width: 100%;
   }
+  .item-vent {
+    padding: 1em 0em;
+  }    
+  .demo-2 .grid figure button{
+  	transform: translateY(0%);
+  }
+  .item-paq a {
+    margin: 0 2em;
+  }
+.bot-ver{
+    color: @verde;
+    background: #fff;
+    border-bottom: .24em solid @verde;
+    border-left: .1em solid @verde;
+    border-right: .1em solid @verde;
+    border-top: .1em solid @verde;
+    
+    &:hover{
+        color: @celeste;
+        border-bottom: .24em solid @celeste;        
+        border-left: .1em solid @celeste;
+        border-right: .1em solid @celeste;
+        border-top: .1em solid @celeste;
+    }
+}
+.bot-cel{
+    color: @celeste;
+    background: #fff;
+    border-bottom: .24em solid @celeste;
+    border-left: .1em solid @celeste;
+    border-right: .1em solid @celeste;
+    border-top: .1em solid @celeste;
+    
+    &:hover{
+        color: @verde;
+        border-bottom: .24em solid @verde;        
+        border-left: .1em solid @verde;
+        border-right: .1em solid @verde;
+        border-top: .1em solid @verde;
+    }
+    &:focus{
+        color: @celeste;
+    }
+}  
 }
 
 @media only screen and (max-width: 1024px) {
@@ -61,13 +111,29 @@
 		margin-bottom: 2.5em;
 	}
 	.canvas{display: none !important;}
+	.item-desa a {
+		position: relative;
+		bottom: inherit;
+	    margin: 0;
+	    margin-top: 1em;
+	}
+	.item-desa{
+		height: auto !important;
+	    padding: 2em 3em 3em 3em;
+	}
+	.item-paq a {
+      margin: 0 4.5em;
+    }
+    .cont-textnos{
+    	width: 100%;
+    }
 }
-@media only screen and (max-height: 767px) and (max-width: 992px){
+@media only screen and (max-height: 767px) and (min-width: 992px){
   .title-home p{
   	margin-bottom: 1em !important;
   }
   .txt-box{
-  	height: 555px !important;
+  	height: 620px !important;
   }
 }
 @media only screen and (max-width: 992px) {
@@ -106,6 +172,7 @@
   }
   .ban-inicio h3{
   	font-size: 4em;
+	width: 53%;
   }
 	.pad-secc {
 	    padding-top: 5em;
@@ -178,6 +245,15 @@
 	 .cont-let, .cont-let2{
 	 	display: none !important;
 	 }
+	 .ban-inicio{
+		background-image: inherit !important; 
+	 }
+	.item-paq a {
+	    margin: 0 3em;
+	}	 
+	.cont-proy{
+		width: 100%;
+	}
 }
 
 @media only screen and (max-width: 767px){
@@ -204,9 +280,9 @@
 	.title-home h1 {
 	    width: 90%;
 	}	
-	.ban-inicio h1{
-		font-size: 5em;
-	    line-height: 1;
+	.ban-inicio h1 {
+	    font-size: 2em;
+	    line-height: 1.4;
 	}
 	.ban-inicio h3{
 		font-size: 3em;
@@ -259,6 +335,21 @@
 	.ban-inicio text{
 		font-size: 5em;
 	}
+	.item-paq{
+		height: auto !important;
+		    padding: 2em 3em 4em;	
+	}
+	.item-paq a {
+		position: relative;
+		bottom: inherit;
+		margin: 0 auto;
+    	display: table;
+		margin-top: 1em;
+	}
+	.inicio-proy h1{
+		font-size: 3em;
+	    margin-top: 1.5em;
+	}
 }
 @media only screen and (max-width: 480px){
 	.logo svg {
@@ -272,10 +363,10 @@
 	    width: 100%;
 	}
 	.ban-inicio h3 {
-    	font-size: 2.5em;
+    	font-size: 2.1em;
 	}
 	.ban-inicio {
-	    height: 35em;
+	    height: auto;
 	}
 	.sec-imp h2{
 		font-size: 3em;
@@ -285,7 +376,7 @@
 		height: auto !important;
 	}
 	.titH2 h2 {
-	    font-size: 3.5em;
+	    font-size: 3em;
 	    line-height: 1.2;
 	}	
 	.sec-tecn {
@@ -300,6 +391,10 @@
 	}
 	.ban-inicio text{
 		font-size: 4em;
+	}
+	.ban-inicio h3 {
+	    width: 36%;
+	    margin-top: -1.7em;
 	}
 }
 @media only screen and (max-width: 352px){

@@ -61,7 +61,7 @@
             </svg>
             <div class="text-centb">
                 <div class="i-am-container">
-                    <h3>Brindarte:
+                    <h3>Te damos:
                         <span class="txt-espb">
                             <div id="rotate">
                                 <span>nuestra creatividad.</span>
