@@ -8882,7 +8882,10 @@ input[type="checkbox"] {
   margin-top: 1em;
   margin-bottom: 6em;
 }
-.sub-consul .but-input:before {
+.form-consul .but-input:before {
+  color: #44B6CE;
+}
+.form-consul .but-input:hover:before {
   color: #5FCF80;
 }
 #rotate {
@@ -9748,7 +9751,7 @@ figure.snip1157 .author h5 span {
     margin-bottom: 1.5em;
   }
   #menu_button {
-    background: #2D94AA;
+    background: #22985b;
   }
   .navicon {
     background: #fff;
@@ -9762,6 +9765,10 @@ figure.snip1157 .author h5 span {
   }
   .bot-hd {
     display: none;
+  }
+  .cont-let,
+  .cont-let2 {
+    display: none !important;
   }
 }
 @media only screen and (max-width: 767px) {
@@ -9819,7 +9826,7 @@ figure.snip1157 .author h5 span {
   }
   .sec-porq h2 {
     font-size: 3em;
-    padding: 0 .2em;
+    padding: 0 .4em;
     margin-bottom: .5em;
     line-height: 1.1em;
   }
@@ -9828,6 +9835,19 @@ figure.snip1157 .author h5 span {
   }
   .cont-servc h2 {
     font-size: 3em;
+  }
+  .bottom-pag {
+    text-align: center;
+  }
+  .bottom-pag p {
+    float: none;
+    margin-top: 1.5em;
+  }
+  .bottom-pag {
+    margin-top: 2em;
+  }
+  .ban-inicio text {
+    font-size: 5em;
   }
 }
 @media only screen and (max-width: 480px) {
@@ -9867,6 +9887,9 @@ figure.snip1157 .author h5 span {
   }
   .cont-logfull {
     margin-top: 2em;
+  }
+  .ban-inicio text {
+    font-size: 4em;
   }
 }
 @media only screen and (max-width: 352px) {

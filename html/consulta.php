@@ -31,7 +31,7 @@
                                 
                             </div>  
                             <div class="cont-submitc">
-                                <div class="but-input sub-consul">
+                                <div class="but-input">
                                     <input type="submit" class="bot-p bot-cel" value="Enviar mi consulta">
                                 </div>
                             </div>  

@@ -381,7 +381,7 @@
                     <h2>También puedes escribirnos</h2>
                     <p>Envíanos tu consulta y te enviaremos una respuesta lo más pronto posible</p>
                 </div>
-                <form id="formWeb" action="../php/register.php" method="post">
+                <form class="formWeb" id="formWeb" action="../php/register.php" method="post">
                     <input type="hidden" name="section" value="Desarrollo web">
                     <div class="card-form">
                         <div class="input-wrapper">
@@ -404,7 +404,7 @@
                             <input type="checkbox" id="test5"> <label for="test5">Deseo recibir novedades en mi correo.</label>  
                         </div>  
                         <div class="cont-submit">
-                            <div class="but-input sub-news">
+                            <div class="but-input">
                                 <input type="submit" class="bot-p bot-blanco" value="Enviar mi consulta">
                             </div>
                         </div>  
