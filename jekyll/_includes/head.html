@@ -7,8 +7,19 @@
     <link rel="shortcut icon" href="favicon.ico" type="image/x-icon" />
     <link rel="stylesheet" type="text/css" href="/css/main.min.css">
 
-    <title>{% if page.title %}{{ page.title | escape }}{% else %}{{ site.title | escape }}{% endif %}</title>
-    <meta name="description" content="{% if page.excerpt %}{{ page.excerpt | strip_html | strip_newlines | truncate: 160 }}{% else %}{{ site.description }}{% endif %}">
+    {% if page.meta %}
+        {{ page.meta }}
+    {% endif %}
+
+    {% if page.openGraph %}
+        {{ page.openGraph }}
+        <meta property="og:url" content="{{ site.url }}{{ page.url }}">
+        <meta property="fb:app_id" content="{{ site.facebookid }}">
+    {% endif %}
+
+    {% if page.googlePlus %}
+        {{ page.googlePlus }}
+    {% endif %}
 
     <script type="text/javascript">
         var _gaq = _gaq || [];
