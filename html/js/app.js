@@ -26,9 +26,12 @@ if (showCounter != 'false') {
     setTimeout("viewHc()", 8200);
 } else {
     viewHome();
-    setTimeout("viewH1()", 2000);
-    setTimeout("viewHp()", 3700);
-    setTimeout("viewHc()", 4200);
+    /*viewH1();
+    viewHp();
+    viewHc();*/
+    setTimeout("viewH1()", 0);
+    setTimeout("viewHp()", 0);
+    setTimeout("viewHc()", 0);
 }
 
 $(document).ready(function() {
