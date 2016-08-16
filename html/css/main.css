@@ -8441,6 +8441,9 @@ table {
 .bot-hidden {
   display: none;
 }
+.div-trab svg {
+  width: 40px;
+}
 [type='text'],
 [type='password'],
 [type='date'],

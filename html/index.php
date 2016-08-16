@@ -15,11 +15,12 @@
                     </span>
                 </h1>
                 <p class="animated">Revisa nuestros servicios:</p>
-                <svg version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
-                     viewBox="0 0 72 54" enable-background="new 0 0 72 54" xml:space="preserve">
-                     <polygon fill="#74C0E2" points="0,0 35.3,54 72,0 36,18.2 "/>
-                </svg>
-                <img class="arrowh" src="img/arrow.gif">
+                <div class="div-trab arrowh">
+                    <svg version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+                         viewBox="0 0 72 54" enable-background="new 0 0 72 54" xml:space="preserve">
+                         <polygon fill="#44B6CE" points="0,0 35.3,54 72,0 36,18.2 "/>
+                    </svg>
+                </div>    
             </div>
             <div id="options-link" class="cont-linksh animated">
                 <div class="slider-nav-thumbnails">
