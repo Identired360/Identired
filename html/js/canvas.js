@@ -715,7 +715,7 @@ S.Shape = (function () {
 var currentLocation = window.location;
 var pathname = currentLocation.pathname;
 
-if(pathname = '/') {
+if(pathname == '/') {
     var showCounter = Cookies.get('showCounter');
     if (showCounter != 'false') {
         S.init();
