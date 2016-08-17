@@ -6988,7 +6988,7 @@ button {
   color: #44B6CE;
   background: #fff;
   border-bottom: 0.24em solid #44B6CE;
-  border-left: 0.01em solid #44B6CE;
+  border-left: 0.1em solid #44B6CE;
   border-right: 0.01em solid #44B6CE;
   border-top: 0.01em solid #44B6CE;
 }
@@ -7921,11 +7921,13 @@ table {
   background-attachment: fixed;
   background-size: cover;
   background-repeat: no-repeat;
+  background-position: bottom center;
 }
 .ban-inicio h1 {
   font-size: 3.5em;
   margin-top: 1em;
   font-family: 'Raleway';
+  margin-bottom: 0;
 }
 .ban-inicio h3 {
   font-size: 5em;
@@ -8441,6 +8443,12 @@ table {
 .bot-hidden {
   display: none;
 }
+.div-trab svg {
+  width: 40px;
+}
+.sec-proys.demo-2 .grid figure button {
+  background: #5FCF80;
+}
 [type='text'],
 [type='password'],
 [type='date'],
@@ -8879,7 +8887,10 @@ input[type="checkbox"] {
   margin-top: 1em;
   margin-bottom: 6em;
 }
-.sub-consul .but-input:before {
+.form-consul .but-input:before {
+  color: #44B6CE;
+}
+.form-consul .but-input:hover:before {
   color: #5FCF80;
 }
 #rotate {
@@ -9087,20 +9098,28 @@ input[type="checkbox"] {
 #rotate span:nth-child(1) {
   -webkit-animation: quoteshift 16s 0s infinite linear;
   animation: quoteshift 16s 0s infinite linear;
+  -moz-animation: quoteshift 16s 0s infinite linear;
+  -ms-animation: quoteshift 16s 0s infinite linear;
 }
 #rotate span:nth-child(2) {
   -webkit-animation: quoteshift 16s 4s infinite linear;
   animation: quoteshift 16s 4s infinite linear;
+  -moz-animation: quoteshift 16s 4s infinite linear;
+  -ms-animation: quoteshift 16s 4s infinite linear;
 }
 #rotate span:nth-child(3) {
   -webkit-animation: quoteshift 16s 8s infinite linear;
   animation: quoteshift 16s 8s infinite linear;
+  -moz-animation: quoteshift 16s 8s infinite linear;
+  -ms-animation: quoteshift 16s 8s infinite linear;
 }
 #rotate span:nth-child(4) {
   -webkit-animation: quoteshift 16s 12s infinite linear;
   animation: quoteshift 16s 12s infinite linear;
+  -moz-animation: quoteshift 16s 12s infinite linear;
+  -ms-animation: quoteshift 16s 12s infinite linear;
 }
-@-webkit-keyframes "quoteshift" {
+@-webkit-keyframes quoteshift {
   0% {
     opacity: 0;
   }
@@ -9117,7 +9136,7 @@ input[type="checkbox"] {
     opacity: 0;
   }
 }
-@keyframes "quoteshift" {
+@keyframes quoteshift {
   0% {
     opacity: 0;
   }
@@ -9605,6 +9624,12 @@ figure.snip1157 .author h5 span {
   .title-home h1 {
     margin-bottom: 0.3em;
   }
+  .item-paq a {
+    margin: 0 3.5em;
+  }
+  .item-desa a {
+    margin: 0 2em;
+  }
 }
 @media only screen and (max-width: 1200px) {
   .col-container {
@@ -9622,6 +9647,48 @@ figure.snip1157 .author h5 span {
   .cont-gen {
     width: 100%;
   }
+  .item-vent {
+    padding: 1em 0em;
+  }
+  .demo-2 .grid figure button {
+    transform: translateY(0%);
+  }
+  .item-paq a {
+    margin: 0 2em;
+  }
+  .bot-ver {
+    color: #5FCF80;
+    background: #fff;
+    border-bottom: 0.24em solid #5FCF80;
+    border-left: 0.1em solid #5FCF80;
+    border-right: 0.1em solid #5FCF80;
+    border-top: 0.1em solid #5FCF80;
+  }
+  .bot-ver:hover {
+    color: #44B6CE;
+    border-bottom: 0.24em solid #44B6CE;
+    border-left: 0.1em solid #44B6CE;
+    border-right: 0.1em solid #44B6CE;
+    border-top: 0.1em solid #44B6CE;
+  }
+  .bot-cel {
+    color: #44B6CE;
+    background: #fff;
+    border-bottom: 0.24em solid #44B6CE;
+    border-left: 0.1em solid #44B6CE;
+    border-right: 0.1em solid #44B6CE;
+    border-top: 0.1em solid #44B6CE;
+  }
+  .bot-cel:hover {
+    color: #5FCF80;
+    border-bottom: 0.24em solid #5FCF80;
+    border-left: 0.1em solid #5FCF80;
+    border-right: 0.1em solid #5FCF80;
+    border-top: 0.1em solid #5FCF80;
+  }
+  .bot-cel:focus {
+    color: #44B6CE;
+  }
 }
 @media only screen and (max-width: 1024px) {
   .item-desa {
@@ -9633,13 +9700,29 @@ figure.snip1157 .author h5 span {
   .canvas {
     display: none !important;
   }
+  .item-desa a {
+    position: relative;
+    bottom: inherit;
+    margin: 0;
+    margin-top: 1em;
+  }
+  .item-desa {
+    height: auto !important;
+    padding: 2em 3em 3em 3em;
+  }
+  .item-paq a {
+    margin: 0 4.5em;
+  }
+  .cont-textnos {
+    width: 100%;
+  }
 }
-@media only screen and (max-height: 767px) and (max-width: 992px) {
+@media only screen and (max-height: 767px) and (min-width: 992px) {
   .title-home p {
     margin-bottom: 1em !important;
   }
   .txt-box {
-    height: 555px !important;
+    height: 620px !important;
   }
 }
 @media only screen and (max-width: 992px) {
@@ -9690,6 +9773,7 @@ figure.snip1157 .author h5 span {
   }
   .ban-inicio h3 {
     font-size: 4em;
+    width: 53%;
   }
   .pad-secc {
     padding-top: 5em;
@@ -9745,7 +9829,7 @@ figure.snip1157 .author h5 span {
     margin-bottom: 1.5em;
   }
   #menu_button {
-    background: #2D94AA;
+    background: #22985b;
   }
   .navicon {
     background: #fff;
@@ -9759,6 +9843,19 @@ figure.snip1157 .author h5 span {
   }
   .bot-hd {
     display: none;
+  }
+  .cont-let,
+  .cont-let2 {
+    display: none !important;
+  }
+  .ban-inicio {
+    background-image: inherit !important;
+  }
+  .item-paq a {
+    margin: 0 3em;
+  }
+  .cont-proy {
+    width: 100%;
   }
 }
 @media only screen and (max-width: 767px) {
@@ -9785,8 +9882,8 @@ figure.snip1157 .author h5 span {
     width: 90%;
   }
   .ban-inicio h1 {
-    font-size: 5em;
-    line-height: 1;
+    font-size: 2em;
+    line-height: 1.4;
   }
   .ban-inicio h3 {
     font-size: 3em;
@@ -9816,7 +9913,7 @@ figure.snip1157 .author h5 span {
   }
   .sec-porq h2 {
     font-size: 3em;
-    padding: 0 .2em;
+    padding: 0 .4em;
     margin-bottom: .5em;
     line-height: 1.1em;
   }
@@ -9825,6 +9922,34 @@ figure.snip1157 .author h5 span {
   }
   .cont-servc h2 {
     font-size: 3em;
+  }
+  .bottom-pag {
+    text-align: center;
+  }
+  .bottom-pag p {
+    float: none;
+    margin-top: 1.5em;
+  }
+  .bottom-pag {
+    margin-top: 2em;
+  }
+  .ban-inicio text {
+    font-size: 5em;
+  }
+  .item-paq {
+    height: auto !important;
+    padding: 2em 3em 4em;
+  }
+  .item-paq a {
+    position: relative;
+    bottom: inherit;
+    margin: 0 auto;
+    display: table;
+    margin-top: 1em;
+  }
+  .inicio-proy h1 {
+    font-size: 3em;
+    margin-top: 1.5em;
   }
 }
 @media only screen and (max-width: 480px) {
@@ -9839,10 +9964,10 @@ figure.snip1157 .author h5 span {
     width: 100%;
   }
   .ban-inicio h3 {
-    font-size: 2.5em;
+    font-size: 2.1em;
   }
   .ban-inicio {
-    height: 35em;
+    height: auto;
   }
   .sec-imp h2 {
     font-size: 3em;
@@ -9852,7 +9977,7 @@ figure.snip1157 .author h5 span {
     height: auto !important;
   }
   .titH2 h2 {
-    font-size: 3.5em;
+    font-size: 3em;
     line-height: 1.2;
   }
   .sec-tecn {
@@ -9864,6 +9989,13 @@ figure.snip1157 .author h5 span {
   }
   .cont-logfull {
     margin-top: 2em;
+  }
+  .ban-inicio text {
+    font-size: 4em;
+  }
+  .ban-inicio h3 {
+    width: 36%;
+    margin-top: -1.7em;
   }
 }
 @media only screen and (max-width: 352px) {

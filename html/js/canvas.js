@@ -165,12 +165,12 @@ S.UI = (function () {
             current = sequence.shift();
             action = getAction(current);
             value = getValue(current);
-
+            
             switch (action) {
                 case 'countdown':
                     value = parseInt(value) || 10;
                     value = value > 0 ? value : 10;
-
+                    
                     timedAction(function (index) {
                         if (index === 0) {
                             if (sequence.length === 0) {
@@ -711,7 +711,6 @@ S.Shape = (function () {
         }
     }
 }());
-
 
 var showCounter = Cookies.get('showCounter');
 if (showCounter != 'false') {
