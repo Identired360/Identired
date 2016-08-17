@@ -23,7 +23,7 @@ if ($v->validate()) {
     $subject = "Gracias por enviarnos tu consulta";
     $to = new SendGrid\Email($infoRequest['name'], $infoRequest['email']);
 
-    $template = file_get_contents(dirname(__FILE__) . '/../html/email/template.html');
+    $template = file_get_contents(dirname(__FILE__) . '/email/template.html');
     $template = str_replace('{name}', $infoRequest['name'], $template);
     $content = new SendGrid\Content("text/html", $template);
     $mail = new SendGrid\Mail($from, $subject, $to, $content);
