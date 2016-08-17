@@ -715,10 +715,10 @@ S.Shape = (function () {
 var currentLocation = window.location;
 var pathname = currentLocation.pathname;
 
-alert(pathname);
-
-var showCounter = Cookies.get('showCounter');
-if (showCounter != 'false') {
-    S.init();
-    Cookies.set('showCounter', 'false', {expires: 1});
+if(pathname = '/') {
+    var showCounter = Cookies.get('showCounter');
+    if (showCounter != 'false') {
+        S.init();
+        Cookies.set('showCounter', 'false', {expires: 1});
+    }
 }
