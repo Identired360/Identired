@@ -11,9 +11,12 @@
 
         <div id="main-container2">
             {{ content }}
-        
+
             {% include footer.html %}
 
+            {% if page.conversion %}
+                {{ page.conversion }}
+            {% endif %}
     </body>
 
 </html>
