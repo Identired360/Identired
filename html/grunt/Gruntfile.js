@@ -75,7 +75,7 @@ module.exports = function(grunt) {
             serve: { // Another target
                 options: {
                     dest: '../../public_html',
-                    serve: true
+                    serve: false
                 }
             }
         },
