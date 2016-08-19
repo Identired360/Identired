@@ -1,6 +1,6 @@
 $(document).foundation()
 
-/*Animations*/
+/*Animations***/
 
 function viewHome() {
     $('#menu_button').addClass('fadeInLeft');

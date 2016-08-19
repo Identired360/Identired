@@ -1,4 +1,4 @@
-module.exports = function(grunt) {
+module.exports = function (grunt) {
     grunt.initConfig({
         less: {
             dev: {
@@ -44,76 +44,128 @@ module.exports = function(grunt) {
         copy: {
             main: {
                 files: [{
-                    expand: true,
-                    flatten: true,
-                    src: ['css/main.min.css'],
-                    dest: '../../jekyll/css/',
-                    filter: 'isFile'
-                }, {
-                    expand: true,
-                    flatten: true,
-                    src: ['js/all.min.js'],
-                    dest: '../../jekyll/js/',
-                    filter: 'isFile'
-                }, {
-                    expand: true,
-                    flatten: true,
-                    src: ['../fonts/*'],
-                    dest: '../../jekyll/fonts/',
-                    filter: 'isFile'
-                }, {
-                    src: ['../img/**'],
-                    dest: '../../jekyll/img/',
-                    filter: 'isFile'
-                }]
+                        expand: true,
+                        flatten: true,
+                        src: ['css/main.min.css'],
+                        dest: '../../jekyll/css/',
+                        filter: 'isFile'
+                    }, {
+                        expand: true,
+                        flatten: true,
+                        src: ['js/all.min.js'],
+                        dest: '../../jekyll/js/',
+                        filter: 'isFile'
+                    }, {
+                        expand: true,
+                        flatten: true,
+                        src: ['../fonts/*'],
+                        dest: '../../jekyll/fonts/',
+                        filter: 'isFile'
+                    }, {
+                        src: ['../img/**'],
+                        dest: '../../jekyll/img/',
+                        filter: 'isFile'
+                    }]
+            },
+            javascript: {
+                files: [{
+                        expand: true,
+                        flatten: true,
+                        src: ['js/all.min.js'],
+                        dest: '../../jekyll/js/',
+                        filter: 'isFile'
+                    }]
+            },
+            css: {
+                files: [{
+                        expand: true,
+                        flatten: true,
+                        src: ['css/main.min.css'],
+                        dest: '../../jekyll/css/',
+                        filter: 'isFile'
+                    }]
+            },
+            fonts: {
+                files: [{
+                        expand: true,
+                        flatten: true,
+                        src: ['../fonts/*'],
+                        dest: '../../jekyll/fonts/',
+                        filter: 'isFile'
+                    }]
+            },
+            img: {
+                files: [{
+                        src: ['../img/**'],
+                        dest: '../../jekyll/img/',
+                        filter: 'isFile'
+
+                    }]
             }
         },
-        jekyll: { // Task
+        jekyll: {// Task
             options: {
                 src: '../../jekyll/'
             },
-            serve: { // Another target
-                options: {
+            dist: {// Target
+                options: {// Target options
                     dest: '../../public_html',
                     serve: false
+                }
+            },
+            serve: {// Another target
+                options: {
+                    dest: '../../public_html',
+                    serve: true
                 }
             }
         },
         watch: {
-            typescript: {
-                files: ['assets/ts/*.ts'],
-                tasks: ['typescript', 'uglify:all'],
-                options: {
-                    livereload: true
-                }
-            },
             js: {
-                files: ['assets/js/**/*.js', 'assets/js/all.json'],
-                tasks: ['concat_sourcemap', 'uglify:lib'],
+                files: ['../js/**/*.js'],
+                tasks: ['uglify', 'copy:javascript'],
                 options: {
-                    livereload: true
+                    livereload: false
                 }
             },
             less: {
-                files: ['assets/less/**/*.less'],
-                tasks: ['less'],
+                files: ['../css/**/*.less'],
+                tasks: ['less:prod', 'copy:css'],
                 options: {
-                    livereload: true
+                    livereload: false
                 }
             },
             fonts: {
                 files: [
-                    'vendor/bower/bootstrap/fonts/*'
+                    '../fonts/*'
                 ],
-                tasks: ['copy'],
+                tasks: ['copy:fonts'],
                 options: {
-                    livereload: true
+                    livereload: false
+                }
+            },
+            img: {
+                files: [
+                    '../img/**'
+                ],
+                tasks: ['copy:img'],
+                options: {
+                    livereload: false
+                }
+            }
+        },
+        concurrent: {
+            target1: {
+                tasks: ['watch', 'jekyll:serve'],
+                options: {
+                    logConcurrentOutput: true
                 }
             }
         }
     });
 
     // Plugin loading
+    grunt.loadNpmTasks('grunt-concurrent');
     grunt.loadNpmTasks('grunt-contrib-watch');
     grunt.loadNpmTasks('grunt-contrib-less');
     grunt.loadNpmTasks('grunt-contrib-uglify');
@@ -121,12 +173,6 @@ module.exports = function(grunt) {
     grunt.loadNpmTasks('grunt-jekyll');
 
     // Task definition
-    //grunt.registerTask('default', ['less', 'uglify', 'copy', 'jekyll']);
-    grunt.registerTask('build', ['less', 'uglify', 'copy', 'jekyll']);
-    grunt.registerTask('serve', ['jekyll']);
-
-    //grunt.registerTask('build', ['less', 'typescript', 'copy', 'concat_sourcemap', 'uglify']);
-    //grunt.registerTask('default', ['watch']);
-    //grunt.registerTask('build', ['concat_sourcemap', 'uglify', 'cssmin', 'copy']);
-    //grunt.registerTask('build', ['concat_sourcemap', 'uglify', 'cssmin', 'copy']);
+    grunt.registerTask('build', ['less:prod', 'uglify', 'copy:main', 'jekyll:dist']);
+    grunt.registerTask('default', ['concurrent:target1']);
 };
