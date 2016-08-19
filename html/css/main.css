@@ -7921,6 +7921,7 @@ table {
   background-attachment: fixed;
   background-size: cover;
   background-repeat: no-repeat;
+  background-position: bottom center;
 }
 .ban-inicio h1 {
   font-size: 3.5em;
@@ -8447,6 +8448,13 @@ table {
 }
 .sec-proys.demo-2 .grid figure button {
   background: #5FCF80;
+}
+.cont-error {
+  text-align: center;
+}
+.cont-error p {
+  font-size: 2em;
+  margin-bottom: 2em;
 }
 [type='text'],
 [type='password'],

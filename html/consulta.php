@@ -1,6 +1,5 @@
----
-layout: default
----
+<?php include('header.html') ?>
+
 <section>
     <div class="col-container">
         <div class="cont-gen page-consult">
@@ -44,3 +43,7 @@ layout: default
         </div>	
     </div>
 </section>
+
+<?php include('footer.html') ?>
+</body>
+</html>
