@@ -105,7 +105,8 @@ module.exports = function (grunt) {
         },
         jekyll: {// Task
             options: {
-                src: '../../jekyll/'
+                src: '../../jekyll/',
+                
             },
             dist: {// Target
                 options: {// Target options
