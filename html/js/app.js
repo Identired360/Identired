@@ -20,7 +20,7 @@ function viewHc() {
 }
 
 function viewHomeNoFx() {
-    $('#menu_button').addClass('fadeIn');
+    $('#menu_button').addClass('fadeInLeft');
     $('.has-tip').addClass('fadeIn');
 }
 
