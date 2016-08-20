@@ -25,13 +25,13 @@ if (showCounter != 'false') {
     setTimeout("viewHp()", 7700);
     setTimeout("viewHc()", 8200);
 } else {
-    viewHome();
-    /*viewH1();
-     viewHp();
-     viewHc();*/
-    setTimeout("viewH1()", 0);
-    setTimeout("viewHp()", 0);
-    setTimeout("viewHc()", 0);
+//    viewHome();
+//    /*viewH1();
+//     viewHp();
+//     viewHc();*/
+//    setTimeout("viewH1()", 0);
+//    setTimeout("viewHp()", 0);
+//    setTimeout("viewHc()", 0);
 }
 
 $(document).ready(function () {
