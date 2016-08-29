@@ -18,6 +18,24 @@ function viewHp() {
 function viewHc() {
     $('.cont-linksh').addClass('slideInUp');
 }
+
+function viewHomeNoFx() {
+    $('#menu_button').addClass('fadeInLeft');
+    $('.has-tip').addClass('fadeIn');
+}
+
+function viewH1NoFx() {
+    $('.title-home h1').addClass('fadeIn');
+}
+
+function viewHpNoFx() {
+    $('.title-home p').addClass('fadeIn');
+}
+
+function viewHcNoFx() {
+    $('.cont-linksh').addClass('fadeIn');
+}
+
 var showCounter = Cookies.get('showCounter');
 if (showCounter != 'false') {
     setTimeout("viewHome()", 3000);
@@ -25,18 +43,18 @@ if (showCounter != 'false') {
     setTimeout("viewHp()", 7700);
     setTimeout("viewHc()", 8200);
 } else {
-    viewHome();
-    /*viewH1();
-    viewHp();
-    viewHc();*/
-    setTimeout("viewH1()", 0);
-    setTimeout("viewHp()", 0);
-    setTimeout("viewHc()", 0);
+    viewHomeNoFx();
+    viewH1NoFx();
+    viewHpNoFx();
+    viewHcNoFx();
 }
 
-$(document).ready(function() {
-
-    new WOW().init();
+$(document).ready(function () {
+    var showCounter = Cookies.get('showCounter');
+    
+    if (showCounter != 'false') {
+        new WOW().init();
+    }
 
 
 
@@ -59,42 +77,42 @@ $(document).ready(function() {
          {
          $('#overlay').css('display', 'none');
          overlayTimer = null;
-
+         
          }, 0.33 * 1000);*/
     }
 
     $('#overlay').on('click', closeMenu);
 
 
-    $('#menu_button').click(function(e) {
+    $('#menu_button').click(function (e) {
 
         //$('body').toggleClass('menu-shown');
 
         $(this).toggleClass('open');
 
         /*  var isShown = $('body').hasClass('menu-shown');
-
+         
          if (overlayTimer != null)
          {
          clearTimeout(overlayTimer);
          overlayTimer = null;
          }
-
+         
          if (isShown)
          {
-
+         
          $('#overlay').css('display', 'block');
          overlayTimer = setTimeout(function()
          {
          $('#overlay').css('opacity', 1);
          overlayTimer = null;
-
+         
          }, 1);
          }
          else
          {
          closeMenu();
-
+         
          }*/
 
     });
@@ -104,8 +122,8 @@ $(document).ready(function() {
 
 /*Slide toggle*/
 
-$("#top-view").click(function() {
-    $(".top-bar-head").slideToggle("fast", function() {
+$("#top-view").click(function () {
+    $(".top-bar-head").slideToggle("fast", function () {
         $(".has-tip svg").slideToggle('fast');
         $(".i-iconn").slideToggle('fast'); // Animation complete.
     });
@@ -113,9 +131,9 @@ $("#top-view").click(function() {
 
 /*Para form largo*/
 
-$(function() {
+$(function () {
 
-    $('.awesome-form .input-group input').focusout(function() {
+    $('.awesome-form .input-group input').focusout(function () {
 
         var text_val = $(this).val();
 
@@ -130,7 +148,7 @@ $(function() {
         }
 
     });
-    $('.awesome-form .input-group textarea').focusout(function() {
+    $('.awesome-form .input-group textarea').focusout(function () {
 
         var text_val = $(this).val();
 
@@ -149,14 +167,14 @@ $(function() {
 });
 
 /*Equal height*/
-equalheight = function(container) {
+equalheight = function (container) {
 
     var currentTallest = 0,
-        currentRowStart = 0,
-        rowDivs = new Array(),
-        $el,
-        topPosition = 0;
-    jQuery(container).each(function() {
+            currentRowStart = 0,
+            rowDivs = new Array(),
+            $el,
+            topPosition = 0;
+    jQuery(container).each(function () {
 
         $el = jQuery(this);
         jQuery($el).height('auto')
@@ -181,7 +199,7 @@ equalheight = function(container) {
 }
 
 //-------------- [ MenuTop ] --------------//
-$(window).scroll(function() {
+$(window).scroll(function () {
 
     if ($(this).scrollTop() > 0) {
         $('.head').addClass('head-fix');
@@ -192,11 +210,11 @@ $(window).scroll(function() {
 });
 
 /*Para validar formulario*/
-$('input, textarea').on('focus', function() {
+$('input, textarea').on('focus', function () {
     $(this).parent().addClass('focus');
 });
 
-$('input, textarea').on('blur', function(event) {
+$('input, textarea').on('blur', function (event) {
     if (event.target.value.length > 0) {
         $(this).parent().addClass('active');
     } else {
@@ -206,7 +224,7 @@ $('input, textarea').on('blur', function(event) {
     $(this).parent().removeClass('focus');
 });
 
-$('textarea').on('keyup', function() {
+$('textarea').on('keyup', function () {
     $(this).css('height', 'auto');
     $(this).css('height', $(this)[0].scrollHeight + 'px');
 });
@@ -215,39 +233,41 @@ $('#formWeb').validate();
 $('#formReg').validate();
 
 /****Para deslizar*****/
-$(function(){
+$(function () {
 
-     $('a[href*=#]').click(function() {
+    $('a[href*=#]').click(function () {
 
-     if (location.pathname.replace(/^\//,'') == this.pathname.replace(/^\//,'')
-         && location.hostname == this.hostname) {
+        if (location.pathname.replace(/^\//, '') == this.pathname.replace(/^\//, '')
+                && location.hostname == this.hostname) {
 
-             var $target = $(this.hash);
+            var $target = $(this.hash);
 
-             $target = $target.length && $target || $('[name=' + this.hash.slice(1) +']');
+            $target = $target.length && $target || $('[name=' + this.hash.slice(1) + ']');
 
-             if ($target.length) {
+            if ($target.length) {
 
-                 var targetOffset = $target.offset().top;
+                var targetOffset = $target.offset().top;
 
-                 $('html,body').animate({scrollTop: targetOffset}, 500);
+                $('html,body').animate({scrollTop: targetOffset}, 500);
 
-                 return false;
+                return false;
 
             }
 
-       }
+        }
 
-   });
+    });
 
 });
 
 /*Para facebook*/
-(function(d, s, id) {
-  var js, fjs = d.getElementsByTagName(s)[0];
-  if (d.getElementById(id)) return;
-  js = d.createElement(s); js.id = id;
-  js.src = "//connect.facebook.net/es_LA/sdk.js#xfbml=1&version=v2.7";
-  fjs.parentNode.insertBefore(js, fjs);
+(function (d, s, id) {
+    var js, fjs = d.getElementsByTagName(s)[0];
+    if (d.getElementById(id))
+        return;
+    js = d.createElement(s);
+    js.id = id;
+    js.src = "//connect.facebook.net/es_LA/sdk.js#xfbml=1&version=v2.7";
+    fjs.parentNode.insertBefore(js, fjs);
 }(document, 'script', 'facebook-jssdk'));
 
