@@ -193,6 +193,7 @@
   -moz-osx-font-smoothing: grayscale;
   -webkit-transform: translate(0, 0);
           transform: translate(0, 0);
+  color: @verde;        
 }
 
 @-webkit-keyframes titleBlur {
@@ -245,11 +246,14 @@
 /*Para artículos*/
 .tit-blog{
   margin-top: 7em;
-  margin-bottom: 3em;
+  margin-bottom: 4em;
   h1{
     font-size: 4.5em;
     color: #444;
     line-height: 1.3;
+    width: 80%;
+    text-align: center;
+    margin: 0 auto;    
   }
 }
 .sec-img{
@@ -258,22 +262,22 @@
     margin-bottom: 2em;
   }
 }
-.reg-blog{
-  padding-top: 21em;
-}
 .fijo{
   position: fixed;
-  padding-top: 0;
   top: 0;
-  width: 29em;
+  width: 31em;
 }
 .cont-formb{
   position: relative;
+  padding-left: 10em;
 }
 .wid-blog{
   h2{
     font-weight: 700;
     font-size: 2.5em;
+    line-height: 1.2;
+    margin-bottom: 1em;   
+    position: relative;
   }
   #botones-para-compartir{
     text-align: left;
@@ -293,10 +297,42 @@
   h3{
     font-size: 2.5em;
     font-weight: 700;
+    border-top: 1px solid #ccc;
+    padding-top: 1em;  
+    margin-bottom: 1em; 
+    position: relative;
+    &:before{
+      content: "";
+      background-image: url(../img/ovl.svg);
+      background-repeat: no-repeat;
+      display: inline-block;
+      width: 1em;
+      height: .8em;
+      position: absolute;
+      top: 1.35em;
+      left: -1.1em;     
+    } 
   }
 }
 .cont-datb{
   display: inline-block;
   width: 100%;
   margin-top: 5em;
+}
+.date-art{
+  font-size: 1.5em;
+  text-align: center;
+  margin-top: 1em;
+}
+.richt{
+  a{
+    font-weight: 700;
+    color: @celeste;
+  }
+  .linkid{
+     display: inline-table;
+    &:after{
+      background-color:@celeste;
+    }  
+  }
 }

@@ -111,12 +111,12 @@
                 <div class="column">
                     <article class="card">
                         <div class="card__thumb">
-                            <a href="pagina-vendedora.php"><img src="http://lorempicsum.com/rio/378/235/1" ></a>
+                            <a href="#"><img src="http://lorempicsum.com/rio/378/235/1" ></a>
                         </div>
                         <div class="card__body">
                             <div class="card__category"><a href="javascript:void(0)">Categoría</a></div>
                             
-                            <a href="pagina-vendedora.php" title="" class="card-sec">
+                            <a href="#" title="" class="card-sec">
                                 <h2>Título del artículo elementum semper nisivi troscup</h2>
                                 <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
                                 <div class="bot-p bot-cel bot-art">Ver artículo</div>
