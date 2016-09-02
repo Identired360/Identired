@@ -9404,7 +9404,7 @@ figure.snip1157 .author h5 span {
   text-transform: uppercase;
 }
 .card__thumb {
-  height: 235px;
+  height: 182px;
   overflow: hidden;
   background-color: #000;
   -webkit-transition: height 0.3s;
@@ -9437,7 +9437,7 @@ figure.snip1157 .author h5 span {
   transition: height 0.3s;
 }
 .card:hover .card__body {
-  height: 330px;
+  height: 277px;
 }
 .card__category {
   position: absolute;
@@ -9653,6 +9653,13 @@ figure.snip1157 .author h5 span {
   top: 1.35em;
   left: -1.1em;
 }
+.cont-datb h5 {
+  font-size: 2.2em;
+  font-weight: 400;
+}
+.cont-datb img {
+  border-radius: 100px;
+}
 .cont-datb {
   display: inline-block;
   width: 100%;
@@ -9672,6 +9679,14 @@ figure.snip1157 .author h5 span {
 }
 .richt .linkid:after {
   background-color: #44B6CE;
+}
+.richt h3 {
+  font-weight: 400;
+  font-size: 3em;
+}
+.richt h4 {
+  font-size: 2.3em;
+  font-weight: 400;
 }
 @media only screen and (max-width: 1460px) {
   .col-container {

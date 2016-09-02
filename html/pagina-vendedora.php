@@ -1,137 +1,125 @@
 <?php include('header.html') ?>
 
-    <section class="row ban-inicio"  style="background-image: url('img/blog.jpg');">
+    <section class="row">
         <div class="col-container">
-            <svg xmlns="http://www.w3.org/2000/svg" version="1.1" xmlns:xlink="http://www.w3.org/1999/xlink" width="100%" height="100%">
-                <!-- Background -->
-                <rect x="0" y="0" fill="transparent" width="100%" height="100%" />
-                <!-- Text using the #pattern in defs as the fill -->
-                <text x="50%" text-anchor="middle" y="50%" dy="0.4em" fill="url(#pattern)" font-family="Amaranth" font-size="7em">Nuestro blog</text>
-                <defs>  
-                    <!-- Da gradient -->
-                    <linearGradient id="gradient" x1="0%" y1="0%" x2="100%" y2="0">
-                        <stop offset="0%" style="stop-color:#237485;"/>
-                        <stop offset="25%" style="stop-color:#2B8C48;"/>
-                        <stop offset="50%" style="stop-color:#5FCF80;"/>
-                        <stop offset="75%" style="stop-color:#44B6CE;"/>
-                        <stop offset="100%" style="stop-color:#216C7C;"/>
-                    </linearGradient>
-                    <!-- Stitch 2 gradients together for seamless animation  -->
-                    <pattern id="pattern" x="0" y="0" width="300%" height="100%" patternUnits="userSpaceOnUse">
-                        <rect x="0" y="0" width="150%" height="100%" fill="url(#gradient)">
-                            <animate attributeType="XML"
-                                     attributeName="x"
-                                     from="0" to="150%"
-                                     dur="7s"
-                                     repeatCount="indefinite"/>
-                        </rect>
-                        <rect x="-150%" y="0" width="150%" height="100%" fill="url(#gradient)">
-                            <animate attributeType="XML"
-                                     attributeName="x"
-                                     from="-150%" to="0"
-                                     dur="7s"
-                                     repeatCount="indefinite"/>
-                        </rect>
-                    </pattern>
-                    <font horiz-adv-x="500" >
-                        <font-face font-family="sonos-logoregular" units-per-em="2048" ascent="1920" descent="-128" />
-                        <missing-glyph horiz-adv-x="500" />
-                        <glyph unicode="&#xd;" horiz-adv-x="682" />
-                        <glyph unicode=" " />
-                        <glyph unicode="N" horiz-adv-x="812" d="M0 412h150v636l662 -664v1000h-148v-640l-664 664v-996z" />
-                        <glyph unicode="O" horiz-adv-x="1946" d="M470 896q0 210 150 364q148 148 362 148t362 -148q150 -154 150 -364q0 -212 -150 -362t-362 -150t-362 150t-150 362zM620 896q0 -152 106 -258q104 -108 256 -108q154 0 256 108q108 108 108 258q0 148 -108 260q-104 108 -256 108q-148 0 -256 -108 q-106 -110 -106 -260z" />
-                        <glyph unicode="S" horiz-adv-x="674" d="M0 1124q0 -58 26 -110q28 -52 80 -90q32 -26 86 -52q68 -30 124 -46q124 -40 174 -84q34 -30 34 -74q0 -52 -48 -92q-56 -42 -138 -42q-62 0 -122 26q-38 16 -72 40l-118 -80q0 -4 24 -24q24 -24 60 -46q108 -66 228 -66q70 0 132 22q66 24 108 62q44 38 72 92 q24 54 24 110q0 54 -26 110q-28 52 -78 90q-34 28 -88 52q-38 18 -122 46q-122 36 -174 82q-36 32 -36 74q0 54 50 92q54 44 138 44q60 0 120 -26q32 -12 72 -40l120 80q-2 0 -24 24q-18 18 -62 46q-104 64 -226 64q-74 0 -132 -20t-110 -62q-48 -44 -70 -92 q-26 -56 -26 -110z" />
-                        <glyph unicode="&#xa0;" />
-                        <glyph unicode="&#x2000;" horiz-adv-x="704" />
-                        <glyph unicode="&#x2001;" horiz-adv-x="1408" />
-                        <glyph unicode="&#x2002;" horiz-adv-x="704" />
-                        <glyph unicode="&#x2003;" horiz-adv-x="1408" />
-                        <glyph unicode="&#x2004;" horiz-adv-x="469" />
-                        <glyph unicode="&#x2005;" horiz-adv-x="352" />
-                        <glyph unicode="&#x2006;" horiz-adv-x="234" />
-                        <glyph unicode="&#x2007;" horiz-adv-x="234" />
-                        <glyph unicode="&#x2008;" horiz-adv-x="176" />
-                        <glyph unicode="&#x2009;" horiz-adv-x="281" />
-                        <glyph unicode="&#x200a;" horiz-adv-x="78" />
-                        <glyph unicode="&#x202f;" horiz-adv-x="281" />
-                        <glyph unicode="&#x205f;" horiz-adv-x="352" />
-                        <glyph unicode="&#x25fc;" horiz-adv-x="1000" d="M0 0z" />
-                    </font>
-                </defs>
-            </svg>
-            <div class="text-centb">
-                <h2>Artículos que te ayudárán a mejorar tu presencia en internet</h2>
-            </div>
-        </div>
-        <img class="img-bann" src="img/ground.png"> 
-    </section>
 
-    <section class="row back-cel sec-imp">
-        <div class="col-container">
-            <div class="small-12 columns tit-desweb wow slideInDown"><h1>Artículos de interés</h1></div>
-            <div class="small-up-1 medium-up-2 large-up-3 articles">
-                <div class="column">
-                    <article class="card">
-                        <div class="card__thumb">
-                            <a href="tu-pagina-web-un-canal-de-ventas-para-tu-negocio.php" title="Cómo hacer de tu Página Web un Canal de Ventas para tu negocio"><img title="Cómo hacer de tu Página Web un Canal de Ventas para tu negocio" src="http://lorempicsum.com/rio/378/235/1" ></a>
-                        </div>
-                        <div class="card__body">
-                            <div class="card__category"><a href="javascript:void(0)">Categoría</a></div>
-                            
-                            <a href="tu-pagina-web-un-canal-de-ventas-para-tu-negocio.php" title="Cómo hacer de tu Página Web un Canal de Ventas para tu negocio" class="card-sec">
-                                <h2>Cómo hacer de tu Página Web un Canal de Ventas para tu negocio</h2>
-                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
-                                <div class="bot-p bot-cel bot-art">Ver artículo</div>
-                            </a>    
-                        </div>
-                        <div class="card__footer">
-                            <span class="icon icon--time">11/08/2016</span>
-                        </div>
-                    </article>
+            <div class="small-12 columns">
+                <div class="tit-blog">
+                    <h1>Las Landing Pages como <b>Páginas Vendedoras</b></h1>
+                    <div class="date-art">
+                        <span class="icon icon--time">02/09/2016</span>
+                    </div>
                 </div>
-                <div class="column">
-                    <article class="card">
-                        <div class="card__thumb">
-                            <a href="articulo.php"><img src="http://lorempicsum.com/rio/378/235/1" ></a>
-                        </div>
-                        <div class="card__body">
-                            <div class="card__category"><a href="javascript:void(0)">Categoría</a></div>
-                            
-                            <a href="articulo.php" title="" class="card-sec">
-                                <h2>Título del artículo elementum semper nisivi troscup</h2>
-                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
-                                <div class="bot-p bot-cel bot-art">Ver artículo</div>
-                            </a>    
-                        </div>
-                        <div class="card__footer">
-                            <span class="icon icon--time">11/08/2016</span>
-                        </div>
-                    </article>
+            </div>
+
+            <div class="small-12 medium-8 large-8 columns sec-img richt">
+                <img title="Cómo hacer de mi Página Web un canal de ventas para mi negocio" class="img-art" src="img/articulos/pagina-canal-ventas.jpg">
+                <h3>¿Qué es una página vendedora?</h3>
+                <p>Es aquella que está desarrollada para <b>generar clientes</b>, este punto es algo que muchas veces los clientes olvidan y se centran más en los diseños que en los verdaderos resultados. Esto debido a que <b>ven a un sitio web como una carta de presentación y no como un vendedor</b>, GRAVE ERROR.</p>
+                <p>El objetivo de una página vendedora es que sea un <b>vendedor digital</b>, que nos represente las 24 horas del día, los 7 días de la semana durante los 365 días del año, no descansará, no se dará de baja.</p>
+                <p>Considero una Landing Page como una página web vendedora ya que se distingue de las demás por estar enfocada en lograr un <b>objetivo preciso</b>como por ejemplo vender un producto o servicio, obtener una suscripción, obtener peticiones o consultas sobre algún producto, etc.</p>
+                <p>Esto significa que una <b>Landing Page</b> no tiene enlaces a páginas externas, muestra información importante para limitar las opciones del visitante, guiándolo a <b>lograr una conversión</b>.</p>
+                <h3>Tipos de Landing Pages</h3>
+                <p>Básicamente existen dos tipos: Las que se denominan Click Through y las generadoras de contactos.</p>
+                <h4>Click Through</h4>
+                <p>El objetivo de este tipo de páginas es hacer que <b>el visitante siga un determinado link</b>. Un ejemplo es nuestro proyecto Andestones USA. <a title="Desarrollo de landing page" class="linkid" href="http://www.andestones-usa.com/">andestones-usa.com</a> , como podrás ver cuando el visitante sigue el link de los productos va a la página de amazon.com donde puede concretar una venta. </p>
+                <p>En general una página Click Through sirve para mostrar detalles de un producto animando al visitante a seguir el link y completar la transacción.</p>
+                <h4>Generadoras de contactos</h4>
+                <p>El objetivo de este tipo de páginas es <b>capturar datos del visitante</b> mediante un formulario. Por ejemplo pueden visitar <a title="Desarrollo de landing page" class="linkid" href="http://www.contadoresgesym.com/">contadoresgesym.com</a>, donde se muestra los servicios que brinda el cliente, información precisa de la empresa y un formulario de contacto con el cual podemos captar los datos de un posible cliente. </p>
+                <p>En Identired te proponemos desarrollar tu <a class="linkid" href="http://www.identired.com/dise%C3%B1o-de-paginas-web" title="Desarrollo de Página Vendedora">página vendedora</a>, desarrollada con un plan de negocio previo para llegar a tus clientes potenciales.</p>
+
+               <div class="cont-datb clearfix">
+                    <h3>Sobre el autor</h3>
+                    <div class="small-12 medium-8 large-3 columns">
+                        <img  src="img/articulos/miembro.png">
+                    </div>
+                    <div class="small-12 medium-8 large-9 columns">
+                        <h5>Marco Milon</h5>
+                        <p>Gerente General de la Agencia Identired</p>
+                    </div>   
                 </div>
-                <div class="column">
-                    <article class="card">
-                        <div class="card__thumb">
-                            <a href="#"><img src="http://lorempicsum.com/rio/378/235/1" ></a>
-                        </div>
-                        <div class="card__body">
-                            <div class="card__category"><a href="javascript:void(0)">Categoría</a></div>
-                            
-                            <a href="#" title="" class="card-sec">
-                                <h2>Título del artículo elementum semper nisivi troscup</h2>
-                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
-                                <div class="bot-p bot-cel bot-art">Ver artículo</div>
-                            </a>    
-                        </div>
-                        <div class="card__footer">
-                            <span class="icon icon--time">11/08/2016</span>
-                        </div>
-                    </article>
+                <div class="cont-datb clearfix">
+                    <h3>Coméntanos sobre este artículo</h3>
+                    <div class="fb-comments" data-href="https://developers.facebook.com/docs/plugins/comments#configurator" data-numposts="1" data-width="100%"></div>
                 </div>
-            </div> 
+            </div>
+            <div class="small-12 medium-8 large-4 columns cont-formb">
+                <div class="reg-blog">
+                    <div class="wid-blog">
+                        <h2>Compárte con tus amigos</h2>
+                        <div id="botones-para-compartir">
+                            <a href="javascript:void(0);" onclick="window.open(&quot;http://www.facebook.com/sharer.php?u=URL_BLOG&quot;,&quot;gplusshare&quot;,&quot;toolbar=0,status=0,width=548,height=325&quot;);" rel="nofollow" title="Compartir en Facebook"><img alt="compartir en facebook" class="facebooko" height="40" src="http://1.bp.blogspot.com/-rwK-4X3iLjc/ViFsOclr9NI/AAAAAAAABwc/ocBw9cxRK2M/s1600/facebook-long.png" title="compartir en facebook" width="40" /></a>
+                            <a href="javascript:void(0);" onclick="window.open(&quot;https://plus.google.com/share?url=URL_BLOG&quot;,&quot;gplusshare&quot;,&quot;toolbar=0,status=0,width=548,height=325&quot;);" rel="nofollow" title="Compartir en Google+"><img alt="compartir en google+" class="googleo" height="40" src="http://1.bp.blogspot.com/-SKqPlZHzLgg/ViFsOt7HbeI/AAAAAAAABw0/bQQhWqgEpWM/s1600/google-long.png" title="compartir en google+" width="40" /></a>
+                            <!--a href="javascript:void(0);" onclick="window.open(&quot;http://twitter.com/home?status=URL_BLOG&quot;,&quot;gplusshare&quot;,&quot;toolbar=0,status=0,width=548,height=325&quot;);" rel="nofollow" title="Compartir en Google+"><img alt="compartir en twitter" class="twittero" height="40" src="http://4.bp.blogspot.com/-gqVyoE8cVME/ViFsO009lbI/AAAAAAAABwo/1oK8cUnY36Q/s1600/twitter-long.png" title="compartir en twitter" width="40" /></a>
+                            <a href="javascript:void(0);" onclick="window.open(&quot;https://www.pinterest.com/pin/create/button/?url=URL:BLOG&quot;,&quot;gplusshare&quot;,&quot;toolbar=0,status=0,width=548,height=325&quot;);" rel="nofollow" title="Compartir en Google+"><img alt="compartir en pinterest" class="pinteresto" height="40" src="http://2.bp.blogspot.com/-YHRlPeWHV-I/ViFsO1cYtsI/AAAAAAAABwk/UNnCLCBic9o/s1600/pinterest-long.png" title="compartir en pinterest" width="40" /></a>
+                            <a href="javascript:void(0);" onclick="window.open(&quot;https://www.linkedin.com/shareArticle?mini=URL_BLOG&quot;,&quot;gplusshare&quot;,&quot;toolbar=0,status=0,width=548,height=325&quot;);" rel="nofollow" title="Compartir en Google+"><img alt="compartir en likedin" class="likedino" height="40" src="http://4.bp.blogspot.com/-WBa3E0lZI-8/ViFsOraP3DI/AAAAAAAABwg/eWD_6bYykMQ/s1600/linkedin-long.png" title="compartir en likedin" width="40" /></a-->
+                        </div>
+                    </div>                    
+                    <div class="wid-blog">
+                        <h2>¿Quieres más artículos como este?</h2>
+                        <p>Resistrate y te enviaremos más cosas interesantes para mejorar tus ventas</p>
+                        <div class="form-blog form-consul">
+                        <form id="formReg" action="../php/subscribe.php" method="post">
+                            <div class="card-reg">
+                                <div class="input-wrapper">
+                                    <input type="text" id="nombreN" name="name" required>
+                                    <label>Tu nombre</label>
+                                </div>
+                                <div class="input-wrapper">
+                                    <input type="email" id="correoN" name="email" required>
+                                    <label>Tu correo electrónico</label>
+                                </div>
+                                <div class="cont-buts">
+                                    <div class="but-input sub-news">
+                                        <input type="submit" class="bot-p bot-cel" value="Suscribirme">
+                                    </div>
+                                </div>    
+                            </div>
+                        </form>
+                        </div> 
+                    </div>                       
+                </div>
+            </div>
         </div>
     </section>
 
 <?php include('footer.html') ?>
 
+<script type="text/javascript">
+   $(document).ready(function(){
+       $(window).bind('scroll', function() {
+       var navHeight = $( window ).height();
+             if ($(window).scrollTop() > 300) {
+                 $('.reg-blog').addClass('fijo');
+             }
+             else {
+                 $('.reg-blog').removeClass('fijo');
+             }
+        });
+    });
+
+
+    function detecta_scroll(){
+        var pos = $(window).scrollTop();
+        var page1=$(".sec-clien").offset().top;
+        if (pos>=page1-450)
+        {$('.reg-blog').fadeOut();
+        }
+        else
+        { $('.reg-blog').fadeIn();
+          
+        }
+    }
+    var ancho=$(document).width();
+    var $window = $(window);
+
+    $window.bind('scroll', function(){
+    var ancho=$(document).width();
+    if(ancho>1068){
+    detecta_scroll();
+    }
+    });
+
+</script>
 </body>
 </html>
