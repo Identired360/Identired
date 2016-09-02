@@ -51,7 +51,7 @@ if (showCounter != 'false') {
 
 $(document).ready(function () {
     var showCounter = Cookies.get('showCounter');
-    
+
     if (showCounter != 'false') {
         new WOW().init();
     }
@@ -270,4 +270,34 @@ $(function () {
     js.src = "//connect.facebook.net/es_LA/sdk.js#xfbml=1&version=v2.7";
     fjs.parentNode.insertBefore(js, fjs);
 }(document, 'script', 'facebook-jssdk'));
+
+$(document).ready(function () {
+    $(window).bind('scroll', function () {
+        var navHeight = $(window).height();
+        if ($(window).scrollTop() > 300) {
+            $('.reg-blog').addClass('fijo');
+        } else {
+            $('.reg-blog').removeClass('fijo');
+        }
+    });
+});
+function detecta_scroll() {
+    var pos = $(window).scrollTop();
+    var page1 = $(".sec-clien").offset().top;
+    if (pos >= page1 - 450)
+    {
+        $('.reg-blog').fadeOut();
+    } else
+    {
+        $('.reg-blog').fadeIn();
+    }
+}
+var ancho = $(document).width();
+var $window = $(window);
+$window.bind('scroll', function () {
+    var ancho = $(document).width();
+    if (ancho > 1068) {
+        detecta_scroll();
+    }
+});
 
