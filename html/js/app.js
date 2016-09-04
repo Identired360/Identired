@@ -300,4 +300,3 @@ $window.bind('scroll', function () {
         detecta_scroll();
     }
 });
-

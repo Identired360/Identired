@@ -88,4 +88,22 @@
         <changefreq>weekly</changefreq>
         <priority>0.80</priority>
     </url>
+    <url>
+        <loc>http://www.identired.com/blog</loc>
+        <lastmod>2016-08-19T16:43:45+00:00</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.80</priority>
+    </url>
+    <url>
+        <loc>http://www.identired.com/blog/tu-pagina-web-un-canal-de-ventas-para-tu-negocio</loc>
+        <lastmod>2016-08-19T16:43:45+00:00</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.80</priority>
+    </url>
+    <url>
+        <loc>http://www.identired.com/blog/paginas-vendedoras</loc>
+        <lastmod>2016-08-19T16:43:45+00:00</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.80</priority>
+    </url>
 </urlset>
