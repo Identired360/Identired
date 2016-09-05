@@ -66,7 +66,7 @@
         <img class="img-bann" src="img/ground.png"> 
     </section>
 
-    <section class="row back-cel sec-imp">
+    <section class="row back-cel sec-imp2">
         <div class="col-container">
             <div class="small-up-1 medium-up-2 large-up-3 articles">
                 <div class="column">
@@ -91,7 +91,7 @@
                 <div class="column">
                     <article class="card">
                         <div class="card__thumb">
-                            <a href="pagina-vendedora.php" title="Las Landing Pages como Páginas Vendedora"><img title="Las Landing Pages como Páginas Vendedora" src="img/articulos/pagina-canal-ventas.jpg" ></a>
+                            <a href="pagina-vendedora.php" title="Las Landing Pages como Páginas Vendedora"><img title="Las Landing Pages como Páginas Vendedora" src="img/articulos/pagina-vendedora.jpg" ></a>
                         </div>
                         <div class="card__body">
                             <div class="card__category"><a href="javascript:void(0)">Notas</a></div>

@@ -39,7 +39,7 @@
                     <div class="fb-comments" data-href="https://developers.facebook.com/docs/plugins/comments#configurator" data-numposts="1" data-width="100%"></div>
                 </div>
             </div>
-            <div class="small-12 medium-8 large-4 columns cont-formb">
+            <div class="small-12 medium-4 large-4 columns cont-formb">
                 <div class="reg-blog">
                     <div class="wid-blog">
                         <h2>Compárte con tus amigos</h2>

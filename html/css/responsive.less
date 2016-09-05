@@ -43,6 +43,14 @@
    	 margin: 0 2em;
    }
 }
+@media only screen and (max-width: 1320px) {
+	.card__thumb {
+    	height: 125px;
+    } 
+    .card:hover .card__thumb {
+      height: 33px;
+    }
+}
 @media only screen and (max-width: 1200px) {
   .col-container{
     width: 90%;
@@ -66,41 +74,49 @@
   .item-paq a {
     margin: 0 2em;
   }
-.bot-ver{
-    color: @verde;
-    background: #fff;
-    border-bottom: .24em solid @verde;
-    border-left: .1em solid @verde;
-    border-right: .1em solid @verde;
-    border-top: .1em solid @verde;
-    
-    &:hover{
-        color: @celeste;
-        border-bottom: .24em solid @celeste;        
-        border-left: .1em solid @celeste;
-        border-right: .1em solid @celeste;
-        border-top: .1em solid @celeste;
+	.bot-ver{
+	    color: @verde;
+	    background: #fff;
+	    border-bottom: .24em solid @verde;
+	    border-left: .1em solid @verde;
+	    border-right: .1em solid @verde;
+	    border-top: .1em solid @verde;
+	    
+	    &:hover{
+	        color: @celeste;
+	        border-bottom: .24em solid @celeste;        
+	        border-left: .1em solid @celeste;
+	        border-right: .1em solid @celeste;
+	        border-top: .1em solid @celeste;
+	    }
+	}
+	.bot-cel{
+	    color: @celeste;
+	    background: #fff;
+	    border-bottom: .24em solid @celeste;
+	    border-left: .1em solid @celeste;
+	    border-right: .1em solid @celeste;
+	    border-top: .1em solid @celeste;
+	    
+	    &:hover{
+	        color: @verde;
+	        border-bottom: .24em solid @verde;        
+	        border-left: .1em solid @verde;
+	        border-right: .1em solid @verde;
+	        border-top: .1em solid @verde;
+	    }
+	    &:focus{
+	        color: @celeste;
+	    }
+	}  
+	.cont-formb {
+	    position: relative;
+	    padding-left: 2em;
     }
-}
-.bot-cel{
-    color: @celeste;
-    background: #fff;
-    border-bottom: .24em solid @celeste;
-    border-left: .1em solid @celeste;
-    border-right: .1em solid @celeste;
-    border-top: .1em solid @celeste;
-    
-    &:hover{
-        color: @verde;
-        border-bottom: .24em solid @verde;        
-        border-left: .1em solid @verde;
-        border-right: .1em solid @verde;
-        border-top: .1em solid @verde;
+    .fijo {
+	    position: relative;
+	    width: 100%;
     }
-    &:focus{
-        color: @celeste;
-    }
-}  
 }
 
 @media only screen and (max-width: 1024px) {
@@ -126,6 +142,12 @@
     }
     .cont-textnos{
     	width: 100%;
+    }
+	.card__thumb {
+		height: 168px;    
+	}
+	.card:hover .card__thumb {
+  		height: 76px;
     }
 }
 @media only screen and (max-height: 767px) and (min-width: 992px){
@@ -254,6 +276,10 @@
 	.cont-proy{
 		width: 100%;
 	}
+	.text-centb h2{
+		font-size: 2.7em;
+		width: 100%;
+	}
 }
 
 @media only screen and (max-width: 767px){
@@ -271,6 +297,13 @@
 	input#ackapa:checked + nav li{
 		width: 100%;
 	}
+	.sec-imp2 {
+      padding-top: 5em;
+      padding-bottom: 2em;
+    }
+    .cont-cli li{
+    	width: 22%;
+    }
 
 }
 @media only screen and (max-width: 640px){
@@ -350,6 +383,9 @@
 		font-size: 3em;
 	    margin-top: 1.5em;
 	}
+	.ban-inicio {
+       padding-bottom: 3em;
+    }
 }
 @media only screen and (max-width: 480px){
 	.logo svg {
@@ -395,6 +431,23 @@
 	.ban-inicio h3 {
 	    width: 36%;
 	    margin-top: -1.7em;
+	}
+	.text-centb h2 {
+    	font-size: 2.3em;
+    }
+    .cont-cli li {
+       margin: 0 .5em;
+    }
+}
+@media only screen and (max-width: 400px){
+	.card__body{
+	    padding: 9px;	
+	}
+	.card-sec h2{
+		font-size: 1.8em;
+	}
+	.card-sec p{
+		font-size: 1.6em;
 	}
 }
 @media only screen and (max-width: 352px){
