@@ -231,6 +231,7 @@ $('textarea').on('keyup', function () {
 
 $('#formWeb').validate();
 $('#formReg').validate();
+$('#formBrief').validate();
 
 /****Para deslizar*****/
 $(function () {
