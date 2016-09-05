@@ -172,7 +172,7 @@
   #options-link{
 	display: none !important;
   }
-  .title-home p{width: 100%; font-size: 2.5em;}
+  .title-home p{width: 100%; font-size: 2.5em; margin-bottom: .7em;}
   .title-home{
   	padding-top: 3em;
    }
@@ -254,11 +254,14 @@
 		margin-bottom: 1.5em;
 	}
 	#menu_button{
+		position: absolute;
 		background: #22985b;
+		background: rgba(0,0,0, 0.05);
+		border-radius: 1em;
+		margin-left: 1em;
+		margin-top: 1em;
 	}
-	.navicon{
-		background: #fff;
-	}
+
 	.cont-let,.cont-let2{
 		right: -4em;
 	}
@@ -308,7 +311,12 @@
     .cont-cli li{
     	width: 22%;
     }
-
+    .formdesusc .card-form{
+    	width: 100%;
+    }
+    .form-consul {
+	    width: 95%;
+	}
 }
 @media only screen and (max-width: 640px){
 	.logo svg {

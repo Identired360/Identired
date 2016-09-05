@@ -8456,6 +8456,17 @@ table {
   font-size: 2em;
   margin-bottom: 2em;
 }
+.formdesusc p {
+  text-align: center;
+}
+.formdesusc .card-form {
+  width: 51em;
+  margin: 0 auto;
+  margin-top: 4em;
+}
+.formdesusc .cont-submitc {
+  margin-top: 5em;
+}
 [type='text'],
 [type='password'],
 [type='date'],
@@ -9876,6 +9887,7 @@ figure.snip1157 .author h5 span {
   .title-home p {
     width: 100%;
     font-size: 2.5em;
+    margin-bottom: .7em;
   }
   .title-home {
     padding-top: 3em;
@@ -9967,10 +9979,12 @@ figure.snip1157 .author h5 span {
     margin-bottom: 1.5em;
   }
   #menu_button {
+    position: absolute;
     background: #22985b;
-  }
-  .navicon {
-    background: #fff;
+    background: rgba(0, 0, 0, 0.05);
+    border-radius: 1em;
+    margin-left: 1em;
+    margin-top: 1em;
   }
   .cont-let,
   .cont-let2 {
@@ -10021,6 +10035,12 @@ figure.snip1157 .author h5 span {
   }
   .cont-cli li {
     width: 22%;
+  }
+  .formdesusc .card-form {
+    width: 100%;
+  }
+  .form-consul {
+    width: 95%;
   }
 }
 @media only screen and (max-width: 640px) {

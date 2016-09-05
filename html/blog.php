@@ -68,6 +68,9 @@
 
     <section class="row back-cel sec-imp2">
         <div class="col-container">
+            <div class="breadcrumb">
+                <ul><li><a href="index.php">Inicio</a></li><li>Artpiculos</li></ul>
+            </div>
             <div class="small-up-1 medium-up-2 large-up-3 articles">
                 <div class="column">
                     <article class="card">
