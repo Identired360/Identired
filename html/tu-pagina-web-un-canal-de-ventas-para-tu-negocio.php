@@ -12,7 +12,7 @@
                 </div>
             </div>
 
-            <div class="small-12 medium-8 large-8 columns sec-img richt">
+            <div class="medium-12 large-8 columns sec-img richt">
                 <img title="Cómo hacer de mi Página Web un canal de ventas para mi negocio" class="img-art" src="img/articulos/pagina-canal-ventas.jpg">
                 <p>En el Perú, la mayoría de <b>empresas tradicionales</b>, no utilizan internet como una canal de ventas o como una herramienta comercial, <b>ellos piensan que internet no funciona.</b> </p>
                 <p>Muchas veces nos encontramos con el caso de empresas que empiezan con el marketing digital, desarrollan su página web, la ponen online y <b>esperan que los clientes llamen a la puerta</b>. Lógicamente es como abrir una <b>tienda en el desierto</b> y esperar que los clientes lleguen hasta allí para comprar sus productos o servicios.</p>
@@ -39,7 +39,7 @@
                     <div class="fb-comments" data-href="https://developers.facebook.com/docs/plugins/comments#configurator" data-numposts="1" data-width="100%"></div>
                 </div>
             </div>
-            <div class="small-12 medium-4 large-4 columns cont-formb">
+            <div class="medium-12 large-4 columns cont-formb">
                 <div class="reg-blog">
                     <div class="wid-blog">
                         <h2>Compárte con tus amigos</h2>

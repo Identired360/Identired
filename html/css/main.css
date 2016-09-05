@@ -9370,6 +9370,7 @@ figure.snip1157 .author h5 span {
   -webkit-transition: box-shadow 0.3s;
   transition: box-shadow 0.3s;
   margin-bottom: 4em;
+  overflow: hidden;
 }
 .card:hover {
   box-shadow: 0 0 50px rgba(0, 0, 0, 0.3);
@@ -9507,6 +9508,7 @@ figure.snip1157 .author h5 span {
   left: 20px;
   right: 20px;
   font-size: 11px;
+  text-align: left;
 }
 .card__footer .icon--comment {
   margin-left: 10px;
@@ -9659,6 +9661,7 @@ figure.snip1157 .author h5 span {
 }
 .cont-datb img {
   border-radius: 100px;
+  width: 10em;
 }
 .cont-datb {
   display: inline-block;
@@ -9846,6 +9849,10 @@ figure.snip1157 .author h5 span {
   }
   .card:hover .card__thumb {
     height: 76px;
+  }
+  .cont-formb {
+    background: #f7f7f7;
+    padding-top: 2em;
   }
 }
 @media only screen and (max-height: 767px) and (min-width: 992px) {
@@ -10095,6 +10102,33 @@ figure.snip1157 .author h5 span {
   }
   .ban-inicio {
     padding-bottom: 3em;
+  }
+  .tit-blog h1 {
+    font-size: 3em;
+    width: 100%;
+  }
+  .richt h3 {
+    font-size: 2.3em;
+    line-height: 1.05;
+  }
+  .cont-datb h3 {
+    padding-left: 1em;
+  }
+  .cont-datb h3:before {
+    top: 1.2em;
+    left: 0em;
+  }
+  .cont-datb img {
+    width: 7em;
+  }
+  .cont-datb h5 {
+    font-size: 1.9em;
+  }
+  .wid-blog h2 {
+    font-size: 2em;
+  }
+  .cont-formb {
+    padding-left: .625rem;
   }
 }
 @media only screen and (max-width: 480px) {
