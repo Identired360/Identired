@@ -15,7 +15,8 @@ $infoRequest = filter_input_array(INPUT_POST, array(
     'cuantos-productos' => FILTER_SANITIZE_STRING,
     'logo' => FILTER_SANITIZE_STRING,
     'presupuesto' => FILTER_SANITIZE_STRING,
-    'informacion' => FILTER_SANITIZE_STRING
+    'informacion' => FILTER_SANITIZE_STRING,
+    'referencia' => FILTER_SANITIZE_STRING
         )
 );
 
@@ -39,6 +40,7 @@ if ($v->validate()) {
     $body .= "Tienes logo: " . $infoRequest['logo'] . "<br/>";
     $body .= "Presupuesto: " . $infoRequest['presupuesto'] . "<br/>";
     $body .= "Información: " . $infoRequest['informacion'] . "<br/>";
+    $body .= "Referencia: " . $infoRequest['referencia'] . "<br/>";
     
 
     $content = new SendGrid\Content("text/html", $body);
