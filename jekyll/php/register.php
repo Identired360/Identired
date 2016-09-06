@@ -2,7 +2,7 @@
 
 require 'vendor/autoload.php';
 
-$forward = "../gracias-consulta";
+$forward = "../gracias";
 $SENDGRID_API_KEY = getenv('SENDGRID_API_KEY');
 
 $infoRequest = filter_input_array(INPUT_POST, array(
