@@ -17,7 +17,7 @@ $v->rule('email', 'email');
 
 if ($v->validate()) {
     $from = new SendGrid\Email("Marco Milon", "marco.milon@identired.com");
-    $subject = "Brief - Identired";
+    $subject = "Unsuscribe - Identired";
     $to = new SendGrid\Email('Identired', 'informes@identired.com');
 
     $body = "Desuscribir: <br/> ";
