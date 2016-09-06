@@ -12,18 +12,20 @@
                 </div>
             </div>
 
-            <div class="medium-12 large-8 columns sec-img richt">
-                <img title="Cómo hacer de mi Página Web un canal de ventas para mi negocio" class="img-art" src="img/articulos/pagina-canal-ventas.jpg">
-                <p>En el Perú, la mayoría de <b>empresas tradicionales</b>, no utilizan internet como una canal de ventas o como una herramienta comercial, <b>ellos piensan que internet no funciona.</b> </p>
-                <p>Muchas veces nos encontramos con el caso de empresas que empiezan con el marketing digital, desarrollan su página web, la ponen online y <b>esperan que los clientes llamen a la puerta</b>. Lógicamente es como abrir una <b>tienda en el desierto</b> y esperar que los clientes lleguen hasta allí para comprar sus productos o servicios.</p>
-                <p>Para que eso suceda <b>necesitan una estrategia</b> para saber cómo posicionarse en internet.</p>
-                <p>Para google no es relevante cuando una empresa lanza su web. <b>Google no tiene por qué confiar en su contenido</b> o si está bien desarrollada o no, simplemente NO le reservará un lugar de honor en sus primeras páginas.</p>
-                <p>Esto mismo ocurre cuando pones tu empresa fuera de internet, al principio nadie confía en ti, nadie está interesado en tus productos, debes demostrar que lo que ofreces es bueno para que confíen en ti.</p>
-                <p>En internet ocurre lo mismo, si lanzas tu web al mercado, no ocurrirá nada, ni al día siguiente ni los siguientes; y así la empresa se desesperará y perderá el interés por internet, dejará de preocuparse por su web y se preguntará: <b>“si a otros les funciona ¿Por qué a mi no? ”</b></p>
-                <p><b>La respuesta es: Porque no tienes una estrategia para posicionar tu empresa en internet</b>, no tienes un objetivo, no tienes un plan trazado, no puedes medir tus resultados, y por lo tanto, es imposible que funcione.</p>
-                <p>Si no tienes un objetivo y un plan de negocio concreto, es mejor no empezar.</p>
-                <p>En IDETIRED te asesoramos y ayudamos a armar tu <b>plan de negocio, <a class="linkid" title="Diseño de página web" href="http://www.identired.com/dise%C3%B1o-de-paginas-web">diseñar tu sitio web</a> y tu plan de marketing digital</b>, para de esta manera desarrollar un sitio web que será un canal de ventas para tu empresa.</p>
-                <p>Con el conjunto de todo este proceso se obtiene una <a class="linkid" href="#" title="Página vendedora">página vendedora</a>, la cual será tu vendedor durante todos los días del año, hasta mientras tu estas durmiendo.</p>
+            <div class="medium-12 large-8 columns sec-img ">
+                <div class="richt">
+                    <img title="Cómo hacer de mi Página Web un canal de ventas para mi negocio" class="img-art" src="img/articulos/pagina-canal-ventas.jpg">
+                    <p>En el Perú, la mayoría de <b>empresas tradicionales</b>, no utilizan internet como una canal de ventas o como una herramienta comercial, <b>ellos piensan que internet no funciona.</b> </p>
+                    <p>Muchas veces nos encontramos con el caso de empresas que empiezan con el marketing digital, desarrollan su página web, la ponen online y <b>esperan que los clientes llamen a la puerta</b>. Lógicamente es como abrir una <b>tienda en el desierto</b> y esperar que los clientes lleguen hasta allí para comprar sus productos o servicios.</p>
+                    <p>Para que eso suceda <b>necesitan una estrategia</b> para saber cómo posicionarse en internet.</p>
+                    <p>Para google no es relevante cuando una empresa lanza su web. <b>Google no tiene por qué confiar en su contenido</b> o si está bien desarrollada o no, simplemente NO le reservará un lugar de honor en sus primeras páginas.</p>
+                    <p>Esto mismo ocurre cuando pones tu empresa fuera de internet, al principio nadie confía en ti, nadie está interesado en tus productos, debes demostrar que lo que ofreces es bueno para que confíen en ti.</p>
+                    <p>En internet ocurre lo mismo, si lanzas tu web al mercado, no ocurrirá nada, ni al día siguiente ni los siguientes; y así la empresa se desesperará y perderá el interés por internet, dejará de preocuparse por su web y se preguntará: <b>“si a otros les funciona ¿Por qué a mi no? ”</b></p>
+                    <p><b>La respuesta es: Porque no tienes una estrategia para posicionar tu empresa en internet</b>, no tienes un objetivo, no tienes un plan trazado, no puedes medir tus resultados, y por lo tanto, es imposible que funcione.</p>
+                    <p>Si no tienes un objetivo y un plan de negocio concreto, es mejor no empezar.</p>
+                    <p>En IDETIRED te asesoramos y ayudamos a armar tu <b>plan de negocio, <a class="linkid" title="Diseño de página web" href="http://www.identired.com/dise%C3%B1o-de-paginas-web">diseñar tu sitio web</a> y tu plan de marketing digital</b>, para de esta manera desarrollar un sitio web que será un canal de ventas para tu empresa.</p>
+                    <p>Con el conjunto de todo este proceso se obtiene una <a class="linkid" href="#" title="Página vendedora">página vendedora</a>, la cual será tu vendedor durante todos los días del año, hasta mientras tu estas durmiendo.</p>
+                </div>
                 <div class="cont-datb clearfix">
                     <h3>Sobre el autor</h3>
                     <div class="small-12 medium-8 large-3 columns">
@@ -37,6 +39,12 @@
                 <div class="cont-datb clearfix">
                     <h3>Coméntanos sobre este artículo</h3>
                     <div class="fb-comments" data-href="https://developers.facebook.com/docs/plugins/comments#configurator" data-numposts="1" data-width="100%"></div>
+                </div>
+
+                <div class="call-toact">
+                    <h3>¿Quieres más información para desarrollar tu proyecto con nosotros?</h3>
+                    <p>Revisa nuestros servicios, nuestros proyectos y planes según tu presupuesto.</p>
+                    <a class="bot-p bot-blanco" href="http://www.identired.pe/dise%C3%B1o-de-paginas-web" title="Ver más información">Ver más información</a>
                 </div>
             </div>
             <div class="medium-12 large-4 columns cont-formb">
