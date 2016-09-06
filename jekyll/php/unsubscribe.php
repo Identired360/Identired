@@ -2,7 +2,7 @@
 
 require 'vendor/autoload.php';
 
-$forward = "/gracias/confirma-desuscripcion";
+$forward = "../confirma-desuscripcion";
 $SENDGRID_API_KEY = getenv('SENDGRID_API_KEY');
 $listId = "494674";
 
