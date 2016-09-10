@@ -44,43 +44,10 @@ googlePlus:
                 <p>En IDETIRED te asesoramos y ayudamos a armar tu <b>plan de negocio, <a class="linkid" title="Diseño de página web" href="/diseño-de-paginas-web">diseñar tu sitio web</a> y tu plan de marketing digital</b>, para de esta manera desarrollar un sitio web que será un canal de ventas para tu empresa.</p>
                 <p>Con el conjunto de todo este proceso se obtiene una <a class="linkid" href="/blog/paginas-vendedoras" title="Página vendedora">página vendedora</a>, la cual será tu vendedor durante todos los días del año, hasta mientras tu estas durmiendo.</p>
             </div>    
-            <div class="cont-datb clearfix">
-                <h3>Sobre el autor</h3>
-                <div class="small-12 medium-8 large-3 columns">
-                    <img  src="/img/articulos/miembro.png">
-                </div>
-                <div class="small-12 medium-8 large-9 columns">
-                    <h5>Lisbeth Guillén</h5>
-                    <p>Agencia Identired</p>
-                </div>   
-            </div>
-            <div class="cont-datb clearfix">
-                <h3>Coméntanos sobre este artículo</h3>
-                <div class="fb-comments" data-href="{{ site.url }}{{ page.url | remove: ".html" }}" data-numposts="1" data-width="100%"></div>
-            </div>
-            <div class="call-toact">
-                <h3>¿Quieres más información para desarrollar tu proyecto con nosotros?</h3>
-                <p>Revisa nuestros servicios, nuestros proyectos y planes según tu presupuesto.</p>
-                <a class="bot-p bot-blanco" href="http://www.identired.pe/dise%C3%B1o-de-paginas-web" title="Ver más información">Ver más información</a>
-            </div>
+            {% include blog/footer-lisbeth.html %}
         </div>
         <div class="medium-12 large-4 columns cont-formb">
-            <div class="reg-blog">
-                <div class="wid-blog">
-                    <h2>Compárte con tus amigos</h2>
-                   <div id="botones-para-compartir">
-                        <a href="javascript:void(0);" onclick="window.open( &quot; http://www.facebook.com/sharer.php?u={{ site.url }}{{ page.url | remove: ".html" }}&quot; , &quot; gplusshare &quot; , &quot; toolbar = 0, status = 0, width = 548, height = 325 &quot; );" rel="nofollow" title="Compartir en Facebook"><img alt="compartir en facebook" class="facebooko" height="40" src="http://1.bp.blogspot.com/-rwK-4X3iLjc/ViFsOclr9NI/AAAAAAAABwc/ocBw9cxRK2M/s1600/facebook-long.png" title="compartir en facebook" width="40" /></a>
-                        <a href="javascript:void(0);" onclick="window.open( &quot; https://plus.google.com/share?url={{ site.url }}{{ page.url | remove: ".html" }}&quot; , &quot; gplusshare &quot; , &quot; toolbar = 0, status = 0, width = 548, height = 325 &quot; );" rel="nofollow" title="Compartir en Google+"><img alt="compartir en google+" class="googleo" height="40" src="http://1.bp.blogspot.com/-SKqPlZHzLgg/ViFsOt7HbeI/AAAAAAAABw0/bQQhWqgEpWM/s1600/google-long.png" title="compartir en google+" width="40" /></a>
-                    </div>
-                </div>                    
-                <div class="wid-blog">
-                    <h2>¿Quieres más artículos como este?</h2>
-                    <p>Resistrate y te enviaremos más cosas interesantes para mejorar tus ventas</p>
-                    <div class="form-blog form-consul">
-                        {% include subscribe-form.html %}
-                    </div> 
-                </div>                       
-            </div>
+            {% include blog/side-bar.html %}
         </div>
     </div>
 </section>
