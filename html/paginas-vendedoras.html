@@ -9,13 +9,13 @@
     <link rel="shortcut icon" href="favicon.ico" type="image/vnd.microsoft.icon" />
     <link rel="stylesheet" type="text/css" href="//fonts.googleapis.com/css?family=Josefin+Sans" />
   <title>Diseño de Landing Pages - Páginas Web</title>
-  <link rel="stylesheet" type="text/css" href="landing/css/main.css">
+  <link rel="stylesheet" type="text/css" href="css/landing/css/main.css">
 </head>
 
 <body>
 
   <section id="inicio" class="cbanner">
-      <div class="cont-banner">
+      <div class="cont-banner" style="background-image: url('img/landing/img/back-identired.jpg');">
           <header class="head row">
             <div class="top-head row">
               <div class="col-container cont-logo">
@@ -40,18 +40,18 @@
                 <div class="small-12 medium-6 large-5 columns width-ban">
                     <div class="cont-form">  
                         <p>Envíanos tus datos para darte más información y enviarte una cotización.</p>           
-                        <form id="form-"> 
+                        <form id="form-land"> 
                             <div class="cont-input">
                               <label>Nombre y apellido</label>
-                              <input type="text" required>
+                              <input type="text" name="nombre" id="nombre" required>
                             </div>
                             <div class="cont-input">
                               <label>Teléfono</label>
-                              <input type="text" required>
+                              <input type="text" class="digits" name="telefono" id="telefono" required>
                             </div>
                             <div class="cont-input">
                               <label>Correo electrónico</label>
-                              <input type="text" required>
+                              <input type="email" name="correo" id="correo" required>
                             </div>
                             <div class="cont-input">
                               <label>Mensaje</label>
@@ -254,8 +254,15 @@
       </div>            
   </div> 
 </footer>
+
 <script src="js/vendor/jquery.js"></script>
+<script src="js/jquery.validate.min.js"></script>
 <script type="text/javascript">
+    $(function() {
+        $('#form-land').validate();
+
+    });
+
 /*Equal height*/
 equalheight = function (container) {
 
@@ -298,6 +305,34 @@ jQuery(window).resize(function () {
     equalheight('.cont-proy');
     equalheight('.item-test');
     equalheight('.cont-proy');
+});
+
+/****Para deslizar*****/
+$(function () {
+
+    $('a[href*=#]').click(function () {
+
+        if (location.pathname.replace(/^\//, '') == this.pathname.replace(/^\//, '')
+                && location.hostname == this.hostname) {
+
+            var $target = $(this.hash);
+
+            $target = $target.length && $target || $('[name=' + this.hash.slice(1) + ']');
+
+            if ($target.length) {
+
+                var targetOffset = $target.offset().top;
+
+                $('html,body').animate({scrollTop: targetOffset}, 500);
+
+                return false;
+
+            }
+
+        }
+
+    });
+
 });
     </script>   
 
