@@ -1,0 +1,113 @@
+.tit-int {
+  background: #18191E;
+  padding: 1em 0;
+}
+.tit-int h1 {
+  font-size: 4.6em;
+}
+.tit-int p {
+  font-size: 2.6em;
+  font-weight: 700;
+  color: #fff;
+  text-transform: uppercase;
+}
+.txt-int {
+  margin-bottom: 8em;
+  margin-top: 5em;
+}
+.txt-int p {
+  margin-bottom: 1.8em;
+}
+.txt-int h2 {
+  font-size: 2.8em;
+  color: #333333;
+  margin-bottom: .7em;
+}
+.txt-int h3 {
+  font-size: 1.8em;
+  font-weight: 700;
+  margin-top: 2.5em;
+}
+.malla2 {
+  background: rgba(0, 0, 0, 0.52);
+  color: #fff;
+  position: absolute;
+  height: 0;
+  width: 100%;
+  bottom: 0;
+  left: 0;
+  transition: all .5s ease;
+}
+.malla2 span {
+  font-size: 2.3em;
+  text-transform: uppercase;
+  font-weight: 700;
+  opacity: 0;
+}
+.malla2 span i {
+  margin-left: .3em;
+}
+.list-servi {
+  position: relative;
+  text-align: center;
+}
+.cont-hovpi {
+  text-align: center;
+  display: inline-block;
+  margin-bottom: 6em;
+  width: 100%;
+}
+.cont-hovpi h3 {
+  font-size: 1.8em;
+  text-transform: uppercase;
+  font-weight: 700;
+  color: #333333;
+  text-align: center;
+  margin-top: 1em;
+  position: relative;
+}
+.cont-hovpi h3:before {
+  content: '';
+  width: 4em;
+  height: .05em;
+  background: #333333;
+  display: inline-block;
+  position: absolute;
+  bottom: -0.591em;
+  left: 50%;
+  margin-left: -2em;
+}
+.cont-hovpi p {
+  font-family: Helvetica;
+  margin-top: 2em;
+}
+.cont-hovpi:hover .malla2 {
+  height: 100%;
+  padding-top: 28%;
+}
+.cont-hovpi:hover .malla2 span {
+  opacity: 1;
+}
+.cont-met {
+  margin-bottom: 2em;
+}
+.page-chis figure {
+  margin: 0;
+}
+.page-chis img {
+  width: 100%;
+}
+.cont-chis {
+  margin-top: 4em;
+  margin-bottom: 8em;
+}
+.cont-chis p {
+  text-align: justify;
+}
+.cont-chis img {
+  margin-bottom: 2em;
+}
+.cont-chis .item-serv {
+  margin-bottom: 0;
+}
+

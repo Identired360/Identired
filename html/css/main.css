@@ -9497,13 +9497,13 @@ figure.snip1157 .author h5 span {
   margin-top: 1.5em;
   opacity: 0;
   /*  -webkit-transition: opacity 0.2s, -webkit-transform 0.2s;
-  transition: opacity 0.2s, -webkit-transform 0.2s;
-  transition: opacity 0.2s, transform 0.2s;
-  transition: opacity 0.2s, transform 0.2s, -webkit-transform 0.2s;
-  -webkit-transition-delay: 0s;
-          transition-delay: 0s;
-  -webkit-transform: translateY(25px);
-          transform: translateY(25px);*/
+      transition: opacity 0.2s, -webkit-transform 0.2s;
+      transition: opacity 0.2s, transform 0.2s;
+      transition: opacity 0.2s, transform 0.2s, -webkit-transform 0.2s;
+      -webkit-transition-delay: 0s;
+              transition-delay: 0s;
+      -webkit-transform: translateY(25px);
+              transform: translateY(25px);*/
 }
 .card:hover .bot-art {
   opacity: 1;
@@ -9672,7 +9672,7 @@ figure.snip1157 .author h5 span {
 }
 .cont-datb img {
   border-radius: 100px;
-  width: 10em;
+  width: 15em;
 }
 .cont-datb {
   display: inline-block;
@@ -9699,6 +9699,7 @@ figure.snip1157 .author h5 span {
   font-size: 3em;
 }
 .richt h4 {
+  margin-top: 15px;
   font-size: 2.3em;
   font-weight: 400;
 }
@@ -9712,7 +9713,7 @@ figure.snip1157 .author h5 span {
   background: #44B6CE;
   padding: 3em 3em 4em;
   color: #fff;
-  margin-top: 1em;
+  margin-top: 4em;
 }
 .call-toact h3 {
   font-weight: 400;
@@ -9722,6 +9723,26 @@ figure.snip1157 .author h5 span {
   margin-bottom: 1.5em;
   color: #e8e7e7;
   font-size: 2em;
+}
+.ul-blog {
+  margin-top: 28px;
+  margin-bottom: 25px;
+  font-size: 16px;
+  margin-left: 50px;
+  background-color: #f7f7f7;
+  padding: 20px 10px 10px 10px;
+  border-radius: 4px;
+}
+.ul-blog li {
+  margin: 0 10px 10px 10px;
+}
+.green-icon {
+  color: #26C281;
+  padding-right: 10px;
+}
+.red-icon {
+  color: #E26A6A;
+  padding-right: 10px;
 }
 @media only screen and (max-width: 1460px) {
   .col-container {
@@ -10206,7 +10227,7 @@ figure.snip1157 .author h5 span {
     margin-top: 2em;
   }
   .ban-inicio text {
-    font-size: 4em;
+    font-size: 3em;
   }
   .ban-inicio h3 {
     width: 36%;

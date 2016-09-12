@@ -6,7 +6,7 @@
                 <!-- Background -->
                 <rect x="0" y="0" fill="transparent" width="100%" height="100%" />
                 <!-- Text using the #pattern in defs as the fill -->
-                <text x="50%" text-anchor="middle" y="50%" dy="0.4em" fill="url(#pattern)" font-family="Amaranth" font-size="7em">Desarrollo Web</text>
+                <text x="50%" text-anchor="middle" y="50%" dy="0.4em" fill="url(#pattern)" font-family="Amaranth" font-size="7em">Diseño de páginas web</text>
                 <defs>  
                     <!-- Da gradient -->
                     <linearGradient id="gradient" x1="0%" y1="0%" x2="100%" y2="0">
