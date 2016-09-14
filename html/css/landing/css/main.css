@@ -614,9 +614,6 @@
   color: #fff;
   font-size: 5em;
 }
-.contt-pry {
-  background: #E4F4F8;
-}
 .link1 a {
   font-size: 1.6em;
   padding: 0.7em 1.5em;
@@ -747,6 +744,35 @@ input.error {
 }
 .cont-form label.error {
   display: none !important;
+}
+.cont-benef {
+  padding-top: 4em;
+}
+.cont-benef li {
+  display: inline-block;
+  vertical-align: top;
+  width: 33.15%;
+  font-size: 2.2em;
+  font-family: 'Josefin Sans';
+  line-height: 1.2;
+  margin-bottom: 2em;
+  padding-left: 1.6em;
+  position: relative;
+}
+.cont-benef li:before {
+  content: "\f046";
+  font: normal normal normal 20px/1 FontAwesome;
+  color: #5FCF80;
+  position: absolute;
+  left: .4em;
+  top: .2em;
+}
+.sec-benef {
+  background-image: url('../../../img/fondo-be.jpg');
+  background-attachment: fixed;
+  background-position: center;
+  background-size: cover;
+  padding: 8em 0;
 }
 #map {
   height: 29.3em;
@@ -1052,6 +1078,9 @@ ul {
   .cont-logo {
     text-align: center;
   }
+  .cont-benef li {
+    width: 32.15%;
+  }
 }
 @media only screen and (max-width: 1024px) {
   .ban-text h1 {
@@ -1079,6 +1108,10 @@ ul {
   .cont-proy {
     padding: 3em 0em 11em;
   }
+  .sec-benef {
+    padding: 3em 0;
+    background: #DBF9F7;
+  }
 }
 @media only screen and (max-width: 992px) {
   .col-container {
@@ -1091,6 +1124,9 @@ ul {
     width: 15%;
     margin: 1em;
   }
+  .cont-benef li {
+    width: 49.5%;
+  }
 }
 @media only screen and (max-width: 767px) {
   .firts-des {
@@ -1101,6 +1137,12 @@ ul {
   }
   .sec-clientes ul li {
     width: 21%;
+  }
+  .cont-benef li {
+    width: 100%;
+  }
+  .sec-benef {
+    padding: 3em 0;
   }
 }
 @media only screen and (max-width: 640px) {

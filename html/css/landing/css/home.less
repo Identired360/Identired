@@ -257,9 +257,6 @@
 		font-size: 5em;
 	}
 }
-.contt-pry{
-	background: #E4F4F8;
-}
 .link1 {
 	a{
 		font-size: 1.6em;
@@ -397,4 +394,33 @@ input.error{
 }
 .cont-form label.error{
 	display: none !important;
+}
+.cont-benef{
+	padding-top: 4em;
+	li{
+		display: inline-block;
+		vertical-align: top;
+		width: 33.15%;
+		font-size: 2.2em;
+		font-family: 'Josefin Sans';
+		line-height: 1.2;
+		margin-bottom: 2em;
+		padding-left: 1.6em;
+		position: relative;
+		&:before{
+			content: "\f046";
+			font: normal normal normal 20px/1 FontAwesome;   
+			color: @verde; 
+			position: absolute;
+			left: .4em;
+			top: .2em;
+		}
+	}
+}
+.sec-benef{
+	background-image: url('../../../img/fondo-be.jpg');
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+    padding: 8em 0;
 }
