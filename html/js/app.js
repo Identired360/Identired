@@ -302,3 +302,11 @@ $window.bind('scroll', function () {
         detecta_scroll();
     }
 });
+
+jQuery(window).load(function () {
+    equalheight('.item-test');
+});
+
+jQuery(window).resize(function () {
+    equalheight('.item-test');
+});
