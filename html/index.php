@@ -236,6 +236,7 @@
         </li>
     </ul>
 </section>
+<?php include('testimonio.html') ?>
 
 <?php include('footer.html') ?>
 
