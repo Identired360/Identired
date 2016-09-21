@@ -1,0 +1,45 @@
+<!doctype html>
+<!--[if lt IE 7]>  <html class="no-js ie6" lang="es">   <![endif]-->
+<!--[if IE 7]>     <html class="no-js ie7" lang="es">   <![endif]-->
+<!--[if IE 8]>     <html class="no-js ie8" lang="es">   <![endif]-->
+<!--[if IE 9 ]>    <html class="no-js ie9" lang="es">   <![endif]-->
+<html class="no-js" lang="es">
+
+    {% include head.html %}
+
+    <body>
+
+        <script>
+            window.fbAsyncInit = function () {
+                FB.init({
+                    appId: '515170255261628',
+                    xfbml: true,
+                    version: 'v2.7'
+                });
+            };
+
+            (function (d, s, id) {
+                var js, fjs = d.getElementsByTagName(s)[0];
+                if (d.getElementById(id)) {
+                    return;
+                }
+                js = d.createElement(s);
+                js.id = id;
+                js.src = "//connect.facebook.net/es_LA/sdk.js";
+                fjs.parentNode.insertBefore(js, fjs);
+            }(document, 'script', 'facebook-jssdk'));
+        </script>
+
+        {% include header.html %}
+
+        <div id="main-container2">
+            {{ content }}
+            
+            {% include testimonios.html %}
+
+            {% include footer.html %}
+
+        <script type="text/javascript" src="//userlike-cdn-widgets.s3-eu-west-1.amazonaws.com/7a8bfbd9b47e2a4ebb97a62d5ed923d38bdb0fba64748510fc4a52b62251c3ba.js"></script> 
+    </body>
+
+</html>
