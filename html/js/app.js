@@ -285,8 +285,8 @@ $(document).ready(function () {
 });
 function detecta_scroll() {
     var pos = $(window).scrollTop();
-    var page1 = $(".sec-clien").offset().top;
-    if (pos >= page1 - 10)
+    var page1 = $(".pad-test").offset().top;
+    if (pos >= page1 - 450)
     {
         $('.reg-blog').fadeOut();
     } else
@@ -301,4 +301,12 @@ $window.bind('scroll', function () {
     if (ancho > 1068) {
         detecta_scroll();
     }
+});
+
+jQuery(window).load(function () {
+    equalheight('.item-test');
+});
+
+jQuery(window).resize(function () {
+    equalheight('.item-test');
 });
