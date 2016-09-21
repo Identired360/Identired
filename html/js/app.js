@@ -285,7 +285,7 @@ $(document).ready(function () {
 });
 function detecta_scroll() {
     var pos = $(window).scrollTop();
-    var page1 = $(".pad-test").offset().top;
+    var page1 = $(".sec-clien").offset().top;
     if (pos >= page1 - 450)
     {
         $('.reg-blog').fadeOut();
