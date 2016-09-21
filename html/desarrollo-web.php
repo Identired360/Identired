@@ -413,7 +413,7 @@
             </div>		
         </div>
     </section>
-<?php include('testimonio.html') ?>
+
 <?php include('footer.html') ?>
 
     <script src="js/snap.svg-min.js"></script>
