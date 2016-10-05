@@ -310,3 +310,60 @@ jQuery(window).load(function () {
 jQuery(window).resize(function () {
     equalheight('.item-test');
 });
+
+//Para letras
+    $(function(){
+
+        $("#typed").typed({
+            // strings: ["Typed.js is a <strong>jQuery</strong> plugin.", "It <em>types</em> out sentences.", "And then deletes them.", "Try it out!"],
+            stringsElement: $('#typed-strings'),
+            typeSpeed: 30,
+            backDelay: 500,
+            loop: true,
+            contentType: 'html', // or text
+            // defaults to false for infinite loop
+            loopCount: false,
+            callback: function(){ foo(); },
+            resetCallback: function() { newTyped(); }
+        });
+
+        $(".reset").click(function(){
+            $("#typed").typed('reset');
+        });
+
+    });
+
+    function newTyped(){ /* A new typed object */ }
+
+    function foo(){ console.log("Callback"); }
+
+
+    //
+    /*
+            $(function() {
+            $(".tipeo1").typed({
+                strings: ["creativas","innovadoras","mágicas"],
+                cursorChar: "|",
+                typeSpeed: 50,
+                startDelay: 0,
+                backSpeed: 10,
+                backDelay: 1750,
+                loop:true,
+                onStringTyped:function(){
+                    $(".tipeo2").typed({
+                        strings: ["","","",""],
+                        cursorChar: "|",
+                        typeSpeed: 60,
+                        startDelay: 200,
+                        backSpeed: 10,
+                        backDelay: 190,
+                        loop:true
+                    });
+                }
+            });
+        });
+        $('#thumbnailBlog').find('img').css({
+            'width':'100%',
+            'height':'auto'
+        });
+    });*/

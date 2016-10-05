@@ -7118,13 +7118,6 @@ ul {
   max-width: 600px;
   margin: 150px auto;
 }
-.type-wrap {
-  margin: 10px auto;
-  padding: 20px;
-  background: #f0f0f0;
-  border-radius: 5px;
-  border: #CCC 1px solid;
-}
 .links {
   margin: 20px 0;
   font-size: 0.75em;
@@ -7245,6 +7238,74 @@ ul {
 }
 .linkid:hover:after {
   transform: translate3d(0, 0, 0);
+}
+/* code for animated blinking cursor */
+.type-wrap {
+  display: inline-block;
+}
+.typed-cursor {
+  opacity: 1;
+  font-weight: 100;
+  -webkit-animation: blink 0.7s infinite;
+  -moz-animation: blink 0.7s infinite;
+  -ms-animation: blink 0.7s infinite;
+  -o-animation: blink 0.7s infinite;
+  animation: blink 0.7s infinite;
+}
+@keyframes blink {
+  0% {
+    opacity: 1;
+  }
+  50% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+@-webkit-keyframes blink {
+  0% {
+    opacity: 1;
+  }
+  50% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+@-moz-keyframes blink {
+  0% {
+    opacity: 1;
+  }
+  50% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+@-ms-keyframes blink {
+  0% {
+    opacity: 1;
+  }
+  50% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+@-o-keyframes blink {
+  0% {
+    opacity: 1;
+  }
+  50% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
 }
 article,
 aside,
@@ -7978,7 +8039,6 @@ table {
 .ban-inicio h3 {
   font-size: 5em;
   color: #5f5d5d;
-  width: 60%;
 }
 .ban-inicio h3 span {
   font-weight: 500;

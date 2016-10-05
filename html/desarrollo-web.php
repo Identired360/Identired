@@ -59,18 +59,39 @@
                     </font>
                 </defs>
             </svg>
+            <h1>Diseño de páginas web</h1>
             <div class="text-centb">
                 <div class="i-am-container">
                     <h3>Para :
-                        <span class="txt-espb">
+                               <div class="type-wrap">
+            <div id="typed-strings">
+                <p>aumentar tus ventas.</p>
+                <p>conseguir clientes.</p>
+                <p>mostrar tus productos.</p>
+                <p>conocer tu empresa.</p>
+            </div>
+            <span id="typed" style="white-space:pre;"></span>
+        </div>
+
+                        <!--span class="txt-espb">
                             <div id="rotate">
                                 <span>aumentar tus ventas.</span>
                                 <span>conseguir clientes.</span>
                                 <span>mostrar tus productos.</span>
                                 <span>conocer tu empresa.</span>
                             </div>
-                        </span>
+                        </span-->
                     </h3>
+        <!--div class="type-wrap">
+            <div id="typed-strings">
+                <p>Typed.js is a <strong>jQuery</strong> plugin.</p>
+                <p>It <em>types</em> out sentences.</p>
+                <p>And then deletes them.</p>
+                <p>Try it out!</p>
+            </div>
+            <span id="typed" style="white-space:pre;"></span>
+        </div-->
+
                 </div>
                 <h1>Desarrollo de páginas web, tiendas virtuales y landing pages.</h1>
 
@@ -417,6 +438,7 @@
 <?php include('footer.html') ?>
 
     <script src="js/snap.svg-min.js"></script>
+    <script src="js/typed.js" type="text/javascript"></script> 
 
     <script>
         /*Para proyectos*/
