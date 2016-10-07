@@ -6303,6 +6303,7 @@ input#ackapa:checked + nav li {
   left: 0;
   width: 100%;
   bottom: 0;
+  z-index: 99;
 }
 .img-bann2 {
   position: absolute;
@@ -6805,6 +6806,7 @@ button {
 .sec-porq {
   padding-top: 9em;
   padding-bottom: 7em;
+  background: #fff;
 }
 .sec-porq h2 {
   text-align: center;
@@ -6815,6 +6817,7 @@ button {
   padding-top: 8em;
   padding-bottom: 5em;
   position: relative;
+  background: #fff;
 }
 .sec-clien h2 {
   text-align: center;
@@ -7104,10 +7107,10 @@ ul {
   margin: 0 auto;
 }
 .logo {
-  position: relative;
+  position: fixed;
   left: 0;
   top: 3em;
-  z-index: 1;
+  z-index: -1;
   text-align: center;
   width: 100%;
 }
@@ -7242,6 +7245,9 @@ ul {
 /* code for animated blinking cursor */
 .type-wrap {
   display: inline-block;
+}
+.type-wrap p {
+  font-size: 1em;
 }
 .typed-cursor {
   opacity: 1;
@@ -8023,18 +8029,22 @@ table {
 .ban-inicio {
   position: relative;
   text-align: center;
-  padding-top: 7%;
+  padding-top: 14%;
   padding-bottom: 9%;
   background-attachment: fixed;
   background-size: cover;
   background-repeat: no-repeat;
   background-position: bottom center;
+  height: 80em;
+  overflow: hidden;
 }
 .ban-inicio h1 {
-  font-size: 3.5em;
-  margin-top: 1em;
-  font-family: 'Raleway';
+  font-size: 7em;
+  margin-top: 0em;
+  font-family: 'Amaranth';
   margin-bottom: 0;
+  color: #3699AE;
+  margin-bottom: .5em;
 }
 .ban-inicio h3 {
   font-size: 5em;
@@ -8221,6 +8231,7 @@ table {
   padding-bottom: 14em;
   padding-top: 6em;
   position: relative;
+  background: #fff;
 }
 .backgreen {
   background: #5FCF80;
@@ -8259,7 +8270,7 @@ table {
 }
 .text-centb h2 {
   text-align: center;
-  font-size: 3.7em;
+  font-size: 2.7em;
   width: 60%;
   margin: 0 auto;
   font-weight: 300;
@@ -8528,13 +8539,6 @@ table {
   color: #fff;
   margin-top: 0;
 }
-.text-centb p {
-  font-size: 3.2em;
-  margin-top: 1em;
-}
-.ban-nosotros h3 {
-  width: 66%;
-}
 .cont-textnos {
   width: 60%;
   margin: 0 auto;
@@ -8572,6 +8576,68 @@ table {
 }
 .formdesusc .cont-submitc {
   margin-top: 5em;
+}
+.anim-inicio {
+  position: absolute;
+  bottom: 0;
+  z-index: 99;
+  height: 43em;
+  left: 0;
+  width: 100%;
+}
+.anim-inicio .coffee {
+  width: 22em;
+  position: absolute;
+  left: 9%;
+  top: -27px;
+  opacity: 0;
+}
+.anim-inicio .libreta {
+  width: 33em;
+  position: absolute;
+  left: 4%;
+  bottom: -79px;
+  opacity: 0;
+}
+.anim-inicio .teclado {
+  width: 82em;
+  left: 50%;
+  position: absolute;
+  margin-left: -41em;
+  bottom: -5%;
+  opacity: 0;
+}
+.anim-inicio .boceto {
+  position: absolute;
+  right: 5%;
+  width: 27em;
+  top: 0;
+  opacity: 0;
+}
+.anim-inicio .lentes {
+  position: absolute;
+  right: 12%;
+  width: 15em;
+  bottom: 20%;
+  opacity: 0;
+}
+.fix-ini {
+  position: fixed;
+  width: 100%;
+  height: 59em;
+  z-index: -1;
+}
+.img-ite {
+  background: #fff;
+  border-radius: 100%;
+  width: 17em;
+  height: 17em;
+  text-align: center;
+  margin: 0 auto 3em;
+}
+.img-ite img {
+  width: 15em;
+  padding-top: .5em;
 }
 [type='text'],
 [type='password'],
@@ -9864,6 +9930,26 @@ figure.snip1157 .author h5 span {
   .cont-servc h2 {
     font-size: 4.5em;
   }
+  .ban-inicio h1 {
+    font-size: 6em;
+  }
+  .ban-inicio h3 {
+    font-size: 4em;
+  }
+  .ban-inicio {
+    height: 69em;
+  }
+  .sec-imp h2 {
+    font-size: 3em;
+  }
+  .img-ite {
+    width: 10em;
+    height: 10em;
+    margin: 0 auto 2em;
+  }
+  .img-ite img {
+    width: 9em;
+  }
 }
 @media only screen and (max-width: 1400px) {
   .cont-linksh {
@@ -9903,6 +9989,27 @@ figure.snip1157 .author h5 span {
   }
   .card:hover .card__thumb {
     height: 33px;
+  }
+  .anim-inicio .coffee {
+    width: 19em;
+    left: 4%;
+  }
+  .anim-inicio .teclado {
+    width: 70em;
+    margin-left: -35em;
+    bottom: 11%;
+  }
+  .anim-inicio .libreta {
+    width: 27em;
+    left: 4%;
+    bottom: 2%;
+  }
+  .anim-inicio .boceto {
+    position: absolute;
+    right: 1%;
+    width: 20em;
+    top: 0;
+    opacity: 0;
   }
 }
 @media only screen and (max-width: 1200px) {
@@ -10024,6 +10131,20 @@ figure.snip1157 .author h5 span {
   .pad-test .col-container .columns:first-child .item-test {
     padding-top: 0 !important;
   }
+  .fix-ini,
+  .logo {
+    position: relative;
+  }
+  .ban-inicio {
+    padding-top: 7em;
+    height: 53em;
+  }
+  .ban-inicio h1 {
+    font-size: 5em;
+  }
+  .anim-inicio .libreta {
+    display: none;
+  }
 }
 @media only screen and (max-height: 767px) and (min-width: 992px) {
   .title-home p {
@@ -10077,13 +10198,6 @@ figure.snip1157 .author h5 span {
   .sec-porq {
     padding-top: 5em;
     padding-bottom: 2em;
-  }
-  .ban-inicio {
-    padding-bottom: 7em;
-  }
-  .ban-inicio h3 {
-    font-size: 4em;
-    width: 53%;
   }
   .pad-secc {
     padding-top: 5em;
@@ -10169,9 +10283,24 @@ figure.snip1157 .author h5 span {
   .cont-proy {
     width: 100%;
   }
+  .boceto,
+  .coffee,
+  .lentes {
+    display: none;
+  }
   .text-centb h2 {
-    font-size: 2.7em;
+    font-size: 2.3em;
     width: 100%;
+  }
+  .anim-inicio .teclado {
+    width: 54em;
+    margin-left: -27em;
+    bottom: 44%;
+  }
+  .ban-inicio {
+    padding-top: 7em;
+    height: 39em;
+    padding-bottom: 0;
   }
 }
 @media only screen and (max-width: 767px) {
@@ -10217,11 +10346,11 @@ figure.snip1157 .author h5 span {
     width: 90%;
   }
   .ban-inicio h1 {
-    font-size: 2em;
+    font-size: 3em;
     line-height: 1.4;
   }
   .ban-inicio h3 {
-    font-size: 3em;
+    font-size: 2.3em;
   }
   .sec-imp h2 {
     padding: 0;
@@ -10286,9 +10415,6 @@ figure.snip1157 .author h5 span {
     font-size: 3em;
     margin-top: 1.5em;
   }
-  .ban-inicio {
-    padding-bottom: 3em;
-  }
   .tit-blog h1 {
     font-size: 3em;
     width: 100%;
@@ -10316,6 +10442,16 @@ figure.snip1157 .author h5 span {
   .cont-formb {
     padding-left: .625rem;
   }
+  .ban-inicio {
+    padding-top: 7em;
+    height: 30em;
+    padding-bottom: 0;
+  }
+  .anim-inicio .teclado {
+    width: 32em;
+    margin-left: -16em;
+    bottom: 70%;
+  }
 }
 @media only screen and (max-width: 480px) {
   .logo svg {
@@ -10327,12 +10463,6 @@ figure.snip1157 .author h5 span {
   .title-home h1 {
     font-size: 2.7em;
     width: 100%;
-  }
-  .ban-inicio h3 {
-    font-size: 2.1em;
-  }
-  .ban-inicio {
-    height: auto;
   }
   .sec-imp h2 {
     font-size: 3em;
@@ -10358,15 +10488,14 @@ figure.snip1157 .author h5 span {
   .ban-inicio text {
     font-size: 3em;
   }
-  .ban-inicio h3 {
-    width: 36%;
-    margin-top: -1.7em;
-  }
   .text-centb h2 {
-    font-size: 2.3em;
+    font-size: 2em;
   }
   .cont-cli li {
     margin: 0 .5em;
+  }
+  .ban-inicio h3 {
+    font-size: 2em;
   }
 }
 @media only screen and (max-width: 400px) {

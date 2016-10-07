@@ -49,6 +49,17 @@ if (showCounter != 'false') {
     viewHcNoFx();
 }
 
+//Animación desarrollo web
+function animdes(){
+   $('.coffee').addClass('fadeInLeft');
+   $('.libreta').addClass('fadeInLeft');
+   $('.teclado').addClass('fadeInUp');
+   $('.boceto').addClass('fadeInRight');
+   $('.lentes').addClass('fadeInRight');
+}
+setTimeout("animdes()", 1000);
+
+//
 $(document).ready(function () {
     var showCounter = Cookies.get('showCounter');
 
@@ -338,32 +349,3 @@ jQuery(window).resize(function () {
     function foo(){ console.log("Callback"); }
 
 
-    //
-    /*
-            $(function() {
-            $(".tipeo1").typed({
-                strings: ["creativas","innovadoras","mágicas"],
-                cursorChar: "|",
-                typeSpeed: 50,
-                startDelay: 0,
-                backSpeed: 10,
-                backDelay: 1750,
-                loop:true,
-                onStringTyped:function(){
-                    $(".tipeo2").typed({
-                        strings: ["","","",""],
-                        cursorChar: "|",
-                        typeSpeed: 60,
-                        startDelay: 200,
-                        backSpeed: 10,
-                        backDelay: 190,
-                        loop:true
-                    });
-                }
-            });
-        });
-        $('#thumbnailBlog').find('img').css({
-            'width':'100%',
-            'height':'auto'
-        });
-    });*/

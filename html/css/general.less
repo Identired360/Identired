@@ -49,10 +49,10 @@ ul{
   margin: 0 auto;
 }
 .logo{
-    position: relative;
+    position: fixed;
     left: 0;
     top: 3em;
-    z-index: 1;
+    z-index: -1;
     text-align: center;
     width: 100%;
     svg{
@@ -193,6 +193,9 @@ ul{
 /* code for animated blinking cursor */
 .type-wrap{
   display: inline-block;
+  p{
+    font-size: 1em;
+  }
 }
 .typed-cursor{
     opacity: 1;

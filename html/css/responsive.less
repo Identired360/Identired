@@ -12,6 +12,26 @@
 	.cont-servc h2{
 		font-size: 4.5em;
 	}
+	.ban-inicio h1 {
+    	font-size: 6em;
+	}
+	.ban-inicio h3 {
+    	font-size: 4em;
+	}
+	.ban-inicio{
+		height: 69em;
+	}
+	.sec-imp h2{
+		font-size: 3em;
+	}
+	.img-ite {
+		width: 10em;
+		height: 10em;
+        margin: 0 auto 2em;
+	}
+	.img-ite img{
+		width: 9em;
+	}
 } 
 @media only screen and (max-width: 1400px) {
 	.cont-linksh {
@@ -49,6 +69,27 @@
     } 
     .card:hover .card__thumb {
       height: 33px;
+    }
+    .anim-inicio .coffee {
+	    width: 19em;
+	    left: 4%;
+    }
+    .anim-inicio .teclado {
+		width: 70em;
+		margin-left: -35em;
+		bottom: 11%;
+	}
+	.anim-inicio .libreta {
+		width: 27em;
+		left: 4%;
+		bottom: 2%;
+   }
+   .anim-inicio .boceto {
+	    position: absolute;
+	    right: 1%;
+	    width: 20em;
+	    top: 0;
+	    opacity: 0;
     }
 }
 @media only screen and (max-width: 1200px) {
@@ -169,6 +210,19 @@
     .pad-test .col-container .columns:first-child .item-test {
      	padding-top: 0 !important;
     }
+    .fix-ini, .logo {
+    	position: relative;
+	}
+	.ban-inicio{
+		padding-top: 7em;
+		height: 53em;
+		h1{
+			font-size: 5em;
+		}
+	}
+	.anim-inicio .libreta{
+		display: none;
+	}
 }
 @media only screen and (max-height: 767px) and (min-width: 992px){
   .title-home p{
@@ -210,13 +264,7 @@
     padding-top: 5em;
     padding-bottom: 2em;
   }
-  .ban-inicio{
-  	padding-bottom: 7em;
-  }
-  .ban-inicio h3{
-  	font-size: 4em;
-	width: 53%;
-  }
+
 	.pad-secc {
 	    padding-top: 5em;
 	    padding-bottom: 5em;
@@ -300,9 +348,23 @@
 	.cont-proy{
 		width: 100%;
 	}
-	.text-centb h2{
-		font-size: 2.7em;
+
+	.boceto, .coffee, .lentes{
+		display: none;
+	}
+	.text-centb h2 {
+    	font-size: 2.3em;
 		width: 100%;
+	}
+	.anim-inicio .teclado {
+	    width: 54em;
+	    margin-left: -27em;
+	    bottom: 44%;
+	}
+	.ban-inicio {
+		padding-top: 7em;
+		height: 39em;
+		padding-bottom: 0;
 	}
 }
 
@@ -349,11 +411,11 @@
 	    width: 90%;
 	}	
 	.ban-inicio h1 {
-	    font-size: 2em;
+	    font-size: 3em;
 	    line-height: 1.4;
 	}
 	.ban-inicio h3{
-		font-size: 3em;
+		font-size: 2.3em;
 	}
 	.sec-imp h2{
 		padding: 0;
@@ -418,9 +480,6 @@
 		font-size: 3em;
 	    margin-top: 1.5em;
 	}
-	.ban-inicio {
-       padding-bottom: 3em;
-    }
     .tit-blog h1{
     	font-size: 3em;
     	width: 100%;
@@ -448,6 +507,16 @@
 	.cont-formb{
 		padding-left: .625rem;
 	}
+	.ban-inicio {
+		padding-top: 7em;
+		height: 30em;
+		padding-bottom: 0;
+    }
+    .anim-inicio .teclado {
+		width: 32em;
+		margin-left: -16em;
+		bottom: 70%;
+   }
 }
 @media only screen and (max-width: 480px){
 	.logo svg {
@@ -459,12 +528,6 @@
 	.title-home h1 {
 	    font-size: 2.7em;
 	    width: 100%;
-	}
-	.ban-inicio h3 {
-    	font-size: 2.1em;
-	}
-	.ban-inicio {
-	    height: auto;
 	}
 	.sec-imp h2{
 		font-size: 3em;
@@ -490,15 +553,14 @@
 	.ban-inicio text{
 		font-size: 3em;
 	}
-	.ban-inicio h3 {
-	    width: 36%;
-	    margin-top: -1.7em;
-	}
 	.text-centb h2 {
-    	font-size: 2.3em;
+    	font-size: 2em;
     }
     .cont-cli li {
        margin: 0 .5em;
+    }
+    .ban-inicio h3 {
+    font-size: 2em;
     }
 }
 @media only screen and (max-width: 400px){
