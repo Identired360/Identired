@@ -52,12 +52,14 @@
         <img class="img-bann" src="img/ground.svg">  
     </section>
     <section id="empezar" class="row demo-2 back-cel">
-        <div class="col-container">
+        <div class="col-container nosh2">
+                <h2>"Realizamos estrategias para llevarte al éxito"</h2>
             <div class="cont-textnos">
-                <p>Somos una empresa peruana fundada en el 2011, especialista en <b>servicios web, soluciones tecnológicas y asesoría tecnológica</b> para negocios y emprendedores.</p>
-                <p>Cada uno de nuestros clientes es un compromiso para nosotros, ofrecemos un servicio diferenciador, con un asesoramiento y soporte exclusivo, facilitando la solución más adecuada.</p>
-                <p>El Equipo Identired, lo componemos profesionales apacionados por la tecnología.</p>
-                <p>Nuestro objetivo es brindar una solución completa para dar a tu empresa una presencia sólida en Internet,  de esta manera crear un nuevo canal de ingreso de potenciales clientes.</p>
+                <p>Somos una empresa peruana fundada en el 2010, especialista en <b>diseño de páginas web, asesoría en marketing digital, desarrollo de plataformas web y otras soluciones tecnológicas</b> para negocios y emprendedores.</p>
+                <p>Entre diseñadores, creativos, programadores frontend y backend, encargados de marketing digital, y especialistas con años de experiencia en el rubro, desarrollamos cada uno de los proyectos, desde la más pequeña idea con profesionalismo y entrega.</p>
+                <p>Cada profesional de nuestro equipo es un apasionado por su tarea encargada.</p>               
+                <p>Nuestro objetivo es llevar tu negocio, idea, empresa al éxito, con las diferentes estrategias que manejamos.</p>
+                <p>Y si usted comparte nuestra pasión por los proyectos de alta calidad, contáctenos, estaremos encantados de ayudarle con lo que mejor hacemos.</p>
             </div>
         </div>
     </section>

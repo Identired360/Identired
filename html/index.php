@@ -1,16 +1,20 @@
-<?php include('header.html') ?>
-
+<div class="head-index">
+    <?php include('header.html') ?>
+</div>
 <section>
     <div class="txt-box">
         <div class="cont-bann">
             <div class="title-home animated">
                 <h1 class="animated"><b>Estrategias</b> enfocadas a llevar <br/>
                     <span class="txt-espb">al <b>éxito</b> tu
-                        <div id="rotate">
-                          <span>negocio.</span>
-                          <span>idea.</span>
-                          <span>proyecto.</span>
-                          <span>empresa.</span>
+                        <div class="type-wrap">
+                            <div id="typed-strings">
+                                <p><b>negocio.</b></p>
+                                <p><b>idea.</b></p>
+                                <p><b>proyecto.</b></p>
+                                <p><b>empresa.</b></p>
+                            </div>
+                            <span id="typed" style="white-space:pre;"></span>
                         </div>
                     </span>
                 </h1>
@@ -80,7 +84,7 @@
                 </div>
             </div> 
         </div>  
-        <img class="img-bann" src="img/ground.png"> 
+        <img class="img-bann" src="img/ground.svg"> 
     </div>
 </section>  
 

@@ -1,56 +1,23 @@
 $(document).foundation()
-
-/*Animations***/
-
 function viewHome() {
     $('#menu_button').addClass('fadeInLeft');
-    $('.has-tip').addClass('fadeInDown');
 }
+setTimeout("viewHome()", 1000);
+/*Animations***/
 
-function viewH1() {
-    $('.title-home h1').addClass('fadeInDown');
-}
+//var showCounter = Cookies.get('showCounter');
+/*if (showCounter != 'false') {
 
-function viewHp() {
-    $('.title-home p').addClass('bounceIn');
-}
-
-function viewHc() {
-    $('.cont-linksh').addClass('slideInUp');
-}
-
-function viewHomeNoFx() {
-    $('#menu_button').addClass('fadeInLeft');
-    $('.has-tip').addClass('fadeIn');
-}
-
-function viewH1NoFx() {
-    $('.title-home h1').addClass('fadeIn');
-}
-
-function viewHpNoFx() {
-    $('.title-home p').addClass('fadeIn');
-}
-
-function viewHcNoFx() {
-    $('.cont-linksh').addClass('fadeIn');
-}
-
-var showCounter = Cookies.get('showCounter');
-if (showCounter != 'false') {
-    setTimeout("viewHome()", 3000);
-    setTimeout("viewH1()", 6000);
-    setTimeout("viewHp()", 7700);
-    setTimeout("viewHc()", 8200);
 } else {
     viewHomeNoFx();
     viewH1NoFx();
     viewHpNoFx();
     viewHcNoFx();
-}
+}*/
 
 //Animación desarrollo web
 function animdes(){
+   $('.type-wrap').addClass('display');
    $('.coffee').addClass('fadeInLeft');
    $('.libreta').addClass('fadeInLeft');
    $('.teclado').addClass('fadeInUp');

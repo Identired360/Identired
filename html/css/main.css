@@ -6288,15 +6288,13 @@ input#ackapa:checked + nav li {
   margin-bottom: 1em;
   opacity: 0;
 }
-.title-home .txt-espb {
-  margin-left: -3em;
-}
 .cont-bann {
   width: 80%;
   margin: 0 auto;
 }
 .txt-box {
   position: relative;
+  height: 67em;
 }
 .img-bann {
   position: absolute;
@@ -6480,7 +6478,7 @@ input#ackapa:checked + nav li {
 }
 .cont-servc {
   position: relative;
-  padding-bottom: 1em;
+  padding-bottom: 4em;
 }
 .cont-servc p {
   color: #fff;
@@ -7110,12 +7108,17 @@ ul {
   position: fixed;
   left: 0;
   top: 3em;
-  z-index: -1;
+  z-index: 1;
   text-align: center;
   width: 100%;
 }
 .logo svg {
   width: 35em;
+}
+#main-container2 {
+  position: relative;
+  z-index: 9;
+  margin-top: 13em;
 }
 .wrap {
   max-width: 600px;
@@ -7244,10 +7247,13 @@ ul {
 }
 /* code for animated blinking cursor */
 .type-wrap {
-  display: inline-block;
+  display: none;
 }
 .type-wrap p {
   font-size: 1em;
+}
+.type-wrap.display {
+  display: inline-block;
 }
 .typed-cursor {
   opacity: 1;
@@ -7312,6 +7318,12 @@ ul {
   100% {
     opacity: 1;
   }
+}
+.head-index .logo {
+  position: relative !important;
+}
+.head-index #main-container2 {
+  margin-top: 2em !important;
 }
 article,
 aside,
@@ -7769,7 +7781,6 @@ table {
 .slick-slide {
   display: none;
   float: left;
-  height: 100%;
   min-height: 1px;
 }
 [dir='rtl'] .slick-slide {
@@ -8029,13 +8040,12 @@ table {
 .ban-inicio {
   position: relative;
   text-align: center;
-  padding-top: 14%;
-  padding-bottom: 9%;
+  padding-top: 6%;
   background-attachment: fixed;
   background-size: cover;
   background-repeat: no-repeat;
   background-position: bottom center;
-  height: 80em;
+  height: 67em;
   overflow: hidden;
 }
 .ban-inicio h1 {
@@ -8547,6 +8557,17 @@ table {
 }
 .cont-textnos p {
   color: #fff;
+  font-size: 1.8em;
+  text-align: justify;
+}
+.nosh2 {
+  padding-bottom: 2em;
+}
+.nosh2 h2 {
+  font-size: 4em;
+  text-align: center;
+  color: #fff;
+  font-weight: 700;
 }
 .ser-porn {
   padding-bottom: 8em;
@@ -8645,43 +8666,50 @@ table {
   left: 50%;
   width: 16em;
   margin-left: -8em;
-  bottom: 9em;
+  bottom: -26%;
+  opacity: 0;
 }
 .equipo2 {
   position: absolute;
-  bottom: 27%;
-  left: 29%;
+  bottom: -3%;
+  left: 38%;
   width: 12em;
+  opacity: 0;
 }
 .equipo3 {
   position: absolute;
-  bottom: 11%;
+  bottom: -5%;
   left: 19%;
   width: 18em;
+  opacity: 0;
 }
 .equipo4 {
   position: absolute;
-  bottom: 11%;
-  left: 10%;
+  bottom: -7%;
+  left: 28%;
   width: 17em;
+  opacity: 0;
 }
 .equipo5 {
   position: absolute;
-  bottom: 14%;
-  right: 29%;
+  bottom: -1%;
+  right: 37%;
   width: 12em;
+  opacity: 0;
 }
 .equipo6 {
   position: absolute;
-  bottom: 11%;
-  right: 19%;
+  bottom: -5%;
+  right: 20%;
   width: 18em;
+  opacity: 0;
 }
 .equipo7 {
   position: absolute;
-  bottom: 11%;
-  right: 10%;
+  bottom: -13%;
+  right: 27%;
   width: 17em;
+  opacity: 0;
 }
 .equipot {
   display: none;
@@ -9968,6 +9996,17 @@ figure.snip1157 .author h5 span {
   color: #E26A6A;
   padding-right: 10px;
 }
+canvas {
+  display: block;
+  vertical-align: bottom;
+}
+#particles-js {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background-color: #fff;
+  margin-top: -11em;
+}
 @media only screen and (max-width: 1460px) {
   .col-container {
     width: 90%;
@@ -10001,6 +10040,27 @@ figure.snip1157 .author h5 span {
   }
   .img-ite img {
     width: 9em;
+  }
+  .equipo1 {
+    bottom: -14%;
+  }
+  .equipo2 {
+    left: 36%;
+  }
+  .equipo3 {
+    left: 16%;
+  }
+  .equipo4 {
+    left: 25%;
+  }
+  .equipo5 {
+    right: 35%;
+  }
+  .equipo7 {
+    right: 23%;
+  }
+  .equipo6 {
+    right: 15%;
   }
 }
 @media only screen and (max-width: 1400px) {
@@ -10130,8 +10190,11 @@ figure.snip1157 .author h5 span {
     position: relative;
     width: 100%;
   }
+  .equipo2 {
+    left: 31%;
+  }
   .equipo3 {
-    left: 15%;
+    left: 17%;
   }
   .equipo4 {
     left: 6%;
@@ -10141,6 +10204,9 @@ figure.snip1157 .author h5 span {
   }
   .equipo6 {
     right: 16%;
+  }
+  .equipo5 {
+    right: 31%;
   }
 }
 @media only screen and (max-width: 1024px) {
@@ -10378,6 +10444,12 @@ figure.snip1157 .author h5 span {
   .equipot {
     display: block;
   }
+  .nosh2 {
+    padding-top: 3em;
+  }
+  #main-container2 {
+    margin-top: 0;
+  }
 }
 @media only screen and (max-width: 767px) {
   .sec-imp {
@@ -10412,6 +10484,13 @@ figure.snip1157 .author h5 span {
     vertical-align: middle;
     margin: 0 .7em;
     margin-bottom: 2em;
+  }
+  .nosh2 h2 {
+    font-size: 3em;
+    line-height: 1.2;
+  }
+  .cont-textnos {
+    padding: 1em 0 0em;
   }
 }
 @media only screen and (max-width: 640px) {

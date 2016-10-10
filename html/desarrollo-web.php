@@ -376,7 +376,7 @@
         /*Para proyectos*/
         (function () {
 
-            function init() {
+        /*    function init() {
                 var speed = 330,
                         easing = mina.backout;
 
@@ -397,7 +397,7 @@
                 });
             }
 
-            init();
+            init();*/
 
         })();
         /*Para height*/
