@@ -78,7 +78,7 @@ module.exports = function (grunt) {
                 files: [{
                         expand: true,
                         flatten: true,
-                        src: ['js/all.min.js'],
+                        src: ['js/all.min.js', 'js/home.min.js'],
                         dest: '../../jekyll/js/',
                         filter: 'isFile'
                     }]
@@ -180,6 +180,6 @@ module.exports = function (grunt) {
     grunt.loadNpmTasks('grunt-jekyll');
 
     // Task definition
-    grunt.registerTask('build', ['less:prod', 'uglify:all', 'uglify:home', 'copy:main', 'jekyll:dist']);
+    grunt.registerTask('build', ['less:prod', 'uglify', 'copy:main', 'jekyll:dist']);
     grunt.registerTask('default', ['concurrent:target1']);
 };
