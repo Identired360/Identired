@@ -31,6 +31,7 @@ module.exports = function (grunt) {
                         '../js/wow.min.js',
                         '../js/jquery.validate.min.js',
                         '../js/js.cookie.js',
+                        '../js/typed.js',
                         '../js/app.js',
                         '../js/slick.min.js',
                         '../js/scripts-home.js',
