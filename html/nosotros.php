@@ -22,9 +22,31 @@
                </div>
             </div>
             <div class="anim-inicio">
-                <div class="img teclado animated">
-                    <img src="img/anim/equipo.svg">
+                <div class="img equipo1 animated">
+                    <img title="Equipo Identired" src="img/anim/equipo1.svg">
                 </div>
+                <div class="img equipo2 animated">
+                    <img title="Equipo Identired" src="img/anim/equipo2.svg">
+                </div>
+                <div class="img equipo3 animated">
+                    <img title="Equipo Identired" src="img/anim/equipo3.svg">
+                </div>
+                <div class="img equipo4 animated">
+                    <img title="Equipo Identired" src="img/anim/equipo4.svg">
+                </div>
+                <div class="img equipo5 animated">
+                    <img title="Equipo Identired" src="img/anim/equipo5.svg">
+                </div>
+                <div class="img equipo6 animated">
+                    <img title="Equipo Identired" src="img/anim/equipo6.svg">
+                </div>
+                <div class="img equipo7 animated">
+                    <img title="Equipo Identired" src="img/anim/equipo7.svg">
+                </div>
+                <div class="img equipot animated">
+                    <img title="Equipo Identired" src="img/anim/equipot.svg">
+                </div>
+
             </div>
         </div>
         <img class="img-bann" src="img/ground.svg">  

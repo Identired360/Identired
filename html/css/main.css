@@ -8121,6 +8121,7 @@ table {
   padding-bottom: 7em;
   padding-top: 5em;
   position: relative;
+  background: #fff;
 }
 .sec-tecn h3 {
   font-size: 1.5em;
@@ -8638,6 +8639,57 @@ table {
 .img-ite img {
   width: 15em;
   padding-top: .5em;
+}
+.equipo1 {
+  position: absolute;
+  left: 50%;
+  width: 16em;
+  margin-left: -8em;
+  bottom: 9em;
+}
+.equipo2 {
+  position: absolute;
+  bottom: 27%;
+  left: 29%;
+  width: 12em;
+}
+.equipo3 {
+  position: absolute;
+  bottom: 11%;
+  left: 19%;
+  width: 18em;
+}
+.equipo4 {
+  position: absolute;
+  bottom: 11%;
+  left: 10%;
+  width: 17em;
+}
+.equipo5 {
+  position: absolute;
+  bottom: 14%;
+  right: 29%;
+  width: 12em;
+}
+.equipo6 {
+  position: absolute;
+  bottom: 11%;
+  right: 19%;
+  width: 18em;
+}
+.equipo7 {
+  position: absolute;
+  bottom: 11%;
+  right: 10%;
+  width: 17em;
+}
+.equipot {
+  display: none;
+  width: 58em;
+  left: 50%;
+  margin-left: -29em;
+  bottom: 13em;
+  position: absolute;
 }
 [type='text'],
 [type='password'],
@@ -10078,6 +10130,18 @@ figure.snip1157 .author h5 span {
     position: relative;
     width: 100%;
   }
+  .equipo3 {
+    left: 15%;
+  }
+  .equipo4 {
+    left: 6%;
+  }
+  .equipo7 {
+    right: 5%;
+  }
+  .equipo6 {
+    right: 16%;
+  }
 }
 @media only screen and (max-width: 1024px) {
   .item-desa {
@@ -10302,6 +10366,18 @@ figure.snip1157 .author h5 span {
     height: 39em;
     padding-bottom: 0;
   }
+  .equipo1,
+  .equipo2,
+  .equipo3,
+  .equipo4,
+  .equipo5,
+  .equipo6,
+  .equipo7 {
+    display: none;
+  }
+  .equipot {
+    display: block;
+  }
 }
 @media only screen and (max-width: 767px) {
   .sec-imp {
@@ -10452,6 +10528,11 @@ figure.snip1157 .author h5 span {
     margin-left: -16em;
     bottom: 70%;
   }
+  .equipot {
+    width: 40em;
+    margin-left: -20em;
+    bottom: 27em;
+  }
 }
 @media only screen and (max-width: 480px) {
   .logo svg {
@@ -10496,6 +10577,11 @@ figure.snip1157 .author h5 span {
   }
   .ban-inicio h3 {
     font-size: 2em;
+  }
+  .equipot {
+    width: 32em;
+    margin-left: -16em;
+    bottom: 28em;
   }
 }
 @media only screen and (max-width: 400px) {

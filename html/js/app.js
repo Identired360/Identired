@@ -59,6 +59,20 @@ function animdes(){
 }
 setTimeout("animdes()", 1000);
 
+function animequip(){
+   $('.equipo1').addClass('fadeInUp');
+   $('.equipo2').addClass('fadeInLeft');
+   $('.equipo3').addClass('fadeInLeft');
+   $('.equipo4').addClass('fadeInLeft');
+   $('.equipo5').addClass('fadeInRight');
+   $('.equipo6').addClass('fadeInRight');
+   $('.equipo7').addClass('fadeInRight');
+}
+setTimeout("animequip()", 1000);
+
+
+    
+
 //
 $(document).ready(function () {
     var showCounter = Cookies.get('showCounter');
