@@ -24,7 +24,7 @@
                 </li>
                 <li>
                     <a href="/proyectos-paginas-web/andestones" title="Página web Andestones"><img src="/img/logos/andestones.png" title="Andestones"></a>
-                </li>                
+                </li>
                 <li>
                     <a href="javascript:void(0)" title="Página web Beprime"><img src="/img/logos/logo2.png" title="Beprime"></a>
                 </li>
@@ -86,3 +86,6 @@
 <!--Cierra main container-->
 
 <script src="/js/all.min.js?ver={{ site.time | date: '%s' }}"></script>
+{% if page.url == '/' %}
+  <script src="/js/home.min.js?ver={{ site.time | date: '%s' }}"></script>
+{% endif %}

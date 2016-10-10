@@ -35,11 +35,17 @@ module.exports = function (grunt) {
                         '../js/app.js',
                         '../js/slick.min.js',
                         '../js/scripts-home.js',
-                        '../js/canvas.js',
                         '../js/snap.svg-min.js',
                         '../js/proyectos.js'
                     ]
                 }
+            },
+            home: {
+              files: {
+                  'js/home.min.js': [
+                      '../js/canvas.js'
+                  ]
+              }
             }
         },
         copy: {
