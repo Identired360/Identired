@@ -9471,6 +9471,7 @@ input[type="checkbox"] {
 }
 .inicio-proy {
   padding-bottom: 5em;
+  height: 67em;
 }
 .inicio-proy h1 {
   text-align: center;
@@ -9535,6 +9536,12 @@ input[type="checkbox"] {
   text-align: center;
   font-weight: 600;
   margin: 1em 0 1em;
+}
+.fix-proy {
+  position: fixed;
+  width: 100%;
+  height: 59em;
+  z-index: -1;
 }
 figure.snip1157 {
   position: relative;
@@ -10091,6 +10098,12 @@ canvas {
   .txt-box {
     height: 54em;
   }
+  .inicio-proy {
+    height: 56em;
+  }
+  .img-proy img {
+    width: 76%;
+  }
 }
 @media only screen and (max-width: 1400px) {
   .cont-linksh {
@@ -10283,6 +10296,12 @@ canvas {
   .anim-inicio .libreta {
     display: none;
   }
+  #main-container2 {
+    margin-top: 3em;
+  }
+  .inicio-proy {
+    height: 49em;
+  }
 }
 @media only screen and (max-width: 992px) {
   .txt-box {
@@ -10449,6 +10468,17 @@ canvas {
   }
   #main-container2 {
     margin-top: 0;
+  }
+  .fix-proy {
+    height: auto;
+    position: relative;
+  }
+  .inicio-proy {
+    height: auto;
+    padding-bottom: 2em;
+  }
+  .img-proy img {
+    width: 100%;
   }
 }
 @media only screen and (max-width: 767px) {
