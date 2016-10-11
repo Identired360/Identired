@@ -10,6 +10,11 @@
             </ul>
         </div>
     </div>
+    {% if page.article %}
+        <div class="logo log-art">
+    {% else %}
+        <div class="logo">
+    {% endif %}
     <div class="logo">
         <span id="top-view"  class="has-tip animated">
             {% include icon-chat.svg %}
