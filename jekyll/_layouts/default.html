@@ -32,7 +32,13 @@
 
         {% include header.html %}
 
-        <div id="main-container2">
+        {% if page.article %}
+            <div id="main-container3">
+        {% else %}
+            <div id="main-container2">
+        {% endif %}
+
+        
             {{ content }}
 
             {% include footer.html %}
