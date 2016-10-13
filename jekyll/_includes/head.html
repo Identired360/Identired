@@ -5,8 +5,12 @@
   <link rel="icon" href="/favicon.ico" type="image/x-icon">
   <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon" />
 
-  <link rel="stylesheet" type="text/css" href="/css/main.min.css?ver={{ site.time | date: '%s' }}">
-
+  {% if jekyll.environment == "production" %}
+    <link rel="stylesheet" type="text/css" href="/css/main.min.css?ver={{ site.time | date: '%s' }}">
+  {% else %}
+   <link rel="stylesheet" type="text/css" href="/css/main.css">
+  {% endif %}
+  
   {% if page.meta %}
   {{ page.meta }}
   {% endif %}
