@@ -8,10 +8,13 @@
 # Site settings
 title: Diseño web, psd2html, Programación php, Aplicaciones web - identired.pe
 email: informes@identired.com
-description: > 
-  Identired es una empresa de desarrollo de software full-stack especializada en aplicaciones web ya sea Backend y Frontend. 
+description: >
+  Identired es una empresa de desarrollo de software full-stack especializada en aplicaciones web ya sea Backend y Frontend.
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "http://www.identired.pe" # the base hostname & protocol for your site
 facebookid: 515170255261628
+
 # Build settings
 markdown: kramdown
+destination: jekyll/public_html
+exclude: ['_assets', 'node_modules', 'Gruntfile.js', 'package.json', '.gitignore']

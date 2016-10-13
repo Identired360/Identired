@@ -1,7 +1,9 @@
 _site
 .sass-cache
 .jekyll-metadata
+/prepros.cfg
 /php/vendor/
 /html/grunt/node_modules
 /html/grunt/css/*
 /html/grunt/js/*
+node_modules/

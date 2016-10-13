@@ -1,0 +1,4 @@
+# Redirects domain.com/file.html to domain.com/file
+RewriteEngine on
+RewriteCond %{REQUEST_FILENAME}.html -f
+RewriteRule !.*\.html$ %{REQUEST_FILENAME}.html [L]

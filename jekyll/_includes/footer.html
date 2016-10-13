@@ -84,8 +84,29 @@
 </footer>
 </div>
 <!--Cierra main container-->
+{% if jekyll.environment == "production" %}
+  <script src="/js/all.min.js?ver={{ site.time | date: '%s' }}"></script>
 
-<script src="/js/all.min.js?ver={{ site.time | date: '%s' }}"></script>
-{% if page.url == '/' %}
-  <script src="/js/home.min.js?ver={{ site.time | date: '%s' }}"></script>
+  {% if page.url == '/' %}
+    <script src="/js/home.min.js?ver={{ site.time | date: '%s' }}"></script>
+  {% endif %}
+
+{% else %}
+  <script src="/js/vendor/jquery.js"></script>
+  <script src="/js/vendor/foundation.js"></script>
+  <script src="/js/modernizr.custom.js"></script>
+  <script src="/js/wow.min.js"></script>
+  <script src="/js/jquery.validate.min.js"></script>
+  <script src="/js/snap.svg-min.js"></script>
+  <script src="/js/js.cookie.js"></script>
+  <script src="/js/proyectos.js"></script>
+  <script src="/js/typed.js"></script>
+  <script src="/js/app.js"></script>
+
+  {% if page.url == '/' %}
+    <script src="/js/slick.min.js"></script>
+    <script src="/js/canvas.js"></script>
+    <script src="/js/scripts-home.js"></script>
+  {% endif %}
+
 {% endif %}
