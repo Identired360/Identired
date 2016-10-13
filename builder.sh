@@ -1,2 +1,3 @@
 git pull
-grunt --gruntfile html/grunt/Gruntfile.js build
+grunt --gruntfile jekyll/Gruntfile.js build
+jekyll build -s jekyll/

@@ -16,5 +16,5 @@ facebookid: 515170255261628
 
 # Build settings
 markdown: kramdown
-destination: public_html
-exclude: ['_assets', 'node_modules']
+destination: jekyll/public_html
+exclude: ['_assets', 'node_modules', 'Gruntfile.js', 'package.json', '.gitignore']
