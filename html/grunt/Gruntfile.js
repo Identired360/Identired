@@ -6,7 +6,7 @@ module.exports = function (grunt) {
                     compress: false
                 },
                 files: {
-                    "css/main.css": "../css/main.less"
+                    "_assets/css/main.css": "css/main.less"
                 }
             },
             prod: {
@@ -14,7 +14,7 @@ module.exports = function (grunt) {
                     compress: true
                 },
                 files: {
-                    "css/main.min.css": "../css/main.less"
+                    "_assets/css/main.min.css": "css/main.less"
                 }
             }
         },
@@ -59,7 +59,7 @@ module.exports = function (grunt) {
                     }, {
                         expand: true,
                         flatten: true,
-                        src: ['js/all.min.js'],
+                        src: ['js/all.min.js', 'js/home.min.js'],
                         dest: '../../jekyll/js/',
                         filter: 'isFile'
                     }, {
@@ -110,23 +110,6 @@ module.exports = function (grunt) {
                     }]
             }
         },
-        jekyll: {// Task
-            options: {
-                src: '../../jekyll/'
-            },
-            dist: {// Target
-                options: {// Target options
-                    dest: '../../public_html',
-                    serve: false
-                }
-            },
-            serve: {// Another target
-                options: {
-                    dest: '../../public_html',
-                    serve: true
-                }
-            }
-        },
         watch: {
             js: {
                 files: ['../js/**/*.js'],
@@ -161,25 +144,15 @@ module.exports = function (grunt) {
                 }
             }
         },
-        concurrent: {
-            target1: {
-                tasks: ['watch', 'jekyll:serve'],
-                options: {
-                    logConcurrentOutput: true
-                }
-            }
-        }
     });
 
     // Plugin loading
-    grunt.loadNpmTasks('grunt-concurrent');
     grunt.loadNpmTasks('grunt-contrib-watch');
     grunt.loadNpmTasks('grunt-contrib-less');
     grunt.loadNpmTasks('grunt-contrib-uglify');
     grunt.loadNpmTasks('grunt-contrib-copy');
-    grunt.loadNpmTasks('grunt-jekyll');
 
     // Task definition
-    grunt.registerTask('build', ['less:prod', 'uglify:all', 'uglify:home', 'copy:main', 'jekyll:dist']);
-    grunt.registerTask('default', ['concurrent:target1']);
+    grunt.registerTask('css', ['less:prod']);
+    grunt.registerTask('build', ['less:prod', 'uglify:all', 'uglify:home', 'copy:main']);
 };
