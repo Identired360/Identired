@@ -8,6 +8,17 @@
                     <h2>Te ayudárán a mejorar tu presencia en internet</h2>
                 </div>
             </div>
+            <div class="anim-inicio">
+                <div class="img imgb1 animated">
+                    <img title="Equipo Identired" src="img/anim/imgb1.svg">
+                </div>
+                <div class="img imgb2 animated">
+                    <img title="Equipo Identired" src="img/anim/imgb2.svg">
+                </div>
+                <div class="img imgb3 animated">
+                    <img title="Equipo Identired" src="img/anim/imgb3.svg">
+                </div>
+            </div>            
         </div>
         <img class="img-bann" src="img/ground.svg">  
     </section>

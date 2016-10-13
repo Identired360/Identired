@@ -46,7 +46,6 @@
                 <div class="img equipot animated">
                     <img title="Equipo Identired" src="img/anim/equipot.svg">
                 </div>
-
             </div>
         </div>
         <img class="img-bann" src="img/ground.svg">  

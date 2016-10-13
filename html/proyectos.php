@@ -6,9 +6,14 @@
                 <h1>Nuestros proyectos</h1>
                 <div class="text-centb">
                    <h2>Desarrollo de páginas web, tiendas virtuales y landing pages.</h2>
-                    <a class="bot-p bot-cel" href="#empezar" title="Revisa nuestros servicios">Revisa nuestros proyectos</a>
                 </div>
             </div>
+            <div class="anim-inicio">
+                <div class="img imgp1 animated">
+                    <img title="Equipo Identired" src="img/anim/imgp1.svg">
+                </div>
+
+            </div>            
         </div>
         <img class="img-bann" src="img/ground.svg">  
     </section>
