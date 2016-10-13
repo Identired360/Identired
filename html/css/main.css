@@ -6756,7 +6756,7 @@ canvas {
   right: 2.1em;
   font-size: 2.6em;
   color: #44B6CE;
-  top: 0;
+  top: 4px;
   background: #fff;
   width: 1.4em;
   height: 1.4em;
@@ -6781,7 +6781,7 @@ button {
   right: .1em;
   font-size: 2.6em;
   color: #44B6CE;
-  top: 0;
+  top: 4px;
   background: #fff;
   width: 1.4em;
   height: 1.4em;
@@ -10402,7 +10402,7 @@ canvas {
   }
   .arrowh {
     display: inline-block;
-    margin-bottom: 1.5em;
+    margin-bottom: 4.5em;
   }
   #menu_button {
     position: absolute;
@@ -10482,6 +10482,9 @@ canvas {
   }
   .img-proy img {
     width: 100%;
+  }
+  .title-home h1 {
+    margin-bottom: 1.3em;
   }
 }
 @media only screen and (max-width: 767px) {
@@ -10644,6 +10647,9 @@ canvas {
     width: 40em;
     margin-left: -20em;
     bottom: 27em;
+  }
+  .title-home h1 {
+    margin-bottom: 1.3em;
   }
 }
 @media only screen and (max-width: 480px) {
