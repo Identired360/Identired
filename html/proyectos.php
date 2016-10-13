@@ -9,10 +9,27 @@
                 </div>
             </div>
             <div class="anim-inicio">
-                <div class="img imgp1 animated">
-                    <img title="Equipo Identired" src="img/anim/imgp1.svg">
+                <div class="img imgp1 imgproy animated">
+                    <img title="Equipo Identired" src="img/anim/imgp1.jpg">
                 </div>
-
+                <div class="img imgp2 imgproy animated">
+                    <img title="Equipo Identired" src="img/anim/imgp2.jpg">
+                </div>
+                <div class="img imgp3 imgproy animated">
+                    <img title="Equipo Identired" src="img/anim/imgp3.jpg">
+                </div>
+                <div class="img imgp4 imgproy animated">
+                    <img title="Equipo Identired" src="img/anim/imgp4.jpg">
+                </div>
+                <div class="img imgp5 imgproy animated">
+                    <img title="Equipo Identired" src="img/anim/imgp5.jpg">
+                </div>
+                <div class="img imgp6 imgproy animated">
+                    <img title="Equipo Identired" src="img/anim/imgp6.jpg">
+                </div>
+                <div class="img imgp7 imgproy animated">
+                    <img title="Equipo Identired" src="img/anim/imgp7.jpg">
+                </div>
             </div>            
         </div>
         <img class="img-bann" src="img/ground.svg">  

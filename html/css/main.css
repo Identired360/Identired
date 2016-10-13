@@ -8741,6 +8741,48 @@ table {
   width: 27em;
   top: 0;
 }
+.anim-inicio .imgp1 {
+  position: absolute;
+  left: 12%;
+  width: 27em;
+  top: 0;
+}
+.anim-inicio .imgp2 {
+  position: absolute;
+  left: 5%;
+  width: 27em;
+  top: 0;
+}
+.anim-inicio .imgp3 {
+  position: absolute;
+  left: 15%;
+  width: 27em;
+  top: 0;
+}
+.anim-inicio .imgp4 {
+  position: absolute;
+  left: 25%;
+  width: 27em;
+  top: 0;
+}
+.anim-inicio .imgp5 {
+  position: absolute;
+  right: 25%;
+  width: 27em;
+  top: 0;
+}
+.anim-inicio .imgp6 {
+  position: absolute;
+  right: 15%;
+  width: 27em;
+  top: 0;
+}
+.anim-inicio .imgp7 {
+  position: absolute;
+  right: 5%;
+  width: 27em;
+  top: 0;
+}
 [type='text'],
 [type='password'],
 [type='date'],
