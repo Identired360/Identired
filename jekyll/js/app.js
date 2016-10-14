@@ -37,7 +37,34 @@ function animequip(){
 }
 setTimeout("animequip()", 1000);
 
-//hello Marc0
+function animproy(){
+    setTimeout(function(){
+       $('.imgp1').addClass('fadeInLeft');
+    }, 500);
+    setTimeout(function(){
+       $('.imgp3').addClass('fadeInUp');
+    }, 900);
+    setTimeout(function(){
+       $('.imgp4').addClass('fadeInUp');
+    }, 1200);
+    setTimeout(function(){
+       $('.imgp5').addClass('fadeInRight');
+    }, 1500);
+    setTimeout(function(){
+       $('.imgp6').addClass('fadeInRight');
+    }, 900);
+    setTimeout(function(){
+       $('.imgp7').addClass('fadeInRight');
+    }, 500);
+}
+setTimeout("animproy()");
+
+function animblog(){
+   $('.imgb1').addClass('fadeInUp');
+   $('.imgb3').addClass('fadeInLeft');
+   $('.imgb2').addClass('fadeInRight');
+}
+setTimeout("animblog()", 1100);
 
 
 

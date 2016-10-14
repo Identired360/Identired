@@ -5,7 +5,7 @@
             <div class="col-container">
                 <h1>Nuestros proyectos</h1>
                 <div class="text-centb">
-                   <h2>Desarrollo de páginas web, tiendas virtuales y landing pages.</h2>
+                   <h2>Páginas web, tiendas virtuales y landing pages.</h2>
                 </div>
             </div>
             <div class="anim-inicio">
