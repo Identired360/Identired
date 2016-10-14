@@ -8728,60 +8728,90 @@ table {
   bottom: 0;
   left: 50%;
   margin-left: -30em;
+  opacity: 0;
 }
 .anim-inicio .imgb2 {
   position: absolute;
   right: 6%;
   width: 33em;
   top: -13%;
+  opacity: 0;
 }
 .anim-inicio .imgb3 {
   position: absolute;
-  left: 12%;
+  left: 11%;
   width: 27em;
-  top: 0;
+  top: 9%;
+  opacity: 0;
 }
 .anim-inicio .imgp1 {
   position: absolute;
-  left: 12%;
+  left: 5%;
   width: 27em;
-  top: 0;
+  top: 15%;
+  z-index: 1;
+  opacity: 0;
 }
 .anim-inicio .imgp2 {
   position: absolute;
-  left: 5%;
+  left: 21%;
   width: 27em;
-  top: 0;
+  top: 15%;
+  opacity: 0;
 }
 .anim-inicio .imgp3 {
   position: absolute;
-  left: 15%;
+  left: 30%;
   width: 27em;
-  top: 0;
+  top: 15%;
+  opacity: 0;
 }
 .anim-inicio .imgp4 {
   position: absolute;
-  left: 25%;
+  left: 39%;
   width: 27em;
-  top: 0;
+  top: 11%;
+  opacity: 0;
+}
+.imgp1 img,
+.imgp2 img,
+.imgp3 img {
+  -ms-transform: rotate(-7deg);
+  -webkit-transform: rotate(-7deg);
+  transform: rotate(-7deg);
+}
+.imgp5 img,
+.imgp6 img,
+.imgp7 img {
+  -ms-transform: rotate(7deg);
+  -webkit-transform: rotate(7deg);
+  transform: rotate(7deg);
 }
 .anim-inicio .imgp5 {
   position: absolute;
   right: 25%;
   width: 27em;
-  top: 0;
+  top: 16%;
+  opacity: 0;
 }
 .anim-inicio .imgp6 {
   position: absolute;
   right: 15%;
   width: 27em;
-  top: 0;
+  top: 15%;
+  opacity: 0;
 }
 .anim-inicio .imgp7 {
   position: absolute;
   right: 5%;
   width: 27em;
-  top: 0;
+  top: 15%;
+  opacity: 0;
+}
+.imgproy img {
+  box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);
+  -webkit-box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);
+  -moz-box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);
 }
 [type='text'],
 [type='password'],
@@ -10293,6 +10323,21 @@ canvas {
   .equipo5 {
     right: 31%;
   }
+  .anim-inicio .imgb2 {
+    position: absolute;
+    right: 4%;
+    width: 23em;
+  }
+  .anim-inicio .imgb3 {
+    position: absolute;
+    left: 3%;
+    width: 20em;
+  }
+  .anim-inicio .imgb1 {
+    width: 34em;
+    bottom: 9%;
+    margin-left: -17em;
+  }
 }
 @media only screen and (max-width: 1024px) {
   .item-desa {
@@ -10547,6 +10592,11 @@ canvas {
   .title-home h1 {
     margin-bottom: 1.3em;
   }
+  .anim-inicio .imgb1 {
+    width: 26em;
+    bottom: 35%;
+    margin-left: -13em;
+  }
 }
 @media only screen and (max-width: 767px) {
   .sec-imp {
@@ -10589,10 +10639,51 @@ canvas {
   .cont-textnos {
     padding: 1em 0 0em;
   }
+  .anim-inicio .imgb1 {
+    display: none;
+  }
+  .imgb3 {
+    left: 18%;
+  }
+  .anim-inicio .imgb2 {
+    right: 10%;
+    width: 23em;
+    top: -6%;
+  }
+  .anim-inicio .imgb3 {
+    left: 16%;
+  }
+  .anim-inicio .imgp1 {
+    width: 15em;
+    top: -1%;
+  }
+  .anim-inicio .imgp2,
+  .anim-inicio .imgp5 {
+    display: none;
+  }
+  .anim-inicio .imgp3 {
+    width: 12em;
+    top: -5%;
+  }
+  .anim-inicio .imgp4 {
+    width: 15em;
+    top: -3%;
+  }
+  .anim-inicio .imgp6 {
+    width: 17em;
+    top: 5%;
+  }
+  .anim-inicio .imgp7 {
+    width: 17em;
+    top: -2%;
+  }
 }
 @media only screen and (max-width: 640px) {
   .logo svg {
-    width: 28em;
+    width: absolute;
+    right: 10%;
+    width: 23em;
+    top: -6%;
   }
   .title-home h1 {
     width: 90%;
@@ -10712,6 +10803,12 @@ canvas {
   .title-home h1 {
     margin-bottom: 1.3em;
   }
+  .anim-inicio .imgb3 {
+    top: -12%;
+  }
+  .anim-inicio .imgb2 {
+    top: -12%;
+  }
 }
 @media only screen and (max-width: 480px) {
   .logo svg {
@@ -10761,6 +10858,13 @@ canvas {
     width: 32em;
     margin-left: -16em;
     bottom: 28em;
+  }
+  .anim-inicio .imgb3 {
+    left: 5%;
+    width: 12em;
+  }
+  .anim-inicio .imgb2 {
+    width: 16em;
   }
 }
 @media only screen and (max-width: 400px) {

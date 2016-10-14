@@ -37,7 +37,23 @@ function animequip(){
 }
 setTimeout("animequip()", 1000);
 
+function animproy(){
+   $('.imgp1').addClass('fadeInLeft');
+   $('.imgp2').addClass('fadeInLeft');
+   $('.imgp3').addClass('fadeInUp');
+   $('.imgp4').addClass('fadeInUp');
+   $('.imgp5').addClass('fadeInRight');
+   $('.imgp6').addClass('fadeInRight');
+   $('.imgp7').addClass('fadeInRight');
+}
+setTimeout("animproy()", 1100);
 
+function animblog(){
+   $('.imgb1').addClass('fadeInUp');
+   $('.imgb3').addClass('fadeInLeft');
+   $('.imgb2').addClass('fadeInRight');
+}
+setTimeout("animblog()", 1100);
     
 
 //

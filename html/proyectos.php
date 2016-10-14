@@ -13,13 +13,13 @@
                     <img title="Equipo Identired" src="img/anim/imgp1.jpg">
                 </div>
                 <div class="img imgp2 imgproy animated">
-                    <img title="Equipo Identired" src="img/anim/imgp2.jpg">
-                </div>
-                <div class="img imgp3 imgproy animated">
                     <img title="Equipo Identired" src="img/anim/imgp3.jpg">
                 </div>
-                <div class="img imgp4 imgproy animated">
+                <div class="img imgp3 imgproy animated">
                     <img title="Equipo Identired" src="img/anim/imgp4.jpg">
+                </div>
+                <div class="img imgp4 imgproy animated">
+                    <img title="Equipo Identired" src="img/anim/imgp2.jpg">
                 </div>
                 <div class="img imgp5 imgproy animated">
                     <img title="Equipo Identired" src="img/anim/imgp5.jpg">
