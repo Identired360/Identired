@@ -7,3 +7,4 @@ _site
 /html/grunt/css/*
 /html/grunt/js/*
 node_modules/
+prepros.cfg
